@@ -1,0 +1,213 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  font-family: "Roboto";
+}
+
+/* nav bar css start */
+.nav-link {
+  color: #242021;
+}
+.Homefinder_logo_imgheader {
+  width: 236px;
+  height: 67px;
+  left: 152px;
+  margin-bottom: 15px;
+}
+.vector_nav_input {
+  padding-left: 50px;
+}
+
+nav ul li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+nav ul li:nth-child(3) {
+  padding-right: 20px;
+}
+.logintoBid_cta {
+  background-color: #a4195c;
+  color: white;
+  width: 180px;
+  height: 45px;
+  border: none;
+}
+.logintoBid_cta_innertext {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
+.logintoBid_cta_mobile {
+  display: none;
+}
+
+/* nav bar css end */
+
+/* footer css start */
+footer {
+  background-color: #a4195c;
+  color: white;
+  padding: 35px 0px 0px 0px;
+}
+.homefinder_logo_white {
+  margin-bottom: 39px;
+  width: 221.71px;
+}
+.footer_quick_links {
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 700;
+}
+
+footer ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer_mobile_img_googleplay {
+  margin-right: 20px;
+}
+.footer_download_text {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 1px;
+}
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+.border-bottom-mobile-img {
+  width: 95%;
+  border-bottom: 1px solid #fff;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.footer_enqueries_links li:first-child {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.footer_enqueries_links li:nth-child(2) {
+  font-weight: 400;
+  margin-top: 10px;
+}
+.footer_enqueries_links li:nth-child(3) {
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 10px;
+}
+.footer_enqueries_links li:nth-child(4) {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.footer_awosomefont_input {
+  display: flex;
+  align-items: center;
+}
+.footer_privacy_cookies_text {
+  background-color: #962059;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-size: 14px;
+}
+.footer_poweredby_text {
+  text-align: right;
+}
+.footer_poweredby_homeconnection_text {
+  color: orange;
+}
+
+.footer_privacy_cookies {
+  font-size: 14px;
+}
+/* footer css end */
+
+/* common css start*/
+
+.align_item_center {
+  display: flex;
+  justify-content: center;
+}
+/* common css end */
+
+/* header css end */
+
+/* media query for mobile view */
+@media screen and (max-width: 600px) {
+  .logintoBid_cta {
+    display: none;
+  }
+  .logintoBid_cta_mobile {
+    background-color: #a4195c;
+    display: block;
+    color: white;
+    width: 180px;
+    height: 45px;
+    border: none;
+    margin-top: 15px;
+  }
+  .logintoBid_cta_innertext_mobile {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+  .Homefinder_logo_imgheader {
+    width: 180px;
+    height: 50px;
+    left: 152px;
+  }
+  .vector_nav_input {
+    display: none;
+  }
+  footer {
+    background-color: #a4195c;
+    color: white;
+    padding: 19px 0px 0px 0px;
+    text-align: center;
+  }
+  .homefinder_logo_white {
+    margin-bottom: 0px;
+    width: 159px;
+  }
+  .footer_awosomefont_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+  }
+  .fa-fw {
+    width: 40px;
+    text-align: center;
+  }
+  .footer_mobile_img_googleplay {
+    margin-right: 0px;
+    width: 150px;
+    height: 50px;
+  }
+  .footer_mobile_img_playstore {
+    width: 124px;
+    height: 50px;
+  }
+  .footer_enqueries_links {
+    margin-top: 35px;
+  }
+  .footer_poweredby_text {
+    text-align: center;
+  }
+  .nav_textsize_graphics {
+    display: none;
+  }
+  .nav_contactus_mobile {
+    margin-left: 5px;
+  }
+}
