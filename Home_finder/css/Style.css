@@ -4,6 +4,29 @@ body {
 }
 
 /* nav bar css start */
+.hfTopNav .col:nth-child(2) {
+  text-align: right;
+}
+.hfTopNav ul li {
+  position: relative;
+}
+.topnav_border_right {
+  padding-right: 10px;
+}
+.topnav_border_right:before {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 0;
+  height: 10px;
+  width: 1px;
+  background: #ddd;
+  bottom: 0;
+  margin: auto;
+}
+.nav_contactus_mobile {
+  margin-left: 5px;
+}
 .nav-link {
   color: #242021;
 }

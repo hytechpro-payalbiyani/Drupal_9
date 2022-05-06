@@ -9,8 +9,9 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Home finder</title>
-
+    <!-- fevicon -->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- roboto font -->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
@@ -25,45 +26,100 @@
     <link rel="stylesheet" href="./css/Style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- hfTopNav start -->
+    <div class="hfTopNav bg-dark">
       <div class="container">
-        <p class="text-white mb-0 nav_textsize_graphics">
-          Text Size:A A A | Text only | Graphical
-        </p>
-        <ul class="list-unstyled text-white float-right mb-0">
-          <li class="list-inline-item dropdown">
-            <div class="dropdown">
-              <img src="./assets/search 1.png" alt="google logo" />
-              <button
-                class="btn btn-dark dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Select Language
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </div>
-          </li>
-          <li class="list-inline-item">|</li>
+        <div class="row">
+          <div class="col">
+            <ul class="list-unstyled text-white mt-2 mb-2 d-inline-block">
+              <li class="list-inline-item">Text Size:</li>
+              <li class="list-inline-item">
+                <a
+                  href="#"
+                  class="small-text-img text-white text-decoration-none"
+                  aria-label="Small text"
+                  style="font-size: 8px"
+                >
+                  A
+                </a>
+              </li>
 
-          <li class="list-inline-item nav_contactus_mobile">
-            <i class="fa-solid fa-phone"></i> Contact Us
-          </li>
-        </ul>
+              <li class="list-inline-item">
+                <a
+                  href="#"
+                  class="medium-text-img text-white text-decoration-none"
+                  aria-label="Medium text"
+                  style="font-size: 12px"
+                >
+                  A
+                </a>
+              </li>
+
+              <li class="list-inline-item topnav_border_right">
+                <a
+                  href="#"
+                  class="large-text-img text-white text-decoration-none"
+                  aria-label="Large text"
+                  style="font-size: 14px"
+                >
+                  A
+                </a>
+              </li>
+
+              <li class="list-inline-item topnav_border_right">
+                <a
+                  href="#"
+                  class="textOnly text-white text-decoration-none"
+                  style="font-size: 16px"
+                  >Text only</a
+                >
+              </li>
+              <li class="list-inline-item">Graphical</li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="list-unstyled text-white d-inline-block mb-0">
+              <li class="list-inline-item dropdown topnav_border_right">
+                <div class="dropdown">
+                  <img src="./assets/search 1.png" alt="google logo" />
+                  <button
+                    class="btn btn-dark dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Select Language
+                  </button>
+                  <div
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="list-inline-item nav_contactus_mobile">
+                <i class="fa-solid fa-phone"></i> Contact Us
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </nav>
+    </div>
+    <!-- hfTopNav end -->
+
     <div class="align_item_center">
       <button type="button" class="logintoBid_cta_mobile">
         <span class="logintoBid_cta_innertext_mobile">Login to Bid</span>
       </button>
     </div>
+
+    <!-- HFBottomnav start -->
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -109,6 +165,7 @@
         </div>
       </div>
     </nav>
+    <!-- HFBottomnav end -->
     <!-- section1 -->
     <section class="hero_banner">
       <div class="hero-image">
