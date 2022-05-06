@@ -117,6 +117,7 @@ footer ul li a {
   padding-top: 18px;
   padding-bottom: 18px;
   font-size: 14px;
+  height: 54px;
 }
 .footer_poweredby_text {
   text-align: right;
@@ -136,12 +137,88 @@ footer ul li a {
   display: flex;
   justify-content: center;
 }
+.d_none {
+  display: none;
+}
+.section_inner_text {
+  font-size: 18px;
+  color: #626262;
+}
+
+.icon_custom_size {
+  font-size: 0.75rem;
+}
+
 /* common css end */
 
-/* header css end */
+/* section 1 css end */
+.hero_banner p {
+  margin-bottom: 23px;
+}
+.hero-image {
+  background-image: url("../assets/pexels-andrea-piacquadio-3890592\ 1.png");
+  height: 592px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  padding-left: 50px;
+}
+
+.section1_heading__text_input {
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  padding-top: 190px;
+}
+
+.section1_button1_ctn {
+  border: 1px solid #ea5012;
+  display: inline-block;
+  padding: 9.5px 45.3px 9.5px 45px;
+  color: black;
+  margin-right: 14px;
+}
+.section1_button2_ctn {
+  border: 1px solid #a4195c;
+  display: inline-block;
+  padding: 9.5px 45.3px 9.5px 45px;
+  color: black;
+}
+
+/* section 1 css end */
+
+/* section 2 css start */
+.section2_whyUK {
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 47px;
+}
+.section2_why-use-UK {
+  padding-top: 57px;
+  padding-bottom: 29px;
+  background-color: #f8f8f8;
+}
+.section2_why-use-UK ul {
+  padding-left: 30px;
+}
+.section2_why-use-UK ul li {
+  line-height: 22px;
+}
+.read_more_cta {
+  border: 1px solid #f29200;
+  display: inline-block;
+  padding: 10px 56px 10px 56px;
+  color: black;
+  background-color: #f8f8f8;
+  margin-top: 10px;
+}
+/* section 2 css end */
 
 /* media query for mobile view */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   .logintoBid_cta {
     display: none;
   }
@@ -209,5 +286,31 @@ footer ul li a {
   }
   .nav_contactus_mobile {
     margin-left: 5px;
+  }
+  .hero-image {
+    background-image: url("../assets/Mask\ Group.png");
+    height: 395px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .section1_heading__text_input {
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    padding-top: 65px;
+  }
+  .section1_para_text_input {
+    width: 200px;
+    font-size: 16px;
+    color: #626262;
+  }
+  .footer_privacy_cookies_text {
+    background-color: #962059;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 14px;
+    height: 121px;
+    color: #e5e5e5;
   }
 }
