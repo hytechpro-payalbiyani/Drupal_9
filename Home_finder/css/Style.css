@@ -179,14 +179,24 @@ footer ul li a {
   margin-bottom: 23px;
 }
 .hero-image {
-  background-image: url("../assets/pexels-andrea-piacquadio-3890592\ 1.png");
   height: 592px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+.homeSlider {
+  position: relative;
+  overflow: hidden;
+}
+
+.homeSlider img {
+  width: 100%;
+}
+
 .hero-text {
   padding-left: 50px;
+  position: absolute;
+  top: 0;
 }
 
 .section1_heading__text_input {
@@ -239,6 +249,229 @@ footer ul li a {
   margin-top: 10px;
 }
 /* section 2 css end */
+
+/* section 3 css start */
+.section3_input {
+  margin-top: 50px;
+  margin-bottom: 129px;
+}
+.section3_input h5 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  padding-top: 13px;
+}
+
+.section3_input .card-text {
+  font-size: 16px;
+  line-height: 18.75px;
+  color: rgba(116, 116, 116, 1);
+  font-weight: 400;
+  padding-top: 13px;
+  padding-bottom: 60px;
+}
+.section3_social_housing_text {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30.47px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(164, 25, 92, 1);
+}
+
+.section_font-26 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30.47px;
+  color: rgba(64, 64, 64, 1);
+}
+.see_all_cta {
+  width: 478px;
+  background-color: rgba(164, 25, 92, 1);
+  border: none;
+  height: 42px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.findout-more-cta {
+  width: 478px;
+  background-color: #e5e5e5;
+  border: none;
+  height: 42px;
+  color: rgba(64, 64, 64, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+.see_all_img_border {
+  border-radius: 60px 0px 20px 0px;
+}
+.see_all_cards_img_border {
+  border-radius: 10px 0px 10px 0px;
+}
+
+/* section3 css end */
+
+/* section 4 css start */
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #f29200;
+  width: 285px;
+  height: 45px;
+  font-size: 18px;
+}
+
+.section4_benefits_of_joining h1 {
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  color: #404040;
+}
+
+.local-authorities-cta {
+  width: 285px;
+  height: 45px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.housing-Assoiciations-cta {
+  width: 285px;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid #ea5012;
+  margin-right: 10px;
+  color: #484848;
+}
+
+.member-Orgranisations-cta {
+  width: 285px;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid #a4195c;
+  color: #484848;
+}
+
+.section4_benefits_of_joining h2 {
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 400;
+  padding-right: 30px;
+  padding-left: 55px;
+}
+.section4_benefits_of_joining p {
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+  color: #747474;
+  padding-right: 30px;
+  padding-left: 55px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section4_benefits_of_joining_img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.section4_footer_image {
+  margin-top: 58px;
+}
+/* section 4 css end */
+
+/* section 5 success stories */
+
+.success_stories {
+  background: #f5f5f5;
+  padding-top: 63px;
+}
+.success_stories h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #404040;
+}
+
+.success_stories_p {
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #747474;
+  padding-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mt-7 {
+  margin-top: 7rem !important;
+}
+
+.background-image_section5 {
+  height: 724px;
+  background-image: linear-gradient(
+      181.18deg,
+      #a4195c -24.07%,
+      rgba(211, 70, 138, 0) 112.66%
+    ),
+    url(../assets/Mask\ Group_1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 8px;
+}
+
+.success_stories_inner_section {
+  position: absolute;
+  width: 900px;
+  left: -130px;
+  top: 110px;
+  padding: 50px;
+}
+
+.block {
+  text-align: center;
+  vertical-align: middle;
+}
+.circle {
+  border-radius: 200px;
+  height: 200px;
+  font-weight: bold;
+  width: 200px;
+  display: table;
+  margin: 20px auto;
+}
+.circle_first_border_color {
+  border: 2px solid #f29200;
+}
+.circle_first_border_color p {
+  color: #f29200;
+}
+.circle_second_border_color {
+  border: 2px solid #ea5012;
+}
+.circle_second_border_color p {
+  color: #ea5012;
+}
+.circle_third_border_color {
+  border: 2px solid #a4195c;
+}
+.circle_third_border_color p {
+  color: #a4195c;
+}
+.circle_forth_border_color {
+  border: 2px solid #404040;
+}
+.circle_forth_border_color p {
+  color: #404040;
+}
+.circle p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+  font-size: 60px;
+}
+.circle h1 {
+  vertical-align: middle;
+  display: table-cell;
+}
 
 /* media query for mobile view */
 @media screen and (max-width: 640px) {
@@ -311,7 +544,6 @@ footer ul li a {
     margin-left: 5px;
   }
   .hero-image {
-    background-image: url("../assets/Mask\ Group.png");
     height: 395px;
     background-repeat: no-repeat;
     background-size: cover;
