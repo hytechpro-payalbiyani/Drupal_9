@@ -174,19 +174,29 @@ footer ul li a {
 
 /* common css end */
 
-/* section 1 css end */
+/* section 1 hero_banner css end */
 .hero_banner p {
   margin-bottom: 23px;
 }
 .hero-image {
-  background-image: url("../assets/pexels-andrea-piacquadio-3890592\ 1.png");
   height: 592px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
+.homeSlider {
+  position: relative;
+  overflow: hidden;
+}
+
+.homeSlider img {
+  width: 100%;
+}
+
 .hero-text {
   padding-left: 50px;
+  position: absolute;
+  top: 0;
 }
 
 .section1_heading__text_input {
@@ -210,9 +220,9 @@ footer ul li a {
   color: black;
 }
 
-/* section 1 css end */
+/* section 1 hero_banner css end */
 
-/* section 2 css start */
+/* section 2 Why use Homefinder UK? css start */
 .section2_whyUK {
   font-size: 44px;
   font-weight: 700;
@@ -238,9 +248,367 @@ footer ul li a {
   background-color: #f8f8f8;
   margin-top: 10px;
 }
-/* section 2 css end */
+/* section 2 Why use Homefinder UK? css end */
+
+/* section 3 Social housing outside your area css start */
+.section3_input {
+  margin-top: 50px;
+  margin-bottom: 129px;
+}
+.section3_input h5 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  padding-top: 13px;
+}
+
+.section3_input .card-text {
+  font-size: 16px;
+  line-height: 18.75px;
+  color: rgba(116, 116, 116, 1);
+  font-weight: 400;
+  padding-top: 13px;
+  padding-bottom: 60px;
+}
+.section3_social_housing_text {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30.47px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(164, 25, 92, 1);
+}
+
+.section_font-26 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30.47px;
+  color: rgba(64, 64, 64, 1);
+}
+.see_all_cta {
+  width: 478px;
+  background-color: rgba(164, 25, 92, 1);
+  border: none;
+  height: 42px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.findout-more-cta {
+  width: 478px;
+  background-color: #e5e5e5;
+  border: none;
+  height: 42px;
+  color: rgba(64, 64, 64, 1);
+  font-size: 18px;
+  font-weight: 400;
+}
+.see_all_img_border {
+  border-radius: 60px 0px 20px 0px;
+}
+.see_all_cards_img_border {
+  border-radius: 10px 0px 10px 0px;
+}
+
+/* section3 Social housing outside your area css end */
+
+/* section 4 Benefits of Joining Homefinder UKcss start */
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #f29200;
+  width: 285px;
+  height: 43px;
+  font-size: 18px;
+}
+.mb-5 {
+  margin-bottom: 4rem !important;
+}
+.section4_benefits_of_joining h1 {
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 30px;
+  color: #404040;
+}
+.nav-pills .nav-link {
+  border-radius: 0px;
+}
+.local-authorities-cta {
+  width: 285px;
+  height: 45px;
+  font-size: 18px;
+  margin-right: 10px;
+  border: 1px solid #f29200;
+}
+
+.housing-Assoiciations-cta {
+  width: 285px;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid #ea5012;
+  margin-right: 10px;
+  color: #484848;
+}
+
+.member-Orgranisations-cta {
+  width: 285px;
+  height: 45px;
+  font-size: 18px;
+  border: 1px solid #a4195c;
+  color: #484848;
+}
+
+.section4_benefits_of_joining h2 {
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 400;
+  padding-right: 30px;
+  padding-left: 55px;
+}
+.section4_benefits_of_joining p {
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+  color: #747474;
+  padding-right: 30px;
+  padding-left: 55px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section4_benefits_of_joining_img {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.section4_footer_image {
+  margin-top: 58px;
+}
+
+.section4_button1_ctn {
+  border: none;
+  display: inline-block;
+  color: white;
+  margin-right: 15px;
+  background-color: #545454;
+  font-size: 18px;
+  line-height: 21.9px;
+  font-weight: 400;
+  width: 285px;
+  height: 45px;
+  margin-left: 30px;
+}
+.section4_button2_ctn {
+  border: none;
+  display: inline-block;
+  color: white;
+  margin-right: 5px;
+  background-color: #a4195c;
+  font-size: 18px;
+  line-height: 21.9px;
+  font-weight: 400;
+  width: 285px;
+  height: 45px;
+}
+/* section 4 Benefits of Joining Homefinder UK css end */
+
+/* section 5 success stories start*/
+
+.success_stories {
+  background: #f5f5f5;
+  padding-top: 63px;
+}
+.success_stories h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #404040;
+}
+
+.success_stories_p {
+  font-size: 16px;
+  line-height: 18.75px;
+  color: #747474;
+  padding-right: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.mt-7 {
+  margin-top: 6rem !important;
+}
+.mb-6 {
+  margin-bottom: 2.5rem !important;
+}
+.rounded-5 {
+  border-radius: 0.6rem !important;
+}
+
+/* case studies start*/
+.background-image_section5 {
+  height: 724px;
+  background-image: linear-gradient(
+      181.18deg,
+      #a4195c -24.07%,
+      rgba(211, 70, 138, 0) 112.66%
+    ),
+    url(../assets/Mask\ Group_1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 8px;
+}
+
+.success_stories_inner_section {
+  position: absolute;
+  width: 954px;
+  left: -280px;
+  top: 117px;
+  padding-top: 50px;
+  padding-right: 146px;
+  padding-left: 60px;
+  padding-bottom: 45px;
+  height: 515px;
+}
+.case-studies-heading-nav {
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.case-studies-heading {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.case-studies-para {
+  padding-top: 25px;
+  font-size: 18px;
+  color: #757575;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.case-studies_ctn {
+  border: none;
+  display: inline-block;
+  color: white;
+  background-color: #ea5012;
+  font-size: 18px;
+  line-height: 21.9px;
+  font-weight: 400;
+  width: 285px;
+  height: 45px;
+  margin-top: 30px;
+}
+/* case studies end */
+/* section 5 success stories end*/
+
+/* section 6 Truth in numvers start*/
+
+.block {
+  text-align: center;
+  vertical-align: middle;
+}
+.circle {
+  border-radius: 240px;
+  height: 235px;
+  font-weight: bold;
+  width: 235px;
+  display: table;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.circle_first_border_color {
+  border: 2px solid #f29200;
+}
+.circle_first_border_color p {
+  color: #f29200;
+}
+.circle_second_border_color {
+  border: 2px solid #ea5012;
+}
+.circle_second_border_color p {
+  color: #ea5012;
+}
+.circle_third_border_color {
+  border: 2px solid #a4195c;
+}
+.circle_third_border_color p {
+  color: #a4195c;
+}
+.circle_forth_border_color {
+  border: 2px solid #404040;
+}
+.circle_forth_border_color p {
+  color: #404040;
+}
+.circle p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.circle h1 {
+  vertical-align: middle;
+  display: table-cell;
+}
+/* section 6 Truth in numvers end */
+
+/* section7 latest news start*/
+.latest-news {
+  background-color: #f8f8f8;
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+.latest_news_card {
+  width: 21.5rem;
+  background-color: #f8f8f8;
+}
+.latest_news_card card-body {
+  padding-bottom: 10px;
+}
+.latest_news_card h1 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.78px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.latest_news_card p {
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+.latest-news-heading {
+  font-size: 40px;
+  color: #404040;
+  margin-bottom: 50px;
+}
+.card-body a {
+  color: black;
+  text-decoration: none;
+}
+/* section7 latest news end */
+/*  section 8 Trusted by start */
+
+/*  section 8 Trusted by end*/
+.section8-left-body {
+  background-color: #404040;
+}
+.section8-left-body h1 {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 300;
+}
+.section8-left-body h2 {
+  color: #ffffff;
+  font-size: 144px;
+  font-weight: 400;
+}
 
 /* media query for mobile view */
+
 @media screen and (max-width: 640px) {
   .logintoBid_cta {
     display: none;
@@ -311,7 +679,6 @@ footer ul li a {
     margin-left: 5px;
   }
   .hero-image {
-    background-image: url("../assets/Mask\ Group.png");
     height: 395px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -337,3 +704,5 @@ footer ul li a {
     color: #e5e5e5;
   }
 }
+
+/* media query for mobile view */
