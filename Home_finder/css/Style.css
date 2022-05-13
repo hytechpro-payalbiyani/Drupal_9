@@ -208,7 +208,7 @@ footer ul li a {
   font-size: 50px;
   font-weight: 700;
   color: black;
-  padding-top: 190px;
+  padding-top: 165px;
 }
 
 .section1_button1_ctn {
@@ -228,7 +228,7 @@ footer ul li a {
 /* section 1 hero_banner css end */
 
 /* section 2 Why use Homefinder UK? css start */
-.section2_whyUK {
+.section2_whyUK-heading {
   font-size: 44px;
   font-weight: 700;
   text-align: center;
@@ -643,103 +643,8 @@ footer ul li a {
 }
 
 /* media query for mobile view */
-@media only screen and (min-width: 320px) and (max-width: 400px) {
-  .section1_button1_ctn {
-    border: 1px solid #ea5012;
-    display: inline-block;
-    padding: 9.5px 35.3px 9.5px 30px;
-    color: black;
-    margin-right: 0px;
-    font-size: 14px;
-  }
-  .section1_button2_ctn {
-    font-size: 14px;
-    padding: 9.5px 35.3px 9.5px 30px;
-  }
-  .section1_heading__text_input {
-    font-size: 26px;
-    font-weight: 600;
-    color: black;
-    padding-top: 38px;
-    line-height: 37px;
-  }
-  .section_inner_text {
-    font-size: 16px;
-    color: #626262;
-    padding-left: 5px;
-    padding-right: 130px;
-  }
-  .hero_banner p {
-    margin-bottom: 15px;
-  }
-  .resp-tab-active .bg-card-section-3 {
-    position: unset;
-  }
-  .hero-text {
-    padding-left: 0px;
-    background: linear-gradient(
-      90.34deg,
-      #ffffff 6.87%,
-      rgba(255, 255, 255, 0.536458) 55.47%,
-      rgba(255, 255, 255, 0) 60.29%
-    );
-  }
-  /* section 2 media query */
-  .section2_whyUK {
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .section2_why-use-UK ul {
-    padding-left: 0px;
-  }
-  .section2_inner_text {
-    font-size: 16px;
-    color: #626262;
-  }
-}
-/* media query for mobile view */
-@media only screen and (min-width: 401px) and (max-width: 500px) {
-  .section1_button1_ctn {
-    border: 1px solid #ea5012;
-    display: inline-block;
-    padding: 9.5px 35.3px 9.5px 30px;
-    color: black;
-    margin-right: 0px;
-    font-size: 14px;
-  }
-  .section1_heading__text_input {
-    font-size: 26px;
-    font-weight: 600;
-    color: black;
-    padding-top: 55px;
-    line-height: 35px;
-    padding-bottom: 20px;
-  }
-  .section_inner_text {
-    font-size: 16px;
-    color: #626262;
-    padding-left: 5px;
-    padding-right: 130px;
-  }
-  .hero_banner p {
-    margin-bottom: 30px;
-  }
-  .resp-tab-active .bg-card-section-3 {
-    position: unset;
-  }
-  .hero-text {
-    padding-left: 0px;
-    background: linear-gradient(
-      90.34deg,
-      #ffffff 6.87%,
-      rgba(255, 255, 255, 0.536458) 55.47%,
-      rgba(255, 255, 255, 0) 60.29%
-    );
-  }
-}
-@media only screen and (min-width: 500px) and (max-width: 576px) {
+
+@media (max-width: 520px) {
   .hfTopNav .col-lg-6:nth-child(2) {
     text-align: center;
   }
@@ -866,31 +771,51 @@ footer ul li a {
     height: 121px;
     color: #e5e5e5;
   }
+  /* section 2 why use uk media */
+  .section2_whyUK-heading {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 28px;
+    color: #242021;
+  }
+  .section2_why-use-UK {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #f9f9fa;
+  }
+  .section2_inner_text {
+    font-size: 16px;
+    color: #868585;
+    font-weight: 400;
+  }
+
+  /* section 3 media */
   .section3-card-style {
     width: 25rem;
   }
   .resp-tab-active .bg-card-section-3 {
     position: unset;
   }
-}
-
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .resp-tab-active .bg-card-section-3 {
-    position: unset;
+  .section3-card-right-style {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-left: 30px;
+    color: black;
   }
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-}
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+  .resp-tab-active .bg-card-section-3 {
+    background: #a4195c;
+    position: absolute;
+    height: 40px;
+    left: 56px;
+    top: 12px;
+    width: 80%;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    color: white;
+  }
 }
 
 /* media query for mobile view */
