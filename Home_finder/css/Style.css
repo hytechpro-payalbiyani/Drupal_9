@@ -202,6 +202,7 @@ footer ul li a {
   padding-left: 50px;
   position: absolute;
   top: 0;
+  width: 500px;
 }
 
 .section1_heading__text_input {
@@ -258,7 +259,7 @@ footer ul li a {
 /* section 3 Social housing outside your area css start */
 .section3_input {
   padding-top: 50px;
-  margin-bottom: 129px;
+  margin-bottom: 110px;
 }
 
 .section_font-26 {
@@ -277,7 +278,12 @@ footer ul li a {
 .section3-card-style {
   width: 30rem;
 }
-
+.see_all_right_inactive_border {
+  border: 1px solid #d7d7d7;
+  padding-bottom: 6px;
+  border-radius: 20px 0px 0px 0px;
+  border-right-style: none;
+}
 .resp-tabs-container {
   padding: 0px;
   background-color: #fff;
@@ -292,16 +298,19 @@ footer ul li a {
   float: left;
   width: 39.9% !important;
 }
-
 .resp-tab-active .bg-card-section-3 {
   background: #a4195c;
   position: absolute;
   height: 140px;
-  left: 56px;
+  left: 80px;
   top: 12px;
-  width: 89%;
+  width: 85%;
   justify-content: center;
   border-top-left-radius: 10px;
+  padding-left: 65px;
+}
+.resp-tab-active div {
+  border: none !important;
 }
 
 .section3-card-style h5 {
@@ -317,7 +326,7 @@ footer ul li a {
   color: rgba(116, 116, 116, 1);
   font-weight: 400;
   padding-top: 25px;
-  padding-bottom: 75px;
+  padding-bottom: 85px;
 }
 .see_all_cta {
   width: 100%;
@@ -342,6 +351,7 @@ footer ul li a {
   font-weight: 400;
   line-height: 30.47px;
   padding-left: 60px;
+  padding-right: 50px;
 }
 
 /* section3 Social housing outside your area css end */
@@ -452,12 +462,15 @@ footer ul li a {
   background: #f5f5f5;
   padding-top: 63px;
 }
-.success_stories h1 {
+.success_stories_heading {
   font-size: 40px;
   font-weight: 500;
   color: #404040;
 }
-
+.success-stories-img {
+  max-width: 100%;
+  height: auto;
+}
 .success_stories_p {
   font-size: 16px;
   line-height: 18.75px;
@@ -471,6 +484,10 @@ footer ul li a {
 }
 .mb-6 {
   margin-bottom: 2.5rem !important;
+}
+.success-stories-video {
+  width: 570px;
+  height: 425px;
 }
 .rounded-5 {
   border-radius: 0.6rem !important;
@@ -492,7 +509,7 @@ footer ul li a {
 
 .success_stories_inner_section {
   position: absolute;
-  width: 954px;
+  width: 910px;
   left: -280px;
   top: 117px;
   padding-top: 50px;
@@ -504,21 +521,23 @@ footer ul li a {
 .case-studies-heading-nav {
   font-size: 40px;
   font-weight: 500;
-  padding-bottom: 30px;
 }
 .case-studies-heading {
   font-size: 24px;
   line-height: 28px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 .case-studies-para {
-  padding-top: 25px;
   font-size: 18px;
   color: #757575;
   line-height: 21px;
   font-weight: 400;
 }
-
+.pt-6 {
+  padding-top: 2rem !important;
+}
 .case-studies_ctn {
   border: none;
   display: inline-block;
@@ -583,9 +602,20 @@ footer ul li a {
   margin-bottom: 0px;
   margin-top: 15px;
 }
+.circle span {
+  font-size: 16px;
+  color: #404040;
+  font-weight: 400;
+}
 .circle h1 {
   vertical-align: middle;
   display: table-cell;
+}
+.display-lg-screen {
+  display: none;
+}
+.display-flex-lg-screen {
+  display: flex;
 }
 /* section 6 Truth in numvers end */
 
@@ -596,8 +626,9 @@ footer ul li a {
   padding-top: 70px;
 }
 .latest_news_card {
-  width: 21.5rem;
+  width: 400px;
   background-color: #f8f8f8;
+  margin-right: 20px;
 }
 .latest_news_card card-body {
   padding-bottom: 10px;
@@ -609,11 +640,16 @@ footer ul li a {
   color: rgba(0, 0, 0, 0.7);
   margin-top: 15px;
   margin-bottom: 15px;
+  text-align: left;
+  padding-left: 20px;
 }
 .latest_news_card p {
   font-size: 16px;
   line-height: 19px;
   color: #757575;
+  padding-left: 20px;
+  padding-right: 30px;
+  text-align: left;
 }
 .latest-news-heading {
   font-size: 40px;
@@ -624,10 +660,20 @@ footer ul li a {
   color: black;
   text-decoration: none;
 }
+.view_more_ctn {
+  border: none;
+  color: white;
+  background-color: #ea5012;
+  font-size: 18px;
+  line-height: 21.9px;
+  font-weight: 400;
+  width: 285px;
+  height: 45px;
+  margin-top: 20px;
+}
 /* section7 latest news end */
 /*  section 8 Trusted by start */
 
-/*  section 8 Trusted by end*/
 .section8-left-body {
   background-color: #404040;
 }
@@ -641,7 +687,18 @@ footer ul li a {
   font-size: 144px;
   font-weight: 400;
 }
+.trusted-by {
+  padding-top: 115px;
+  padding-left: 120px;
+}
 
+.section8-left-body h2 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+}
+/*  section 8 Trusted by end*/
 /* media query for mobile view */
 
 @media (max-width: 520px) {
@@ -699,6 +756,7 @@ footer ul li a {
       rgba(255, 255, 255, 0.536458) 55.47%,
       rgba(255, 255, 255, 0) 60.29%
     );
+    width: 400px;
   }
   .vector_nav_input {
     display: none;
@@ -791,30 +849,311 @@ footer ul li a {
     font-weight: 400;
   }
 
-  /* section 3 media */
+  /* section 3 social housing outside */
   .section3-card-style {
     width: 25rem;
   }
+  .section3_input {
+    padding-top: 27px;
+    margin-bottom: 10px;
+  }
   .resp-tab-active .bg-card-section-3 {
     position: unset;
+  }
+  .resp-tab-active .section3-card-right-style:before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    background: url(../assets/Group\ 104.png);
+    width: 15px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+
+  .section3-card-right-style:before {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 40px;
+    margin-top: 7px;
   }
   .section3-card-right-style {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    padding-left: 30px;
-    color: black;
+    padding-left: 80px;
+    padding-top: 8px;
+  }
+  .see_all_cards_img_border {
+    border-radius: 15px 0px 10px 0px;
+    width: 12%;
+    padding-top: 0px;
+    position: absolute;
+    padding-left: 5px;
   }
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
-    position: absolute;
-    height: 40px;
-    left: 56px;
-    top: 12px;
-    width: 80%;
+    position: relative;
+    height: 60px;
+    left: 40px;
+    top: -10px;
+    width: 91%;
     justify-content: center;
-    border-top-left-radius: 10px;
+    border-radius: 12px 0px 12px 0px;
+    color: white !important;
+    padding-left: 0px;
+    padding-bottom: 5px;
+  }
+  .resp-tab-active div {
+    border: none !important;
+  }
+  .resp-tabs-container {
+    width: 100% !important;
+  }
+  .section3-card-style h5 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 30px;
+    color: #404040;
+  }
+  .section3-card-style p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #747474;
+    font-weight: 400;
+    padding-top: 7px;
+    padding-bottom: 27px;
+  }
+  .see_all_cta {
+    width: 100%;
+    background-color: rgba(164, 25, 92, 1);
+    border: none;
+    height: 32px;
     color: white;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .findout-more-cta {
+    width: 100%;
+    background-color: #e5e5e5;
+    border: none;
+    height: 32px;
+    color: rgba(64, 64, 64, 1);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .see_all_right_inactive_border {
+    border: 1px solid #d7d7d7;
+    padding-bottom: 25px;
+    border-radius: 20px 0px 25px 0px;
+  }
+  /* section 4 benifits of joining UK */
+  .section4_benefits_of_joining h1 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: #242021;
+    line-height: 28px;
+  }
+  /* success stories */
+  .success_stories {
+    background: #f5f5f5;
+    padding-top: 0px;
+  }
+  .success-stories-img {
+    max-width: 12%;
+    height: auto;
+    position: absolute;
+  }
+
+  .success_stories_heading {
+    font-size: 24px;
+    font-weight: 500;
+    color: #404040;
+    line-height: 28px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    left: -25px;
+    position: relative;
+  }
+  .truth_in_numbers_section {
+    width: 100%;
+  }
+  .scroller {
+    width: 100%;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0 auto;
+  }
+  .containerr {
+    position: relative; /*important for the .position() method */
+    height: 100px;
+    width: 770px;
+  }
+
+  .mt-7 {
+    margin-top: 2rem !important;
+  }
+  .mb-6 {
+    margin-bottom: 2rem !important;
+  }
+  /* case studies css */
+  .background-image_section5 {
+    height: 289px;
+    background-image: linear-gradient(
+        181.18deg,
+        #a4195c -24.07%,
+        rgba(211, 70, 138, 0) 112.66%
+      ),
+      url(../assets/Mask\ Group-mb.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 300px;
+    border-radius: 0px;
+  }
+  .success_stories_inner_section {
+    position: absolute;
+    width: 444px;
+    left: 63px;
+    top: -190px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-bottom: 45px;
+    background: white;
+  }
+
+  .case-studies-heading-nav {
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 16px;
+  }
+  .case-studies-heading {
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    font-weight: 500;
+    padding-left: 16px;
+    padding-right: 120px;
+    color: #000000;
+  }
+  .case-studies_ctn {
+    border: none;
+    display: inline-block;
+    color: white;
+    background-color: #ea5012;
+    font-size: 18px;
+    line-height: 21.9px;
+    font-weight: 400;
+    width: 247px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 125px;
+  }
+  .pt-6 {
+    padding-top: 0rem !important;
+  }
+  .case-studies-para {
+    font-size: 18px;
+    color: #757575;
+    line-height: 21px;
+    font-weight: 400;
+    padding-left: 19px;
+    padding-right: 125px;
+  }
+  /* truth in numbers */
+
+  .truth-in-numbers-heading {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+  .circle {
+    border-radius: 130px;
+    height: 220px;
+    font-weight: bold;
+    width: 220px;
+    display: table;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+  }
+  .circle p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .circle span {
+    font-size: 16px;
+    color: #404040;
+    font-weight: 400;
+  }
+  .display-lg-screen {
+    display: flex;
+  }
+  .display-flex-lg-screen {
+    display: none;
+  }
+  /* latest news */
+  .latest-news-heading {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 0px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .latest-news {
+    background-color: #f8f8f8;
+    padding-bottom: 45px;
+    padding-top: 25px;
+  }
+  .latest_news_card h1 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .latest-news .scroller {
+    width: 100%;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0 auto;
+  }
+  .latest_news_card {
+    width: 400px;
+    background-color: #f8f8f8;
+    margin-right: 20px;
+  }
+  /* .latest-news .containerr {
+    position: relative;
+    height: 100px;
+    width: 1000px;
+  }  */
+  /* truested by */
+  .section8-left-body h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+  } /* trusted by */
+  .trusted-by {
+    padding-top: 25px;
+    padding-left: 25px;
   }
 }
 
