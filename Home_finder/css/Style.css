@@ -259,7 +259,7 @@ footer ul li a {
 /* section 3 Social housing outside your area css start */
 .section3_input {
   padding-top: 50px;
-  margin-bottom: 110px;
+  margin-bottom: 60px;
 }
 
 .section_font-26 {
@@ -634,7 +634,7 @@ footer ul li a {
   padding-top: 70px;
 }
 .latest_news_card {
-  width: 400px;
+  width: 375px;
   background-color: #f8f8f8;
   margin-right: 20px;
 }
@@ -706,6 +706,7 @@ footer ul li a {
   font-weight: 500;
   line-height: 56px;
 }
+
 /*  section 8 Trusted by end*/
 /* media query for mobile view */
 
@@ -968,6 +969,22 @@ footer ul li a {
     color: #242021;
     line-height: 28px;
   }
+  .section4_benefits_of_joining h2 {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 55px;
+    color: #000000;
+  }
+  .section4_benefits_of_joining p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #747474;
+    padding-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   /* success stories */
   .success_stories {
     background: #f5f5f5;
@@ -978,7 +995,10 @@ footer ul li a {
     height: auto;
     position: absolute;
   }
-
+  .success-stories-video {
+    width: 100%;
+    height: 420px;
+  }
   .success_stories_heading {
     font-size: 24px;
     font-weight: 500;
@@ -1000,7 +1020,7 @@ footer ul li a {
     margin: 0 auto;
   }
   .containerr {
-    position: relative; /*important for the .position() method */
+    position: relative;
     height: 100px;
     width: 770px;
   }
@@ -1027,7 +1047,7 @@ footer ul li a {
   }
   .success_stories_inner_section {
     position: absolute;
-    width: 444px;
+    width: 455px;
     left: 63px;
     top: -190px;
     padding-top: 50px;
@@ -1035,6 +1055,7 @@ footer ul li a {
     padding-left: 15px;
     padding-bottom: 45px;
     background: white;
+    height: 190px;
   }
 
   .case-studies-heading-nav {
@@ -1078,7 +1099,7 @@ footer ul li a {
   }
   /* truth in numbers */
   .truth-in-numbers {
-    padding-top: 400px;
+    padding-top: 210px;
   }
   .truth-in-numbers-heading {
     font-size: 24px;
@@ -1149,11 +1170,7 @@ footer ul li a {
     background-color: #f8f8f8;
     margin-right: 20px;
   }
-  /* .latest-news .containerr {
-    position: relative;
-    height: 100px;
-    width: 1000px;
-  }  */
+
   /* truested by */
   .section8-left-body h1 {
     color: #ffffff;
@@ -1164,6 +1181,31 @@ footer ul li a {
   .trusted-by {
     padding-top: 25px;
     padding-left: 25px;
+  }
+
+  .section8-left-body {
+    background-color: #404040;
+    padding-bottom: 90px;
+    position: absolute;
+    width: 70%;
+  }
+  .section8-right-body {
+    position: relative;
+    padding-top: 170px;
+    padding-left: 60px;
+  }
+  .button-bracket {
+    color: #828282;
+    border: 1px solid #b6b6b6;
+  }
+  .section8-right-body .scroller {
+    width: 100%;
+    height: 260px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0 auto;
+    background: white;
+    padding-left: 20px;
   }
 }
 
