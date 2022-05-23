@@ -2,7 +2,59 @@
 body {
   font-family: "Roboto";
 }
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
 
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #242021;
+  display: block;
+  transition: 0.3s;
+  float: left;
+
+  font-weight: 400;
+  line-height: 21px;
+}
+.overlay li a.nav-link:active {
+  color: #f29200 !important;
+}
+.overlay li:last-child {
+  padding-top: 90px;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 35px;
+  right: 45px;
+  font-size: 60px;
+  color: #000000;
+  border: none;
+}
+.nav_contact-us_overlay-cta {
+  background-color: #f29200;
+  color: white;
+  width: 180px;
+  height: 45px;
+  border: none;
+}
 /* nav bar css start */
 .hfTopNav .col-lg-6:nth-child(2) {
   text-align: right;
@@ -183,6 +235,12 @@ footer ul li a {
 .hero_banner p {
   margin-bottom: 23px;
 }
+.herobanner-lgimg {
+  display: block;
+}
+.herobanner-smimg {
+  display: none;
+}
 .hero-image {
   height: 592px;
   background-repeat: no-repeat;
@@ -261,7 +319,9 @@ footer ul li a {
   padding-top: 50px;
   margin-bottom: 60px;
 }
-
+.socialhousingsection {
+  z-index: 10000;
+}
 .section_font-26 {
   font-size: 26px;
   font-weight: 400;
@@ -460,7 +520,7 @@ footer ul li a {
 
 .success_stories {
   background: #f5f5f5;
-  padding-top: 63px;
+  padding-top: 125px;
 }
 .success_stories_heading {
   font-size: 40px;
@@ -486,11 +546,31 @@ footer ul li a {
   margin-bottom: 2.5rem !important;
 }
 .success-stories-video {
-  width: 570px;
+  width: 100%;
   height: 425px;
 }
 .rounded-5 {
   border-radius: 0.6rem !important;
+}
+.owl-prev {
+  right: 60px;
+}
+.owl-next {
+  right: 1px;
+}
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: -70px;
+}
+
+.owl-next span,
+.owl-prev span {
+  font-size: 30px;
+  color: #f29200;
+  border: 1px solid #f29200;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* case studies start*/
@@ -509,12 +589,12 @@ footer ul li a {
 
 .success_stories_inner_section {
   position: absolute;
-  width: 910px;
+  width: 954px;
   left: -280px;
   top: 117px;
   padding-top: 50px;
-  padding-right: 146px;
-  padding-left: 60px;
+  padding-right: 155px;
+  padding-left: 100px;
   padding-bottom: 45px;
   height: 515px;
 }
@@ -527,6 +607,8 @@ footer ul li a {
   line-height: 28px;
   padding-top: 30px;
   padding-bottom: 15px;
+  text-align: left;
+  padding-right: 30px;
 }
 
 .case-studies-para {
@@ -534,7 +616,10 @@ footer ul li a {
   color: #757575;
   line-height: 21px;
   font-weight: 400;
+  text-align: left;
+  padding-right: 30px;
 }
+
 .pt-6 {
   padding-top: 2rem !important;
 }
@@ -562,6 +647,7 @@ footer ul li a {
   font-weight: 700;
   line-height: 47px;
   color: #000000;
+  text-align: center;
 }
 .block {
   text-align: center;
@@ -634,9 +720,8 @@ footer ul li a {
   padding-top: 70px;
 }
 .latest_news_card {
-  width: 375px;
+  width: 100%;
   background-color: #f8f8f8;
-  margin-right: 20px;
 }
 .latest_news_card card-body {
   padding-bottom: 10px;
@@ -679,6 +764,16 @@ footer ul li a {
   height: 45px;
   margin-top: 20px;
 }
+.latest_news_card,
+.owl-next span,
+.owl-prev span {
+  font-size: 25px;
+  color: #b6b6b6;
+  border: 1px solid #b6b6b6;
+}
+.latest_news_card a {
+  font-size: 16px;
+}
 /* section7 latest news end */
 /*  section 8 Trusted by start */
 
@@ -689,28 +784,34 @@ footer ul li a {
   color: #ffffff;
   font-size: 40px;
   font-weight: 300;
+  line-height: 47px;
 }
 .section8-left-body h2 {
   color: #ffffff;
   font-size: 144px;
   font-weight: 400;
+  line-height: 169px;
 }
 .trusted-by {
   padding-top: 115px;
   padding-left: 120px;
 }
 
-.section8-left-body h2 {
-  color: #ffffff;
-  font-size: 48px;
-  font-weight: 500;
-  line-height: 56px;
-}
-
 /*  section 8 Trusted by end*/
+
 /* media query for mobile view */
 
 @media (max-width: 520px) {
+  .herobanner-smimg {
+    display: block;
+  }
+  .herobanner-lgimg {
+    display: none;
+  }
+  .hero_banner .container {
+    padding-left: 0;
+    margin-left: 0;
+  }
   .hfTopNav .col-lg-6:nth-child(2) {
     text-align: center;
   }
@@ -739,8 +840,7 @@ footer ul li a {
   .section_inner_text {
     font-size: 16px;
     color: #626262;
-    padding-left: 5px;
-    padding-right: 180px;
+    width: 50%;
   }
   .section1_button1_ctn {
     border: 1px solid #ea5012;
@@ -758,14 +858,15 @@ footer ul li a {
     font-size: 14px;
   }
   .hero-text {
-    padding-left: 0px;
+    padding-left: 25px;
     background: linear-gradient(
       90.34deg,
       #ffffff 6.87%,
       rgba(255, 255, 255, 0.536458) 55.47%,
       rgba(255, 255, 255, 0) 60.29%
     );
-    width: 400px;
+    width: 100%;
+    height: 100%;
   }
   .vector_nav_input {
     display: none;
@@ -860,7 +961,7 @@ footer ul li a {
 
   /* section 3 social housing outside */
   .section3-card-style {
-    width: 25rem;
+    width: 100%;
   }
   .section3_input {
     padding-top: 27px;
@@ -929,6 +1030,7 @@ footer ul li a {
     line-height: 28px;
     padding-top: 30px;
     color: #404040;
+    padding-right: 20px;
   }
   .section3-card-style p {
     font-size: 16px;
@@ -936,7 +1038,8 @@ footer ul li a {
     color: #747474;
     font-weight: 400;
     padding-top: 7px;
-    padding-bottom: 27px;
+    padding-bottom: 30px;
+    padding-right: 50px;
   }
   .see_all_cta {
     width: 100%;
@@ -995,10 +1098,7 @@ footer ul li a {
     height: auto;
     position: absolute;
   }
-  .success-stories-video {
-    width: 100%;
-    height: 420px;
-  }
+
   .success_stories_heading {
     font-size: 24px;
     font-weight: 500;
@@ -1008,21 +1108,6 @@ footer ul li a {
     margin-bottom: 20px;
     left: -25px;
     position: relative;
-  }
-  .truth_in_numbers_section {
-    width: 100%;
-  }
-  .scroller {
-    width: 100%;
-    height: 300px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    margin: 0 auto;
-  }
-  .containerr {
-    position: relative;
-    height: 100px;
-    width: 770px;
   }
 
   .mt-7 {
@@ -1055,13 +1140,13 @@ footer ul li a {
     padding-left: 15px;
     padding-bottom: 45px;
     background: white;
-    height: 190px;
+    height: 195px;
   }
 
   .case-studies-heading-nav {
     font-size: 24px;
     font-weight: 500;
-    padding-left: 16px;
+    padding-left: 30px;
   }
   .case-studies-heading {
     font-size: 18px;
@@ -1069,9 +1154,10 @@ footer ul li a {
     padding-top: 16px;
     padding-bottom: 13px;
     font-weight: 500;
-    padding-left: 16px;
-    padding-right: 120px;
+    padding-left: 30px;
+    padding-right: 100px;
     color: #000000;
+    text-align: left;
   }
   .case-studies_ctn {
     border: none;
@@ -1094,8 +1180,9 @@ footer ul li a {
     color: #757575;
     line-height: 21px;
     font-weight: 400;
-    padding-left: 19px;
-    padding-right: 125px;
+    padding-left: 30px;
+    padding-right: 60px;
+    text-align: left;
   }
   /* truth in numbers */
   .truth-in-numbers {
@@ -1106,7 +1193,8 @@ footer ul li a {
     font-weight: 500;
     color: #000000;
     line-height: 28px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+    text-align: left;
   }
   .circle {
     border-radius: 130px;
@@ -1144,6 +1232,7 @@ footer ul li a {
     margin-bottom: 0px;
     font-weight: 500;
     line-height: 28px;
+    padding-bottom: 10px;
   }
   .latest-news {
     background-color: #f8f8f8;
@@ -1173,11 +1262,12 @@ footer ul li a {
 
   /* truested by */
   .section8-left-body h1 {
-    color: #ffffff;
     font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-  } /* trusted by */
+  }
+  .section8-left-body h2 {
+    font-size: 48px;
+  }
+
   .trusted-by {
     padding-top: 25px;
     padding-left: 25px;
@@ -1191,8 +1281,8 @@ footer ul li a {
   }
   .section8-right-body {
     position: relative;
-    padding-top: 170px;
-    padding-left: 60px;
+    padding-top: 210px;
+    padding-left: 25px;
   }
   .button-bracket {
     color: #828282;
@@ -1207,6 +1297,628 @@ footer ul li a {
     background: white;
     padding-left: 20px;
   }
+  /* trusted by */
+  /* demo */
+  .section4_benefits_of_joining-uk h1 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: #242021;
+    line-height: 28px;
+  }
+  .section4_benefits_of_joining-uk h2 {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 55px;
+    color: #000000;
+  }
+  .section4_benefits_of_joining-uk p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #747474;
+  }
+
+  .local-Authorities-cta-1 {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+
+    border: 1px solid #f29200;
+    color: #484848;
+    background-color: white;
+  }
+
+  .housing-Assoiciations-cta-2 {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #ea5012;
+
+    color: #484848;
+    background-color: white;
+  }
+
+  .member-Orgranisations-cta-3 {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #a4195c;
+    color: #484848;
+    background-color: white;
+  }
+
+  .resp-tab-active .section4-benifits-of-joining-uk:before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    background: url(../assets/Group\ 104.png);
+    width: 15px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+
+  .section4-benifits-of-joining-uk:before {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 40px;
+    margin-top: 7px;
+  }
+  .section4-benifits-of-joining-uk {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+  }
+
+  .resp-tab-active .section4-benifits-of-joining-uk {
+    background: #f29200;
+
+    justify-content: center;
+  }
+
+  .section4_benefits_of_joining-uk .scroller {
+    width: 100%;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0 auto;
+  }
+  .section4_benefits_of_joining-uk .containerr {
+    position: relative;
+    height: 100px;
+    width: 1400px;
+  }
 }
 
 /* media query for mobile view */
+
+/* media for tablet */
+@media (min-width: 521px) and (max-width: 768px) {
+  .herobanner-smimg {
+    display: block;
+  }
+  .herobanner-lgimg {
+    display: none;
+  }
+  .hero_banner .container {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .hero-text {
+    padding-left: 25px;
+    background: linear-gradient(
+      90.34deg,
+      #ffffff 6.87%,
+      rgba(255, 255, 255, 0.536458) 55.47%,
+      rgba(255, 255, 255, 0) 60.29%
+    );
+    width: 100%;
+    height: 100%;
+  }
+  .resp-tab-active .bg-card-section-3 {
+    position: unset;
+  }
+  .hfTopNav .col-lg-6:nth-child(2) {
+    text-align: center;
+  }
+  /* section 2 why uk */
+  .section1_heading__text_input {
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    padding-top: 115px;
+    padding-bottom: 15px;
+    line-height: 40px;
+  }
+  .section_inner_text {
+    font-size: 16px;
+    color: #626262;
+    width: 50%;
+  }
+  .section2_whyUK-heading {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+  /* section 3  */
+
+  .section3-card-style {
+    width: 100%;
+  }
+  .section3_input {
+    padding-top: 27px;
+    margin-bottom: 10px;
+  }
+  .resp-tab-active .bg-card-section-3 {
+    position: unset;
+  }
+  .resp-tab-active .section3-card-right-style:before {
+    content: "";
+    position: absolute;
+    right: 20px;
+    background: url(../assets/Group\ 104.png);
+    width: 15px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+
+  .section3-card-right-style:before {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 70px;
+    margin-top: 7px;
+  }
+  .section3-card-right-style {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-left: 120px;
+    padding-top: 24px;
+  }
+  .see_all_cards_img_border {
+    border-radius: 15px 0px 10px 0px;
+    width: 12%;
+    padding-top: 0px;
+    position: absolute;
+    padding-left: 5px;
+  }
+  .resp-tab-active .bg-card-section-3 {
+    background: #a4195c;
+    position: relative;
+    height: 85px;
+    left: 25px;
+    top: -10px;
+    width: 91%;
+    justify-content: center;
+    border-radius: 12px 0px 12px 0px;
+    color: white !important;
+    padding-left: 0px;
+    padding-bottom: 30px;
+  }
+  .resp-tab-active div {
+    border: none !important;
+  }
+  .resp-tabs-container {
+    width: 100% !important;
+  }
+  .section3-card-style h5 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-top: 30px;
+    color: #404040;
+  }
+  .section3-card-style p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #747474;
+    font-weight: 400;
+    padding-top: 7px;
+    padding-bottom: 27px;
+  }
+  .see_all_cta {
+    width: 100%;
+    background-color: rgba(164, 25, 92, 1);
+    border: none;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .findout-more-cta {
+    width: 100%;
+    background-color: #e5e5e5;
+    border: none;
+    height: 50px;
+    color: rgba(64, 64, 64, 1);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .see_all_right_inactive_border {
+    border: 1px solid #d7d7d7;
+    padding-bottom: 25px;
+    border-radius: 20px 0px 25px 0px;
+  }
+  .section3-card-style h5 {
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 32px;
+    color: #404040;
+  }
+  .section3-card-style p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #747474;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+  }
+  /* section 4 benifts of joining uk */
+  .section4_benefits_of_joining h1 {
+    font-size: 34px;
+  }
+  /* success stories */
+  .success_stories_p {
+    display: none;
+  }
+  .success_stories {
+    padding-top: 0px;
+  }
+  .success-stories-img {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+  }
+
+  .success_stories_heading {
+    font-size: 35px;
+    font-weight: 500;
+    color: #404040;
+    line-height: 28px;
+    padding-top: 65px;
+    margin-bottom: 20px;
+    left: -20px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .mt-7 {
+    margin-top: 1rem !important;
+  }
+  /* case studies */
+
+  .background-image_section5 {
+    height: 724px;
+    background-image: linear-gradient(
+        181.18deg,
+        #a4195c -24.07%,
+        rgba(211, 70, 138, 0) 112.66%
+      ),
+      url(../assets/Mask\ Group_1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 8px;
+  }
+  .success_stories_inner_section {
+    position: unset;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-top: 23px;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-bottom: 16px;
+    height: auto;
+  }
+  .case-studies_ctn {
+    margin-top: 0px;
+  }
+  /* truth in numbers */
+  .truth-in-numbers {
+    padding-top: 135px;
+  }
+  .truth-in-numbers-heading {
+    font-size: 36px;
+    text-align: left;
+  }
+  /* latest news */
+  .latest-news {
+    background-color: #f8f8f8;
+    padding-bottom: 40px;
+    padding-top: 30px;
+  }
+  /* trusted by */
+  .section8-left-body h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .section8-left-body h2 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .trusted-by {
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-bottom: 50px;
+  }
+  /* footer */
+  .footer_awosomefont_input {
+    display: inline-block;
+    align-items: center;
+  }
+  footer {
+    background-color: #a4195c;
+    color: white;
+    padding: 35px 0px 0px 0px;
+    text-align: center;
+  }
+  .footer_privacy_cookies_text {
+    font-size: 14px;
+    height: 70px;
+    margin-top: 15px;
+  }
+  .footer_privacy_cookies {
+    font-size: 14px;
+    text-align: center;
+  }
+  .footer_mobile_img_googleplay {
+    margin-right: 0px;
+    padding-bottom: 5px;
+  }
+  .footer_download_text {
+    font-size: 34px;
+    line-height: 42px;
+  }
+}
+/* @media (min-width: 575.5px) and (max-width: 768px) {
+  .footer_awosomefont_input {
+    display: inline-block;
+    align-items: center;
+  }
+  footer {
+    background-color: #a4195c;
+    color: white;
+    padding: 35px 0px 0px 0px;
+    text-align: center;
+  }
+} */
+/* media for tablet end */
+
+/* media 992px */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* section 1 hero banner */
+  .section1_heading__text_input {
+    font-size: 26px;
+    padding-top: 30px;
+  }
+  .hero-text {
+    padding-left: 0px;
+    position: absolute;
+    top: 0;
+    width: 54%;
+  }
+  .herobanner-smimg {
+    display: none;
+  }
+  .herobanner-lgimg {
+    display: block;
+  }
+  /* section2  */
+  .section2_whyUK-heading {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 47px;
+    font-weight: 700;
+  }
+  /* section 3  */
+  .section3-card-style {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .section3-card-style h5 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    padding-top: 30px;
+    color: #404040;
+  }
+  .section3-card-style p {
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(116, 116, 116, 1);
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 85px;
+  }
+  .section3-card-right-style {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.47px;
+    padding-left: 60px;
+  }
+  .resp-tab-active .bg-card-section-3 {
+    background: #a4195c;
+    position: absolute;
+    height: 140px;
+    left: 78px;
+    top: 12px;
+    width: 80%;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    padding-left: 60px;
+  }
+  /* success storis */
+  .success_stories {
+    background: #f5f5f5;
+    padding-top: 80px;
+  }
+  .mt-7 {
+    margin-top: 3rem !important;
+  }
+  /* case studies */
+  .success_stories_inner_section {
+    position: absolute;
+    width: 651px;
+    left: -185px;
+    top: 117px;
+    padding-top: 40px;
+    padding-right: 73px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    height: 515px;
+  }
+  .section8-left-body h2 {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 56px;
+  }
+  .section8-left-body h1 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 40px;
+  }
+  .trusted-by {
+    padding-top: 180px;
+    padding-left: 60px;
+  }
+  /* footer */
+  .footer_download_text {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+  }
+}
+
+/* media 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* hero banner */
+  .section1_heading__text_input {
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding-top: 55px;
+  }
+  /* section 2 why uk */
+  .section2_whyUK-heading {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+  /*section3 social housing */
+  .section3-card-right-style {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.47px;
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+  .section3_input {
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+  .resp-tab-active .bg-card-section-3 {
+    background: #a4195c;
+    position: absolute;
+    height: 140px;
+    left: 80px;
+    top: 12px;
+    width: 83%;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    padding-left: 65px;
+  }
+  .section3-card-style h5 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    padding-top: 30px;
+    color: #404040;
+  }
+  /* success stories */
+  .mt-7 {
+    margin-top: 4rem !important;
+  }
+  .success_stories_inner_section {
+    position: absolute;
+    width: 746px;
+    left: -250px;
+    top: 120px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    height: 515px;
+  }
+  /* trusted by */
+  .section8-left-body h2 {
+    color: #ffffff;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 100px;
+  }
+  .section8-left-body h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 50px;
+  }
+  .trusted-by {
+    padding-top: 165px;
+    padding-left: 70px;
+  }
+  /* footer */
+  .footer_download_text {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .section1_heading__text_input {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    padding-top: 95px;
+  }
+  .success_stories_inner_section {
+    position: absolute;
+    width: 889px;
+    left: -280px;
+    top: 117px;
+    padding-top: 50px;
+    padding-right: 155px;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    height: 515px;
+  }
+  .resp-tab-active .bg-card-section-3 {
+    background: #a4195c;
+    position: absolute;
+    height: 140px;
+    left: 80px;
+    top: 12px;
+    width: 83%;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    padding-left: 65px;
+  }
+}

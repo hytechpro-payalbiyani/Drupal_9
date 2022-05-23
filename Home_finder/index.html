@@ -23,43 +23,18 @@
     />
     <!-- main css -->
     <link rel="stylesheet" href="./css/Style.css" />
-    <!-- jquesry -->
+    <!-- jquery -->
     <link
       href="https://www.jqueryscript.net/css/jquerysctipttop.css"
       rel="stylesheet"
       type="text/css"
     />
-    <link rel="stylesheet" href="../Home_finder/css/easy-responsive-tabs.css" />
 
-    <style>
-      .demo {
-        margin: 150px auto;
-        width: 980px;
-      }
-      .demo h1 {
-        margin: 0 0 25px;
-      }
-      .demo h3 {
-        margin: 10px 0;
-      }
-      pre {
-        background-color: #fff;
-      }
-      @media only screen and (max-width: 780px) {
-        .demo {
-          margin: 5%;
-          width: 90%;
-        }
-        .how-use {
-          display: none;
-          float: left;
-          width: 300px;
-        }
-      }
-      #tabInfo {
-        display: none;
-      }
-    </style>
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="./css/owl.carousel.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../Home_finder/css/easy-responsive-tabs.css" />
   </head>
   <body>
     <!-- hfTopNav start -->
@@ -168,11 +143,12 @@
         <button
           class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
+          data-bs-toggle=""
           data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          onclick="openNav()"
         >
           <span>
             <img class="" src="./assets/Vector.png" alt="vector image"
@@ -202,18 +178,42 @@
       </div>
     </nav>
     <!-- HFBottomnav end -->
-
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <ul class="nav flex-column overlay-content ps-5 pe-5">
+        <li class="nav-item border-bottom pb-4">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item border-bottom pb-4 pt-4">
+          <a class="nav-link" href="#">How it works</a>
+        </li>
+        <li class="nav-item border-bottom pb-4 pt-4">
+          <a class="nav-link" href="#">Search for Property</a>
+        </li>
+        <li class="nav-item border-bottom pb-4 pt-4">
+          <a class="nav-link" href="#">More</a>
+        </li>
+        <li class="nav-item pb-2">
+          <button class="nav_contact-us_overlay-cta float-start">
+            <i class="fa-solid fa-phone"></i>
+            Contact Us
+          </button>
+        </li>
+      </ul>
+    </div>
     <!-- section1 hero_banner -->
     <section class="hero_banner">
       <div class="homeSlider">
         <img
           alt="Find a new home and make a fresh start"
-          class="img-fluid d-none d-sm-block"
+          class="img-fluid herobanner-lgimg"
           src="./assets/pexels-andrea-piacquadio-3890592 1.png"
         />
         <img
           alt="Find a new home and make a fresh start"
-          class="img-fluid d-sm-none"
+          class="img-fluid herobanner-smimg"
           src="./assets/Mask Group.png"
         />
         <div class="container">
@@ -305,7 +305,6 @@
     <!-- section3 Social housing outside your area-->
 
     <section class="section3_input bg-white">
-      <div id="tabInfo">Selected tab: <span class="tabName"></span></div>
       <div id="verticalTab">
         <div
           class="resp-tabs-container border-0 d-lg-flex justify-content-center"
@@ -462,7 +461,7 @@
         <ul class="resp-tabs-list">
           <li id="1-tab">
             <div class="row gx-0 mb-4 pl-2 pt-2 see_all_right_inactive_border">
-              <div class="col-lg-3" style="z-index: 10000">
+              <div class="col-lg-3 socialhousingsection">
                 <img
                   class="see_all_cards_img_border"
                   src="./assets/pexels-photo-6209471 1 (2).png"
@@ -478,7 +477,7 @@
           </li>
           <li id="2-tab">
             <div class="row gx-0 mb-4 pl-2 pt-2 see_all_right_inactive_border">
-              <div class="col-lg-3" style="z-index: 10000">
+              <div class="col-lg-3 socialhousingsection">
                 <img
                   class="see_all_cards_img_border"
                   src="./assets/service2 2.png"
@@ -494,7 +493,7 @@
           </li>
           <li id="3-tab">
             <div class="row gx-0 mb-4 pl-2 pt-2 see_all_right_inactive_border">
-              <div class="col-lg-3" style="z-index: 10000">
+              <div class="col-lg-3 socialhousingsection">
                 <img
                   class="see_all_cards_img_border"
                   src="./assets/service3 2.png"
@@ -511,7 +510,7 @@
           </li>
           <li id="4-tab">
             <div class="row gx-0 mb-4 pl-2 pt-2 see_all_right_inactive_border">
-              <div class="col-lg-3" style="z-index: 10000">
+              <div class="col-lg-3 socialhousingsection">
                 <img
                   class="see_all_cards_img_border"
                   src="./assets/service4 3.png"
@@ -527,7 +526,7 @@
           </li>
           <li id="5-tab">
             <div class="row gx-0 mb-4 pl-2 pt-2 see_all_right_inactive_border">
-              <div class="col-lg-3" style="z-index: 10000">
+              <div class="col-lg-3 socialhousingsection">
                 <img
                   class="see_all_cards_img_border"
                   src="./assets/private-rented-properties 2.png"
@@ -1262,10 +1261,11 @@
         </div>
       </div>
     </section>
+
     <!-- section5 success stories -->
     <section class="success_stories">
       <div class="container">
-        <div class="row ps-4 mb-6">
+        <div class="row mb-6">
           <div class="col-lg-5 mt-7">
             <img src="./assets/“.png" class="success-stories-img" alt="" />
             <div class="ms-5">
@@ -1280,94 +1280,64 @@
             </div>
           </div>
           <div class="col-lg-7">
-            <div
-              id="carouselExampleControls"
-              class="carousel slide"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div
-                    class="embed-responsive embed-responsive embed-responsive-4by3"
-                  >
-                    <iframe
-                      class="embed-responsive-item rounded-5 success-stories-video"
-                      src="https://www.youtube.com/embed/ukj6n0UJw6U"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div
-                    class="embed-responsive embed-responsive embed-responsive-4by3"
-                  >
-                    <iframe
-                      class="rounded-5 success-stories-video"
-                      src="https://www.youtube.com/embed/zkcqqyFAr8Y"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div
-                    class="embed-responsive embed-responsive embed-responsive-4by3"
-                  >
-                    <iframe
-                      class="rounded-5 success-stories-video"
-                      src="https://www.youtube.com/embed/jEzkujNV3P4"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div
-                    class="embed-responsive embed-responsive embed-responsive-4by3"
-                  >
-                    <iframe
-                      class="rounded-5 success-stories-video"
-                      src="https://www.youtube.com/embed/-vCMQc7Hus4"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
+            <div class="owl-carousel owl-theme" id="success-stories">
+              <div
+                class="embed-responsive embed-responsive embed-responsive-4by3"
+              >
+                <iframe
+                  class="embed-responsive-item rounded-5 success-stories-video"
+                  src="https://www.youtube.com/embed/ukj6n0UJw6U"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <div
+                class="embed-responsive embed-responsive embed-responsive-4by3"
+              >
+                <iframe
+                  class="rounded-5 success-stories-video"
+                  src="https://www.youtube.com/embed/zkcqqyFAr8Y"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <div>
+                <div
+                  class="embed-responsive embed-responsive embed-responsive-4by3"
+                >
+                  <iframe
+                    class="rounded-5 success-stories-video"
+                    src="https://www.youtube.com/embed/jEzkujNV3P4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
               </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+
+              <div>
+                <div
+                  class="embed-responsive embed-responsive embed-responsive-4by3"
+                >
+                  <iframe
+                    class="rounded-5 success-stories-video"
+                    src="https://www.youtube.com/embed/-vCMQc7Hus4"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
       <!-- Case Studies -->
 
       <div class="row gx-0">
@@ -1375,179 +1345,72 @@
         <div class="col-lg-6 position-relative">
           <div class="bg-white success_stories_inner_section">
             <h2 class="case-studies-heading-nav">Case Studies</h2>
-            <div
-              id="carouselExampleSlidesOnly"
-              class="carousel slide display-flex-lg-screen"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <h3 class="case-studies-heading">
-                        'Mrs.L' NHS nurse escaping financial abusive
-                      </h3>
-                      <p class="case-studies-para">
-                        "Once Homefinder UK knows about your situation, they
-                        activate a plan and apply it vigorously to ensure they
-                        find you a home as soon as possible".
-                      </p>
-                    </div>
-                    <div class="col-lg-6">
-                      <h3 class="case-studies-heading">Lewisham</h3>
-                      <p class="case-studies-para pt-6 pb-4">
-                        "By being realistic about waiting times for London
-                        housing and always offering Homefinder UK as an
-                        alternative, we have housed so many more applicants with
-                        Homefinder and it is so much better. I have a kitchen,
-                        dining room and 3 bedrooms."
-                      </p>
-                    </div>
-                  </div>
+            <div class="container">
+              <div class="owl-carousel owl-theme" id="case-study11">
+                <div class="block">
+                  <h3 class="case-studies-heading">
+                    'Mrs.L' NHS nurse escaping financial abusive
+                  </h3>
+                  <p class="case-studies-para">
+                    "Once Homefinder UK knows about your situation, they
+                    activate a plan and apply it vigorously to ensure they find
+                    you a home as soon as possible".
+                  </p>
                 </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <h3 class="case-studies-heading">
-                        Mr D "Homeless mover"
-                      </h3>
-                      <p class="case-studies-para">
-                        “I like the flat and I am glad to have a roof over my
-                        head after months sleeping on a cold floor in a local
-                        church, I can see more improvement in my children
-                        schooling due to recolating from London.”
-                      </p>
-                    </div>
-                    <div class="col-lg-6">
-                      <h3 class="case-studies-heading">Barking & Dagenham</h3>
-                      <p class="case-studies-para pb-4">
-                        “The Revive and Homefinder UK Through our collaborative
-                        partnership with Homefinder UK, we can rebuild lives of
-                        people in need of urgent social housing”
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <h3 class="case-studies-heading">
-                        Sara "Domestic abuse mover via the Revive project"
-                      </h3>
-                      <p class="case-studies-para">
-                        “Brenda (case manager), my angel, helped me and my
-                        children to have a new home. I am grateful for all
-                        Homefinder UK’s help”
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              id="carouselExampleControls"
-              class="carousel slide display-lg-screen"
-              data-bs-ride="carousel"
-            >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <h3 class="case-studies-heading">
-                        'Mrs.L' NHS nurse escaping financial abusive
-                      </h3>
-                      <p class="case-studies-para">
-                        "Once Homefinder UK knows about your situation, they
-                        activate a plan and apply it vigorously to ensure they
-                        find you a home as soon as possible".
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <h3 class="case-studies-heading">Lewisham</h3>
-                      <p class="case-studies-para">
-                        "By being realistic about waiting times for London
-                        housing and always offering Homefinder UK as an
-                        alternative, we have housed so many more applicants with
-                        Homefinder and it is so much better. I have a kitchen,
-                        dining room and 3 bedrooms."
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <h3 class="case-studies-heading">
-                        Mr D "Homeless mover"
-                      </h3>
-                      <p class="case-studies-para">
-                        “I like the flat and I am glad to have a roof over my
-                        head after months sleeping on a cold floor in a local
-                        church, I can see more improvement in my children
-                        schooling due to recolating from London.”
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <h3 class="case-studies-heading">Barking & Dagenham</h3>
-                      <p class="case-studies-para">
-                        “The Revive and Homefinder UK Through our collaborative
-                        partnership with Homefinder UK, we can rebuild lives of
-                        people in need of urgent social housing”
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <h3 class="case-studies-heading">
-                        Sara "Domestic abuse mover via the Revive project"
-                      </h3>
-                      <p class="case-studies-para">
-                        “Brenda (case manager), my angel, helped me and my
-                        children to have a new home. I am grateful for all
-                        Homefinder UK’s help”
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
 
-            <div class="d-flex justify-content-center">
-              <button class="case-studies_ctn">View all Case Studies</button>
+                <div>
+                  <div class="block">
+                    <h3 class="case-studies-heading">Lewisham</h3>
+                    <p class="case-studies-para">
+                      "By being realistic about waiting times for London housing
+                      and always offering Homefinder UK as an alternative, we
+                      have housed so many more applicants with Homefinder and it
+                      is so much better. I have a kitchen, dining room and 3
+                      bedrooms."
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="block">
+                    <h3 class="case-studies-heading">Mr D "Homeless mover"</h3>
+                    <p class="case-studies-para">
+                      “I like the flat and I am glad to have a roof over my head
+                      after months sleeping on a cold floor in a local church, I
+                      can see more improvement in my children schooling due to
+                      recolating from London.”
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="block">
+                    <h3 class="case-studies-heading">Barking & Dagenham</h3>
+                    <p class="case-studies-para">
+                      “The Revive and Homefinder UK Through our collaborative
+                      partnership with Homefinder UK, we can rebuild lives of
+                      people in need of urgent social housing”
+                    </p>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="block">
+                    <h3 class="case-studies-heading">
+                      Sara "Domestic abuse mover via the Revive project"
+                    </h3>
+                    <p class="case-studies-para">
+                      “Brenda (case manager), my angel, helped me and my
+                      children to have a new home. I am grateful for all
+                      Homefinder UK’s help”
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-center">
+                <button class="case-studies_ctn">View all Case Studies</button>
+              </div>
             </div>
           </div>
         </div>
@@ -1557,60 +1420,44 @@
 
       <div class="bg-white truth-in-numbers">
         <div class="container">
-          <div class="row">
-            <div class="col col-lg-12">
-              <h1 class="text-center truth-in-numbers-heading">
-                Truth in Numbers
-              </h1>
-            </div>
-            <div class="col float-end">
-              <div class="d-block float-end d-lg-none d-sm-none">
-                <button id="leftd" class="bg-white me-3 button-bracket">
-                  <i class="fa-solid fa-chevron-left"></i>
-                </button>
-                <button id="rightd" class="bg-white button-bracket">
-                  <i class="fa-solid fa-chevron-right"></i>
-                </button>
+          <h1 class="truth-in-numbers-heading">Truth in Numbers</h1>
+          <div class="owl-carousel owl-theme" id="fourth">
+            <div class="block">
+              <div class="circle circle_first_border_color">
+                <p>900+</p>
+                <span
+                  >Households have found permanent accommodation outside their
+                  local area <br />
+                  since 2013
+                </span>
               </div>
             </div>
-          </div>
-          <input type="hidden" value="1" />
-          <div class="scroller">
-            <div class="d-flex truth_in_numbers_section containerr">
-              <div class="block">
-                <div class="circle circle_first_border_color">
-                  <p>900+</p>
-                  <span
-                    >Households have found permanent accommodation outside their
-                    local area <br />
-                    since 2013
-                  </span>
-                </div>
+
+            <div class="block">
+              <div class="circle circle_second_border_color">
+                <p>100%</p>
+                <span
+                  >Fully trained and experienced DBS checked staff delivering
+                  case management services
+                </span>
               </div>
-              <div class="block">
-                <div class="circle circle_second_border_color">
-                  <p>100%</p>
-                  <span
-                    >Fully trained and experienced DBS checked staff delivering
-                    case management services
-                  </span>
-                </div>
+            </div>
+
+            <div class="block">
+              <div class="circle circle_third_border_color">
+                <p>50+</p>
+                <span
+                  >Member local authorities and housing associations <br />
+                  in a unique national <br />
+                  network
+                </span>
               </div>
-              <div class="block">
-                <div class="circle circle_third_border_color">
-                  <p>50+</p>
-                  <span
-                    >Member local authorities and housing associations <br />
-                    in a unique national <br />
-                    network
-                  </span>
-                </div>
-              </div>
-              <div class="block">
-                <div class="circle circle_forth_border_color">
-                  <p>100%</p>
-                  <span>Non-profit national housing mobility scheme </span>
-                </div>
+            </div>
+
+            <div class="block">
+              <div class="circle circle_forth_border_color">
+                <p>100%</p>
+                <span>Non-profit national housing mobility scheme </span>
               </div>
             </div>
           </div>
@@ -1620,25 +1467,11 @@
     <!-- section 7 latest news -->
     <section class="latest-news">
       <div class="container">
-        <div class="row">
-          <div class="col col-lg-12 latest-news-heading">
+        <div class="container">
+          <div class="latest-news-heading">
             <h1>Latest News</h1>
           </div>
-          <div class="col float-end">
-            <div class="d-block float-end d-lg-none d-sm-none">
-              <button id="leftd1" class="bg-white me-3 button-bracket">
-                <i class="fa-solid fa-chevron-left"></i>
-              </button>
-              <button id="rightd1" class="bg-white button-bracket">
-                <i class="fa-solid fa-chevron-right"></i>
-              </button>
-              <input type="hidden" value="1" />
-            </div>
-          </div>
-        </div>
-
-        <div class="scroller">
-          <div class="d-flex containerr">
+          <div class="owl-carousel owl-theme" id="latest-news">
             <div class="block">
               <div class="card latest_news_card">
                 <img
@@ -1736,6 +1569,7 @@
             </div>
           </div>
         </div>
+
         <div class="d-flex justify-content-center mt-4">
           <button class="view_more_ctn">View More News</button>
         </div>
@@ -1745,7 +1579,7 @@
     <!-- section 8 Trusted by -->
     <section>
       <div class="row gx-0">
-        <div class="col-lg-5 section8-left-body">
+        <div class="col-lg-5 col-md-5 section8-left-body">
           <div class="trusted-by">
             <h1>Trusted by</h1>
             <h2>50+</h2>
@@ -1757,7 +1591,9 @@
           </div>
         </div>
 
-        <div class="col-lg-7 section8-right-body display-flex-lg-screen">
+        <div
+          class="col-lg-7 col-md-7 section8-right-body display-flex-lg-screen"
+        >
           <div class="container pb-5 ps-5">
             <div class="row gx-0 pt-5">
               <div class="col-lg-4 col-4">
@@ -1854,23 +1690,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-7 section8-right-body d-lg-none d-sm-none">
-        <div class="container ps-5">
-          <div class="col float-end">
-            <div class="d-block float-end d-lg-none d-sm-none">
-              <button id="leftd11" class="bg-white me-3 button-bracket">
-                <i class="fa-solid fa-chevron-left"></i>
-              </button>
-              <button id="rightd11" class="bg-white button-bracket">
-                <i class="fa-solid fa-chevron-right"></i>
-              </button>
-              <input type="hidden" value="1" />
-            </div>
-          </div>
-        </div>
 
-        <div class="scroller">
-          <div class="d-flex containerr">
+      <div class="col-lg-7 section8-right-body d-lg-none d-sm-none">
+        <div class="container ps-3 bg-white">
+          <div class="owl-carousel owl-theme" id="trusted-by">
             <div class="block">
               <div class="row gx-0 pt-3">
                 <div class="col-lg-4 col-4">
@@ -1975,17 +1798,17 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-sm-4">
+          <div class="col-lg-3 col-md-4">
             <img
-              class="homefinder_logo_white"
+              class="homefinder_logo_white img-fluid"
               src="./assets/Homefinder_logo_White 1.png"
               alt="Home finder logo for footer in white color"
             />
           </div>
-          <div class="col-lg-6 col-sm-4 d-none d-sm-block text-center">
+          <div class="col-lg-6 col-md-4 d-none d-sm-block text-center">
             <p class="border-bottom-mobile-img"></p>
           </div>
-          <div class="col-lg-3 col-sm-4 footer_awosomefont_input">
+          <div class="col-lg-3 col-md-4 footer_awosomefont_input">
             <ul class="list-unstyled list-inline social">
               <li class="list-inline-item">
                 <a href=""><i class="fa fa-facebook fa-lg fa-fw"></i></a>
@@ -2007,7 +1830,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-3 col-sm-4">
+          <div class="col-lg-3 col-md-4">
             <p class="footer_quick_links">Quick Link</p>
             <ul class="list-unstyled">
               <li><a href="">Accessibility statement</a></li>
@@ -2016,20 +1839,20 @@
               <li><a href="">Raise a system issue</a></li>
             </ul>
           </div>
-          <div class="col-lg-6 col-sm-4 text-center mt-2">
+          <div class="col-lg-6 col-md-4 text-center mt-2">
             <p class="footer_download_text">Download Our Free App</p>
             <img
               src="./assets/google-play 4.png"
-              class="footer_mobile_img_googleplay"
+              class="footer_mobile_img_googleplay img-fluid"
               alt=""
             />
             <img
-              class="footer_mobile_img_playstore"
+              class="footer_mobile_img_playstore img-fluid"
               src="./assets/ios 1.png"
               alt=""
             />
           </div>
-          <div class="col-lg-3 col-sm-4">
+          <div class="col-lg-3 col-md-4">
             <ul class="list-unstyled footer_enqueries_links">
               <li>Social landlord and PRS enquiries:</li>
               <li>
@@ -2062,90 +1885,16 @@
       </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-    <script>
-      $(document).ready(function () {
-        $("#horizontalTab").easyResponsiveTabs({
-          type: "default", //Types: default, vertical, accordion
-          width: "auto", //auto or any width like 600px
-          fit: true, // 100% fit in a container
-          closed: "accordion", // Start closed if in accordion view
-          activate: function (event) {
-            // Callback function if tab is switched
-            var $tab = $(this);
-            var $info = $("#tabInfo");
-            var $name = $("span", $info);
-            $name.text($tab.text());
-            $info.show();
-          },
-        });
-        $("#verticalTab").easyResponsiveTabs({
-          type: "vertical",
-          width: "auto",
-          fit: true,
-        });
-      });
-    </script>
-    <script>
-      var $scroller = $(".scroller");
-      var dic = 1;
-
-      function sc() {
-        // get the partial id of the div to scroll to
-        var divIdx = $("input").val();
-        divIdx = parseInt(divIdx);
-        if (dic == 1) divIdx = parseInt(divIdx) + 1;
-        else divIdx = parseInt(divIdx) - 1;
-        var count = $(".scroller .containerr div").length;
-        //console.log(count)
-        cWidth = $(".containerr").width();
-        sWidth = $(".scroller").width();
-
-        if (divIdx != 0 && divIdx <= count) {
-          var scrollTo = $($(".scroller .containerr div")[divIdx - 1])
-            // change its bg
-            .css("background", "#fff")
-            .position().left;
-          if (cWidth - scrollTo > sWidth) {
-            console.log("ok", cWidth, sWidth, scrollTo);
-            $scroller.animate({ scrollLeft: scrollTo }, 200);
-            $("input").val(divIdx);
-          }
-        }
-      } //func
-
-      // assign click handler
-      $("#leftd").on("click", function () {
-        dic = 0;
-        sc();
-      });
-      $("#rightd").on("click", function () {
-        dic = 1;
-        sc();
-      });
-
-      // assign click handler
-      $("#leftd1").on("click", function () {
-        dic = 0;
-        sc();
-      });
-      $("#rightd1").on("click", function () {
-        dic = 1;
-        sc();
-      });
-      $("#leftd11").on("click", function () {
-        dic = 0;
-        sc();
-      });
-      $("#rightd11").on("click", function () {
-        dic = 1;
-        sc();
-      });
-    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <script src="../Home_finder/js/easy-responsive-tabs.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script></script>
   </body>
 </html>
