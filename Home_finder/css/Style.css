@@ -942,6 +942,198 @@ footer ul li a {
 .search_property_result .page-link {
   padding: 0.3rem 0.5rem;
 }
+/* login to bid  */
+.login-to-bid-heading h1 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 500;
+  color: #a4195c;
+  text-align: center;
+}
+.login-to-bid-heading h2 {
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #f29200;
+  text-align: center;
+}
+.login-to-bid-heading p {
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.login-to-bid-heading h3 {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.logintobid-login-cta {
+  color: white;
+  width: 100%;
+  background-color: #ea5012;
+  border: none;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 5px;
+}
+.login-to-bid-heading {
+}
+.login-to-bid-heading .form-control {
+  border-radius: 0px;
+}
+/* go to my account */
+.go-to-my-account h1 {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 400;
+  font-family: rochester;
+}
+.go-to-my-account-cta {
+  color: white;
+  background-color: #ea5012;
+  border: none;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  padding: 12px 150px 12px 150px;
+}
+/* account details */
+.account-details h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.account-details h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #a4195c;
+}
+.account-details span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: black;
+}
+
+.account-details table th {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #333333;
+}
+.account-details table tr {
+  color: #757575;
+  padding-top: 40px;
+}
+.my-current-bids table th {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #333333;
+}
+.my-current-bids table tr {
+  color: #757575;
+  padding-top: 40px;
+}
+.account-details-heading .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #f29200;
+  background-color: #fff;
+  border-color: #ffffff #fff #ea5012;
+  padding: 20px 67px 20px 67px;
+}
+.account-details-heading .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: none;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  padding: 20px 67px 20px 67px;
+}
+
+.account-details-heading .nav-tabs {
+  border: 1px solid #e5e5e5;
+}
+.account-details-heading ul li {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+.account-details {
+  border-radius: 0px 20px;
+  border: 1px solid #d0d0d0;
+  margin-bottom: 20px;
+  padding: 20px 25px 0px 25px;
+}
+.my-current-bids h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  background-color: #a4195c;
+  color: white;
+  padding: 20px 0px 20px 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 0px;
+  border-radius: 0px 20px 0px 0px;
+}
+.my-current-bids {
+  border: 1px solid #d0d0d0;
+  border-radius: 0px 20px;
+}
+.my-current-bids-inner ul li:nth-child(1) {
+  color: #333333;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.my-current-bids-inner ul li:nth-child(2) {
+  color: #757575;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+.my-current-bids .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: white;
+  background-color: #a4195c;
+  border-color: #ffffff #fff #f29200;
+  padding: 20px 80px 20px 68px;
+  border-bottom: 5px solid #f29200;
+}
+.my-current-bids .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: none;
+  border: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 22px 100px 22px 100px;
+  background-color: #a4195c;
+  color: white;
+}
+.my-current-bid .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: none;
+  border: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.myprivious-bids-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+}
+.myprivious-bids {
+  border: 1px solid #d0d0d0;
+  border-radius: 0px 20px;
+}
 /* media query for mobile view */
 
 @media (max-width: 520px) {
@@ -1495,6 +1687,66 @@ footer ul li a {
     padding-bottom: 20px;
     padding-top: 25px;
   }
+  /* login to bid  */
+  .login-to-bid-heading h1 {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #a4195c;
+    text-align: center;
+  }
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 2px;
+  }
+  .login-to-bid-heading h2 {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #f29200;
+    text-align: center;
+  }
+  .login-to-bid-heading p {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .login-to-bid-heading h3 {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  /* account details */
+  .account-details h1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .account-details h2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #a4195c;
+  }
+
+  .account-details ul li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 10px;
+  }
+  .account-details ul li:nth-child(1) {
+    color: #333333;
+    padding-top: 10px;
+  }
 }
 
 /* media query for mobile view */
@@ -1760,6 +2012,12 @@ footer ul li a {
     display: inline-block;
     align-items: center;
   }
+  .border-bottom-mobile-img {
+    width: 95%;
+    border-bottom: 1px solid #fff;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
   footer {
     background-color: #a4195c;
     color: white;
@@ -1851,6 +2109,30 @@ footer ul li a {
     color: #f29200;
     background-color: white;
     padding: 10px 35px 10px 35px;
+  }
+  /* search for bid page */
+  .login-to-bid-heading h1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #a4195c;
+    text-align: center;
+  }
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 3px;
+  }
+  .login-to-bid-heading h3 {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-top: 5px;
   }
 }
 
@@ -1960,7 +2242,7 @@ footer ul li a {
   }
   /* footer */
   .footer_download_text {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 40px;
     padding-bottom: 15px;
   }
@@ -1984,12 +2266,43 @@ footer ul li a {
     margin-top: 10px;
   }
   .footer_mobile_img_googleplay {
-    width: 51%;
+    width: 46%;
     float: left;
   }
   .footer_mobile_img_playstore {
-    width: 48%;
+    width: 44%;
     float: right;
+  }
+  .border-bottom-mobile-img {
+    width: 95%;
+    border-bottom: 1px solid #fff;
+    margin-left: 10px;
+  }
+  /* login to bid page */
+  .login-to-bid-heading h1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #a4195c;
+    text-align: center;
+  }
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .login-to-bid-heading p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .female-hand-logintobid-img {
+    padding-right: 20px;
   }
 }
 
@@ -2077,6 +2390,10 @@ footer ul li a {
     line-height: 42px;
     letter-spacing: 1px;
     margin-bottom: 20px;
+  }
+  /* login to bid page */
+  logintobid-img {
+    padding-right: 0px;
   }
 }
 
