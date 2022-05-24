@@ -96,9 +96,7 @@ nav ul li {
   padding-left: 5px;
   padding-right: 5px;
 }
-nav ul li:nth-child(3) {
-  padding-right: 20px;
-}
+
 .logintoBid_cta {
   background-color: #a4195c;
   color: white;
@@ -126,7 +124,7 @@ footer {
 }
 .homefinder_logo_white {
   margin-bottom: 39px;
-  width: 221.71px;
+  width: 100%;
 }
 .footer_quick_links {
   font-size: 24px;
@@ -152,6 +150,7 @@ footer ul li a {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 1px;
+  padding-bottom: 20px;
 }
 .mt-2 {
   margin-top: 0.5rem !important;
@@ -799,6 +798,342 @@ footer ul li a {
 
 /*  section 8 Trusted by end*/
 
+/* search for property page css */
+.search_for_property_heading {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.search_for_property {
+  background-color: #f8f8f8;
+  padding-bottom: 50px;
+  padding-top: 25px;
+}
+
+.search_for_property .form-select {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 2.25rem 0.8rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #a5a5a5;
+  background-color: #fff;
+  background-image: url(../assets/searchbyproperydropdown.png);
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 13px 8px;
+  border: 1px solid #eeecec;
+  border-radius: 1px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.search_for_property_Cta {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 6.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 0;
+  color: white;
+  background-color: #f29200;
+}
+.search_for_property_advanced_link {
+  color: #737373;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.search_by_property_footer_amount {
+  font-size: 25px;
+  color: #a4195c;
+  font-weight: 700;
+  line-height: 29px;
+}
+.listing_header_left {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.listing_header_right {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+.properties_cta {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  border: 1px solid #f29200;
+  color: #f29200;
+  background-color: white;
+  padding: 10px 40px 10px 40px;
+}
+.total-properties {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 400;
+}
+.total-properties-innertext {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #ea5012;
+}
+.pagination_style li a {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #a5a5a5;
+}
+.border_pagination {
+  border: 1px solid #dadada;
+  border-radius: 8px 0px;
+}
+.share_print_link {
+  border: 1px solid #dadada;
+  border-radius: 8px 0px;
+  padding: 7px;
+}
+.arrow-ribbon {
+  color: #fff;
+  padding: 9px 25px;
+  position: absolute;
+  right: 0;
+  z-index: 9;
+  font-size: 18px;
+  bottom: 0;
+  border-radius: 20px 0px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.arrow-ribbon-top {
+  color: #fff;
+  padding: 9px 23px;
+  position: absolute;
+  left: 0;
+  z-index: 9;
+  font-size: 18px;
+  top: 0;
+  border-radius: 20px 0px;
+  background: rgba(255, 255, 255, 0.6);
+  color: #242021;
+}
+.arrow-position {
+  position: relative;
+}
+.search_property_result .page-link {
+  padding: 0.3rem 0.5rem;
+}
+/* login to bid  */
+.login-to-bid-heading h1 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 500;
+  color: #a4195c;
+  text-align: center;
+}
+.login-to-bid-heading h2 {
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #f29200;
+  text-align: center;
+}
+.login-to-bid-heading p {
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.login-to-bid-heading h3 {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  padding-top: 5px;
+}
+.logintobid-login-cta {
+  color: white;
+  width: 100%;
+  background-color: #ea5012;
+  border: none;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  padding: 5px;
+}
+.login-to-bid-heading {
+}
+.login-to-bid-heading .form-control {
+  border-radius: 0px;
+}
+/* go to my account */
+.go-to-my-account h1 {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 400;
+  font-family: rochester;
+}
+.go-to-my-account-cta {
+  color: white;
+  background-color: #ea5012;
+  border: none;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 500;
+  padding: 12px 150px 12px 150px;
+}
+/* account details */
+.account-details h1 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.account-details h2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #a4195c;
+}
+.account-details span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: black;
+}
+
+.account-details table th {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #333333;
+}
+.account-details table tr {
+  color: #757575;
+  padding-top: 40px;
+}
+.my-current-bids table th {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #333333;
+}
+.my-current-bids table tr {
+  color: #757575;
+  padding-top: 40px;
+}
+.account-details-heading .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #f29200;
+  background-color: #fff;
+  border-color: #ffffff #fff #ea5012;
+  padding: 20px 67px 20px 67px;
+}
+.account-details-heading .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: none;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  padding: 20px 67px 20px 67px;
+}
+
+.account-details-heading .nav-tabs {
+  border: 1px solid #e5e5e5;
+}
+.account-details-heading ul li {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+.account-details {
+  border-radius: 0px 20px;
+  border: 1px solid #d0d0d0;
+  margin-bottom: 20px;
+  padding: 20px 25px 0px 25px;
+}
+.my-current-bids h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  background-color: #a4195c;
+  color: white;
+  padding: 20px 0px 20px 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 0px;
+  border-radius: 0px 20px 0px 0px;
+}
+.my-current-bids {
+  border: 1px solid #d0d0d0;
+  border-radius: 0px 20px;
+}
+.my-current-bids-inner ul li:nth-child(1) {
+  color: #333333;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.my-current-bids-inner ul li:nth-child(2) {
+  color: #757575;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+}
+.my-current-bids .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: white;
+  background-color: #a4195c;
+  border-color: #ffffff #fff #f29200;
+  padding: 20px 80px 20px 68px;
+  border-bottom: 5px solid #f29200;
+}
+.my-current-bids .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: none;
+  border: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  padding: 22px 100px 22px 100px;
+  background-color: #a4195c;
+  color: white;
+}
+.my-current-bid .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: none;
+  border: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.myprivious-bids-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+}
+.myprivious-bids {
+  border: 1px solid #d0d0d0;
+  border-radius: 0px 20px;
+}
 /* media query for mobile view */
 
 @media (max-width: 520px) {
@@ -879,7 +1214,8 @@ footer ul li a {
   }
   .homefinder_logo_white {
     margin-bottom: 0px;
-    width: 159px;
+    width: 32%;
+    padding-top: 15px;
   }
   .footer_awosomefont_input {
     display: flex;
@@ -895,11 +1231,9 @@ footer ul li a {
   }
   .footer_mobile_img_googleplay {
     margin-right: 0px;
-    width: 150px;
     height: 50px;
   }
   .footer_mobile_img_playstore {
-    width: 124px;
     height: 50px;
   }
   .footer_enqueries_links {
@@ -936,7 +1270,7 @@ footer ul li a {
     padding-top: 18px;
     padding-bottom: 18px;
     font-size: 14px;
-    height: 121px;
+    height: 105px;
     color: #e5e5e5;
   }
   /* section 2 why use uk media */
@@ -1298,101 +1632,120 @@ footer ul li a {
     padding-left: 20px;
   }
   /* trusted by */
-  /* demo */
-  .section4_benefits_of_joining-uk h1 {
-    font-size: 24px;
+  /* search for property */
+  .search_for_property_heading {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .search_for_property_Cta {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.25rem 2.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 0;
+    color: white;
+    background-color: #f29200;
+  }
+  .total-properties {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+  .listing_header_left {
+    font-size: 22px;
+    line-height: 28px;
     font-weight: 500;
-    padding-bottom: 30px;
-    color: #242021;
+  }
+  .listing_header_right {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+  .listing_header_right {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+  .search_for_property {
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+  /* login to bid  */
+  .login-to-bid-heading h1 {
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #a4195c;
+    text-align: center;
+  }
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 2px;
+  }
+  .login-to-bid-heading h2 {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #f29200;
+    text-align: center;
+  }
+  .login-to-bid-heading p {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .login-to-bid-heading h3 {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+  /* account details */
+  .account-details h1 {
+    font-size: 22px;
+    font-weight: 500;
     line-height: 28px;
   }
-  .section4_benefits_of_joining-uk h2 {
-    font-size: 17px;
-    line-height: 20px;
+  .account-details h2 {
+    font-size: 14px;
     font-weight: 400;
-    padding-left: 55px;
-    color: #000000;
-  }
-  .section4_benefits_of_joining-uk p {
-    font-size: 16px;
     line-height: 19px;
-    font-weight: 400;
-    color: #747474;
+    color: #a4195c;
   }
 
-  .local-Authorities-cta-1 {
-    width: 100%;
-    height: 45px;
-    font-size: 18px;
-
-    border: 1px solid #f29200;
-    color: #484848;
-    background-color: white;
-  }
-
-  .housing-Assoiciations-cta-2 {
-    width: 100%;
-    height: 45px;
-    font-size: 18px;
-    border: 1px solid #ea5012;
-
-    color: #484848;
-    background-color: white;
-  }
-
-  .member-Orgranisations-cta-3 {
-    width: 100%;
-    height: 45px;
-    font-size: 18px;
-    border: 1px solid #a4195c;
-    color: #484848;
-    background-color: white;
-  }
-
-  .resp-tab-active .section4-benifits-of-joining-uk:before {
-    content: "";
-    position: absolute;
-    right: 20px;
-    background: url(../assets/Group\ 104.png);
-    width: 15px;
-    height: 25px;
-    background-repeat: no-repeat;
-    margin-top: 2px;
-  }
-
-  .section4-benifits-of-joining-uk:before {
-    content: "";
-    position: absolute;
-    background: url(../assets/minus.png);
-    width: 19px;
-    height: 10px;
-    background-repeat: no-repeat;
-    right: 40px;
-    margin-top: 7px;
-  }
-  .section4-benifits-of-joining-uk {
+  .account-details ul li {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
+    padding-bottom: 10px;
   }
-
-  .resp-tab-active .section4-benifits-of-joining-uk {
-    background: #f29200;
-
-    justify-content: center;
-  }
-
-  .section4_benefits_of_joining-uk .scroller {
-    width: 100%;
-    height: 250px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    margin: 0 auto;
-  }
-  .section4_benefits_of_joining-uk .containerr {
-    position: relative;
-    height: 100px;
-    width: 1400px;
+  .account-details ul li:nth-child(1) {
+    color: #333333;
+    padding-top: 10px;
   }
 }
 
@@ -1659,6 +2012,12 @@ footer ul li a {
     display: inline-block;
     align-items: center;
   }
+  .border-bottom-mobile-img {
+    width: 95%;
+    border-bottom: 1px solid #fff;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
   footer {
     background-color: #a4195c;
     color: white;
@@ -1667,7 +2026,7 @@ footer ul li a {
   }
   .footer_privacy_cookies_text {
     font-size: 14px;
-    height: 70px;
+    height: 100px;
     margin-top: 15px;
   }
   .footer_privacy_cookies {
@@ -1676,29 +2035,114 @@ footer ul li a {
   }
   .footer_mobile_img_googleplay {
     margin-right: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+  }
+  .footer_mobile_img_playstore {
+    padding-bottom: 10px;
   }
   .footer_download_text {
     font-size: 34px;
     line-height: 42px;
+    padding-bottom: 15px;
   }
-}
-/* @media (min-width: 575.5px) and (max-width: 768px) {
+  .homefinder_logo_white {
+    width: 32%;
+    margin-bottom: 20px;
+  }
   .footer_awosomefont_input {
-    display: inline-block;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
   }
-  footer {
-    background-color: #a4195c;
+  /* search for property */
+  .search_for_property_heading {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .search_for_property_Cta {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.2rem 2.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 0;
     color: white;
-    padding: 35px 0px 0px 0px;
+    background-color: #f29200;
+  }
+  .total-properties {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+  .listing_header_left {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+  .search_by_property_footer_amount {
+    font-size: 24px;
+    color: #a4195c;
+    font-weight: 700;
+    line-height: 29px;
+  }
+  .properties_cta {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    border: 1px solid #f29200;
+    color: #f29200;
+    background-color: white;
+    padding: 10px 35px 10px 35px;
+  }
+  /* search for bid page */
+  .login-to-bid-heading h1 {
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 500;
+    color: #a4195c;
     text-align: center;
   }
-} */
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    padding: 3px;
+  }
+  .login-to-bid-heading h3 {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    padding-top: 5px;
+  }
+}
+
 /* media for tablet end */
 
 /* media 992px */
 @media (min-width: 768px) and (max-width: 992px) {
+  .hfTopNav .col-lg-6:nth-child(2) {
+    text-align: center;
+  }
   /* section 1 hero banner */
   .section1_heading__text_input {
     font-size: 26px;
@@ -1798,10 +2242,67 @@ footer ul li a {
   }
   /* footer */
   .footer_download_text {
-    font-size: 36px;
+    font-size: 28px;
+    line-height: 40px;
+    padding-bottom: 15px;
+  }
+  .homefinder_logo_white {
+    margin-bottom: 20px;
+    width: 60%;
+  }
+  .footer_quick_links {
+    font-size: 22px;
+    line-height: 28.13px;
+    font-weight: 700;
+  }
+  .footer_enqueries_links li:first-child {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+  .footer_enqueries_links li:nth-child(3) {
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+  .footer_mobile_img_googleplay {
+    width: 46%;
+    float: left;
+  }
+  .footer_mobile_img_playstore {
+    width: 44%;
+    float: right;
+  }
+  .border-bottom-mobile-img {
+    width: 95%;
+    border-bottom: 1px solid #fff;
+    margin-left: 10px;
+  }
+  /* login to bid page */
+  .login-to-bid-heading h1 {
+    font-size: 30px;
     line-height: 42px;
-    letter-spacing: 1px;
-    padding-bottom: 25px;
+    font-weight: 500;
+    color: #a4195c;
+    text-align: center;
+  }
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .login-to-bid-heading p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .female-hand-logintobid-img {
+    padding-right: 20px;
   }
 }
 
@@ -1889,6 +2390,10 @@ footer ul li a {
     line-height: 42px;
     letter-spacing: 1px;
     margin-bottom: 20px;
+  }
+  /* login to bid page */
+  logintobid-img {
+    padding-right: 0px;
   }
 }
 
