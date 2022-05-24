@@ -1025,6 +1025,8 @@ footer ul li a {
   font-weight: 400;
   line-height: 19px;
   color: #333333;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 .account-details table tr {
   color: #757575;
@@ -1068,7 +1070,7 @@ footer ul li a {
   border-radius: 0px 20px;
   border: 1px solid #d0d0d0;
   margin-bottom: 20px;
-  padding: 20px 25px 0px 25px;
+  padding: 10px 25px 0px 25px;
 }
 .my-current-bids h3 {
   font-size: 24px;
@@ -1103,8 +1105,9 @@ footer ul li a {
   color: white;
   background-color: #a4195c;
   border-color: #ffffff #fff #f29200;
-  padding: 20px 80px 20px 68px;
+  padding: 20px 65px 20px 55px;
   border-bottom: 5px solid #f29200;
+  font-size: 18px;
 }
 .my-current-bids .nav-tabs .nav-link {
   margin-bottom: -1px;
@@ -1112,9 +1115,10 @@ footer ul li a {
   border: none;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
-  padding: 22px 100px 22px 100px;
+  padding: 22px 89px 22px 89px;
   background-color: #a4195c;
   color: white;
+  font-size: 18px;
 }
 .my-current-bid .nav-tabs .nav-link {
   margin-bottom: -1px;
@@ -1133,6 +1137,131 @@ footer ul li a {
 .myprivious-bids {
   border: 1px solid #d0d0d0;
   border-radius: 0px 20px;
+}
+.myprivious-bids-table-color {
+  color: #f29200;
+}
+.myprivious-bids table th td {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #333333;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.myprivious-bids table td {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+/* property details */
+
+.gallery {
+  display: flex;
+  margin: 10px auto;
+  width: 100%;
+  position: relative;
+  padding-top: 64%;
+}
+.gallery_selector {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+.gallery_selector:checked + .gallery_img {
+  opacity: 1;
+}
+.gallery_img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.gallery img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.gallery_thumb {
+  margin: 6px;
+  display: block;
+}
+.gallery_selector:checked ~ .gallery_thumb > img {
+  box-shadow: 0 0 0 3px #ffffff;
+}
+.home-finder-details {
+  background-color: #f8f7fa;
+}
+.home-finder-details-heading {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+.home-finder-details-para {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a5a5a5;
+}
+.google-adds-text {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  padding: 50px;
+}
+.home-finder-details {
+  padding-top: 40px;
+  padding-bottom: 45px;
+}
+.property-information h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.property-information ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.property-information ul li:nth-child(1) {
+  color: #a5a5a5;
+}
+.property-information ul li:nth-child(3) {
+  color: #a5a5a5;
+}
+.property-information-listing div ul li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.property-information-listing div ul li:nth-child(2) {
+  color: #f29200;
+}
+.property-listing-description h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.property-listing-description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8b8b8b;
+}
+.details-amenesties-heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.property-information-listing {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.property-information-listing-bottom div ul li:nth-child(2) {
+  color: #f29200;
 }
 /* media query for mobile view */
 
@@ -1746,6 +1875,55 @@ footer ul li a {
   .account-details ul li:nth-child(1) {
     color: #333333;
     padding-top: 10px;
+  }
+  /* home finder property details */
+  .property-information h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .property-information-listing {
+    border-top: none;
+  }
+  .property-listing-description h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 10px;
+  }
+  .property-listing-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8b8b8b;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .google-adds-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding: 40px;
+  }
+  .home-finder-details {
+    padding-top: 15px;
+    padding-bottom: 12px;
+  }
+  .home-finder-details-para {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #a5a5a5;
+  }
+  .details-amenesties-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .property-information ul li:nth-child(1) {
+    color: #a5a5a5;
+    padding-bottom: 15px;
   }
 }
 
