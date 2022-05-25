@@ -29,6 +29,9 @@
       rel="stylesheet"
       type="text/css"
     />
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="./css/owl/owl.carousel.css" />
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css" />
   </head>
   <body>
     <!-- hfTopNav start -->
@@ -299,14 +302,16 @@
           </div>
           <div class="col-lg-6 pt-lg-0 pt-3">
             <div class="row">
-              <div class="col-lg-7 col">
+              <div class="col-lg-6 col">
                 <ul class="list-unstyled list-inline float-lg-end float-left">
                   <li class="d-lg-inline-block d-flex">Opening date</li>
                   <li class="d-lg-inline-block d-flex">19/11/2022</li>
                 </ul>
               </div>
-              <div class="col-lg-5 col-5">
-                <ul class="list-unstyled list-inline float-lg-end float-left">
+              <div class="col-lg-6 col">
+                <ul
+                  class="list-unstyled list-inline float-lg-none float-left ms-lg-3"
+                >
                   <li class="d-lg-inline-block d-flex">Closing date</li>
                   <li class="d-lg-inline-block d-flex">24/11/2022</li>
                 </ul>
@@ -314,50 +319,54 @@
             </div>
           </div>
         </div>
-        <div class="d-sm-none d-lg-flex pt-3 property-information-listing ps-1">
+        <div class="d-lg-flex pt-3 property-information-listing ps-1">
           <div class="col-lg-2 col">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Property type</li>
+              <li class="d-inline-block d-lg-flex li-space-1">Property type</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">Tenement</li>
             </ul>
           </div>
           <div class="col-lg-2 col">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Area</li>
+              <li class="d-inline-block d-lg-flex li-space-2">Area</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">Port Glasgow</li>
             </ul>
           </div>
 
           <div class="col-lg-2 col">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Housing category</li>
+              <li class="d-inline-block d-lg-flex li-space-3">
+                Housing category
+              </li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">15+</li>
             </ul>
           </div>
 
           <div class="col-lg-1 col">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Rent</li>
+              <li class="d-inline-block d-lg-flex li-space-4">Rent</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">304.51</li>
             </ul>
           </div>
 
           <div class="col-lg-2 col">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Floor level</li>
+              <li class="d-inline-block d-lg-flex li-space-5">Floor level</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">First Floor</li>
             </ul>
           </div>
           <div class="col-lg-1 col">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Adapted</li>
+              <li class="d-inline-block d-lg-flex li-space-6">Adapted</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">No</li>
             </ul>
           </div>
           <div class="col-lg-2 col">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Landlord / Tenure</li>
-              <li class="pt-lg-3 d-inline-block d-lg-flex">
+              <li class="d-inline-block d-lg-flex li-space-7">
+                Landlord / Tenure
+              </li>
+              <li class="pt-lg-3 d-inline-block d-lg-flex pb-lg-0 pb-3">
                 Link Housing Association
               </li>
             </ul>
@@ -365,7 +374,7 @@
         </div>
       </div>
       <div
-        class="container bg-white property-listing-description pt-lg-3 ps-lg-4 pb-lg-4 mb-lg-4 mb-4 pb-3 mt-4 mt-lg-0 pt-3"
+        class="container bg-white property-listing-description pt-lg-3 ps-lg-4 pb-lg-4 mb-lg-4 mb-4 pb-3 mt-4 mt-lg-0 pt-3 ps-4"
       >
         <h1 class="border-bottom pt-2 pb-3"><strong>Description</strong></h1>
         <p class="pt-lg-1">
@@ -390,25 +399,23 @@
         <h1 class="details-amenesties-heading ps-lg-2">
           <strong>Ameneties</strong>
         </h1>
-        <div
-          class="d-sm-none d-lg-flex pt-3 property-information-listing ps-lg-2"
-        >
+        <div class="d-lg-flex pt-3 property-information-listing ps-lg-2">
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Bedrooms</li>
+              <li class="d-inline-block d-lg-flex li-space-8">Bedrooms</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">2</li>
             </ul>
           </div>
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Bedspaces</li>
+              <li class="d-inline-block d-lg-flex li-space-9">Bedspaces</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">4</li>
             </ul>
           </div>
 
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Heating type</li>
+              <li class="d-inline-block d-lg-flex li-space-10">Heating type</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">
                 Gas central heating
               </li>
@@ -417,64 +424,74 @@
 
           <div class="col-lg-1">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Adapted</li>
+              <li class="d-inline-block d-lg-flex li-space-11">Adapted</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">No</li>
             </ul>
           </div>
 
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Energy efficiency</li>
+              <li class="d-inline-block d-lg-flex li-space-12">
+                Energy efficiency
+              </li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">EER Band C</li>
             </ul>
           </div>
           <div class="col-lg-1">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Council tax band</li>
+              <li class="d-inline-block d-lg-flex li-space-13">
+                Council tax band
+              </li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">Band A</li>
             </ul>
           </div>
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Transport near by</li>
+              <li class="d-inline-block d-lg-flex li-space-14">
+                Transport near by
+              </li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">Bus</li>
             </ul>
           </div>
         </div>
-        <div
-          class="d-sm-none d-lg-flex ps-lg-1 property-information-listing-bottom"
-        >
+        <div class="d-lg-flex ps-lg-1 property-information-listing-bottom">
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Local connection</li>
+              <li class="d-inline-block d-lg-flex li-space-15">
+                Local connection
+              </li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">No</li>
             </ul>
           </div>
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Stairs</li>
+              <li class="d-inline-block d-lg-flex li-space-16">Stairs</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">30</li>
             </ul>
           </div>
 
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Energy efficiency</li>
+              <li class="d-inline-block d-lg-flex li-space-17">
+                Energy efficiency
+              </li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">EER Band C</li>
             </ul>
           </div>
 
           <div class="col-lg-1">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Lift</li>
+              <li class="d-inline-block d-lg-flex li-space-18">Lift</li>
               <li class="pt-lg-3 d-inline-block d-lg-flex">No</li>
             </ul>
           </div>
 
           <div class="col-lg-2">
             <ul class="list-unstyled">
-              <li class="d-inline-block d-lg-flex">Double glazed</li>
-              <li class="pt-lg-3 d-inline-block d-lg-flex">Yes</li>
+              <li class="d-inline-block d-lg-flex li-space-19">
+                Double glazed
+              </li>
+              <li class="pt-lg-3 d-inline-block d-lg-flex pb-lg-0 pb-3">Yes</li>
             </ul>
           </div>
           <div class="col-lg-1"></div>
@@ -600,7 +617,7 @@
         </div>
       </div>
 
-      <div class="col-lg-7 section8-right-body d-lg-none d-sm-none">
+      <div class="col-lg-7 section8-right-body display-lg-none">
         <div class="container ps-3 bg-white">
           <div class="owl-carousel owl-theme" id="trusted-by">
             <div class="block">
@@ -800,7 +817,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-
+    <script src="./js/owl/owl.carousel.js"></script>
     <script src="./js/common.js"></script>
   </body>
 </html>

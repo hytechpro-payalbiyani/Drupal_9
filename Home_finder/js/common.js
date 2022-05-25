@@ -4,9 +4,9 @@ $(document).ready(function () {
   var trusted = $("#trusted-by");
   var fourthh = $("#fourth");
   var studyss = $("#case-study11");
-  var tabl11 = $("#tab-111");
-  var tabl22 = $("#tab-222");
-  var tabl33 = $("#tab-333");
+  var benfits1 = $("#tab1-benefits");
+  var benfits2 = $("#tab2-benefits");
+  var benfits3 = $("#tab3-benefits");
 
   success.owlCarousel({
     autoplay: true,
@@ -100,7 +100,7 @@ $(document).ready(function () {
       },
     },
   });
-  tabl11.owlCarousel({
+  benfits1.owlCarousel({
     autoplay: true,
     autoplayhoverpause: true,
     autoplaytimeout: 1000,
@@ -118,7 +118,7 @@ $(document).ready(function () {
       },
     },
   });
-  tabl22.owlCarousel({
+  benfits2.owlCarousel({
     autoplay: true,
     autoplayhoverpause: true,
     autoplaytimeout: 1000,
@@ -136,7 +136,7 @@ $(document).ready(function () {
       },
     },
   });
-  tabl33.owlCarousel({
+  benfits3.owlCarousel({
     autoplay: true,
     autoplayhoverpause: true,
     autoplaytimeout: 1000,
