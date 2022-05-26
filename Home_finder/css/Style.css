@@ -412,16 +412,19 @@ footer ul li a {
   padding-left: 60px;
   padding-right: 50px;
 }
-
+.section3-hgt {
+  height: 30px;
+  clear: both;
+}
 /* section3 Social housing outside your area css end */
 
 /* section 4 Benefits of Joining Homefinder UKcss start */
 
-.nav-pills .nav-link.active,
+.section4_benefits_of_joining .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #f29200;
-  width: 285px;
+  width: 100%;
   height: 43px;
   font-size: 18px;
 }
@@ -434,11 +437,11 @@ footer ul li a {
   padding-bottom: 30px;
   color: #404040;
 }
-.nav-pills .nav-link {
+.section4_benefits_of_joining .nav-pills .nav-link {
   border-radius: 0px;
 }
 .local-authorities-cta {
-  width: 285px;
+  width: 21%;
   height: 45px;
   font-size: 18px;
   margin-right: 10px;
@@ -446,7 +449,7 @@ footer ul li a {
 }
 
 .housing-Assoiciations-cta {
-  width: 285px;
+  width: 21%;
   height: 45px;
   font-size: 18px;
   border: 1px solid #ea5012;
@@ -455,7 +458,7 @@ footer ul li a {
 }
 
 .member-Orgranisations-cta {
-  width: 285px;
+  width: 21%;
   height: 45px;
   font-size: 18px;
   border: 1px solid #a4195c;
@@ -1328,6 +1331,8 @@ footer ul li a {
 }
 .home-finder-details {
   background-color: #f8f7fa;
+  padding-top: 47px;
+  padding-bottom: 55px;
 }
 .home-finder-details-heading {
   font-weight: 500;
@@ -1345,7 +1350,16 @@ footer ul li a {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  padding: 50px;
+  padding: 100px;
+}
+.share_print_link1 {
+  border: 1px solid #dadada;
+  border-radius: 15px 15px 15px 15px;
+  padding: 7px;
+}
+.map-property-details {
+  width: 100%;
+  height: 100%;
 }
 .home-finder-details {
   padding-top: 40px;
@@ -1658,7 +1672,7 @@ footer ul li a {
   }
   .see_all_right_inactive_border {
     border: 1px solid #d7d7d7;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     border-radius: 20px 0px 25px 0px;
   }
   /* section 4 benifits of joining UK */
@@ -1714,8 +1728,43 @@ footer ul li a {
     font-size: 18px;
     line-height: 21px;
     font-weight: 400;
-    padding: 10px 145px 10px 150px;
+    padding: 10px 150px 10px 150px;
     margin-left: 50px;
+  }
+  .section4_benefits_of_joining .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #f29200;
+    width: 100%;
+    height: 43px;
+    font-size: 18px;
+  }
+
+  .local-authorities-cta {
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #f29200;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .housing-Assoiciations-cta {
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #ea5012;
+    color: #484848;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .member-Orgranisations-cta {
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #a4195c;
+    color: #484848;
   }
   /* success stories */
   .success_stories {
@@ -2229,7 +2278,11 @@ footer ul li a {
     background-repeat: no-repeat;
     margin-top: 2px;
   }
-
+  .see_all_right_inactive_border {
+    border: 1px solid #d7d7d7;
+    padding-bottom: 0px;
+    border-radius: 20px 0px 25px 0px;
+  }
   .section3-card-right-style:before {
     content: "";
     position: absolute;
@@ -2329,7 +2382,97 @@ footer ul li a {
   }
   /* section 4 benifts of joining uk */
   .section4_benefits_of_joining h1 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: #242021;
+    line-height: 28px;
+  }
+  .section4_benefits_of_joining h2 {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 55px;
+    color: #000000;
+  }
+  .section4_benefits_of_joining p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #747474;
+    padding-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .section4_benefits_of_joining h1 {
     font-size: 34px;
+  }
+  .section4_button2_ctn {
+    border: none;
+    color: white;
+    background-color: #a4195c;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 10px 140px 10px 140px;
+    margin-left: 100px;
+  }
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    bottom: -20px;
+    right: 140px;
+  }
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    bottom: -20px;
+    right: 100px;
+  }
+  .section4_button1_ctn {
+    border: none;
+    color: white;
+    background-color: #545454;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 10px 90px 10px 90px;
+    margin-bottom: 23px;
+    margin-left: 100px;
+    float: none;
+  }
+  .section4_benefits_of_joining .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #f29200;
+    width: 100%;
+    height: 43px;
+    font-size: 18px;
+  }
+
+  .local-authorities-cta {
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #f29200;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .housing-Assoiciations-cta {
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #ea5012;
+    color: #484848;
+    margin-bottom: 10px;
+    margin-right: 0px;
+  }
+
+  .member-Orgranisations-cta {
+    width: 80%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #a4195c;
+    color: #484848;
   }
   /* success stories */
   .success_stories_p {
@@ -2629,16 +2772,72 @@ footer ul li a {
 }
 
 /* media for tablet end */
+@media (min-width: 767.5px) and (max-width: 768.5px) {
+  .resp-tab-active .bg-card-section-3 {
+    background: #a4195c;
+    position: relative;
+    height: 75px;
+    left: 25px;
+    top: -5px;
+    width: 91%;
+    justify-content: center;
+    border-radius: 12px 0px 12px 0px;
+    color: white !important;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+  }
+  .section4_button2_ctn {
+    border: none;
+    color: white;
+    background-color: #a4195c;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 15px 100px 15px 100px;
+    margin-left: 0px;
+  }
+  .section4_button1_ctn {
+    border: none;
+    color: white;
+    background-color: #545454;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 23px;
+    margin-left: 100px;
+    float: left;
+  }
+}
 
 /* media 992px */
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768.5px) and (max-width: 992px) {
   .hfTopNav .col-lg-6:nth-child(2) {
     text-align: center;
   }
   /* section 1 hero banner */
   .section1_heading__text_input {
     font-size: 26px;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-left: 15px;
+    font-weight: 700;
+    line-height: 35px;
+    color: black;
+  }
+  .section_inner_text {
+    font-size: 16px;
+    color: #626262;
+    width: 90%;
+    padding-left: 15px;
+  }
+  .section1_button1_ctn {
+    border: 1px solid #ea5012;
+    display: inline-block;
+    padding: 9.5px 45.3px 9.5px 45px;
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   .hero-text {
     padding-left: 0px;
@@ -2684,20 +2883,93 @@ footer ul li a {
     font-size: 18px;
     font-weight: 400;
     line-height: 25.47px;
-    padding-left: 60px;
+    padding-left: 161px;
+  }
+  .section3-card-style {
+    width: 100%;
+  }
+  .socialhousingsection {
+    z-index: 10000;
+    width: 0;
+  }
+  .section3_input {
+    padding-top: 50px;
+    margin-bottom: 0px;
   }
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
-    position: absolute;
-    height: 140px;
-    left: 78px;
-    top: 12px;
-    width: 80%;
+    position: relative;
+    height: 129px;
+    left: 25px;
+    top: -5px;
+    width: 90%;
     justify-content: center;
-    border-top-left-radius: 10px;
-    padding-left: 60px;
+    border-radius: 12px 0px 12px 0px;
+    color: white !important;
+    padding-left: 38px;
+    padding-bottom: 30px;
+    padding-top: 25px;
   }
-
+  /* section 4 benefits for joining UK */
+  .section4_button2_ctn {
+    border: none;
+    color: white;
+    background-color: #a4195c;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 15px 110px 15px 110px;
+    margin-left: 5px;
+  }
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    bottom: -20px;
+    right: 140px;
+  }
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    bottom: -20px;
+    right: 100px;
+  }
+  .section4_benefits_of_joining h1 {
+    font-size: 34px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    color: #242021;
+  }
+  .section4_button1_ctn {
+    border: none;
+    color: white;
+    background-color: #545454;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 23px;
+    float: right;
+  }
+  .local-authorities-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: 1px solid #f29200;
+  }
+  .housing-Assoiciations-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #ea5012;
+    margin-right: 10px;
+    color: #484848;
+  }
+  .member-Orgranisations-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #a4195c;
+    color: #484848;
+  }
   /* success storis */
   .success_stories {
     background: #f5f5f5;
@@ -2926,10 +3198,20 @@ footer ul li a {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* hero banner */
   .section1_heading__text_input {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 600;
     color: black;
     padding-top: 55px;
+    line-height: 40px;
+    padding-left: 15px;
+  }
+  .section_inner_text {
+    font-size: 16px;
+    color: #626262;
+    width: 70%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   /* section 2 why uk */
   .section2_whyUK-heading {
@@ -2940,11 +3222,11 @@ footer ul li a {
   }
   /*section3 social housing */
   .section3-card-right-style {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 30.47px;
-    padding-left: 60px;
-    padding-right: 50px;
+    padding-left: 63px;
+    padding-right: 10px;
   }
   .section3_input {
     padding-top: 50px;
@@ -2965,8 +3247,36 @@ footer ul li a {
     font-size: 36px;
     font-weight: 700;
     line-height: 47px;
-    padding-top: 30px;
+    padding-top: 40px;
     color: #404040;
+    padding-bottom: 10px;
+  }
+  /* section 4 benefits of joining UK */
+  .section4_benefits_of_joining h2 {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 55px;
+    color: #000000;
+  }
+  .section4_benefits_of_joining p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #747474;
+    padding-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    bottom: -20px;
+    right: 140px;
+  }
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    bottom: -20px;
+    right: 100px;
   }
   /* success stories */
   .mt-7 {
@@ -2986,7 +3296,7 @@ footer ul li a {
 
   .success_stories {
     background: #f5f5f5;
-    padding-top: 10px;
+    padding-top: 90px;
   }
   /* truth in numbers */
   .truth-in-numbers {
@@ -3054,12 +3364,23 @@ footer ul li a {
 }
 
 @media (min-width: 1200px) and (max-width: 1350px) {
+  /* section 1  */
   .section1_heading__text_input {
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
     color: black;
     padding-top: 95px;
+    line-height: 45px;
   }
+  section_inner_text {
+    font-size: 16px;
+    color: #626262;
+    width: 90%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  /* success stories */
   .success_stories_inner_section {
     position: absolute;
     width: 889px;
@@ -3071,6 +3392,7 @@ footer ul li a {
     padding-bottom: 45px;
     height: 515px;
   }
+  /* section 3 */
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
     position: absolute;
@@ -3081,6 +3403,45 @@ footer ul li a {
     justify-content: center;
     border-top-left-radius: 10px;
     padding-left: 65px;
+  }
+  .section3-card-right-style {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.47px;
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+  .section3-card-style h5 {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 47px;
+    padding-top: 30px;
+    color: #404040;
+  }
+  .section3-card-style p {
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(116, 116, 116, 1);
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 85px;
+  }
+  /* section 4 benefits of joining UK */
+  .section4_benefits_of_joining h2 {
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 55px;
+    color: #000000;
+  }
+  .section4_benefits_of_joining p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #747474;
+    padding-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   /* trusted by */
   .display-lg-none {
@@ -3106,6 +3467,32 @@ footer ul li a {
   }
 }
 @media (min-width: 1350px) {
+  /* hero banner */
+  .section1_heading__text_input {
+    font-size: 44px;
+    font-weight: 700;
+    color: black;
+    padding-top: 140px;
+    line-height: 50px;
+    padding-bottom: 10px;
+  }
+  /* section 3 */
+  .section3-card-style p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(116, 116, 116, 1);
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 85px;
+  }
+  .section3-card-right-style {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30.47px;
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+  /* trusted by */
   .display-lg-none {
     display: none !important;
   }

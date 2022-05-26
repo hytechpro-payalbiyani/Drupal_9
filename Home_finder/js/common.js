@@ -113,7 +113,7 @@ $(document).ready(function () {
       0: {
         items: 2,
       },
-      600: {
+      992: {
         items: 3,
       },
     },
@@ -131,7 +131,7 @@ $(document).ready(function () {
       0: {
         items: 2,
       },
-      600: {
+      992: {
         items: 3,
       },
     },
@@ -149,7 +149,7 @@ $(document).ready(function () {
       0: {
         items: 2,
       },
-      600: {
+      992: {
         items: 3,
       },
     },
