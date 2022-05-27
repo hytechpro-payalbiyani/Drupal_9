@@ -1,3 +1,5 @@
+// owl carousal
+
 $(document).ready(function () {
   var success = $("#success-stories");
   var latest = $("#latest-news");
@@ -7,7 +9,9 @@ $(document).ready(function () {
   var benfits1 = $("#tab1-benefits");
   var benfits2 = $("#tab2-benefits");
   var benfits3 = $("#tab3-benefits");
-
+  var benfits11 = $("#tab1-benefits-mb");
+  var benfits21 = $("#tab2-benefits-mb");
+  var benfits31 = $("#tab3-benefits-mb");
   success.owlCarousel({
     autoplay: true,
     autoplayhoverpause: true,
@@ -89,8 +93,8 @@ $(document).ready(function () {
     nav: true,
     loop: true,
     dots: false,
-
     dotsdata: true,
+
     responsive: {
       0: {
         items: 1,
@@ -154,7 +158,63 @@ $(document).ready(function () {
       },
     },
   });
+  benfits11.owlCarousel({
+    autoplay: true,
+    autoplayhoverpause: true,
+    autoplaytimeout: 1000,
+    nav: true,
+    loop: true,
+    dots: false,
+
+    dotsdata: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
+  benfits21.owlCarousel({
+    autoplay: true,
+    autoplayhoverpause: true,
+    autoplaytimeout: 1000,
+    nav: true,
+    loop: true,
+    dots: false,
+
+    dotsdata: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
+  benfits31.owlCarousel({
+    autoplay: true,
+    autoplayhoverpause: true,
+    autoplaytimeout: 1000,
+    nav: true,
+    loop: true,
+    dots: false,
+
+    dotsdata: true,
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
 });
+
+//  responsive tabs
 
 $(document).ready(function () {
   $("#horizontalTab").easyResponsiveTabs({
@@ -177,7 +237,22 @@ $(document).ready(function () {
     fit: true,
   });
 });
-
+$(document).ready(function () {
+  $("#horizontalTab1").easyResponsiveTabs({
+    type: "default", //Types: default, vertical, accordion
+    width: "auto", //auto or any width like 600px
+    fit: true, // 100% fit in a container
+    closed: "accordion", // Start closed if in accordion view
+    activate: function (event) {
+      // Callback function if tab is switched
+      var $tab = $(this);
+      var $info = $("#tabInfo");
+      var $name = $("span", $info);
+      $name.text($tab.text());
+      $info.show();
+    },
+  });
+});
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
   document.getElementsByClassName("socialhousingsection")[0].style.zIndex = "0";

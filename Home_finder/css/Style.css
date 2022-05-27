@@ -428,9 +428,7 @@ footer ul li a {
   height: 43px;
   font-size: 18px;
 }
-.mb-5 {
-  margin-bottom: 4rem !important;
-}
+
 .section4_benefits_of_joining h1 {
   font-size: 40px;
   font-weight: 500;
@@ -543,6 +541,56 @@ footer ul li a {
   border: 1px solid #b6b6b6;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.section4_benefits_of_joining h2.resp-accordion:nth-child(1) {
+  font-size: 17px;
+  margin: 15px 26px 15px 27px;
+  padding: 15px 0px 10px 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #484848;
+  border: 1px solid #f29200;
+}
+.section4_benefits_of_joining h2.resp-accordion:nth-child(3) {
+  font-size: 17px;
+  margin: 15px 26px 15px 27px;
+  padding: 15px 0px 10px 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #484848;
+  border: 1px solid #ea5012;
+}
+.section4_benefits_of_joining h2.resp-accordion:nth-child(5) {
+  font-size: 17px;
+  margin: 15px 26px 15px 27px;
+  padding: 15px 0px 10px 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #484848;
+  border: 1px solid #a4195c;
+}
+.section4_benefits_of_joining .resp-tabs-container {
+  padding: 0px;
+  background-color: #fff;
+  border: none;
+  float: left;
+  width: 100%;
+  min-height: 22px;
+  border-radius: 4px;
+  clear: none;
+}
+.section4_benefits_of_joining h2.resp-tab-active {
+  background: #f29200 !important;
+  color: white !important;
+}
+.section4_benefits_of_joining .resp-tab-content {
+  border: none;
+  margin-top: 20px;
+}
+
+.section4_benefits_of_joining .border-right-mb-lg {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 /* section 4 Benefits of Joining Homefinder UK css end */
 
@@ -1414,6 +1462,7 @@ footer ul li a {
 /* media query for mobile view */
 
 @media (max-width: 520px) {
+  /* hero banner */
   .herobanner-smimg {
     display: block;
   }
@@ -1483,6 +1532,24 @@ footer ul li a {
   .vector_nav_input {
     display: none;
   }
+
+  .section1_heading__text_input {
+    font-size: 26px;
+    font-weight: 600;
+    color: black;
+    padding-top: 115px;
+    padding-bottom: 15px;
+    line-height: 40px;
+  }
+  .hero_banner p {
+    margin-bottom: 40px;
+  }
+  .section1_para_text_input {
+    width: 200px;
+    font-size: 16px;
+    color: #626262;
+  }
+  /* footer */
   footer {
     background-color: #a4195c;
     color: white;
@@ -1526,22 +1593,6 @@ footer ul li a {
     margin-left: 5px;
   }
 
-  .section1_heading__text_input {
-    font-size: 26px;
-    font-weight: 600;
-    color: black;
-    padding-top: 115px;
-    padding-bottom: 15px;
-    line-height: 40px;
-  }
-  .hero_banner p {
-    margin-bottom: 40px;
-  }
-  .section1_para_text_input {
-    width: 200px;
-    font-size: 16px;
-    color: #626262;
-  }
   .footer_privacy_cookies_text {
     background-color: #962059;
     padding-top: 18px;
@@ -1607,7 +1658,8 @@ footer ul li a {
     font-weight: 400;
     line-height: 19px;
     padding-left: 80px;
-    padding-top: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
   .see_all_cards_img_border {
     border-radius: 15px 0px 10px 0px;
@@ -1675,11 +1727,15 @@ footer ul li a {
     padding-bottom: 0px;
     border-radius: 20px 0px 25px 0px;
   }
+  .section3-hgt {
+    height: 10px;
+    clear: both;
+  }
   /* section 4 benifits of joining UK */
   .section4_benefits_of_joining h1 {
     font-size: 24px;
     font-weight: 500;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     color: #242021;
     line-height: 28px;
   }
@@ -1687,17 +1743,20 @@ footer ul li a {
     font-size: 17px;
     line-height: 20px;
     font-weight: 400;
-    padding-left: 55px;
+    padding-left: 30px;
     color: #000000;
+  }
+  .display-none-benfitsofjoining-uk {
+    display: none;
   }
   .section4_benefits_of_joining p {
     font-size: 16px;
     line-height: 19px;
     font-weight: 400;
     color: #747474;
-    padding-left: 55px;
+    padding-left: 30px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 55px;
   }
   .section4_button1_ctn {
     border: none;
@@ -1765,6 +1824,66 @@ footer ul li a {
     font-size: 18px;
     border: 1px solid #a4195c;
     color: #484848;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(1):before {
+    content: "";
+    position: absolute;
+    right: 40px;
+    background: url(../assets/Group\ 104.png);
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(3):before {
+    content: "";
+    position: absolute;
+    right: 40px;
+    background: url(../assets/Group\ 104.png);
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(5):before {
+    content: "";
+    position: absolute;
+    right: 40px;
+    background: url(../assets/Group\ 104.png);
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(1):after {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 40px;
+    margin-top: 7px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(3):after {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 40px;
+    margin-top: 7px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(5):after {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 40px;
+    margin-top: 7px;
   }
   /* success stories */
   .success_stories {
@@ -2204,7 +2323,15 @@ footer ul li a {
     margin-right: 156px;
   }
 }
-
+@media (min-width: 521px) and (max-width: 630px) {
+  .section3-card-right-style {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+    padding-left: 80px !important;
+    padding-top: 12px !important;
+  }
+}
 /* media query for mobile view */
 
 /* media for tablet */
@@ -2320,6 +2447,10 @@ footer ul li a {
     padding-left: 0px;
     padding-bottom: 30px;
   }
+  .section3-hgt {
+    height: 10px;
+    clear: both;
+  }
   .resp-tab-active div {
     border: none !important;
   }
@@ -2384,7 +2515,7 @@ footer ul li a {
   .section4_benefits_of_joining h1 {
     font-size: 24px;
     font-weight: 500;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     color: #242021;
     line-height: 28px;
   }
@@ -2405,7 +2536,7 @@ footer ul li a {
     margin-bottom: 20px;
   }
   .section4_benefits_of_joining h1 {
-    font-size: 34px;
+    font-size: 32px;
   }
   .section4_button2_ctn {
     border: none;
@@ -2416,6 +2547,9 @@ footer ul li a {
     font-weight: 400;
     padding: 10px 140px 10px 140px;
     margin-left: 100px;
+  }
+  .display-none-benfitsofjoining-uk {
+    display: none;
   }
   .section4_benefits_of_joining .owl-prev {
     position: absolute;
@@ -2473,6 +2607,66 @@ footer ul li a {
     font-size: 18px;
     border: 1px solid #a4195c;
     color: #484848;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(1):before {
+    content: "";
+    position: absolute;
+    right: 40px;
+    background: url(../assets/Group\ 104.png);
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(3):before {
+    content: "";
+    position: absolute;
+    right: 40px;
+    background: url(../assets/Group\ 104.png);
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(5):before {
+    content: "";
+    position: absolute;
+    right: 40px;
+    background: url(../assets/Group\ 104.png);
+    width: 35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 2px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(1):after {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 40px;
+    margin-top: 7px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(3):after {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 40px;
+    margin-top: 7px;
+  }
+  .section4_benefits_of_joining h2.resp-accordion:nth-child(5):after {
+    content: "";
+    position: absolute;
+    background: url(../assets/minus.png);
+    width: 19px;
+    height: 10px;
+    background-repeat: no-repeat;
+    right: 40px;
+    margin-top: 7px;
   }
   /* success stories */
   .success_stories_p {
@@ -2581,7 +2775,7 @@ footer ul li a {
   }
   .footer_privacy_cookies_text {
     font-size: 14px;
-    height: 110px;
+    height: 100px;
     margin-top: 15px;
   }
   .footer_privacy_cookies {
@@ -2808,6 +3002,62 @@ footer ul li a {
     margin-bottom: 23px;
     margin-left: 100px;
     float: left;
+  }
+  .section4_benefits_of_joining {
+    display: block;
+  }
+  /* footer */
+  .footer_privacy_cookies_text {
+    font-size: 14px;
+    height: 80px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 991.5px) and (max-width: 992.5px) {
+  .resp-tab-active .bg-card-section-3 {
+    background: #a4195c;
+    position: absolute;
+    height: 140px;
+    left: 80px;
+    top: 12px;
+    width: 83%;
+    justify-content: center;
+    border-top-left-radius: 10px;
+    padding-left: 0px;
+  }
+  .section4_button2_ctn {
+    border: none;
+    color: white;
+    background-color: #a4195c;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 15px 100px 15px 100px;
+    margin-left: 0px;
+  }
+  .section4_button1_ctn {
+    border: none;
+    color: white;
+    background-color: #545454;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 23px;
+    margin-left: 100px;
+    float: left;
+  }
+  .socialhousingsection {
+    z-index: 10000;
+    width: 25%;
+  }
+  .section3-card-right-style {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30.47px;
+    padding-left: 180px;
+    padding-right: 10px;
   }
 }
 
@@ -3096,7 +3346,7 @@ footer ul li a {
     padding-top: 18px;
     padding-bottom: 18px;
     font-size: 14px;
-    height: 85px;
+    height: 80px;
   }
   .footer_poweredby_text {
     text-align: center;
@@ -3278,6 +3528,32 @@ footer ul li a {
     bottom: -20px;
     right: 100px;
   }
+  .local-authorities-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: 1px solid #f29200;
+  }
+  .socialhousingsection {
+    z-index: 10000;
+    width: 25%;
+  }
+  .housing-Assoiciations-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #ea5012;
+    margin-right: 10px;
+    color: #484848;
+  }
+  .member-Orgranisations-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #a4195c;
+    color: #484848;
+  }
   /* success stories */
   .mt-7 {
     margin-top: 4rem !important;
@@ -3443,6 +3719,28 @@ footer ul li a {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .local-authorities-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: 1px solid #f29200;
+  }
+  .housing-Assoiciations-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #ea5012;
+    margin-right: 10px;
+    color: #484848;
+  }
+  .member-Orgranisations-cta {
+    width: 30%;
+    height: 45px;
+    font-size: 18px;
+    border: 1px solid #a4195c;
+    color: #484848;
+  }
   /* trusted by */
   .display-lg-none {
     display: none !important;
@@ -3497,3 +3795,4 @@ footer ul li a {
     display: none !important;
   }
 }
+
