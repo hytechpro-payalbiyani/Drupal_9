@@ -33,9 +33,12 @@ body {
   font-weight: 400;
   line-height: 21px;
 }
-.overlay li a.nav-link:active {
+
+.nav-link:hover,
+.nav-link:focus {
   color: #f29200 !important;
 }
+
 .overlay li:last-child {
   padding-top: 90px;
 }
@@ -54,6 +57,17 @@ body {
   width: 180px;
   height: 45px;
   border: none;
+}
+
+.overlay li:nth-child(4) a:before {
+  content: "";
+  position: absolute;
+  background: url(../assets/minus.png);
+  width: 19px;
+  height: 10px;
+  background-repeat: no-repeat;
+  right: 40px;
+  margin-top: 7px;
 }
 /* nav bar css start */
 .hfTopNav .col-lg-6:nth-child(2) {
@@ -315,8 +329,8 @@ footer ul li a {
 
 /* section 3 Social housing outside your area css start */
 .section3_input {
-  padding-top: 50px;
-  margin-bottom: 60px;
+  padding-top: 40px;
+  margin-bottom: 75px;
 }
 .socialhousingsection {
   z-index: 10000;
@@ -360,9 +374,9 @@ footer ul li a {
 .resp-tab-active .bg-card-section-3 {
   background: #a4195c;
   position: absolute;
-  height: 140px;
+  height: 150px;
   left: 80px;
-  top: 12px;
+  top: 10px;
   width: 85%;
   justify-content: center;
   border-top-left-radius: 10px;
@@ -474,7 +488,7 @@ footer ul li a {
 }
 .section4_benefits_of_joining p {
   font-size: 16px;
-  line-height: 18.75px;
+  line-height: 21px;
   font-weight: 400;
   color: #747474;
   padding-right: 60px;
@@ -520,29 +534,70 @@ footer ul li a {
 
 .section4_benefits_of_joining .owl-prev {
   position: absolute;
-  bottom: -70px;
-  right: 140px;
+  bottom: -67px;
+  right: 137px;
 }
 .section4_benefits_of_joining .owl-next {
   position: absolute;
-  bottom: -70px;
+  bottom: -66px;
   right: 100px;
 }
 .section4_benefits_of_joining .owl-next span {
-  font-size: 25px;
+  font-size: 23px;
   color: #b6b6b6;
   border: 1px solid #b6b6b6;
   padding-left: 10px;
   padding-right: 10px;
 }
 .section4_benefits_of_joining .owl-prev span {
-  font-size: 25px;
+  font-size: 23px;
   color: #b6b6b6;
   border: 1px solid #b6b6b6;
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.countertab11 {
+  position: relative;
+  float: right;
+  font-size: 18px;
+  top: 292px;
+  right: 191px;
+}
+.countertab12 {
+  position: relative;
+  float: right;
+  font-size: 18px;
+  top: 292px;
+  right: 191px;
+}
+.countertab13 {
+  position: relative;
+  float: right;
+  font-size: 18px;
+  top: 314px;
+  right: 191px;
+}
+.countertab21 {
+  position: relative;
+  float: right;
+  font-size: 18px;
+  top: 314px;
+  right: 191px;
+}
+.countertab22 {
+  position: relative;
+  float: right;
+  font-size: 18px;
+  top: 302px;
+  right: 231px;
+}
+.countertab23 {
+  position: relative;
+  float: right;
+  font-size: 18px;
+  top: 378px;
+  right: 231px;
+}
 .section4_benefits_of_joining h2.resp-accordion:nth-child(1) {
   font-size: 17px;
   margin: 15px 26px 15px 27px;
@@ -631,29 +686,36 @@ footer ul li a {
   border-radius: 0.6rem !important;
 }
 .success_stories-inner .owl-prev {
-  right: 60px;
+  right: 76px;
   position: absolute;
   top: -70px;
 }
 .success_stories-inner .owl-next {
-  right: 1px;
+  right: 35px;
   position: absolute;
   top: -70px;
 }
 
 .success_stories-inner .owl-next span {
-  font-size: 30px;
+  font-size: 26px;
   color: #f29200;
   border: 1px solid #f29200;
   padding-left: 10px;
   padding-right: 10px;
 }
 .success_stories-inner .owl-prev span {
-  font-size: 30px;
+  font-size: 26px;
   color: #f29200;
   border: 1px solid #f29200;
   padding-left: 10px;
   padding-right: 10px;
+}
+.countersucessstudy11 {
+  position: relative;
+  float: right;
+  top: -58px;
+  left: -130px;
+  font-size: 18px;
 }
 /* case studies start*/
 .background-image_section5 {
@@ -718,12 +780,12 @@ footer ul li a {
   margin-top: 30px;
 }
 .case-studies-inner .owl-prev {
-  right: 60px;
+  right: 25px;
   position: absolute;
   top: -70px;
 }
 .case-studies-inner .owl-next {
-  right: 1px;
+  right: -16px;
   position: absolute;
   top: -70px;
 }
@@ -741,6 +803,13 @@ footer ul li a {
   border: 1px solid #b6b6b6;
   padding-left: 10px;
   padding-right: 10px;
+}
+.counterstudy11 {
+  position: relative;
+  float: right;
+  top: -58px;
+  left: -80px;
+  font-size: 18px;
 }
 /* case studies end */
 /* section 5 success stories end*/
@@ -989,7 +1058,11 @@ footer ul li a {
   padding-bottom: 50px;
   padding-top: 25px;
 }
-
+.border-end-searchfor-property {
+  border-right: 1px solid #dee2e6 !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .search_for_property .form-select {
   display: block;
   width: 100%;
@@ -1089,6 +1162,11 @@ footer ul li a {
 }
 .share_print_link {
   border: 1px solid #dadada;
+  border-radius: 0px 8px;
+  padding: 7px;
+}
+.share_link {
+  border: 1px solid #dadada;
   border-radius: 8px 0px;
   padding: 7px;
 }
@@ -1159,8 +1237,7 @@ footer ul li a {
   font-weight: 400;
   padding: 5px;
 }
-.login-to-bid-heading {
-}
+
 .login-to-bid-heading .form-control {
   border-radius: 0px;
 }
@@ -1398,17 +1475,30 @@ footer ul li a {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  padding: 100px;
+  padding: 95px;
 }
 .share_print_link1 {
   border: 1px solid #dadada;
   border-radius: 15px 15px 15px 15px;
   padding: 7px;
 }
+.share_print_link21 {
+  border: none;
+  border-radius: 0px;
+  padding: 11px;
+  background-color: white;
+}
+.share_print_link22 {
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  background-color: white;
+}
 .map-property-details {
   width: 100%;
-  height: 100%;
+  height: 640px;
 }
+
 .home-finder-details {
   padding-top: 40px;
   padding-bottom: 45px;
@@ -1458,6 +1548,9 @@ footer ul li a {
 }
 .property-information-listing-bottom div ul li:nth-child(2) {
   color: #f29200;
+}
+.border-end-mb {
+  border-right: none;
 }
 /* media query for mobile view */
 
@@ -1772,12 +1865,33 @@ footer ul li a {
   }
   .section4_benefits_of_joining .owl-next {
     position: absolute;
-    bottom: -20px;
-    right: 220px;
+    bottom: -10px;
+    right: 190px;
+  }
+  .countertab21 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 310px;
+    right: 231px;
+  }
+  .countertab22 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 292px;
+    right: 231px;
+  }
+  .countertab23 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 368px;
+    right: 231px;
   }
   .section4_benefits_of_joining .owl-prev {
     position: absolute;
-    bottom: -20px;
+    bottom: -10px;
     right: 270px;
   }
   .section4_button2_ctn {
@@ -1913,6 +2027,37 @@ footer ul li a {
   .mb-6 {
     margin-bottom: 2rem !important;
   }
+  .countersucessstudy11 {
+    position: relative;
+    float: right;
+    top: -52px;
+    left: -74px;
+    font-size: 18px;
+  }
+  .success_stories-inner .owl-prev {
+    right: 109px;
+    position: absolute;
+    top: -62px;
+  }
+  .success_stories-inner .owl-prev span {
+    font-size: 22px;
+    color: #f29200;
+    border: 1px solid #f29200;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .success_stories-inner .owl-next {
+    right: 35px;
+    position: absolute;
+    top: -62px;
+  }
+  .success_stories-inner .owl-next span {
+    font-size: 22px;
+    color: #f29200;
+    border: 1px solid #f29200;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   /* case studies css */
   .background-image_section5 {
     height: 289px;
@@ -1980,6 +2125,24 @@ footer ul li a {
     padding-left: 30px;
     padding-right: 60px;
     text-align: left;
+  }
+  .case-studies-inner .owl-prev {
+    right: 60px;
+    position: absolute;
+    top: -70px;
+  }
+
+  .counterstudy11 {
+    position: relative;
+    float: right;
+    top: -58px;
+    left: -24px;
+    font-size: 18px;
+  }
+  .case-studies-inner .owl-next {
+    right: -16px;
+    position: absolute;
+    top: -70px;
   }
   /* truth in numbers */
   .truth-in-numbers {
@@ -2056,7 +2219,11 @@ footer ul li a {
     background-color: #f8f8f8;
     margin-right: 20px;
   }
-
+  .latest-news .owl-prev {
+    right: 45px;
+    position: absolute;
+    top: -70px;
+  }
   /* truested by */
   .section8-left-body h1 {
     color: #ffffff;
@@ -2100,6 +2267,11 @@ footer ul li a {
     background: white;
     padding-left: 20px;
   }
+  .section8-right-body .owl-prev {
+    right: 45px;
+    position: absolute;
+    top: -70px;
+  }
   /* trusted by */
   /* search for property */
   .search_for_property_heading {
@@ -2107,6 +2279,18 @@ footer ul li a {
     font-weight: 600;
     text-align: center;
     padding-bottom: 20px;
+  }
+  .border-end-searchfor-property {
+    border-right: 1px solid #dee2e6 !important;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .search_for_property_advanced_link {
+    color: #737373;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
   }
   .search_for_property_Cta {
     display: inline-block;
@@ -2156,6 +2340,7 @@ footer ul li a {
     padding-bottom: 20px;
     padding-top: 25px;
   }
+
   /* login to bid  */
   .login-to-bid-heading h1 {
     font-size: 28px;
@@ -2222,6 +2407,11 @@ footer ul li a {
     font-size: 24px;
     line-height: 28px;
   }
+  .map-property-details {
+    width: 100%;
+    height: 650px;
+    margin-top: -20px;
+  }
   .property-information-listing {
     border-top: none;
   }
@@ -2238,6 +2428,11 @@ footer ul li a {
     color: #8b8b8b;
     padding-left: 10px;
     padding-right: 10px;
+  }
+  .border-end-mb {
+    border-right: 1px solid #a9a9a9;
+    margin-left: 15px;
+    padding-left: 0px;
   }
   .google-adds-text {
     font-weight: 300;
@@ -2264,6 +2459,17 @@ footer ul li a {
   .property-information ul li:nth-child(1) {
     color: #a5a5a5;
     padding-bottom: 15px;
+  }
+  .share_print_link21 {
+    position: relative;
+    left: 422px;
+    top: 45px;
+    padding: 11px;
+  }
+  .share_print_link22 {
+    position: relative;
+    left: 416px;
+    top: 45px;
   }
   .li-space-1 {
     margin-right: 155px;
@@ -2668,6 +2874,37 @@ footer ul li a {
     right: 40px;
     margin-top: 7px;
   }
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    bottom: -100px;
+    right: 90px;
+  }
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    bottom: -100px;
+    right: 50px;
+  }
+  .countertab21 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 310px;
+    right: 140px;
+  }
+  .countertab22 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 311px;
+    right: 145px;
+  }
+  .countertab23 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 350px;
+    right: 145px;
+  }
   /* success stories */
   .success_stories_p {
     display: none;
@@ -2695,6 +2932,39 @@ footer ul li a {
   .mt-7 {
     margin-top: 1rem !important;
   }
+  .success_stories-inner .owl-prev {
+    right: 120px;
+    position: absolute;
+    top: -70px;
+  }
+  .success_stories-inner .owl-next {
+    right: 35px;
+    position: absolute;
+    top: -70px;
+  }
+
+  .success_stories-inner .owl-next span {
+    font-size: 26px;
+    color: #f29200;
+    border: 1px solid #f29200;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .success_stories-inner .owl-prev span {
+    font-size: 26px;
+    color: #f29200;
+    border: 1px solid #f29200;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .countersucessstudy11 {
+    position: relative;
+    float: right;
+    top: -58px;
+    left: -80px;
+    font-size: 18px;
+  }
+
   /* case studies */
 
   .background-image_section5 {
@@ -2726,6 +2996,38 @@ footer ul li a {
   }
   .case-studies_ctn {
     margin-top: 0px;
+  }
+  .case-studies-inner .owl-prev {
+    right: 85px;
+    position: absolute;
+    top: -70px;
+  }
+  .case-studies-inner .owl-next {
+    right: -16px;
+    position: absolute;
+    top: -70px;
+  }
+
+  .case-studies-inner .owl-next span {
+    font-size: 25px;
+    color: #b6b6b6;
+    border: 1px solid #b6b6b6;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .case-studies-inner .owl-prev span {
+    font-size: 25px;
+    color: #b6b6b6;
+    border: 1px solid #b6b6b6;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .counterstudy11 {
+    position: relative;
+    float: right;
+    top: -58px;
+    left: -38px;
+    font-size: 18px;
   }
   /* truth in numbers */
   .truth-in-numbers {
@@ -2795,8 +3097,8 @@ footer ul li a {
     padding-bottom: 15px;
   }
   .homefinder_logo_white {
-    width: 32%;
-    margin-bottom: 20px;
+    width: 38%;
+    margin-bottom: 10px;
   }
   .footer_awosomefont_input {
     display: flex;
@@ -2818,6 +3120,13 @@ footer ul li a {
     font-weight: 700;
     text-align: center;
     padding-bottom: 20px;
+  }
+  .search_for_property_advanced_link {
+    color: #737373;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
   }
   .search_for_property_Cta {
     display: inline-block;
@@ -2949,6 +3258,11 @@ footer ul li a {
   .li-space-19 {
     margin-right: 166px;
   }
+  .border-end-mb {
+    border-right: 1px solid #a9a9a9;
+    margin-left: 15px;
+    padding-left: 0px;
+  }
   .property-information-listing {
     border-top: none;
   }
@@ -2958,10 +3272,26 @@ footer ul li a {
   }
   .google-adds-text {
     font-weight: 300;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 42px;
     text-align: center;
-    padding: 50px;
+    padding: 90px;
+  }
+  .map-property-details {
+    width: 100%;
+    height: 650px;
+    margin-top: -20px;
+  }
+  .share_print_link21 {
+    position: relative;
+    left: 420px;
+    top: 45px;
+    padding: 11px;
+  }
+  .share_print_link22 {
+    position: relative;
+    left: 416px;
+    top: 45px;
   }
 }
 
@@ -3006,14 +3336,139 @@ footer ul li a {
   .section4_benefits_of_joining {
     display: block;
   }
+
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    bottom: -70px;
+    right: 90px;
+  }
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    bottom: -70px;
+    right: 50px;
+  }
+  .countertab11 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 280px;
+    right: 138px;
+  }
+  .countertab12 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 280px;
+    right: 150px;
+  }
+  .countertab13 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 300px;
+    right: 145px;
+  }
   /* footer */
   .footer_privacy_cookies_text {
     font-size: 14px;
     height: 80px;
     margin-top: 15px;
   }
+  .homefinder_logo_white {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .footer_awosomefont_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-bottom: none;
+    margin-bottom: 10px;
+  }
+  .footer_mobile_img_googleplay {
+    width: 46%;
+    float: left;
+  }
+  .footer_mobile_img_playstore {
+    width: 44%;
+    float: right;
+  }
+  /* property details */
+  .border-end-mb {
+    border-right: 1px solid #a9a9a9;
+    margin-left: 10px;
+    padding-left: 0px;
+  }
+  .share_print_link21 {
+    position: relative;
+    left: 615px;
+    top: 50px;
+    padding: 11px;
+  }
+  .share_print_link22 {
+    position: relative;
+    left: 610px;
+    top: 50px;
+  }
+  .li-space-1 {
+    margin-right: 255px;
+  }
+  .li-space-2 {
+    margin-right: 317px;
+  }
+  .li-space-3 {
+    margin-right: 225px;
+  }
+  .li-space-4 {
+    margin-right: 320px;
+  }
+  .li-space-5 {
+    margin-right: 283px;
+  }
+  .li-space-6 {
+    margin-right: 298px;
+  }
+  .li-space-7 {
+    margin-right: 232px;
+  }
+  .li-space-8 {
+    margin-right: 277px;
+  }
+  .li-space-9 {
+    margin-right: 272px;
+  }
+  .li-space-10 {
+    margin-right: 260px;
+  }
+  .li-space-11 {
+    margin-right: 294px;
+  }
+  .li-space-12 {
+    margin-right: 234px;
+  }
+  .li-space-13 {
+    margin-right: 235px;
+  }
+  .li-space-14 {
+    margin-right: 230px;
+  }
+  .li-space-15 {
+    margin-right: 234px;
+  }
+  .li-space-16 {
+    margin-right: 315px;
+  }
+  .li-space-17 {
+    margin-right: 237px;
+  }
+  .li-space-18 {
+    margin-right: 335px;
+  }
+  .li-space-19 {
+    margin-right: 256px;
+  }
 }
-
 @media (min-width: 991.5px) and (max-width: 992.5px) {
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
@@ -3219,6 +3674,37 @@ footer ul li a {
     font-size: 18px;
     border: 1px solid #a4195c;
     color: #484848;
+  }
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    bottom: -70px;
+    right: 90px;
+  }
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    bottom: -70px;
+    right: 50px;
+  }
+  .countertab11 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 295px;
+    right: 138px;
+  }
+  .countertab12 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 290px;
+    right: 150px;
+  }
+  .countertab13 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 315px;
+    right: 145px;
   }
   /* success storis */
   .success_stories {
@@ -3435,12 +3921,35 @@ footer ul li a {
   .li-space-19 {
     margin-right: 256px;
   }
+  .map-property-details {
+    width: 100%;
+    height: 650px;
+    margin-top: -20px;
+  }
   .property-information-listing {
     border-top: none;
   }
   .property-information ul li:nth-child(1) {
     color: #a5a5a5;
     padding-bottom: 15px;
+  }
+
+  .border-end-mb {
+    border-right: 1px solid #a9a9a9;
+    margin-left: 0px;
+    padding-left: 10px;
+  }
+
+  .share_print_link21 {
+    position: relative;
+    left: 615px;
+    top: 50px;
+    padding: 11px;
+  }
+  .share_print_link22 {
+    position: relative;
+    left: 610px;
+    top: 50px;
   }
 }
 
@@ -3554,6 +4063,37 @@ footer ul li a {
     border: 1px solid #a4195c;
     color: #484848;
   }
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    bottom: -70px;
+    right: 90px;
+  }
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    bottom: -70px;
+    right: 50px;
+  }
+  .countertab11 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 280px;
+    right: 138px;
+  }
+  .countertab12 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 280px;
+    right: 150px;
+  }
+  .countertab13 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 300px;
+    right: 145px;
+  }
   /* success stories */
   .mt-7 {
     margin-top: 4rem !important;
@@ -3619,8 +4159,12 @@ footer ul li a {
   .border-bottom-mobile-img {
     width: 95%;
     border-bottom: 1px solid #fff;
-    margin-top: 70px;
+    margin-top: 55px;
     margin-left: 10px;
+  }
+  .homefinder_logo_white {
+    margin-bottom: 30px;
+    width: 75%;
   }
   .footer_privacy_cookies_text {
     background-color: #962059;
@@ -3636,6 +4180,16 @@ footer ul li a {
   /* home finder property details */
   .property-information-listing {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .map-property-details {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+  }
+  .border-end-mb {
+    border-right: none;
+    margin-left: 0px;
+    padding-left: 0px;
   }
 }
 
@@ -3741,6 +4295,37 @@ footer ul li a {
     border: 1px solid #a4195c;
     color: #484848;
   }
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    bottom: -70px;
+    right: 90px;
+  }
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    bottom: -70px;
+    right: 50px;
+  }
+  .countertab11 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 280px;
+    right: 138px;
+  }
+  .countertab12 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 280px;
+    right: 150px;
+  }
+  .countertab13 {
+    position: relative;
+    float: right;
+    font-size: 18px;
+    top: 300px;
+    right: 145px;
+  }
   /* trusted by */
   .display-lg-none {
     display: none !important;
@@ -3762,6 +4347,10 @@ footer ul li a {
     border-bottom: 1px solid #fff;
     margin-top: 85px;
     margin-left: 10px;
+  }
+  .homefinder_logo_white {
+    margin-bottom: 30px;
+    width: 75%;
   }
 }
 @media (min-width: 1350px) {
@@ -3794,5 +4383,9 @@ footer ul li a {
   .display-lg-none {
     display: none !important;
   }
+  /* footer */
+  .homefinder_logo_white {
+    margin-bottom: 30px;
+    width: 80%;
+  }
 }
-

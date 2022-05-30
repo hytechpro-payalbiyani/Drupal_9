@@ -1,27 +1,11 @@
 // owl carousal
 
 $(document).ready(function () {
-  var success = $("#success-stories");
+  // var success = $("#success-stories");
   var latest = $("#latest-news");
   var trusted = $("#trusted-by");
   var fourthh = $("#fourth");
-  var studyss = $("#case-study11");
-  var benfits1 = $("#tab1-benefits");
-  var benfits2 = $("#tab2-benefits");
-  var benfits3 = $("#tab3-benefits");
-  var benfits11 = $("#tab1-benefits-mb");
-  var benfits21 = $("#tab2-benefits-mb");
-  var benfits31 = $("#tab3-benefits-mb");
-  success.owlCarousel({
-    autoplay: true,
-    autoplayhoverpause: true,
-    autoplaytimeout: 1000,
-    items: 1,
-    nav: true,
-    loop: true,
-    dots: false,
-    dotsdata: true,
-  });
+
   latest.owlCarousel({
     autoplay: true,
     autoplayhoverpause: true,
@@ -86,15 +70,245 @@ $(document).ready(function () {
       },
     },
   });
-  studyss.owlCarousel({
-    autoplay: true,
-    autoplayhoverpause: true,
-    autoplaytimeout: 1000,
-    nav: true,
+});
+
+$(function () {
+  var benfits1 = $("#tab1-benefits");
+  benfits1.owlCarousel({
+    autoplay: 2000,
+    items: 1,
     loop: true,
     dots: false,
     dotsdata: true,
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
 
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
+
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#countertab11").html(item + " / " + items);
+  }
+});
+
+$(function () {
+  var benfits2 = $("#tab2-benefits");
+  benfits2.owlCarousel({
+    autoplay: 2000,
+    items: 1,
+    loop: true,
+    dots: false,
+    dotsdata: true,
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
+
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
+
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#countertab12").html(item + " / " + items);
+  }
+});
+
+$(function () {
+  var benfits3 = $("#tab3-benefits");
+  benfits3.owlCarousel({
+    autoplay: 2000,
+    items: 1,
+    loop: true,
+    dots: false,
+    dotsdata: true,
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
+
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
+
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#countertab13").html(item + " / " + items);
+  }
+});
+
+$(function () {
+  var benfits11 = $("#tab1-benefits-mb");
+  benfits11.owlCarousel({
+    autoplay: 2000,
+    items: 1,
+    loop: true,
+    dots: false,
+    dotsdata: true,
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
+
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
+
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#countertab21").html(item + " / " + items);
+  }
+});
+
+$(function () {
+  var benfits12 = $("#tab2-benefits-mb");
+  benfits12.owlCarousel({
+    autoplay: 2000,
+    items: 1,
+    loop: true,
+    dots: false,
+    dotsdata: true,
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
+
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
+
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#countertab22").html(item + " / " + items);
+  }
+});
+
+$(function () {
+  var benfits13 = $("#tab3-benefits-mb");
+  benfits13.owlCarousel({
+    autoplay: 2000,
+    items: 1,
+    loop: true,
+    dots: false,
+    dotsdata: true,
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
+    responsive: {
+      0: {
+        items: 2,
+      },
+      992: {
+        items: 3,
+      },
+    },
+  });
+
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
+
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#countertab23").html(item + " / " + items);
+  }
+});
+
+// sucess stories
+
+$(function () {
+  var success = $("#success-stories");
+  success.owlCarousel({
+    autoplay: 2000,
+    items: 1,
+    loop: true,
+    dots: false,
+    dotsdata: true,
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
+  });
+
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
+
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#countersuccessstudy").html(item + " / " + items);
+  }
+});
+
+// case studies
+
+$(function () {
+  var studyss = $("#case-study11");
+  studyss.owlCarousel({
+    autoplay: 2000,
+    items: 1,
+    loop: true,
+    dots: false,
+    dotsdata: true,
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
     responsive: {
       0: {
         items: 1,
@@ -104,114 +318,43 @@ $(document).ready(function () {
       },
     },
   });
-  benfits1.owlCarousel({
-    autoplay: true,
-    autoplayhoverpause: true,
-    autoplaytimeout: 1000,
-    nav: true,
+
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
+
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#counterstudy").html(item + " / " + items);
+  }
+});
+
+$(function () {
+  var success = $("#success-stories");
+  success.owlCarousel({
+    autoplay: 2000,
+    items: 1,
     loop: true,
     dots: false,
-
     dotsdata: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      992: {
-        items: 3,
-      },
-    },
+    onInitialized: counter, //When the plugin has initialized.
+    onTranslated: counter, //When the translation of the stage has finished.
   });
-  benfits2.owlCarousel({
-    autoplay: true,
-    autoplayhoverpause: true,
-    autoplaytimeout: 1000,
-    nav: true,
-    loop: true,
-    dots: false,
 
-    dotsdata: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      992: {
-        items: 3,
-      },
-    },
-  });
-  benfits3.owlCarousel({
-    autoplay: true,
-    autoplayhoverpause: true,
-    autoplaytimeout: 1000,
-    nav: true,
-    loop: true,
-    dots: false,
+  function counter(event) {
+    var element = event.target; // DOM element, in this example .owl-carousel
+    var items = event.item.count; // Number of items
+    var item = event.item.index + 1; // Position of the current item
 
-    dotsdata: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      992: {
-        items: 3,
-      },
-    },
-  });
-  benfits11.owlCarousel({
-    autoplay: true,
-    autoplayhoverpause: true,
-    autoplaytimeout: 1000,
-    nav: true,
-    loop: true,
-    dots: false,
-
-    dotsdata: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      992: {
-        items: 3,
-      },
-    },
-  });
-  benfits21.owlCarousel({
-    autoplay: true,
-    autoplayhoverpause: true,
-    autoplaytimeout: 1000,
-    nav: true,
-    loop: true,
-    dots: false,
-
-    dotsdata: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      992: {
-        items: 3,
-      },
-    },
-  });
-  benfits31.owlCarousel({
-    autoplay: true,
-    autoplayhoverpause: true,
-    autoplaytimeout: 1000,
-    nav: true,
-    loop: true,
-    dots: false,
-
-    dotsdata: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      992: {
-        items: 3,
-      },
-    },
-  });
+    // it loop is true then reset counter from 1
+    if (item > items) {
+      item = item - items;
+    }
+    $("#countersuccessstudy").html(item + " / " + items);
+  }
 });
 
 //  responsive tabs
