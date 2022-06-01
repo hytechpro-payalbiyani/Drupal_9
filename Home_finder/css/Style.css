@@ -1045,25 +1045,35 @@ footer ul li a {
 /*  section 8 Trusted by end*/
 
 /* search for property page css */
-.search_for_property_heading {
-  font-size: 2.25rem;
-  font-weight: 700;
-  text-align: center;
-  padding-bottom: 1.25rem;
-}
 .search_for_property {
   background-color: #f8f8f8;
   padding-bottom: 3.125rem;
-  padding-top: 1.5625rem;
 }
+.search_for_property_heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  color: #565656;
+}
+.search_for_property h2 {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.1875rem;
+  color: #565656;
+}
+
 .border-end-searchfor-property {
   border-right: 0.0625rem solid #dee2e6 !important;
   margin-top: 0.625rem;
   margin-bottom: 0.625rem;
 }
+.search_for_property_heading-form-i {
+  background-color: #565656;
+}
 .search_for_property .form-select {
   display: block;
   width: 100%;
+  margin-top: 13px;
   padding: 0.8rem 2.25rem 0.8rem 0.75rem;
   -moz-padding-start: calc(0.75rem - 0.1875rem);
   font-size: 1rem;
@@ -1082,10 +1092,10 @@ footer ul li a {
   -moz-appearance: none;
   appearance: none;
 }
-.search_for_property_Cta {
+.Reset_property_Cta {
   display: inline-block;
-  font-weight: 400;
-  line-height: 1.5;
+  font-weight: 500;
+  line-height: 1.3125rem;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -1096,107 +1106,207 @@ footer ul li a {
   user-select: none;
   background-color: transparent;
   border: 0.0625rem solid transparent;
-  padding: 0.375rem 6.75rem;
-  font-size: 1rem;
+  padding: 12px 60px 12px 60px;
+  font-size: 1.125rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   border-radius: 0;
   color: white;
-  background-color: #f29200;
+  background-color: #666666;
+}
+.search_for_property_Cta {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.3125rem;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 0.0625rem solid transparent;
+  padding: 12px 60px 12px 60px;
+  font-size: 1.125rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border-radius: 0;
+  color: white;
+  background-color: #a4195c;
 }
 .search_for_property_advanced_link {
-  color: #737373;
+  color: #0063a0;
   text-decoration: none;
-  font-size: 1.125rem;
-  font-weight: 400;
-  line-height: 1.3125rem;
-}
-.search_by_property_footer_amount {
-  font-size: 1.5625rem;
-  color: #a4195c;
-  font-weight: 700;
-  line-height: 1.8125rem;
-}
-.listing_header_left {
-  font-size: 1.5rem;
-  line-height: 1.75rem;
+  font-size: 1rem;
   font-weight: 500;
-}
-.listing_header_right {
-  font-size: 1rem;
   line-height: 1.1875rem;
-  font-weight: 400;
 }
-.properties_cta {
+.heading-filters {
+  color: #565656;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+.paragraph-heading-filters {
+  font-weight: 500;
+  color: #353d42;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  padding-top: 0.625rem;
+}
+.border-filters {
+  border: 0.5px solid #e0e0e0;
+  border-radius: 4px;
+}
+.search_property_result .form-check-input[type="checkbox"] {
+  border-radius: 0rem;
+}
+.search_property_result .form-check {
   font-size: 1rem;
-  line-height: 1.1875rem;
+  font-weight: 300;
+  color: #353d42;
+}
+.search-property-right-heading {
   font-weight: 400;
-  border: 0.0625rem solid #f29200;
-  color: #f29200;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  color: #797979;
+}
+.search-property-right-heading span {
+  color: #a4195c;
+}
+/* grid listview for property search css */
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the buttons */
+.btn1 {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
   background-color: white;
-  padding: 0.625rem 2.5rem 0.625rem 2.5rem;
+  color: #aaaaaa;
+  cursor: pointer;
 }
-.total-properties {
-  font-size: 1.125rem;
+
+.btn1:hover {
+  background-color: #aaaaaa;
+}
+
+.btn1.active {
+  background-color: white;
+  color: #aaaaaa;
+}
+/* grid listview for property search css end*/
+.property-listing-card-text h1 {
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  color: #353d42;
+}
+.property-listing-card-text h2 {
+  font-weight: 400;
+  font-size: 1rem;
   line-height: 1.1875rem;
-  font-weight: 400;
+  color: #797979;
 }
-.total-properties-innertext {
-  font-size: 1.125rem;
+.property-listing-card-text h3 {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #5b5e60;
+}
+.property-listing-card-text ul li:nth-child(1) {
+  font-weight: 500;
+  font-size: 1rem;
   line-height: 1.1875rem;
+  color: #5b5e60;
+}
+.property-listing-card-text ul li:nth-child(2) {
   font-weight: 400;
-  color: #ea5012;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #5b5e60;
 }
-.pagination_style li a {
-  font-size: 0.875rem;
-  line-height: 1rem;
+.property-listing-card-text span {
   font-weight: 400;
-  color: #a5a5a5;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #5b5e60;
 }
-.border_pagination {
-  border: 0.0625rem solid #dadada;
-  border-radius: 0.5rem 0rem;
+.gha-img-border {
+  border: 1px solid rgba(170, 170, 170, 0.3);
+  border-radius: 6px;
+  padding: 0.25rem;
 }
-.share_print_link {
-  border: 0.0625rem solid #dadada;
-  border-radius: 0rem 0.5rem;
-  padding: 0.4375rem;
+.property-details-cta {
+  background: #a4195c;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #ffffff;
+  border: none;
+  padding: 13px 25px 13px 25px;
 }
-.share_link {
-  border: 0.0625rem solid #dadada;
-  border-radius: 0.5rem 0rem;
-  padding: 0.4375rem;
-}
-.arrow-ribbon {
+.arrow-ribbon1 {
   color: #fff;
-  padding: 0.5625rem 1.5625rem;
+  padding: 10px;
   position: absolute;
-  right: 0;
+  left: 15px;
   z-index: 9;
   font-size: 1.125rem;
-  bottom: 0;
-  border-radius: 1.25rem 0rem;
-  background: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  background-color: #a4195c;
+  bottom: 230px;
 }
-.arrow-ribbon-top {
+.arrow-ribbon2 {
   color: #fff;
-  padding: 0.5625rem 1.4375rem;
   position: absolute;
-  left: 0;
+  left: 15px;
   z-index: 9;
   font-size: 1.125rem;
-  top: 0;
-  border-radius: 1.25rem 0rem;
-  background: rgba(255, 255, 255, 0.6);
-  color: #242021;
+  border-radius: 8px 50px 50px 4px;
+  background-color: #a4195c;
+  bottom: 10px;
+  padding: 10px 30px 10px 30px;
+}
+.arrow-ribbon3 {
+  color: #5b5e60;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  left: 200px;
+  z-index: 9;
+  font-size: 1.125rem;
+  border-radius: 6px;
+  background-color: rgba(249, 249, 249, 0.9);
+  bottom: 230px;
 }
 .arrow-position {
   position: relative;
 }
-.search_property_result .page-link {
-  padding: 0.3rem 0.5rem;
-}
+/* search for propery css end */
+
 /* login to bid  */
 .login-to-bid-heading h1 {
   font-size: 2.25rem;
@@ -1572,7 +1682,7 @@ footer ul li a {
 }
 /* media query for mobile view */
 
-@media (max-width: 32.5rem) {
+@media (max-width: 520px) {
   /* hero banner */
   .herobanner-smimg {
     display: block;
@@ -2292,70 +2402,25 @@ footer ul li a {
   /* trusted by */
   /* search for property */
   .search_for_property_heading {
-    font-size: 2rem;
-    font-weight: 600;
-    text-align: center;
-    padding-bottom: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 0.8125rem;
+    line-height: 1.75rem;
+    color: black;
   }
-  .border-end-searchfor-property {
-    border-right: 0.0625rem solid #dee2e6 !important;
-    margin-top: 0.5rem;
-    margin-bottom: 0.625rem;
+  .search_for_property h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.1875rem;
+    color: #565656;
   }
+
   .search_for_property_advanced_link {
     color: #737373;
     text-decoration: none;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.3125rem;
-  }
-  .search_for_property_Cta {
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 0.0625rem solid transparent;
-    padding: 0.25rem 2.75rem;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    border-radius: 0;
-    color: white;
-    background-color: #f29200;
-  }
-  .total-properties {
-    font-size: 1rem;
-    line-height: 1.1875rem;
-    font-weight: 400;
-  }
-  .listing_header_left {
-    font-size: 1.375rem;
-    line-height: 1.75rem;
-    font-weight: 500;
-  }
-  .listing_header_right {
-    font-size: 1rem;
-    line-height: 1.1875rem;
-    font-weight: 400;
-  }
-  .listing_header_right {
-    font-size: 1rem;
-    line-height: 1.1875rem;
-    font-weight: 400;
-  }
-  .search_for_property {
-    background-color: #f8f8f8;
-    padding-bottom: 1.25rem;
-    padding-top: 1.5625rem;
   }
 
   /* login to bid  */
@@ -2597,7 +2662,7 @@ footer ul li a {
     margin-right: 9.75rem;
   }
 }
-@media (min-width: 32.5625rem) and (max-width: 39.375rem) {
+@media (min-width: 521px) and (max-width: 630px) {
   .section3-card-right-style {
     font-size: 1.125rem !important;
     font-weight: 400 !important;
@@ -2609,7 +2674,7 @@ footer ul li a {
 /* media query for mobile view */
 
 /* media for tablet */
-@media (min-width: 32.5625rem) and (max-width: 48rem) {
+@media (min-width: 521px) and (max-width: 768px) {
   .herobanner-smimg {
     display: block;
   }
@@ -3196,54 +3261,7 @@ footer ul li a {
     font-weight: 400;
     line-height: 1.3125rem;
   }
-  .search_for_property_Cta {
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 0.0625rem solid transparent;
-    padding: 0.2rem 2.75rem;
-    font-size: 1rem;
-    border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-    border-radius: 0;
-    color: white;
-    background-color: #f29200;
-  }
-  .total-properties {
-    font-size: 1rem;
-    line-height: 1.1875rem;
-    font-weight: 400;
-  }
-  .listing_header_left {
-    font-size: 1.375rem;
-    line-height: 1.75rem;
-    font-weight: 500;
-  }
-  .search_by_property_footer_amount {
-    font-size: 1.5rem;
-    color: #a4195c;
-    font-weight: 700;
-    line-height: 1.8125rem;
-  }
-  .properties_cta {
-    font-size: 1rem;
-    line-height: 1.1875rem;
-    font-weight: 400;
-    border: 0.0625rem solid #f29200;
-    color: #f29200;
-    background-color: white;
-    padding: 0.625rem 2.1875rem 0.625rem 2.1875rem;
-  }
+
   /* search for bid page */
   .login-to-bid-heading h1 {
     font-size: 1.875rem;
@@ -3425,7 +3443,7 @@ footer ul li a {
 }
 
 /* media for tablet end */
-@media (min-width: 47.9688rem) and (max-width: 48.0313rem) {
+@media (min-width: 767.5px) and (max-width: 768.5px) {
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
     position: relative;
@@ -3598,7 +3616,7 @@ footer ul li a {
     margin-right: 16rem;
   }
 }
-@media (min-width: 61.9688rem) and (max-width: 62.0313rem) {
+@media (min-width: 991.5px) and (max-width: 992.5px) {
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
     position: absolute;
@@ -3646,7 +3664,7 @@ footer ul li a {
 }
 
 /* media 62rem */
-@media (min-width: 48.0313rem) and (max-width: 62rem) {
+@media (min-width: 768.5px) and (max-width: 992px) {
   .hfTopNav .col-lg-6:nth-child(2) {
     text-align: center;
   }
@@ -4140,8 +4158,8 @@ footer ul li a {
   }
 }
 
-/* media 75rem */
-@media (min-width: 62rem) and (max-width: 75rem) {
+/* media 1200px */
+@media (min-width: 992px) and (max-width: 1200px) {
   /* hero banner */
   .section1_heading__text_input {
     font-size: 2.1875rem;
@@ -4443,7 +4461,7 @@ footer ul li a {
   }
 }
 
-@media (min-width: 75rem) and (max-width: 84.375rem) {
+@media (min-width: 1200px) and (max-width: 1350px) {
   /* section 1  */
   .section1_heading__text_input {
     font-size: 2.5rem;
@@ -4631,7 +4649,7 @@ footer ul li a {
     border-bottom: 0.0625rem solid #d0d0d0;
   }
 }
-@media (min-width: 84.375rem) {
+@media (min-width: 1350px) {
   /* hero banner */
   .section1_heading__text_input {
     font-size: 2.75rem;

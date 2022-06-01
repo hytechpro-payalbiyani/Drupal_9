@@ -194,12 +194,22 @@
         </li>
       </ul>
     </div>
-    <section class="search_for_property">
-      <h1 class="search_for_property_heading">Search For Properties</h1>
-      <div class="container bg-white p-3 p-lg-5">
-        <form>
+
+    <!-- top form start -->
+
+    <section class="search_for_property pt-lg-4">
+      <div class="container">
+        <h1 class="search_for_property_heading pt-lg-3">
+          Search & bid for properties
+        </h1>
+        <h2 class="pt-lg-1 pb-3 pb-lg-0">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry
+        </h2>
+        <form class="mt-lg-3 mt-1 pt-lg-3">
           <div class="row g-3">
             <div class="col-md">
+              <span>Bedrooms</span>
               <select class="form-select" aria-label="Default select example">
                 <option selected>Select Bedrooms</option>
                 <option value="1">One</option>
@@ -208,6 +218,7 @@
               </select>
             </div>
             <div class="col-md">
+              <span>Area</span>
               <select class="form-select" aria-label="Default select example">
                 <option selected>Select area</option>
                 <option value="1">One</option>
@@ -216,6 +227,7 @@
               </select>
             </div>
             <div class="col-md">
+              <span>Property type</span>
               <select class="form-select" aria-label="Default select example">
                 <option selected>Select Property Type All</option>
                 <option value="1">One</option>
@@ -224,7 +236,8 @@
               </select>
             </div>
 
-            <div class="col-md">
+            <div class="col-md-3">
+              <span>Search by advert number</span>
               <select class="form-select" aria-label="Default select example">
                 <option selected>Select Housing Category</option>
                 <option value="1">One</option>
@@ -232,29 +245,37 @@
                 <option value="3">Three</option>
               </select>
             </div>
+            <div class="col-1 mt-4 pt-4 d-lg-block d-none">
+              <i
+                class="fa-solid fa-magnifying-glass text-white border p-3 search_for_property_heading-form-i mt-lg-1"
+              ></i>
+            </div>
           </div>
-          <p class="pt-5">
-            <a
-              class="search_for_property_advanced_link"
-              data-bs-toggle="collapse"
-              href="#collapseExample"
-              role="button"
-              aria-expanded="false"
-              aria-controls="collapseExample"
-            >
-              <span class="fa-lg">
-                <i class="text-dark fa fa-plus-circle fa-1x"></i>
-              </span>
-              Advanced search
-            </a>
-
-            <button
-              type="button"
-              class="search_for_property_Cta float-lg-end ms-lg-0 ms-5"
-            >
-              Search For Properties
-            </button>
-          </p>
+          <div class="row">
+            <div class="col-lg-6 pt-lg-3 mt-lg-3">
+              <a
+                class="search_for_property_advanced_link"
+                data-bs-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Advanced search
+              </a>
+            </div>
+            <div class="col-lg-6 pt-lg-4">
+              <button
+                type="button"
+                class="search_for_property_Cta float-lg-end ms-lg-2"
+              >
+                Search
+              </button>
+              <button type="button" class="Reset_property_Cta float-lg-end">
+                Reset
+              </button>
+            </div>
+          </div>
 
           <div class="collapse" id="collapseExample">
             <div class="row pt-3">
@@ -296,470 +317,634 @@
         </form>
       </div>
     </section>
-    <section class="search_property_result">
+    <section class="search_property_result mb-lg-5">
       <div class="container">
-        <div class="row mt-5 mb-3">
-          <div class="col-lg-6 pt-lg-2 pt-2 col-5">
-            <p class="total-properties">
-              Total Property Find Is:
-              <span class="total-properties-innertext">18</span>
-            </p>
-          </div>
-          <div class="col-lg-6 col">
-            <div class="row g-2">
-              <div
-                class="col-lg-8 col text-end pe-lg-4 pe-2 border-end-searchfor-property"
-              >
-                <img
-                  src="./assets/share-Vector.png"
-                  class="share_link"
-                  alt=""
-                />
-                <img
-                  src="./assets/cil_print_vector.png"
-                  class="share_print_link"
-                  alt=""
-                />
-              </div>
-              <div class="col-lg-4 col ps-lg-3">
-                <nav aria-label="Page navigation example list-inline-item">
-                  <ul class="pagination pagination_style">
-                    <li class="page-item">
-                      <a class="page-link border_pagination" href="#"
-                        ><i class="fa-solid fa-chevron-left"></i
-                      ></a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link border_pagination" href="#"
-                        ><i class="fa-solid fa-chevron-right"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-3 d-flex align-items-center">
-              <div class="arrow-position">
-                <div class="arrow-ribbon">Available</div>
-
-                <div class="arrow-ribbon-top">
-                  <img
-                    src="./assets/property-listing-img-left-top-Vector.jpg"
-                    alt=""
-                  />
-                  1/3
-                </div>
-                <img
-                  src="./assets/properties-image.png"
-                  class="img-fluid"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <div class="col-md-9">
-              <div class="card-body ms-lg-4">
-                <h5 class="card-title pb-lg-3">
-                  <span class="listing_header_left">
-                    1 bedroom studio in Birmingham
-                  </span>
-                  <ul
-                    class="list-unstyled list-inline float-lg-end pt-3 pt-lg-0"
-                  >
-                    <li class="list-inline-item">
-                      <img
-                        src="../Home_finder/assets/listingIcon.png"
-                        class="pe-2 pe-lg-4"
-                      />
-                    </li>
-                    <li class="list-inline-item listing_header_right">
-                      <strong class="me-1">Preference:</strong>
-                      <span class="text-muted"> HF2000105</span>
-                    </li>
-                  </ul>
-                </h5>
-                <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
-                    <i class="fa fa-map-marker fa-1x"></i>
-                  </li>
-                  <li class="list-inline-item listing_header_right">
-                    FLAT 34 Servite House, Prossers Walk, B46 1BU
-                  </li>
-                </ul>
-                <p class="card-text text-muted pb-lg-3 pt-lg-3">
-                  Two-bedroom second floor flat in the popular Park Farm area of
-                  Port Glasgow. Property comprises livingroom, two double
-                  bedrooms, kitchen with access to a balcony and bathroom.
+        <div class="row pt-lg-4">
+          <div class="col-lg-3 pt-lg-3">
+            <h1 class="heading-filters">Filters</h1>
+            <div class="ps-lg-4 border-filters">
+              <div>
+                <p class="paragraph-heading-filters pt-lg-4 mt-lg-1">
+                  Amenities
                 </p>
-                <div class="row">
-                  <div class="col-lg-6 pt-2">
-                    <ul class="list-unstyled list-inline">
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/bed.png" alt="" />
-                        2 Beds
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/elevator.png" alt="" />
-                        2 Beds
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/parking.png" alt="" />
-                        2 Beds
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-6 text-end">
-                    <ul
-                      class="list-unstyled list-inline text-start text-lg-end pt-2 pt-lg-0"
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Dishwasher</label
                     >
-                      <li
-                        class="list-inline-item me-4 search_by_property_footer_amount"
-                      >
-                        $ 112.79
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <button class="properties_cta ms-3 ms-lg-0">
-                          properties
-                        </button>
-                      </li>
-                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Floor Coverings</label
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Internet</label
+                    >
+                  </div>
+                </div>
+
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Build Wardrobes</label
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Supermarket</label
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Kids zone</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p class="paragraph-heading-filters">Sort by</p>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Sort by popularity</label
+                    >
+                  </div>
+                </div>
+
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Sort by new arrivals</label
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Sort by price: low to high</label
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Sort by price: high to low</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p class="paragraph-heading-filters">Catagory</p>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Buying</label
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Renting</label
+                    >
+                  </div>
+                </div>
+                <div>
+                  <div class="form-check form-check-inline pb-lg-3 mb-1">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="inlineCheckbox1"
+                      value="option1"
+                    />
+                    <label class="form-check-label ps-2" for="inlineCheckbox1"
+                      >Selling</label
+                    >
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-3 d-flex align-items-center">
-              <div class="arrow-position">
-                <div class="arrow-ribbon">Available</div>
-
-                <div class="arrow-ribbon-top">
-                  <img
-                    src="./assets/property-listing-img-left-top-Vector.jpg"
-                    alt=""
-                  />
-                  1/3
+          <div class="col-lg-9 pt-lg-1">
+            <ul class="list-unstyled list-inline pb-lg-0 mb-lg-0">
+              <li class="list-inline-item">
+                <h1 class="search-property-right-heading pb-lg-0 mb-lg-0">
+                  We found <span>45</span> properties available for you
+                </h1>
+              </li>
+              <li class="list-inline-item">
+                <div id="btnContainer">
+                  <button class="btn1 active" onclick="listView()">
+                    <img src="./assets/Vector (6).png" alt="" />
+                  </button>
+                  <button class="btn1 active" onclick="gridView()">
+                    <img src="./assets/Vector (7).png" alt="" />
+                  </button>
                 </div>
-                <img
-                  src="./assets/properties-image.png"
-                  class="img-fluid"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <div class="col-md-9">
-              <div class="card-body ms-lg-4">
-                <h5 class="card-title pb-lg-3">
-                  <span class="listing_header_left">
-                    1 bedroom studio in Birmingham
-                  </span>
-                  <ul
-                    class="list-unstyled list-inline float-lg-end pt-3 pt-lg-0"
-                  >
-                    <li class="list-inline-item">
+              </li>
+            </ul>
+
+            <div class="row">
+              <div class="column">
+                <div class="mb-3 pt-lg-1 pb-lg-1">
+                  <div class="border row g-0 p-1">
+                    <div class="col-md-4">
                       <img
-                        src="../Home_finder/assets/listingIcon.png"
-                        class="pe-2 pe-lg-4"
+                        src="./assets/property-search-img.png"
+                        class="img-fluid rounded-start ps-lg-1"
+                        alt="..."
                       />
-                    </li>
-                    <li class="list-inline-item listing_header_right">
-                      <strong class="me-1">Preference:</strong>
-                      <span class="text-muted"> HF2000105</span>
-                    </li>
-                  </ul>
-                </h5>
-                <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
-                    <i class="fa fa-map-marker fa-1x"></i>
-                  </li>
-                  <li class="list-inline-item listing_header_right">
-                    FLAT 34 Servite House, Prossers Walk, B46 1BU
-                  </li>
-                </ul>
-                <p class="card-text text-muted pb-lg-3 pt-lg-3">
-                  Two-bedroom second floor flat in the popular Park Farm area of
-                  Port Glasgow. Property comprises livingroom, two double
-                  bedrooms, kitchen with access to a balcony and bathroom.
-                </p>
-                <div class="row">
-                  <div class="col-lg-6 pt-2">
-                    <ul class="list-unstyled list-inline">
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/bed.png" alt="" />
-                        2 Beds
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/elevator.png" alt="" />
-                        2 Beds
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/parking.png" alt="" />
-                        2 Beds
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-6 text-end">
-                    <ul
-                      class="list-unstyled list-inline text-start text-lg-end pt-2 pt-lg-0"
-                    >
-                      <li
-                        class="list-inline-item me-4 search_by_property_footer_amount"
-                      >
-                        $ 112.79
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <button class="properties_cta ms-3 ms-lg-0">
-                          properties
-                        </button>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-3 d-flex align-items-center">
-              <div class="arrow-position">
-                <div class="arrow-ribbon">Available</div>
 
-                <div class="arrow-ribbon-top">
-                  <img
-                    src="./assets/property-listing-img-left-top-Vector.jpg"
-                    alt=""
-                  />
-                  1/3
+                      <div class="arrow-position">
+                        <div class="arrow-ribbon1">Available for rent</div>
+                        <div class="arrow-ribbon2">£324.68</div>
+                        <div class="arrow-ribbon3">
+                          <img
+                            src="./assets/propertysearch-vector-ribben.png"
+                            alt=""
+                          />
+                          12
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-8 ps-lg-3">
+                      <div class="property-listing-card-text">
+                        <h1 class="pb-lg-1">
+                          Real House Luxury Villa
+                          <img
+                            src="./assets/properysearch-location-vector-top.png"
+                            alt=""
+                            class="float-end"
+                          />
+                        </h1>
+                        <h2 class="pb-lg-1">
+                          <img
+                            src="./assets/propertydetails-vector-location.png"
+                            alt=""
+                          />
+                          Est St, 77 - Central Park South, NYC
+                        </h2>
+                        <h3 class="card-text pb-lg-1">
+                          <strong>Description :</strong> This property is a
+                          second floor studio flat within one of our Livingwell
+                          complexes located in the Ibrox area. Please note there
+                          is no lift. The property has a combined livingroom and
+                          bedroom with a separate...
+                        </h3>
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong> Advert ref :</strong>
+                              </li>
+                              <li class="list-inline-item">WG936507</li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Bedroooms :</strong>
+                              </li>
+                              <li class="list-inline-item">1</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Property type :</strong>
+                              </li>
+                              <li class="list-inline-item">
+                                Tenement Flat Ground Floor
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Advertised band :</strong>
+                              </li>
+                              <li class="list-inline-item">E</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-7">
+                            <span>Advertised by</span>
+                            <img
+                              src="./assets/GHA-property-search.jpg"
+                              alt=""
+                              class="gha-img-border"
+                            />
+                          </div>
+                          <div class="col-lg-5">
+                            <button class="property-details-cta">
+                              Full property details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <img
-                  src="./assets/properties-image.png"
-                  class="img-fluid"
-                  alt="..."
-                />
               </div>
-            </div>
-            <div class="col-md-9">
-              <div class="card-body ms-lg-4">
-                <h5 class="card-title pb-lg-3">
-                  <span class="listing_header_left">
-                    1 bedroom studio in Birmingham
-                  </span>
-                  <ul
-                    class="list-unstyled list-inline float-lg-end pt-3 pt-lg-0"
-                  >
-                    <li class="list-inline-item">
+              <div class="column">
+                <div class="mb-3 pt-lg-1 pb-lg-1">
+                  <div class="border row g-0 p-1">
+                    <div class="col-md-4">
                       <img
-                        src="../Home_finder/assets/listingIcon.png"
-                        class="pe-2 pe-lg-4"
+                        src="./assets/property-search-img.png"
+                        class="img-fluid rounded-start ps-lg-1"
+                        alt="..."
                       />
-                    </li>
-                    <li class="list-inline-item listing_header_right">
-                      <strong class="me-1">Preference:</strong>
-                      <span class="text-muted"> HF2000105</span>
-                    </li>
-                  </ul>
-                </h5>
-                <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
-                    <i class="fa fa-map-marker fa-1x"></i>
-                  </li>
-                  <li class="list-inline-item listing_header_right">
-                    FLAT 34 Servite House, Prossers Walk, B46 1BU
-                  </li>
-                </ul>
-                <p class="card-text text-muted pb-lg-3 pt-lg-3">
-                  Two-bedroom second floor flat in the popular Park Farm area of
-                  Port Glasgow. Property comprises livingroom, two double
-                  bedrooms, kitchen with access to a balcony and bathroom.
-                </p>
-                <div class="row">
-                  <div class="col-lg-6 pt-2">
-                    <ul class="list-unstyled list-inline">
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/bed.png" alt="" />
-                        2 Beds
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/elevator.png" alt="" />
-                        2 Beds
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/parking.png" alt="" />
-                        2 Beds
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-6 text-end">
-                    <ul
-                      class="list-unstyled list-inline text-start text-lg-end pt-2 pt-lg-0"
-                    >
-                      <li
-                        class="list-inline-item me-4 search_by_property_footer_amount"
-                      >
-                        $ 112.79
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <button class="properties_cta ms-3 ms-lg-0">
-                          properties
-                        </button>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-3 d-flex align-items-center">
-              <div class="arrow-position">
-                <div class="arrow-ribbon">Available</div>
 
-                <div class="arrow-ribbon-top">
-                  <img
-                    src="./assets/property-listing-img-left-top-Vector.jpg"
-                    alt=""
-                  />
-                  1/3
+                      <div class="arrow-position">
+                        <div class="arrow-ribbon1">Available for rent</div>
+                        <div class="arrow-ribbon2">£324.68</div>
+                        <div class="arrow-ribbon3">
+                          <img
+                            src="./assets/propertysearch-vector-ribben.png"
+                            alt=""
+                          />
+                          12
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-8 ps-lg-3">
+                      <div class="property-listing-card-text">
+                        <h1 class="pb-lg-1">
+                          Real House Luxury Villa
+                          <img
+                            src="./assets/properysearch-location-vector-top.png"
+                            alt=""
+                            class="float-end"
+                          />
+                        </h1>
+                        <h2 class="pb-lg-1">
+                          <img
+                            src="./assets/propertydetails-vector-location.png"
+                            alt=""
+                          />
+                          Est St, 77 - Central Park South, NYC
+                        </h2>
+                        <h3 class="card-text pb-lg-1">
+                          <strong>Description :</strong> This property is a
+                          second floor studio flat within one of our Livingwell
+                          complexes located in the Ibrox area. Please note there
+                          is no lift. The property has a combined livingroom and
+                          bedroom with a separate...
+                        </h3>
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong> Advert ref :</strong>
+                              </li>
+                              <li class="list-inline-item">WG936507</li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Bedroooms :</strong>
+                              </li>
+                              <li class="list-inline-item">1</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Property type :</strong>
+                              </li>
+                              <li class="list-inline-item">
+                                Tenement Flat Ground Floor
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Advertised band :</strong>
+                              </li>
+                              <li class="list-inline-item">E</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-7">
+                            <span>Advertised by</span>
+                            <img
+                              src="./assets/GHA-property-search.jpg"
+                              alt=""
+                              class="gha-img-border"
+                            />
+                          </div>
+                          <div class="col-lg-5">
+                            <button class="property-details-cta">
+                              Full property details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <img
-                  src="./assets/properties-image.png"
-                  class="img-fluid"
-                  alt="..."
-                />
               </div>
             </div>
-            <div class="col-md-9">
-              <div class="card-body ms-lg-4">
-                <h5 class="card-title pb-lg-3">
-                  <span class="listing_header_left">
-                    1 bedroom studio in Birmingham
-                  </span>
-                  <ul
-                    class="list-unstyled list-inline float-lg-end pt-3 pt-lg-0"
-                  >
-                    <li class="list-inline-item">
+
+            <div class="row">
+              <div class="column">
+                <div class="mb-3 pt-lg-1 pb-lg-1">
+                  <div class="border row g-0 p-1">
+                    <div class="col-md-4">
                       <img
-                        src="../Home_finder/assets/listingIcon.png"
-                        class="pe-2 pe-lg-4"
+                        src="./assets/property-search-img.png"
+                        class="img-fluid rounded-start ps-lg-1"
+                        alt="..."
                       />
-                    </li>
-                    <li class="list-inline-item listing_header_right">
-                      <strong class="me-1">Preference:</strong>
-                      <span class="text-muted"> HF2000105</span>
-                    </li>
-                  </ul>
-                </h5>
-                <ul class="list-unstyled list-inline">
-                  <li class="list-inline-item">
-                    <i class="fa fa-map-marker fa-1x"></i>
-                  </li>
-                  <li class="list-inline-item listing_header_right">
-                    FLAT 34 Servite House, Prossers Walk, B46 1BU
-                  </li>
-                </ul>
-                <p class="card-text text-muted pb-lg-3 pt-lg-3">
-                  Two-bedroom second floor flat in the popular Park Farm area of
-                  Port Glasgow. Property comprises livingroom, two double
-                  bedrooms, kitchen with access to a balcony and bathroom.
-                </p>
-                <div class="row">
-                  <div class="col-lg-6 pt-2">
-                    <ul class="list-unstyled list-inline">
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/bed.png" alt="" />
-                        2 Beds
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/elevator.png" alt="" />
-                        2 Beds
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <img class="me-2" src="./assets/parking.png" alt="" />
-                        2 Beds
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-lg-6 text-end">
-                    <ul
-                      class="list-unstyled list-inline text-start text-lg-end pt-2 pt-lg-0"
-                    >
-                      <li
-                        class="list-inline-item me-4 search_by_property_footer_amount"
-                      >
-                        $ 112.79
-                      </li>
-                      <li class="list-inline-item me-4">
-                        <button class="properties_cta ms-3 ms-lg-0">
-                          properties
-                        </button>
-                      </li>
-                    </ul>
+
+                      <div class="arrow-position">
+                        <div class="arrow-ribbon1">Available for rent</div>
+                        <div class="arrow-ribbon2">£324.68</div>
+                        <div class="arrow-ribbon3">
+                          <img
+                            src="./assets/propertysearch-vector-ribben.png"
+                            alt=""
+                          />
+                          12
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-8 ps-lg-3">
+                      <div class="property-listing-card-text">
+                        <h1 class="pb-lg-1">
+                          Real House Luxury Villa
+                          <img
+                            src="./assets/properysearch-location-vector-top.png"
+                            alt=""
+                            class="float-end"
+                          />
+                        </h1>
+                        <h2 class="pb-lg-1">
+                          <img
+                            src="./assets/propertydetails-vector-location.png"
+                            alt=""
+                          />
+                          Est St, 77 - Central Park South, NYC
+                        </h2>
+                        <h3 class="card-text pb-lg-1">
+                          <strong>Description :</strong> This property is a
+                          second floor studio flat within one of our Livingwell
+                          complexes located in the Ibrox area. Please note there
+                          is no lift. The property has a combined livingroom and
+                          bedroom with a separate...
+                        </h3>
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong> Advert ref :</strong>
+                              </li>
+                              <li class="list-inline-item">WG936507</li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Bedroooms :</strong>
+                              </li>
+                              <li class="list-inline-item">1</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Property type :</strong>
+                              </li>
+                              <li class="list-inline-item">
+                                Tenement Flat Ground Floor
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Advertised band :</strong>
+                              </li>
+                              <li class="list-inline-item">E</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-7">
+                            <span>Advertised by</span>
+                            <img
+                              src="./assets/GHA-property-search.jpg"
+                              alt=""
+                              class="gha-img-border"
+                            />
+                          </div>
+                          <div class="col-lg-5">
+                            <button class="property-details-cta">
+                              Full property details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+              <div class="column">
+                <div class="mb-3 pt-lg-1 pb-lg-1">
+                  <div class="border row g-0 p-1">
+                    <div class="col-md-4">
+                      <img
+                        src="./assets/property-search-img.png"
+                        class="img-fluid rounded-start ps-lg-1"
+                        alt="..."
+                      />
 
-        <div class="row mt-5 mb-3">
-          <div class="col-lg-6 col-5"></div>
-          <div class="col-lg-6 col">
-            <div class="row g-2">
-              <div
-                class="col-lg-8 col text-end pe-lg-4 pe-2 border-end-searchfor-property"
-              >
-                <img
-                  src="./assets/share-Vector.png"
-                  class="share_link"
-                  alt=""
-                />
-                <img
-                  src="./assets/cil_print_vector.png"
-                  class="share_print_link"
-                  alt=""
-                />
-              </div>
-              <div class="col-lg-4 ps-lg-3 col">
-                <nav aria-label="Page navigation example list-inline-item">
-                  <ul class="pagination pagination_style">
-                    <li class="page-item">
-                      <a class="page-link border_pagination" href="#"
-                        ><i class="fa-solid fa-chevron-left"></i
-                      ></a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                      <a class="page-link border_pagination" href="#"
-                        ><i class="fa-solid fa-chevron-right"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </nav>
+                      <div class="arrow-position">
+                        <div class="arrow-ribbon1">Available for rent</div>
+                        <div class="arrow-ribbon2">£324.68</div>
+                        <div class="arrow-ribbon3">
+                          <img
+                            src="./assets/propertysearch-vector-ribben.png"
+                            alt=""
+                          />
+                          12
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-8 ps-lg-3">
+                      <div class="property-listing-card-text">
+                        <h1 class="pb-lg-1">
+                          Real House Luxury Villa
+                          <img
+                            src="./assets/properysearch-location-vector-top.png"
+                            alt=""
+                            class="float-end"
+                          />
+                        </h1>
+                        <h2 class="pb-lg-1">
+                          <img
+                            src="./assets/propertydetails-vector-location.png"
+                            alt=""
+                          />
+                          Est St, 77 - Central Park South, NYC
+                        </h2>
+                        <h3 class="card-text pb-lg-1">
+                          <strong>Description :</strong> This property is a
+                          second floor studio flat within one of our Livingwell
+                          complexes located in the Ibrox area. Please note there
+                          is no lift. The property has a combined livingroom and
+                          bedroom with a separate...
+                        </h3>
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong> Advert ref :</strong>
+                              </li>
+                              <li class="list-inline-item">WG936507</li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Bedroooms :</strong>
+                              </li>
+                              <li class="list-inline-item">1</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-8">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Property type :</strong>
+                              </li>
+                              <li class="list-inline-item">
+                                Tenement Flat Ground Floor
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-lg-4">
+                            <ul class="list-unstyled list-inline">
+                              <li class="list-inline-item">
+                                <strong>Advertised band :</strong>
+                              </li>
+                              <li class="list-inline-item">E</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-7">
+                            <span>Advertised by</span>
+                            <img
+                              src="./assets/GHA-property-search.jpg"
+                              alt=""
+                              class="gha-img-border"
+                            />
+                          </div>
+                          <div class="col-lg-5">
+                            <button class="property-details-cta">
+                              Full property details
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
