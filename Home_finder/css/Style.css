@@ -1342,6 +1342,22 @@ footer ul li a {
   border: none;
   padding: 10px 15px 10px 15px;
 }
+.accordion-button:not(.collapsed) {
+  color: #353d42;
+  background-color: white;
+  box-shadow: none;
+}
+.accordion-item {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.accordion-button:focus {
+  z-index: 3;
+  border-color: white;
+  outline: 0;
+  box-shadow: none;
+}
 /*propery search grid css end */
 
 /* login to bid  */
@@ -2469,6 +2485,18 @@ footer ul li a {
     color: #ffffff;
     border: none;
     padding: 10px 15px 10px 15px;
+    border-radius: 0;
+  }
+  .property-details-cta-grid {
+    background: #a4195c;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 0;
   }
   .arrow-ribbon1 {
     color: #fff;
@@ -3373,6 +3401,18 @@ footer ul li a {
     color: #ffffff;
     border: none;
     padding: 10px 20px 10px 20px;
+    border-radius: 0;
+  }
+  .property-details-cta-grid {
+    background: #a4195c;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 0;
   }
   .arrow-ribbon1 {
     color: #fff;
@@ -3697,6 +3737,29 @@ footer ul li a {
   .footer_mobile_img_playstore {
     width: 44%;
     float: right;
+  }
+  /* property search */
+  .arrow-ribbon33 {
+    color: #5b5e60;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    left: 600px;
+    z-index: 9;
+    font-size: 1.125rem;
+    border-radius: 6px;
+    background-color: rgba(249, 249, 249, 0.9);
+    bottom: 370px;
+  }
+  .arrow-ribbon11 {
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    left: 15px;
+    z-index: 9;
+    font-size: 1.125rem;
+    border-radius: 6px;
+    background-color: #a4195c;
+    bottom: 370px;
   }
   /* property details */
   .border-end-mb {
@@ -4140,6 +4203,17 @@ footer ul li a {
     border-radius: 6px;
     background-color: #a4195c;
     bottom: 370px;
+  }
+  .property-details-cta-grid {
+    background: #a4195c;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 0;
   }
   /* property search page css end*/
 
@@ -4616,6 +4690,7 @@ footer ul li a {
     color: #ffffff;
     border: none;
     padding: 10px 12px 10px 12px;
+    border-radius: 0;
   }
   .arrow-ribbon11 {
     color: #fff;
@@ -4626,18 +4701,18 @@ footer ul li a {
     font-size: 1.125rem;
     border-radius: 6px;
     background-color: #a4195c;
-    bottom: 370px;
+    bottom: 315px;
   }
   .arrow-ribbon33 {
     color: #5b5e60;
     padding: 10px 10px 10px 10px;
     position: absolute;
-    left: 610px;
+    left: 525px;
     z-index: 9;
     font-size: 1.125rem;
     border-radius: 6px;
     background-color: rgba(249, 249, 249, 0.9);
-    bottom: 370px;
+    bottom: 315px;
   }
   /* login to bid page */
   logintobid-img {
@@ -5029,23 +5104,4 @@ footer ul li a {
   .my-current-bids .nav-tabs {
     border: none;
   }
-}
-
-/* demo */
-
-.accordion-button:not(.collapsed) {
-  color: #353d42;
-  background-color: white;
-  box-shadow: none;
-}
-.accordion-item {
-  background-color: #fff;
-  border: none;
-  border-radius: 4px;
-}
-.accordion-button:focus {
-  z-index: 3;
-  border-color: white;
-  outline: 0;
-  box-shadow: none;
 }
