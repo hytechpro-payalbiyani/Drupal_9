@@ -131,7 +131,7 @@
           <img
             src="./assets/Homefinder_logo_RGB1 1.png"
             alt="Home finder logo images"
-            class="Homefinder_logo_imgheader"
+            class="Homefinder_logo_imgheader img-fluid"
           />
         </a>
         <button
@@ -198,7 +198,7 @@
       </ul>
     </div>
     <section>
-      <div class="container mt-3 account-details-heading">
+      <div class="container mt-4 account-details-heading">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs mt-lg-2 mb-lg-5" role="tablist">
           <li class="nav-item">
@@ -217,7 +217,10 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="tab" href="#menu3"
+            <a
+              class="nav-link border-bottom-sm"
+              data-bs-toggle="tab"
+              href="#menu3"
               >SEE ALL PROPERTIES</a
             >
           </li>
@@ -225,8 +228,8 @@
 
         <!-- Tab panes -->
         <div class="tab-content">
-          <div id="home" class="tab-pane active">
-            <div class="account-details">
+          <div id="home" class="tab-pane active page1">
+            <div class="account-details mt-lg-0 mt-4 mb-4 mb-lg-4">
               <div class="row border-bottom pb-lg-2">
                 <div class="col-lg-8 col">
                   <h1>Account Details</h1>
@@ -251,7 +254,7 @@
               </table>
             </div>
           </div>
-          <div id="menu1" class="tab-pane fade">
+          <div id="menu1" class="tab-pane fade page2">
             <div class="mt-3 mb-3">
               <div class="my-current-bids">
                 <!-- Nav tabs -->
@@ -271,7 +274,7 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" data-bs-toggle="tab" href="#menu21"
+                    <a class="nav-link" data-bs-toggle="tab" href="#menu211"
                       >Properties yet to be allocated</a
                     >
                   </li>
@@ -279,9 +282,12 @@
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                  <div id="home1" class="container tab-pane active">
+                  <div
+                    id="home1"
+                    class="container tab-pane active my-current-bids-inner"
+                  >
                     <table
-                      class="table table-borderless mt-lg-4 mb-lg-4 my-current-bids-inner"
+                      class="table table-borderless mt-lg-4 mt-4 mb-4 mb-lg-4"
                     >
                       <tr>
                         <th>Advert ref.</th>
@@ -301,9 +307,12 @@
                       </tr>
                     </table>
                   </div>
-                  <div id="menu11" class="container tab-pane fade">
+                  <div
+                    id="menu11"
+                    class="container tab-pane fade my-current-bids-inner"
+                  >
                     <table
-                      class="table table-borderless mt-lg-4 mb-lg-4 my-current-bids-inner"
+                      class="table table-borderless mt-lg-4 mt-4 mb-4 mb-lg-4"
                     >
                       <tr>
                         <th>Advert ref.</th>
@@ -323,8 +332,11 @@
                       </tr>
                     </table>
                   </div>
-                  <div id="menu21" class="container tab-pane fade">
-                    <table class="table mt-lg-4 mb-lg-4 my-current-bids-inner">
+                  <div
+                    id="menu211"
+                    class="container tab-pane fade my-current-bids-inner1"
+                  >
+                    <table class="table mt-lg-4 mt-4 mb-4 mb-lg-4">
                       <tr>
                         <th>Advert ref.</th>
                         <th>Address</th>
@@ -363,9 +375,12 @@
               </div>
             </div>
           </div>
-          <div id="menu2" class="myprivious-bids tab-pane fade p-4 mb-4">
+          <div
+            id="menu2"
+            class="myprivious-bids tab-pane fade pt-lg-4 ps-lg-4 pe-lg-4 mt-4 mt-lg-0 page3"
+          >
             <h4 class="myprivious-bids-heading">My Previous Bids</h4>
-            <table class="table mt-lg-4 mb-lg-4 my-current-bids-inner">
+            <table class="table mt-lg-4 mb-lg-4">
               <tr>
                 <th>Advert ref.</th>
                 <th>Address</th>
@@ -375,7 +390,7 @@
                 <th>Bid position</th>
               </tr>
               <tr>
-                <td>731545</td>
+                <td class="myprivious-bids-table-color">731545</td>
                 <td>12 Rectory Close 30 Hendon Lane</td>
                 <td>1</td>
                 <td>26/12/2021</td>
@@ -383,7 +398,7 @@
                 <td>55</td>
               </tr>
               <tr>
-                <td>731545</td>
+                <td class="myprivious-bids-table-color">731545</td>
                 <td>12 Rectory Close 30 Hendon Lane</td>
                 <td>1</td>
                 <td>26/12/2021</td>
@@ -391,7 +406,31 @@
                 <td>55</td>
               </tr>
               <tr>
-                <td>731545</td>
+                <td class="myprivious-bids-table-color">731545</td>
+                <td>12 Rectory Close 30 Hendon Lane</td>
+                <td>1</td>
+                <td>26/12/2021</td>
+                <td>55</td>
+                <td>55</td>
+              </tr>
+              <tr>
+                <td class="myprivious-bids-table-color">731545</td>
+                <td>12 Rectory Close 30 Hendon Lane</td>
+                <td>1</td>
+                <td>26/12/2021</td>
+                <td>55</td>
+                <td>55</td>
+              </tr>
+              <tr>
+                <td class="myprivious-bids-table-color">731545</td>
+                <td>12 Rectory Close 30 Hendon Lane</td>
+                <td>1</td>
+                <td>26/12/2021</td>
+                <td>55</td>
+                <td>55</td>
+              </tr>
+              <tr>
+                <td class="myprivious-bids-table-color">731545</td>
                 <td>12 Rectory Close 30 Hendon Lane</td>
                 <td>1</td>
                 <td>26/12/2021</td>
@@ -400,14 +439,7 @@
               </tr>
             </table>
           </div>
-          <div id="menu3" class="container tab-pane fade">
-            <br />
-            <h3>Menu 3</h3>
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
-            </p>
-          </div>
+          <div id="menu3" class="container tab-pane fade mb-lg-5 mb-5"></div>
         </div>
       </div>
     </section>
@@ -421,7 +453,7 @@
               alt="Home finder logo for footer in white color"
             />
           </div>
-          <div class="col-lg-6 col-md-4 d-none d-sm-block text-center">
+          <div class="col-lg-6 col-md-4 d-none d-md-block text-center">
             <p class="border-bottom-mobile-img"></p>
           </div>
           <div class="col-lg-3 col-md-4 footer_awosomefont_input">
