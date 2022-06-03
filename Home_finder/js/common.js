@@ -396,37 +396,13 @@ $(document).ready(function () {
     },
   });
 });
+
+// nav menu
+
 function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-  document.getElementsByClassName("socialhousingsection")[0].style.zIndex = "0";
-  document.getElementsByClassName("socialhousingsection")[1].style.zIndex = "0";
-  document.getElementsByClassName("socialhousingsection")[2].style.zIndex = "0";
-  document.getElementsByClassName("socialhousingsection")[3].style.zIndex = "0";
-  document.getElementsByClassName("socialhousingsection")[4].style.zIndex = "0";
-  document.getElementsByClassName("owl-carousel")[0].style.zIndex = "0";
-  document.getElementsByClassName("owl-carousel")[1].style.zIndex = "0";
-  document.getElementsByClassName("owl-carousel")[2].style.zIndex = "0";
-  document.getElementsByClassName("owl-carousel")[3].style.zIndex = "0";
-  document.getElementsByClassName("owl-carousel")[4].style.zIndex = "0";
+  document.getElementById("myNav").style.width = "90%";
 }
 
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
-  document.getElementsByClassName("socialhousingsection")[0].style.zIndex =
-    "10000";
-  document.getElementsByClassName("socialhousingsection")[1].style.zIndex =
-    "10000";
-  document.getElementsByClassName("socialhousingsection")[2].style.zIndex =
-    "10000";
-  document.getElementsByClassName("socialhousingsection")[3].style.zIndex =
-    "10000";
-  document.getElementsByClassName("socialhousingsection")[4].style.zIndex =
-    "10000";
-  document.getElementsByClassName("owl-carousel")[0].style.zIndex = "1";
-  document.getElementsByClassName("owl-carousel")[1].style.zIndex = "1";
-  document.getElementsByClassName("owl-carousel")[2].style.zIndex = "1";
-  document.getElementsByClassName("owl-carousel")[3].style.zIndex = "1";
-  document.getElementsByClassName("owl-carousel")[4].style.zIndex = "1";
 }
-
-// property search script

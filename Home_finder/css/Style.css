@@ -2,16 +2,17 @@
 body {
   font-family: "Roboto";
 }
+
 .overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
+  height: 700px;
+  width: 0%;
   z-index: 1;
-  top: 0;
-  left: 0;
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
   transition: 0.5s;
+  position: absolute;
+  top: 110px;
+  right: 0;
 }
 
 .overlay-content {
@@ -671,7 +672,7 @@ footer ul li a {
   margin-bottom: 1.25rem;
 }
 .mt-7 {
-  margin-top: 6rem !important;
+  margin-top: 4rem !important;
 }
 .mb-6 {
   margin-bottom: 2.5rem !important;
