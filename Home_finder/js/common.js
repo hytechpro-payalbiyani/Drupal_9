@@ -65,7 +65,7 @@ $(document).ready(function () {
         items: 2,
       },
 
-      1000: {
+      1200: {
         items: 4,
       },
     },
@@ -406,3 +406,5 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+// checkbox

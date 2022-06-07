@@ -124,7 +124,7 @@
     <!-- HFBottomnav start -->
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img
             src="./assets/Homefinder_logo_RGB1 1.png"
             alt="Home finder logo images"
@@ -148,18 +148,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">How to it works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Seacrch for a Property</a>
+              <a class="nav-link" href="property-search-list.html"
+                >Seacrch for a Property</a
+              >
             </li>
           </ul>
-          <button type="button" class="logintoBid_cta">
+          <a
+            type="button"
+            class="logintoBid_cta text-decoration-none"
+            href="login-to-bid.html"
+          >
             <span class="logintoBid_cta_innertext">Login to Bid</span>
-          </button>
+          </a>
           <img
             class="vector_nav_input"
             src="./assets/Vector.png"
@@ -736,9 +742,12 @@
                         />
                       </div>
                       <div class="col-lg-5 col-5">
-                        <button class="property-details-cta">
+                        <a
+                          class="property-details-cta text-decoration-none"
+                          href="home-finder-details.html"
+                        >
                           Full property details
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -839,9 +848,12 @@
                         />
                       </div>
                       <div class="col-lg-5 col-5">
-                        <button class="property-details-cta">
+                        <a
+                          class="property-details-cta text-decoration-none"
+                          href="home-finder-details.html"
+                        >
                           Full property details
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -942,9 +954,12 @@
                         />
                       </div>
                       <div class="col-lg-5 col-5">
-                        <button class="property-details-cta">
+                        <a
+                          class="property-details-cta text-decoration-none"
+                          href="home-finder-details.html"
+                        >
                           Full property details
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -1045,9 +1060,12 @@
                         />
                       </div>
                       <div class="col-lg-5 col-5">
-                        <button class="property-details-cta">
+                        <a
+                          class="property-details-cta text-decoration-none"
+                          href="home-finder-details.html"
+                        >
                           Full property details
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -1166,6 +1184,16 @@
           $("#panelsStayOpen-collapseTwo").addClass("show");
           $("#panelsStayOpen-collapseThree").addClass("show");
         }
+      });
+    </script>
+    <!-- checkbox -->
+    <script>
+      $(document).ready(function () {
+        $('input[type="checkbox"]').on("keypress", function (event) {
+          if (event.which === 13) {
+            this.checked = !this.checked;
+          }
+        });
       });
     </script>
   </body>

@@ -114,8 +114,9 @@ nav ul li {
   background-color: #a4195c;
   color: white;
   width: 11.25rem;
-  height: 2.8125rem;
   border: none;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
 }
 .logintoBid_cta_innertext {
   font-size: 1.125rem;
@@ -288,12 +289,15 @@ footer ul li a {
   padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
   color: black;
   margin-right: 0.875rem;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.6);
 }
 .section1_button2_ctn {
   border: 0.0625rem solid #a4195c;
   display: inline-block;
   padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
   color: black;
+  background: rgba(255, 255, 255, 0.6);
 }
 
 /* section 1 hero_banner css end */
@@ -404,7 +408,7 @@ footer ul li a {
   width: 100%;
   background-color: rgba(164, 25, 92, 1);
   border: none;
-  height: 2.625rem;
+  padding: 10px 0px 10px 0px;
   color: white;
   font-size: 1.125rem;
   font-weight: 400;
@@ -413,10 +417,31 @@ footer ul li a {
   width: 100%;
   background-color: #e5e5e5;
   border: none;
+  padding: 10px 0px 10px 0px;
+  color: rgba(64, 64, 64, 1);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.see_all_cta3 {
+  width: 100%;
+  background-color: rgba(164, 25, 92, 1);
+  border: none;
+  height: 2.625rem;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: 10px 0px 10px 0px;
+}
+
+.findout-more-cta3 {
+  width: 100%;
+  background-color: #e5e5e5;
+  border: none;
   height: 2.625rem;
   color: rgba(64, 64, 64, 1);
   font-size: 1.125rem;
   font-weight: 400;
+  padding: 10px 0px 10px 0px;
 }
 .section3-card-right-style {
   font-size: 1.625rem;
@@ -1259,7 +1284,7 @@ footer ul li a {
   line-height: 1.1875rem;
   color: #ffffff;
   border: none;
-  padding: 13px 25px 13px 25px;
+  padding: 13px 15px 13px 15px;
 }
 .arrow-ribbon1 {
   color: #fff;
@@ -1982,7 +2007,7 @@ footer ul li a {
     width: 100%;
     background-color: rgba(164, 25, 92, 1);
     border: none;
-    height: 2rem;
+    padding: 10px 0px 10px 0px;
     color: white;
     font-size: 0.875rem;
     font-weight: 400;
@@ -1991,10 +2016,31 @@ footer ul li a {
     width: 100%;
     background-color: #e5e5e5;
     border: none;
-    height: 2rem;
+    padding: 10px 0px 10px 0px;
     color: rgba(64, 64, 64, 1);
     font-size: 0.875rem;
     font-weight: 400;
+  }
+  .see_all_cta3 {
+    width: 100%;
+    background-color: rgba(164, 25, 92, 1);
+    border: none;
+    height: 2.625rem;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 5px 5px 55px 5px;
+  }
+
+  .findout-more-cta3 {
+    width: 100%;
+    background-color: #e5e5e5;
+    border: none;
+    height: 2.625rem;
+    color: rgba(64, 64, 64, 1);
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 5px 0px 55px 0px;
   }
   .see_all_right_inactive_border {
     border: 0.0625rem solid #d7d7d7;
@@ -2947,7 +2993,7 @@ footer ul li a {
     width: 100%;
     background-color: rgba(164, 25, 92, 1);
     border: none;
-    height: 3.125rem;
+    padding: 10px 0px 10px 0px;
     color: white;
     font-size: 1.125rem;
     font-weight: 400;
@@ -2956,10 +3002,31 @@ footer ul li a {
     width: 100%;
     background-color: #e5e5e5;
     border: none;
-    height: 3.125rem;
+    padding: 10px 0px 10px 0px;
     color: rgba(64, 64, 64, 1);
     font-size: 1.125rem;
     font-weight: 400;
+  }
+  .see_all_cta3 {
+    width: 100%;
+    background-color: rgba(164, 25, 92, 1);
+    border: none;
+    height: 2.625rem;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 5px 5px 55px 5px;
+  }
+
+  .findout-more-cta3 {
+    width: 100%;
+    background-color: #e5e5e5;
+    border: none;
+    height: 2.625rem;
+    color: rgba(64, 64, 64, 1);
+    font-size: 1.125rem;
+    font-weight: 400;
+    padding: 5px 0px 55px 0px;
   }
   .see_all_right_inactive_border {
     border: 0.0625rem solid #d7d7d7;
@@ -4470,7 +4537,7 @@ footer ul li a {
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.9044rem;
-    padding-left: 3.9375rem;
+    padding-left: 4.9375rem;
     padding-right: 0.625rem;
   }
   .section3_input {
