@@ -29,8 +29,7 @@ body {
   color: #242021;
   display: block;
   transition: 0.3s;
-  float: left;
-
+  text-align: left;
   font-weight: 400;
   line-height: 1.3125rem;
 }
@@ -390,7 +389,7 @@ footer ul li a {
   border: none !important;
 }
 
-.section3-card-style h5 {
+.section3-card-style h1 {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 2.9375rem;
@@ -889,7 +888,7 @@ footer ul li a {
 .circle_forth_border_color p {
   color: #404040;
 }
-.circle p {
+.circle h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1106,7 +1105,7 @@ footer ul li a {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #a5a5a5;
+  color: #353d42;
   background-color: #fff;
   background-image: url(../assets/searchbyproperydropdown.png);
   background-repeat: no-repeat;
@@ -1978,7 +1977,7 @@ footer ul li a {
   .resp-tabs-container {
     width: 100% !important;
   }
-  .section3-card-style h5 {
+  .section3-card-style h1 {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.75rem;
@@ -2385,7 +2384,7 @@ footer ul li a {
     margin-bottom: 2.5rem;
     margin-left: 0.625rem;
   }
-  .circle p {
+  .circle h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2958,7 +2957,7 @@ footer ul li a {
   .resp-tabs-container {
     width: 100% !important;
   }
-  .section3-card-style h5 {
+  .section3-card-style h1 {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.75rem;
@@ -3017,7 +3016,7 @@ footer ul li a {
     padding-bottom: 1.5625rem;
     border-radius: 1.25rem 0rem 1.5625rem 0rem;
   }
-  .section3-card-style h5 {
+  .section3-card-style h1 {
     font-size: 2rem;
     font-weight: 500;
     line-height: 2.5rem;
@@ -3978,7 +3977,7 @@ footer ul li a {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
-  .section3-card-style h5 {
+  .section3-card-style h1 {
     font-size: 2.1875rem;
     font-weight: 700;
     line-height: 2.5rem;
@@ -4577,7 +4576,7 @@ footer ul li a {
     border-top-left-radius: 0.625rem;
     padding-left: 4.0625rem;
   }
-  .section3-card-style h5 {
+  .section3-card-style h1 {
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 2.9375rem;
@@ -5005,7 +5004,7 @@ footer ul li a {
     padding-left: 3.75rem;
     padding-right: 3.125rem;
   }
-  .section3-card-style h5 {
+  .section3-card-style h1 {
     font-size: 2.375rem;
     font-weight: 700;
     line-height: 2.9375rem;
