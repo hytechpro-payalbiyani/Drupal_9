@@ -4,14 +4,14 @@ body {
 }
 
 .overlay {
-  height: 43.75rem;
+  height: 41rem;
   width: 0%;
   z-index: 1;
   background-color: rgb(255, 255, 255);
   overflow-x: hidden;
   transition: 0.5s;
   position: absolute;
-  top: 6.875rem;
+  top: 4rem;
   right: 0;
 }
 
@@ -52,7 +52,7 @@ body {
   border: none;
 }
 .nav_contact-us_overlay-cta {
-  background-color: #f29200;
+  background-color: #a86500;
   color: white;
   width: 11.25rem;
   height: 2.8125rem;
@@ -211,7 +211,7 @@ footer ul li a {
   text-align: right;
 }
 .footer_poweredby_homeconnection_text {
-  color: orange;
+  color: #ffb938;
 }
 
 .footer_privacy_cookies {
@@ -461,7 +461,7 @@ footer ul li a {
 .section4_benefits_of_joining .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff !important;
-  background-color: #f29200;
+  background-color: #c54a18;
   width: 100%;
   height: 2.6875rem;
   font-size: 1.125rem;
@@ -568,15 +568,15 @@ footer ul li a {
 }
 .section4_benefits_of_joining .owl-next span {
   font-size: 1.4375rem;
-  color: #b6b6b6;
-  border: 0.0625rem solid #b6b6b6;
+  color: #757575;
+  border: 0.0625rem solid #757575;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
 .section4_benefits_of_joining .owl-prev span {
   font-size: 1.4375rem;
-  color: #b6b6b6;
-  border: 0.0625rem solid #b6b6b6;
+  color: #757575;
+  border: 0.0625rem solid #757575;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
@@ -691,7 +691,7 @@ footer ul li a {
 .success_stories_p {
   font-size: 1rem;
   line-height: 1.1719rem;
-  color: #747474;
+  color: #696969;
   padding-right: 1.5625rem;
   margin-top: 0.625rem;
   margin-bottom: 1.25rem;
@@ -722,15 +722,15 @@ footer ul li a {
 
 .success_stories-inner .owl-next span {
   font-size: 1.625rem;
-  color: #f29200;
-  border: 0.0625rem solid #f29200;
+  color: #9e5f00;
+  border: 0.0625rem solid #9e5f00;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
 .success_stories-inner .owl-prev span {
   font-size: 1.625rem;
-  color: #f29200;
-  border: 0.0625rem solid #f29200;
+  color: #9e5f00;
+  border: 0.0625rem solid #9e5f00;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
@@ -795,7 +795,7 @@ footer ul li a {
   border: none;
   display: inline-block;
   color: white;
-  background-color: #ea5012;
+  background-color: #c54a18;
   font-size: 1.125rem;
   line-height: 1.3687rem;
   font-weight: 400;
@@ -816,15 +816,15 @@ footer ul li a {
 
 .case-studies-inner .owl-next span {
   font-size: 1.5625rem;
-  color: #b6b6b6;
-  border: 0.0625rem solid #b6b6b6;
+  color: #757575;
+  border: 0.0625rem solid #757575;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
 .case-studies-inner .owl-prev span {
   font-size: 1.5625rem;
-  color: #b6b6b6;
-  border: 0.0625rem solid #b6b6b6;
+  color: #757575;
+  border: 0.0625rem solid #757575;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
@@ -924,15 +924,15 @@ footer ul li a {
 
 .truth-in-numbers .owl-next span {
   font-size: 1.5625rem;
-  color: #b6b6b6;
-  border: 0.0625rem solid #b6b6b6;
+  color: #757575;
+  border: 0.0625rem solid #757575;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
 .truth-in-numbers .owl-prev span {
   font-size: 1.5625rem;
-  color: #b6b6b6;
-  border: 0.0625rem solid #b6b6b6;
+  color: #757575;
+  border: 0.0625rem solid #757575;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
@@ -964,7 +964,7 @@ footer ul li a {
 .latest_news_card p {
   font-size: 1rem;
   line-height: 1.1875rem;
-  color: #757575;
+  color: #696969;
   padding-left: 1.25rem;
   padding-right: 1.875rem;
   text-align: left;
@@ -981,7 +981,7 @@ footer ul li a {
 .view_more_ctn {
   border: none;
   color: white;
-  background-color: #ea5012;
+  background-color: #c54a18;
   font-size: 1.125rem;
   line-height: 1.3687rem;
   font-weight: 400;
@@ -1003,15 +1003,15 @@ footer ul li a {
 
 .latest-news .owl-next span {
   font-size: 1.5625rem;
-  color: #b6b6b6;
-  border: 0.0625rem solid #b6b6b6;
+  color: #757575;
+  border: 0.0625rem solid #757575;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
 .latest-news .owl-prev span {
   font-size: 1.5625rem;
-  color: #b6b6b6;
-  border: 0.0625rem solid #b6b6b6;
+  color: #757575;
+  border: 0.0625rem solid #757575;
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
@@ -1200,7 +1200,7 @@ footer ul li a {
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.3125rem;
-  color: #797979;
+  color: #696969;
 }
 .search-property-right-heading span {
   color: #a4195c;
@@ -1245,7 +1245,7 @@ footer ul li a {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.1875rem;
-  color: #797979;
+  color: #696969;
 }
 .property-listing-card-text h3 {
   font-weight: 500;
@@ -1398,7 +1398,7 @@ footer ul li a {
   font-size: 1.1875rem;
   line-height: 1.375rem;
   font-weight: 400;
-  color: #f29200;
+  color: #a86500;
   text-align: center;
 }
 .login-to-bid-heading p {
@@ -1425,8 +1425,8 @@ footer ul li a {
   padding: 0.3125rem;
 }
 
-.login-to-bid-heading p span {
-  color: #f29200;
+.login-to-bid-heading p a {
+  color: #a86500;
   font-size: 1.1875rem;
   line-height: 1.375rem;
   font-weight: 400;
@@ -1447,7 +1447,7 @@ footer ul li a {
 }
 .go-to-my-account-cta {
   color: white;
-  background-color: #ea5012;
+  background-color: #d14610;
   border: none;
   font-size: 1.125rem;
   line-height: 1.3125rem;
@@ -1508,7 +1508,7 @@ footer ul li a {
 }
 .account-details-heading .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #f29200;
+  color: #a86500;
   background-color: #fff;
   border-bottom: 0.25rem solid #ea5012;
   padding: 1rem 3.1875rem 1.25rem 5.1875rem;
@@ -1666,7 +1666,7 @@ footer ul li a {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.1875rem;
-  color: #a5a5a5;
+  color: #696969;
 }
 .google-adds-text {
   font-weight: 300;
@@ -1712,10 +1712,10 @@ footer ul li a {
   line-height: 1.1875rem;
 }
 .property-information ul li:nth-child(1) {
-  color: #a5a5a5;
+  color: #696969;
 }
 .property-information ul li:nth-child(3) {
-  color: #a5a5a5;
+  color: #696969;
 }
 .property-information-listing div ul li {
   font-weight: 400;
@@ -1723,7 +1723,7 @@ footer ul li a {
   line-height: 1.1875rem;
 }
 .property-information-listing div ul li:nth-child(2) {
-  color: #f29200;
+  color: #a86500;
 }
 .property-listing-description h1 {
   font-weight: 500;
@@ -1734,7 +1734,7 @@ footer ul li a {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.75rem;
-  color: #8b8b8b;
+  color: #696969;
 }
 .details-amenesties-heading {
   font-weight: 500;
@@ -1745,7 +1745,7 @@ footer ul li a {
   border-top: 0.0625rem solid rgba(0, 0, 0, 0.1);
 }
 .property-information-listing-bottom div ul li:nth-child(2) {
-  color: #f29200;
+  color: #a86500;
 }
 .border-end-mb {
   border-right: none;

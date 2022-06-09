@@ -169,7 +169,7 @@
           <img
             class="vector_nav_input"
             src="./assets/Vector.png"
-            alt="vector image for overlay nav"
+            alt="side nav overlay icon"
           />
         </div>
       </div>
@@ -181,7 +181,9 @@
       >
       <ul class="nav flex-column overlay-content ps-5 pe-5">
         <li class="nav-item border-bottom pb-4">
-          <a class="nav-link active" aria-current="page" href="#"><span>Home</span></a>
+          <a class="nav-link active" aria-current="page" href="#"
+            ><span>Home</span></a
+          >
         </li>
         <li class="nav-item border-bottom pb-4 pt-4">
           <a class="nav-link" href="#"><span>How it works</span></a>
@@ -205,31 +207,32 @@
         class="container border-loginto-bid login-to-bid-heading pb-lg-4 pt-lg-0 pt-5 pb-4"
       >
         <div class="row g-0 mb-3">
-          <div class="col-md-5 pt-lg-5 pt-md-5 mt-md-4">
+          <div
+            class="col-lg-5 pt-xl-5 pt-md-2 pt-lg-5 mt-md-4 mt-lg-5 pb-xl-0 pb-2 text-center"
+          >
             <img
               src="./assets/female-hand-typing-keyboard-laptop 1.png"
               class="img-fluid rounded-start"
-              alt="female hand typing keyboard image"
+              alt="login details typing keybord"
             />
           </div>
-          <div class="col-md-7">
+          <div class="col-lg-7">
             <div class="ms-lg-5 me-lg-5 ps-lg-5 ps-2 pe-lg-5 pt-lg-2 pt-3">
               <h1 class="pt-lg-5">Login to Bid</h1>
               <h2 class="pb-lg-3 pb-2">Registered users login here</h2>
               <form>
                 <input
-                  type="text"
                   class="form-control mb-lg-4 mb-4 mb-md-2"
-                  id="formGroupExampleInput"
+                  type="text"
                   placeholder="Username"
+                  aria-label="default input example"
                 />
                 <input
-                  type="password"
-                  class="form-control mb-lg-3 mb-3 mb-md-2"
-                  id="formGroupExampleInput1"
+                  class="form-control mb-lg-4 mb-4 mb-md-2"
+                  type="text"
                   placeholder="Password"
+                  aria-label="default input example"
                 />
-
                 <div class="row">
                   <div class="col-lg-5 col-5">
                     <input
@@ -253,7 +256,11 @@
                 >
                   Login
                 </button>
-                <p>Not registered? <span>Signup</span> here</p>
+                <p>
+                  Not registered?
+                  <a href="#" class="text-decoration-none">Signup</a>
+                  here
+                </p>
               </form>
             </div>
           </div>
@@ -284,7 +291,7 @@
                 ></a>
               </li>
               <li class="list-inline-item">
-                <a href=#"><i class="fa fa-twitter fa-lg fa-fw"></i></a>
+                <a href="#"><i class="fa fa-twitter fa-lg fa-fw"></i></a>
               </li>
 
               <li class="list-inline-item">
