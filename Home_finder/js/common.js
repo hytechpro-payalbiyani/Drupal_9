@@ -1,7 +1,6 @@
 // owl carousal
 
 $(document).ready(function () {
-  // var success = $("#success-stories");
   var latest = $("#latest-news");
   var trusted = $("#trusted-by");
   var fourthh = $("#fourth");
@@ -406,5 +405,3 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
-
-// checkbox
