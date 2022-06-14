@@ -118,6 +118,11 @@ nav ul li {
   padding: 0.625rem 0rem 0.625rem 0rem;
   text-align: center;
 }
+.logintoBid_cta:hover {
+  background-color: white;
+  color: #a4195c;
+  border: 0.0625rem solid #a4195c;
+}
 .logintoBid_cta_innertext {
   font-size: 1.125rem;
   line-height: 1.3125rem;
@@ -156,6 +161,10 @@ footer ul li {
 footer ul li a {
   text-decoration: none;
   color: white;
+}
+footer ul li a:hover {
+  text-decoration: none;
+  color: black;
 }
 .footer_mobile_img_googleplay {
   margin-right: 1.25rem;
@@ -292,6 +301,11 @@ footer ul li a {
   text-decoration: none;
   background: rgba(255, 255, 255, 0.6);
 }
+.section1_button1_ctn:hover {
+  color: white;
+  background: #a4195c;
+  border: 0.0625rem solid #a4195c;
+}
 .section1_button2_ctn {
   border: 0.0625rem solid #a4195c;
   display: inline-block;
@@ -299,7 +313,10 @@ footer ul li a {
   color: black;
   background: rgba(255, 255, 255, 0.6);
 }
-
+.section1_button2_ctn:hover {
+  color: white;
+  background: #a4195c;
+}
 /* section 1 hero_banner css end */
 
 /* section 2 Why use Homefinder UK? css start */
@@ -327,6 +344,11 @@ footer ul li a {
   color: black;
   background-color: #f8f8f8;
   margin-top: 0.625rem;
+}
+.read_more_cta:hover {
+  color: white;
+  background: #a4195c;
+  border: 0.0625rem solid #a4195c;
 }
 /* section 2 Why use Homefinder UK? css end */
 
@@ -413,6 +435,11 @@ footer ul li a {
   font-size: 1.125rem;
   font-weight: 400;
 }
+.see_all_cta:hover {
+  color: rgba(164, 25, 92, 1);
+  background-color: white;
+  border: 0.0625rem solid rgba(164, 25, 92, 1);
+}
 .findout-more-cta {
   width: 100%;
   background-color: #e5e5e5;
@@ -421,6 +448,11 @@ footer ul li a {
   color: rgba(64, 64, 64, 1);
   font-size: 1.125rem;
   font-weight: 400;
+}
+.findout-more-cta:hover {
+  color: rgba(64, 64, 64, 1);
+  background-color: white;
+  border: 0.0625rem solid rgba(64, 64, 64, 1);
 }
 .see_all_cta3 {
   width: 100%;
@@ -432,7 +464,11 @@ footer ul li a {
   font-weight: 400;
   padding: 0.625rem 0rem 0.625rem 0rem;
 }
-
+.see_all_cta3:hover {
+  color: rgba(164, 25, 92, 1);
+  background-color: white;
+  border: 0.0625rem solid rgba(164, 25, 92, 1);
+}
 .findout-more-cta3 {
   width: 100%;
   background-color: #e5e5e5;
@@ -442,6 +478,11 @@ footer ul li a {
   font-size: 1.125rem;
   font-weight: 400;
   padding: 0.625rem 0rem 0.625rem 0rem;
+}
+.findout-more-cta3:hover {
+  color: rgba(64, 64, 64, 1);
+  background-color: white;
+  border: 0.0625rem solid rgba(64, 64, 64, 1);
 }
 .section3-card-right-style {
   font-size: 1.625rem;
@@ -546,6 +587,11 @@ footer ul li a {
   float: right;
   margin-right: 0.625rem;
 }
+.section4_button1_ctn:hover {
+  color: #545454;
+  background-color: white;
+  border: 0.0625rem solid #545454;
+}
 .section4_button2_ctn {
   border: none;
   color: white;
@@ -555,7 +601,11 @@ footer ul li a {
   font-weight: 400;
   padding: 0.625rem 5.9375rem 0.625rem 5.9375rem;
 }
-
+.section4_button2_ctn:hover {
+  color: #a4195c;
+  background-color: white;
+  border: 0.0625rem solid #a4195c;
+}
 .section4_benefits_of_joining .owl-prev {
   position: absolute;
   bottom: -4.1875rem;
@@ -803,6 +853,11 @@ footer ul li a {
   height: 2.8125rem;
   margin-top: 1.875rem;
 }
+.case-studies_ctn:hover {
+  color: #c54a18;
+  background-color: white;
+  border: 0.0625rem solid #c54a18;
+}
 .case-studies-inner .owl-prev {
   right: 1.5625rem;
   position: absolute;
@@ -989,7 +1044,11 @@ footer ul li a {
   height: 2.8125rem;
   margin-top: 1.25rem;
 }
-
+.view_more_ctn:hover {
+  color: #c54a18;
+  background-color: white;
+  border: 0.0625rem solid #c54a18;
+}
 .latest-news .owl-prev {
   right: 3.75rem;
   position: absolute;
@@ -1070,7 +1129,7 @@ footer ul li a {
 }
 /*  section 8 Trusted by end*/
 
-/* property search list page css */
+/* property search page css start */
 .search_for_property {
   background-color: #f8f8f8;
   padding-bottom: 3.125rem;
@@ -1095,6 +1154,9 @@ footer ul li a {
 }
 .search_for_property_heading-form-i {
   background-color: #565656;
+}
+.form-width-desktop-only {
+  width: 18.75rem !important;
 }
 .search_for_property .form-select {
   display: block;
@@ -1132,14 +1194,19 @@ footer ul li a {
   user-select: none;
   background-color: transparent;
   border: 0.0625rem solid transparent;
-  padding: 0.75rem 3.75rem 0.75rem 3.75rem;
+  padding: 0.75rem 3.7rem 0.75rem 3.7rem;
   font-size: 1.125rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  border-radius: 0;
   color: white;
   background-color: #666666;
+  margin-right: 0.5rem;
+}
+.Reset_property_Cta:hover {
+  color: #666666;
+  background: white;
+  border: 0.0625rem solid #666666;
 }
 .search_for_property_Cta {
   display: inline-block;
@@ -1155,14 +1222,18 @@ footer ul li a {
   user-select: none;
   background-color: transparent;
   border: 0.0625rem solid transparent;
-  padding: 0.75rem 3.75rem 0.75rem 3.75rem;
+  padding: 0.75rem 3.7rem 0.75rem 3.7rem;
   font-size: 1.125rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  border-radius: 0;
   color: white;
   background-color: #a4195c;
+}
+.search_for_property_Cta:hover {
+  color: #a4195c;
+  background: white;
+  border: 0.0625rem solid #a4195c;
 }
 .search_for_property_advanced_link {
   color: #0063a0;
@@ -1220,7 +1291,7 @@ footer ul li a {
 .btn1 {
   border: none;
   outline: none;
-  padding: 0.75rem 1rem;
+  padding: 0rem 0rem 0rem 0.625rem;
   background-color: white;
   color: #aaaaaa;
   cursor: pointer;
@@ -1234,7 +1305,7 @@ footer ul li a {
   background-color: white;
   color: #aaaaaa;
 }
-/* grid listview for property search css end*/
+/* grid list view for property search css end*/
 .property-listing-card-text h1 {
   font-weight: 500;
   font-size: 1.375rem;
@@ -1286,21 +1357,27 @@ footer ul li a {
   border: none;
   padding: 0.8125rem 0.9375rem 0.8125rem 0.9375rem;
 }
+.property-details-cta:hover {
+  color: #a4195c;
+  background: white;
+  border: 0.0625rem solid #a4195c;
+}
+
 .arrow-ribbon1 {
   color: #fff;
   padding: 0.625rem;
   position: absolute;
-  left: 0.9375rem;
+  left: 1.5rem;
   z-index: 9;
   font-size: 1.125rem;
   border-radius: 0.375rem;
   background-color: #a4195c;
-  bottom: 14.375rem;
+  bottom: 18rem;
 }
 .arrow-ribbon2 {
   color: #fff;
   position: absolute;
-  left: 0.9375rem;
+  left: 1.5rem;
   z-index: 9;
   font-size: 1.125rem;
   border-radius: 0.5rem 3.125rem 3.125rem 0.25rem;
@@ -1312,12 +1389,12 @@ footer ul li a {
   color: #5b5e60;
   padding: 0.625rem 0.625rem 0.625rem 0.625rem;
   position: absolute;
-  left: 12.5rem;
+  left: 16.2rem;
   z-index: 9;
   font-size: 1.125rem;
   border-radius: 0.375rem;
   background-color: rgba(249, 249, 249, 0.9);
-  bottom: 14.375rem;
+  bottom: 18rem;
 }
 .arrow-position {
   position: relative;
@@ -1424,6 +1501,11 @@ footer ul li a {
   font-weight: 400;
   padding: 0.3125rem;
 }
+.logintobid-login-cta:hover {
+  color: #ea5012;
+  background: white;
+  border: 0.0625rem solid #ea5012;
+}
 
 .login-to-bid-heading p a {
   color: #a86500;
@@ -1453,6 +1535,11 @@ footer ul li a {
   line-height: 1.3125rem;
   font-weight: 500;
   padding: 0.75rem 9.375rem 0.75rem 9.375rem;
+}
+.go-to-my-account-cta:hover {
+  color: #d14610;
+  background: white;
+  border: 0.0625rem solid #d14610;
 }
 /* account details */
 
@@ -1617,40 +1704,46 @@ footer ul li a {
   border-bottom: hidden;
 }
 
-/* property details */
+/* home finder property details */
 
-.gallery {
-  display: flex;
-  margin: 0.625rem auto;
-  width: 100%;
-  position: relative;
-  padding-top: 64%;
+.gallery-flexsliders .flex-direction-nav .flex-disabled {
+  opacity: 1 !important;
+  filter: alpha(opacity=0);
+  cursor: default;
+  z-index: 1;
 }
-.gallery_selector {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-}
-.gallery_selector:checked + .gallery_img {
-  opacity: 1;
-}
-.gallery_img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-.gallery img {
-  max-width: 100%;
-  vertical-align: top;
-}
-.gallery_thumb {
-  margin: 0.375rem;
+.gallery-flexsliders .flexslider .slides img {
+  width: auto;
   display: block;
 }
-.gallery_selector:checked ~ .gallery_thumb > img {
-  box-shadow: 0 0 0 0.1875rem #ffffff;
+.gallery-flexsliders .flex-direction-nav .flex-next {
+  left: 42.5rem;
+  text-align: right;
+}
+.gallery-flexsliders .flex-direction-nav .flex-prev {
+  left: 0.625rem;
+}
+.gallery-flexsliders .flexslider {
+  margin: 0rem 0.9375rem 0.9375rem -0.625rem;
+  background: #fff;
+  border: none;
+  position: relative;
+  zoom: 1;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  -webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+  -o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+  box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+}
+.gallery-flexsliders .flex-direction-nav a:before {
+  font-family: "flexslider-icon";
+  font-size: 2.1875rem;
+  display: inline-block;
+  content: "\f001";
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0.0625rem 0.0625rem 0 rgb(255 255 255 / 30%);
 }
 .home-finder-details {
   background-color: #f8f7fa;
@@ -1694,7 +1787,7 @@ footer ul li a {
 }
 .map-property-details {
   width: 100%;
-  height: 40rem;
+  height: 38rem;
 }
 
 .home-finder-details {
@@ -2506,7 +2599,52 @@ footer ul li a {
     line-height: 1.1875rem;
     color: #565656;
   }
-
+  .search_for_property_Cta {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.75rem 3.7rem 0.75rem 3.7rem;
+    font-size: 1.125rem;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: white;
+    background-color: #a4195c;
+    margin-right: 0.625rem;
+  }
+  .Reset_property_Cta {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.75rem 3.7rem 0.75rem 3.7rem;
+    font-size: 1.125rem;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: white;
+    background-color: #666666;
+    margin-right: 0.5rem;
+  }
   .search_for_property_advanced_link {
     color: #737373;
     text-decoration: none;
@@ -2700,6 +2838,9 @@ footer ul li a {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 1.75rem;
+  }
+  .form-width-desktop-only {
+    width: 100% !important;
   }
   .map-property-details {
     width: 100%;
@@ -3429,12 +3570,15 @@ footer ul li a {
     border-bottom: 0.0625rem solid white;
     margin-bottom: 1.25rem;
   }
-  /* property for search*/
+  /* property search grid and list*/
   .search_for_property_heading {
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 1.75rem;
     color: #000000;
+  }
+  .form-width-desktop-only {
+    width: 100% !important;
   }
   .search_for_property_advanced_link {
     color: #737373;
@@ -3442,6 +3586,52 @@ footer ul li a {
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 1.3125rem;
+  }
+  .search_for_property_Cta {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.75rem 3.7rem 0.75rem 3.7rem;
+    font-size: 1.125rem;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: white;
+    background-color: #a4195c;
+    margin-right: 0.625rem;
+  }
+  .Reset_property_Cta {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.75rem 3.7rem 0.75rem 3.7rem;
+    font-size: 1.125rem;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: white;
+    background-color: #666666;
+    margin-right: 0.5rem;
   }
   .property-details-cta {
     background: #a4195c;
@@ -4246,7 +4436,53 @@ footer ul li a {
     text-align: center;
   }
 
-  /* property search page css start*/
+  /* property search grid and list page css start*/
+  .search_for_property_Cta {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.75rem 3.7rem 0.75rem 3.7rem;
+    font-size: 1.125rem;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: white;
+    background-color: #a4195c;
+    margin-right: 0.625rem;
+  }
+  .Reset_property_Cta {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.75rem 3.7rem 0.75rem 3.7rem;
+    font-size: 1.125rem;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: white;
+    background-color: #666666;
+    margin-right: 0.5rem;
+  }
   .arrow-ribbon1 {
     color: #fff;
     padding: 0.625rem;
@@ -4302,6 +4538,9 @@ footer ul li a {
     background-color: #a4195c;
     bottom: 23.125rem;
   }
+  .form-width-desktop-only {
+    width: 100% !important;
+  }
   .property-details-cta-grid {
     background: #a4195c;
     border-radius: 0.25rem;
@@ -4313,7 +4552,7 @@ footer ul li a {
     padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
     border-radius: 0;
   }
-  /* property search page css end*/
+  /* property search grid and list page css end*/
 
   /* login to bid page */
   .login-to-bid-heading h1 {
@@ -4747,7 +4986,56 @@ footer ul li a {
     font-size: 0.875rem;
     height: 3.75rem;
   }
-  /* property search page */
+  /* property search grid and list page css start */
+  .form-width-desktop-only {
+    width: 14.6875rem !important;
+  }
+  .search_for_property_Cta {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.75rem 3.7rem 0.75rem 3.7rem;
+    font-size: 1.125rem;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: white;
+    background-color: #a4195c;
+    margin-right: 0.625rem;
+  }
+  .Reset_property_Cta {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.3125rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0.0625rem solid transparent;
+    padding: 0.75rem 3.7rem 0.75rem 3.7rem;
+    font-size: 1.125rem;
+    border-radius: 0rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: white;
+    background-color: #666666;
+    margin-right: 0.5rem;
+  }
   .arrow-ribbon1 {
     color: #fff;
     padding: 0.625rem;
@@ -4814,6 +5102,8 @@ footer ul li a {
     background-color: rgba(249, 249, 249, 0.9);
     bottom: 19.6875rem;
   }
+  /* property search grid and list page css end */
+
   /* login to bid page */
   logintobid-img {
     padding-right: 0rem;
@@ -4953,6 +5243,9 @@ footer ul li a {
     border-radius: 0.375rem;
     background-color: #a4195c;
     bottom: 11.5625rem;
+  }
+  .form-width-desktop-only {
+    width: 18.75rem !important;
   }
 }
 /* media 1200px-1350px */
