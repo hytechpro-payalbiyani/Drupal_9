@@ -23,9 +23,6 @@
     />
     <!-- main css -->
     <link rel="stylesheet" href="./css/Style.css" />
-    <!-- owl -->
-    <link rel="stylesheet" href="./css/owl/owl.carousel.css" />
-    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css" />
   </head>
   <body>
     <!-- hfTopNav start -->
@@ -142,7 +139,7 @@
           onclick="openNav()"
         >
           <span>
-            <img class="" src="./assets/Vector.png" alt="vector image"
+            <img class="" src="./assets/Vector.png" alt="image for vector"
           /></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -155,7 +152,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="property-search-list.html"
-                >Seacrch for a Property</a
+                >Search for a Property</a
               >
             </li>
           </ul>
@@ -169,7 +166,7 @@
           <img
             class="vector_nav_input"
             src="./assets/Vector.png"
-            alt="vector image for overlay nav"
+            alt="button for overlay nav"
           />
         </div>
       </div>
@@ -181,23 +178,21 @@
       >
       <ul class="nav flex-column overlay-content ps-5 pe-5">
         <li class="nav-item border-bottom pb-4">
-          <a class="nav-link active" aria-current="page" href="#"
-            ><span>Home</span></a
-          >
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item border-bottom pb-4 pt-4">
-          <a class="nav-link" href="#"><span>How it works</span></a>
+          <a class="nav-link" href="#">How it works</a>
         </li>
         <li class="nav-item border-bottom pb-4 pt-4">
-          <a class="nav-link" href="#"><span>Search for Property</span></a>
+          <a class="nav-link" href="#">Search for Property</a>
         </li>
         <li class="nav-item border-bottom pb-4 pt-4">
-          <a class="nav-link" href="#"><span>More</span></a>
+          <a class="nav-link" href="#">More</a>
         </li>
         <li class="nav-item pb-2">
           <button class="nav_contact-us_overlay-cta float-start">
             <i class="fa-solid fa-phone"></i>
-            <span>Contact Us</span>
+            Contact Us
           </button>
         </li>
       </ul>
@@ -253,7 +248,7 @@
                 <option value="3">Three</option>
               </select>
             </div>
-            <div class="col-1 mt-4 pt-4 d-lg-block d-none">
+            <div class="col-1 mt-4 pt-4 d-lg-block d-none text-end">
               <i
                 class="fa-solid fa-magnifying-glass text-white border p-3 search_for_property_heading-form-i mt-lg-1"
               ></i>
@@ -330,7 +325,7 @@
         <div class="row pt-lg-4">
           <div class="col-xl-3 col-lg-4 pt-lg-3 pt-3 pb-lg-0 pb-4">
             <h1 class="heading-filters">Filters</h1>
-            <div class="ps-lg-4 ps-4 border-filters">
+            <div class="ps-lg-2 ps-2 pe-lg-2 pe-2 border-filters">
               <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -338,15 +333,15 @@
                       class="accordion-button paragraph-heading-filters pt-lg-4 mt-lg-1"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseOne"
+                      data-bs-target="#panelsStayOpen-collapseOne1"
                       aria-expanded="true"
-                      aria-controls="panelsStayOpen-collapseOne"
+                      aria-controls="panelsStayOpen-collapseOne1"
                     >
                       Amenities
                     </button>
                   </h2>
                   <div
-                    id="panelsStayOpen-collapseOne"
+                    id="panelsStayOpen-collapseOne1"
                     class="accordion-collapse collapse show"
                     aria-labelledby="panelsStayOpen-headingOne"
                   >
@@ -465,15 +460,15 @@
                       class="accordion-button collapsed paragraph-heading-filters"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseTwo"
+                      data-bs-target="#panelsStayOpen-collapseTwo2"
                       aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseTwo"
+                      aria-controls="panelsStayOpen-collapseTwo2"
                     >
                       Sort by
                     </button>
                   </h2>
                   <div
-                    id="panelsStayOpen-collapseTwo"
+                    id="panelsStayOpen-collapseTwo2"
                     class="accordion-collapse collapse show"
                     aria-labelledby="panelsStayOpen-headingTwo"
                   >
@@ -558,15 +553,15 @@
                       class="accordion-button collapsed paragraph-heading-filters pb-lg-4"
                       type="button"
                       data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseThree"
+                      data-bs-target="#panelsStayOpen-collapseThree3"
                       aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseThree"
+                      aria-controls="panelsStayOpen-collapseThree3"
                     >
                       Catagory
                     </button>
                   </h2>
                   <div
-                    id="panelsStayOpen-collapseThree"
+                    id="panelsStayOpen-collapseThree3"
                     class="accordion-collapse collapse show"
                     aria-labelledby="panelsStayOpen-headingThree"
                   >
@@ -641,9 +636,12 @@
               </li>
               <li class="list-inline-item float-end">
                 <div>
-                  <a href="property-search-list.html" class="btn1 active">
+                  <a
+                    href="property-search-list.html"
+                    class="btn1 active text-decoration-none"
+                  >
                     <img
-                      src="./assets/Vector (6).png"
+                      src="./assets/list-view.png"
                       alt="property search list icon"
                     />
                   </a>
@@ -690,12 +688,14 @@
                             src="./assets/properysearch-location-vector-top.png"
                             alt="location"
                             class="float-end me-lg-1"
+                            role="button"
                           />
                         </h1>
                         <h2 class="pb-lg-1 pb-1">
                           <img
                             src="./assets/propertydetails-vector-location.png"
                             alt="location vector"
+                            role="button"
                           />
                           Est St, 77 - Central Park South, NYC
                         </h2>
@@ -799,12 +799,14 @@
                             src="./assets/properysearch-location-vector-top.png"
                             alt="location"
                             class="float-end me-lg-1"
+                            role="button"
                           />
                         </h1>
                         <h2 class="pb-lg-1 pb-1">
                           <img
                             src="./assets/propertydetails-vector-location.png"
                             alt="location vector"
+                            role="button"
                           />
                           Est St, 77 - Central Park South, NYC
                         </h2>
@@ -911,12 +913,14 @@
                             src="./assets/properysearch-location-vector-top.png"
                             alt="location"
                             class="float-end me-lg-1"
+                            role="button"
                           />
                         </h1>
                         <h2 class="pb-lg-1 pb-1">
                           <img
                             src="./assets/propertydetails-vector-location.png"
                             alt="location vector"
+                            role="button"
                           />
                           Est St, 77 - Central Park South, NYC
                         </h2>
@@ -1020,12 +1024,14 @@
                             src="./assets/properysearch-location-vector-top.png"
                             alt="location"
                             class="float-end me-lg-1"
+                            role="button"
                           />
                         </h1>
                         <h2 class="pb-lg-1 pb-1">
                           <img
                             src="./assets/propertydetails-vector-location.png"
                             alt="location vector"
+                            role="button"
                           />
                           Est St, 77 - Central Park South, NYC
                         </h2>
@@ -1106,11 +1112,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4">
-            <img
-              class="homefinder_logo_white img-fluid"
-              src="./assets/Homefinder_logo_White 1.png"
-              alt="Home finder logo for footer in white color"
-            />
+            <a href="index.html">
+              <img
+                class="homefinder_logo_white img-fluid"
+                src="./assets/Homefinder_logo_White 1.png"
+                alt="Home finder logo for footer in white color"
+              />
+            </a>
           </div>
           <div class="col-lg-6 col-md-4 d-none d-md-block text-center">
             <p class="border-bottom-mobile-img"></p>

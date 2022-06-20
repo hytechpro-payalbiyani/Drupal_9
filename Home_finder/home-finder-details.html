@@ -29,9 +29,8 @@
       rel="stylesheet"
       type="text/css"
     />
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="./css/owl/owl.carousel.css" />
-    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css" />
+    <!-- flexsliders -->
+    <link rel="stylesheet" href="./css/flexslider.css" />
   </head>
   <body>
     <!-- hfTopNav start -->
@@ -148,7 +147,7 @@
           onclick="openNav()"
         >
           <span>
-            <img class="" src="./assets/Vector.png" alt="vector image"
+            <img class="" src="./assets/Vector.png" alt="image for vector"
           /></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -161,7 +160,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="property-search-list.html"
-                >Seacrch for a Property</a
+                >Search for a Property</a
               >
             </li>
           </ul>
@@ -175,7 +174,7 @@
           <img
             class="vector_nav_input"
             src="./assets/Vector.png"
-            alt="vector image for overlay nav"
+            alt="image for overlay nav"
           />
         </div>
       </div>
@@ -187,23 +186,21 @@
       >
       <ul class="nav flex-column overlay-content ps-5 pe-5">
         <li class="nav-item border-bottom pb-4">
-          <a class="nav-link active" aria-current="page" href="#"
-            ><span>Home</span></a
-          >
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item border-bottom pb-4 pt-4">
-          <a class="nav-link" href="#"><span>How it works</span></a>
+          <a class="nav-link" href="#">How it works</a>
         </li>
         <li class="nav-item border-bottom pb-4 pt-4">
-          <a class="nav-link" href="#"><span>Search for Property</span></a>
+          <a class="nav-link" href="#">Search for Property</a>
         </li>
         <li class="nav-item border-bottom pb-4 pt-4">
-          <a class="nav-link" href="#"><span>More</span></a>
+          <a class="nav-link" href="#">More</a>
         </li>
         <li class="nav-item pb-2">
           <button class="nav_contact-us_overlay-cta float-start">
             <i class="fa-solid fa-phone"></i>
-            <span>Contact Us</span>
+            Contact Us
           </button>
         </li>
       </ul>
@@ -227,6 +224,7 @@
                 src="./assets/details-vector-location.png"
                 alt="location"
                 class="me-lg-2"
+                role="button"
               />8 Iona Road, Port Glasgow, PA14 6DN
             </p>
           </div>
@@ -235,73 +233,111 @@
               src="./assets/share-Vector.png"
               class="share_print_link1"
               alt="share link"
+              role="button"
             />
             <img
               src="./assets/cil_print_vector.png"
               class="share_print_link1"
               alt="print link"
+              role="button"
             />
           </div>
         </div>
         <div class="row gx-0">
-          <div class="col-lg-8 pe-lg-2">
-            <div class="gallery">
-              <div class="gallery_item">
-                <input
-                  type="radio"
-                  id="img-1"
-                  checked=""
-                  name="gallery"
-                  class="gallery_selector"
-                />
-                <img
-                  class="gallery_img"
-                  src="./assets/details-gallary-1.png"
-                  alt="gallary image 11"
-                />
-                <label for="img-1" class="gallery_thumb">
+          <div class="col-lg-8 pe-lg-2 slider gallery-flexsliders">
+            <div id="slider" class="flexslider">
+              <ul class="slides">
+                <li>
+                  <img
+                    src="./assets/details-gallary-1.png"
+                    class="img-fluid"
+                    alt="gallery image1"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/details-gallary-1.png"
+                    class="img-fluid"
+                    alt="gallery image2"
+                  />
+                </li>
+
+                <li>
+                  <img
+                    src="./assets/details-gallary-1.png"
+                    class="img-fluid"
+                    alt="gallery image3"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/details-gallary-1.png"
+                    class="img-fluid"
+                    alt="gallery image4"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/details-gallary-1.png"
+                    class="img-fluid"
+                    alt="gallery image5"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/details-gallary-1.png"
+                    class="img-fluid"
+                    alt="gallery image6"
+                  />
+                </li>
+              </ul>
+            </div>
+            <div id="carousel" class="flexslider">
+              <ul class="slides">
+                <li>
                   <img
                     src="./assets/deatls-gally-sm-1.png"
-                    alt="gallary image 1"
+                    class="img-fluid"
+                    alt="gallery image7"
                   />
-                </label>
-              </div>
-              <div class="gallery_item">
-                <input
-                  type="radio"
-                  id="img-2"
-                  name="gallery"
-                  class="gallery_selector"
-                />
-                <img
-                  class="gallery_img"
-                  src="./assets/details-gallary-1.png"
-                  alt="gallary image 22"
-                />
-                <label for="img-2" class="gallery_thumb"
-                  ><img
+                </li>
+                <li>
+                  <img
                     src="./assets/deatls-gally-sm-1.png"
-                    alt="gallary image 2"
-                /></label>
-              </div>
-              <div class="gallery_item">
-                <input
-                  type="radio"
-                  id="img-3"
-                  name="gallery"
-                  class="gallery_selector"
-                />
-                <img
-                  class="gallery_img"
-                  src="./assets/details-gallary-1.png"
-                  alt="gallary image 33"
-                />
-                <label for="img-3" class="gallery_thumb"
-                  ><img
+                    class="img-fluid"
+                    alt="gallery image8"
+                  />
+                </li>
+
+                <li>
+                  <img
                     src="./assets/deatls-gally-sm-1.png"
-                    alt="gallary image 3"
-                /></label>
-              </div>
+                    class="img-fluid"
+                    alt="gallery image9"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/deatls-gally-sm-1.png"
+                    class="img-fluid"
+                    alt="gallery image10"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/deatls-gally-sm-1.png"
+                    class="img-fluid"
+                    alt="gallery image11"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/deatls-gally-sm-1.png"
+                    class="img-fluid"
+                    alt="gallery image12"
+                  />
+                </li>
+              </ul>
             </div>
           </div>
           <div class="col-lg-4">
@@ -542,7 +578,7 @@
         <h1 class="google-adds-text">Space for <strong>Google Ads</strong></h1>
       </div>
     </section>
-    <!-- section 8 Trusted by -->
+    <!-- section Trusted by -->
     <section>
       <div class="row gx-0">
         <div class="col-lg-5 col-md-5 section8-left-body">
@@ -765,11 +801,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4">
-            <img
-              class="homefinder_logo_white img-fluid"
-              src="./assets/Homefinder_logo_White 1.png"
-              alt="Home finder logo for footer in white color"
-            />
+            <a href="index.html">
+              <img
+                class="homefinder_logo_white img-fluid"
+                src="./assets/Homefinder_logo_White 1.png"
+                alt="Home finder logo for footer in white color"
+              />
+            </a>
           </div>
           <div class="col-lg-6 col-md-4 d-none d-md-block text-center">
             <p class="border-bottom-mobile-img"></p>
@@ -852,12 +890,43 @@
     </footer>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="./js/jquery.flexslider.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="./js/owl/owl.carousel.js"></script>
-    <script src="./js/common.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("#carousel").flexslider({
+          animation: "slide",
+          controlNav: false,
+          animationLoop: true,
+          slideshow: true,
+          slideshowSpeed: 2000,
+          itemWidth: 210,
+          itemMargin: 5,
+          asNavFor: "#slider",
+          prevText: "Previous",
+          nextText: "Next",
+        });
+        $("#slider").flexslider({
+          animation: "slide",
+          controlNav: false,
+          slideshow: true,
+          animationLoop: true,
+          slideshowSpeed: 2000,
+          prevText: "Previous",
+          nextText: "Next",
+          sync: "#carousel",
+          start: function (slider) {
+            $("body").removeClass("loading");
+          },
+        });
+      });
+    </script>
   </body>
 </html>

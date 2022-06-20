@@ -10,7 +10,7 @@ $(document).ready(function () {
     autoplayhoverpause: true,
     autoplaytimeout: 1000,
     items: 3,
-    margin: 20,
+    margin: 19,
     nav: true,
     loop: true,
     dots: false,
@@ -19,7 +19,7 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      600: {
+      768: {
         items: 2,
       },
       1000: {
@@ -60,7 +60,7 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
-      600: {
+      768: {
         items: 2,
       },
 
@@ -96,10 +96,11 @@ $(function () {
     var items = event.item.count; // Number of items
     var item = event.item.index + 1; // Position of the current item
 
-    // it loop is true then reset counter from 1
+    // if loop is true then reset counter from 1
     if (item > items) {
       item = item - items;
     }
+
     $("#countertab11").html(item + " / " + items);
   }
 });
@@ -129,7 +130,7 @@ $(function () {
     var items = event.item.count; // Number of items
     var item = event.item.index + 1; // Position of the current item
 
-    // it loop is true then reset counter from 1
+    // if loop is true then reset counter from 1
     if (item > items) {
       item = item - items;
     }
@@ -162,7 +163,7 @@ $(function () {
     var items = event.item.count; // Number of items
     var item = event.item.index + 1; // Position of the current item
 
-    // it loop is true then reset counter from 1
+    // if loop is true then reset counter from 1
     if (item > items) {
       item = item - items;
     }
@@ -195,7 +196,7 @@ $(function () {
     var items = event.item.count; // Number of items
     var item = event.item.index + 1; // Position of the current item
 
-    // it loop is true then reset counter from 1
+    // if loop is true then reset counter from 1
     if (item > items) {
       item = item - items;
     }
@@ -228,7 +229,7 @@ $(function () {
     var items = event.item.count; // Number of items
     var item = event.item.index + 1; // Position of the current item
 
-    // it loop is true then reset counter from 1
+    // if loop is true then reset counter from 1
     if (item > items) {
       item = item - items;
     }
@@ -261,7 +262,7 @@ $(function () {
     var items = event.item.count; // Number of items
     var item = event.item.index + 1; // Position of the current item
 
-    // it loop is true then reset counter from 1
+    // if loop is true then reset counter from 1
     if (item > items) {
       item = item - items;
     }
@@ -288,7 +289,7 @@ $(function () {
     var items = event.item.count; // Number of items
     var item = event.item.index + 1; // Position of the current item
 
-    // it loop is true then reset counter from 1
+    // if loop is true then reset counter from 1
     if (item > items) {
       item = item - items;
     }
@@ -323,7 +324,7 @@ $(function () {
     var items = event.item.count; // Number of items
     var item = event.item.index + 1; // Position of the current item
 
-    // it loop is true then reset counter from 1
+    // if loop is true then reset counter from 1
     if (item > items) {
       item = item - items;
     }
