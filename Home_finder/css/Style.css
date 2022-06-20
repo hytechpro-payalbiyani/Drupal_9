@@ -3332,34 +3332,55 @@ footer ul li a:hover {
   }
   .section4_benefits_of_joining .owl-prev {
     position: absolute;
-    bottom: -6.25rem;
-    right: 5.625rem;
+    top: 16.375rem !important;
+    right: 22.875rem;
   }
   .section4_benefits_of_joining .owl-next {
     position: absolute;
-    bottom: -6.25rem;
-    right: 3.125rem;
+    top: 16.375rem !important;
+    right: 17.875rem;
   }
   .countertab21 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 19.375rem;
-    right: 8.75rem;
+    top: 17.375rem;
+    right: 20.4375rem;
   }
   .countertab22 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 19.4375rem;
-    right: 9.0625rem;
+    top: 17.25rem;
+    right: 20.4375rem;
   }
   .countertab23 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 21.875rem;
-    right: 9.0625rem;
+    top: 18.5rem;
+    right: 20.4375rem;
+  }
+  .section4_benefits_of_joining_img {
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
+    text-align: center;
+  }
+  .section4_benefits_of_joining h2 {
+    font-size: 1.0625rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    padding-left: 1.875rem;
+    color: #000000;
+  }
+  .section4_benefits_of_joining p {
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    font-weight: 400;
+    color: #747474;
+    padding-left: 1.875rem;
+    margin-top: 1.25rem;
+    margin-bottom: 3.4375rem;
   }
   /* success stories */
   .success_stories_p {
@@ -3927,33 +3948,33 @@ footer ul li a:hover {
 
   .section4_benefits_of_joining .owl-prev {
     position: absolute;
-    bottom: -4.375rem;
+    top: 18.7rem;
     right: 5.625rem;
   }
   .section4_benefits_of_joining .owl-next {
     position: absolute;
-    bottom: -4.375rem;
+    top: 18.7rem;
     right: 3.125rem;
   }
   .countertab11 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 17.5rem;
+    top: 19.2rem;
     right: 8.625rem;
   }
   .countertab12 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 17.5rem;
+    top: 19.2rem;
     right: 9.375rem;
   }
   .countertab13 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 18.75rem;
+    top: 19.5rem;
     right: 9.0625rem;
   }
   /* footer */
@@ -4275,33 +4296,33 @@ footer ul li a:hover {
   }
   .section4_benefits_of_joining .owl-prev {
     position: absolute;
-    bottom: -4.375rem;
+    top: 19.5rem;
     right: 5.625rem;
   }
   .section4_benefits_of_joining .owl-next {
     position: absolute;
-    bottom: -4.375rem;
+    top: 19.5rem;
     right: 3.125rem;
   }
   .countertab11 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 18.4375rem;
+    top: 20rem;
     right: 8.625rem;
   }
   .countertab12 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 18.125rem;
+    top: 20rem;
     right: 9.375rem;
   }
   .countertab13 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 19.6875rem;
+    top: 20rem;
     right: 9.0625rem;
   }
   /* success storis */
@@ -4752,7 +4773,7 @@ footer ul li a:hover {
     padding: 0.9375rem 1.875rem 0.9375rem 1.875rem;
     margin-bottom: 1.4375rem;
     margin-left: 6.25rem;
-    float: left;
+    float: right;
   }
   .socialhousingsection {
     z-index: 10000;
@@ -4878,33 +4899,33 @@ footer ul li a:hover {
   }
   .section4_benefits_of_joining .owl-prev {
     position: absolute;
-    bottom: -4.375rem;
+    top: 19rem;
     right: 5.625rem;
   }
   .section4_benefits_of_joining .owl-next {
     position: absolute;
-    bottom: -4.375rem;
+    top: 19rem;
     right: 3.125rem;
   }
   .countertab11 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 17.5rem;
+    top: 19.5rem;
     right: 8.625rem;
   }
   .countertab12 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 17.5rem;
+    top: 19.5rem;
     right: 9.375rem;
   }
   .countertab13 {
     position: relative;
     float: right;
     font-size: 1.125rem;
-    top: 18.75rem;
+    top: 19.75rem;
     right: 9.0625rem;
   }
   /* success stories */
@@ -5187,6 +5208,38 @@ footer ul li a:hover {
   }
 }
 @media (min-width: 1199.5px) and (max-width: 1200.5px) {
+  /* section 4 benefits of joining UK */
+  .section4_benefits_of_joining .owl-next {
+    position: absolute;
+    top: 17rem;
+    right: 3.125rem;
+  }
+  .section4_benefits_of_joining .owl-prev {
+    position: absolute;
+    top: 17rem;
+    right: 5.625rem;
+  }
+  .countertab11 {
+    position: relative;
+    float: right;
+    font-size: 1.125rem;
+    top: 18.5rem;
+    right: 8.625rem;
+  }
+  .countertab12 {
+    position: relative;
+    float: right;
+    font-size: 1.125rem;
+    top: 18.5rem;
+    right: 9.375rem;
+  }
+  .countertab13 {
+    position: relative;
+    float: right;
+    font-size: 1.125rem;
+    top: 18rem !important;
+    right: 9.0625rem;
+  }
   /* property search */
   .arrow-ribbon1 {
     color: #fff;
