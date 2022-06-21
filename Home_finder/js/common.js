@@ -46,6 +46,7 @@ $(document).ready(function () {
       },
     },
   });
+
   fourthh.owlCarousel({
     autoplay: true,
     autoplayhoverpause: true,
@@ -63,7 +64,9 @@ $(document).ready(function () {
       768: {
         items: 2,
       },
-
+      1000: {
+        items: 3,
+      },
       1200: {
         items: 4,
       },
@@ -397,7 +400,7 @@ $(document).ready(function () {
   });
 });
 
-// nav menu
+// nav menu common
 
 function openNav() {
   document.getElementById("myNav").style.width = "90%";
@@ -406,3 +409,34 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+// home finder details
+// gallery slider
+
+$(document).ready(function () {
+  $("#carousel").flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: true,
+    slideshowSpeed: 2000,
+    itemWidth: 210,
+    itemMargin: 5,
+    asNavFor: "#slider",
+    prevText: "Previous",
+    nextText: "Next",
+  });
+  $("#slider").flexslider({
+    animation: "slide",
+    controlNav: false,
+    slideshow: true,
+    animationLoop: true,
+    slideshowSpeed: 2000,
+    prevText: "Previous",
+    nextText: "Next",
+    sync: "#carousel",
+    start: function (slider) {
+      $("body").removeClass("loading");
+    },
+  });
+});

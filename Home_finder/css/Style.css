@@ -215,7 +215,7 @@ footer ul li a:hover {
   padding-top: 1.125rem;
   padding-bottom: 1.125rem;
   font-size: 0.875rem;
-  height: 3.375rem;
+  height: auto;
 }
 .footer_poweredby_text {
   text-align: right;
@@ -301,6 +301,7 @@ footer ul li a:hover {
   margin-right: 0.875rem;
   text-decoration: none;
   background: rgba(255, 255, 255, 0.6);
+  font-size: 1.125rem;
 }
 .section1_button1_ctn:hover {
   color: white;
@@ -314,6 +315,7 @@ footer ul li a:hover {
   padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
   color: black;
   background: rgba(255, 255, 255, 0.6);
+  font-size: 1.125rem;
 }
 .section1_button2_ctn:hover {
   color: white;
@@ -347,6 +349,7 @@ footer ul li a:hover {
   color: black;
   background-color: #f8f8f8;
   margin-top: 0.625rem;
+  font-size: 1.125rem;
 }
 .read_more_cta:hover {
   color: white;
@@ -411,6 +414,7 @@ footer ul li a:hover {
   border-top-left-radius: 0.625rem;
   padding-left: 4.0625rem;
 }
+
 .resp-tab-active div {
   border: none !important;
 }
@@ -524,6 +528,7 @@ footer ul li a:hover {
 }
 .section4_benefits_of_joining .nav-pills .nav-link {
   border-radius: 0rem;
+  color: #484848;
 }
 .local-authorities-cta {
   width: 21%;
@@ -973,25 +978,25 @@ footer ul li a:hover {
 .circle_first_border_color {
   border: 0.125rem solid #f29200;
 }
-.circle_first_border_color p {
+.circle_first_border_color h2 {
   color: #f29200;
 }
 .circle_second_border_color {
   border: 0.125rem solid #ea5012;
 }
-.circle_second_border_color p {
+.circle_second_border_color h2 {
   color: #ea5012;
 }
 .circle_third_border_color {
   border: 0.125rem solid #a4195c;
 }
-.circle_third_border_color p {
+.circle_third_border_color h2 {
   color: #a4195c;
 }
 .circle_forth_border_color {
   border: 0.125rem solid #404040;
 }
-.circle_forth_border_color p {
+.circle_forth_border_color h2 {
   color: #404040;
 }
 .circle h2 {
@@ -1021,12 +1026,12 @@ footer ul li a:hover {
 .truth-in-numbers .owl-prev {
   right: 4.6rem;
   position: absolute;
-  top: -4.375rem;
+  top: -3.375rem;
 }
 .truth-in-numbers .owl-next {
   right: 1.8rem;
   position: absolute;
-  top: -4.375rem;
+  top: -3.375rem;
 }
 
 .truth-in-numbers .owl-next span {
@@ -1058,6 +1063,17 @@ footer ul li a:hover {
 .latest_news_card card-body {
   padding-bottom: 0.625rem;
 }
+.arrow-ribbon-latest-news {
+  color: #fff;
+  padding: 0.4rem 0.5rem 0.4rem 1.5rem;
+  position: absolute;
+  right: 0rem;
+  z-index: 9;
+  font-size: 1rem;
+  background-color: rgba(164, 25, 92, 0.8);
+  border-radius: 20px 0px 0px 20px;
+  bottom: 18.2rem;
+}
 .latest_news_card h1 {
   font-size: 1.375rem;
   font-weight: 700;
@@ -1079,7 +1095,7 @@ footer ul li a:hover {
 .latest-news-heading {
   font-size: 2.5rem;
   color: #404040;
-  margin-bottom: 3.125rem;
+  margin-bottom: 2.5rem;
 }
 .card-body a {
   color: black;
@@ -1236,6 +1252,9 @@ footer ul li a:hover {
   -moz-appearance: none;
   appearance: none;
 }
+.search_for_property form span {
+  color: #353d42;
+}
 .Reset_property_Cta {
   display: inline-block;
   font-weight: 500;
@@ -1252,7 +1271,7 @@ footer ul li a:hover {
   border: 0.0625rem solid transparent;
   padding: 0.75rem 3.7rem 0.75rem 3.7rem;
   font-size: 1.125rem;
-  border-radius: 0.25rem;
+  border-radius: 0.125rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   color: white;
@@ -1281,7 +1300,7 @@ footer ul li a:hover {
   border: 0.0625rem solid transparent;
   padding: 0.75rem 3.7rem 0.75rem 3.7rem;
   font-size: 1.125rem;
-  border-radius: 0.25rem;
+  border-radius: 0.125rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   color: white;
@@ -1319,6 +1338,7 @@ footer ul li a:hover {
 }
 .search_property_result .form-check-input[type="checkbox"] {
   border-radius: 0rem;
+  border: 1.2px solid #aaaaaa;
 }
 .search_property_result .form-check {
   font-size: 1rem;
@@ -1329,7 +1349,7 @@ footer ul li a:hover {
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.3125rem;
-  color: #696969;
+  color: #797979;
 }
 .search-property-right-heading span {
   color: #a4195c;
@@ -1374,7 +1394,7 @@ footer ul li a:hover {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.1875rem;
-  color: #696969;
+  color: #797979;
 }
 .property-listing-card-text h3 {
   font-weight: 500;
@@ -1424,14 +1444,14 @@ footer ul li a:hover {
 
 .arrow-ribbon1 {
   color: #fff;
-  padding: 0.625rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
   position: absolute;
   left: 1.5rem;
   z-index: 9;
   font-size: 1.125rem;
   border-radius: 0.375rem;
   background-color: #a4195c;
-  bottom: 18rem;
+  bottom: 18.2rem;
 }
 .arrow-ribbon2 {
   color: #fff;
@@ -1442,18 +1462,18 @@ footer ul li a:hover {
   border-radius: 0.5rem 3.125rem 3.125rem 0.25rem;
   background-color: #a4195c;
   bottom: 0.625rem;
-  padding: 0.625rem 1.875rem 0.625rem 1.875rem;
+  padding: 1rem 2.875rem 1rem 1.875rem;
 }
 .arrow-ribbon3 {
   color: #5b5e60;
-  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
   position: absolute;
   left: 16.2rem;
   z-index: 9;
   font-size: 1.125rem;
   border-radius: 0.375rem;
   background-color: rgba(249, 249, 249, 0.9);
-  bottom: 18rem;
+  bottom: 18.2rem;
 }
 .arrow-position {
   position: relative;
@@ -1463,7 +1483,7 @@ footer ul li a:hover {
 /*propery search grid css start */
 .arrow-ribbon11 {
   color: #fff;
-  padding: 0.625rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
   position: absolute;
   left: 0.9375rem;
   z-index: 9;
@@ -1481,11 +1501,11 @@ footer ul li a:hover {
   border-radius: 0.5rem 3.125rem 3.125rem 0.25rem;
   background-color: #a4195c;
   bottom: 0.625rem;
-  padding: 0.625rem 1.875rem 0.625rem 1.875rem;
+  padding: 1rem 2.875rem 1rem 1.875rem;
 }
 .arrow-ribbon33 {
   color: #5b5e60;
-  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
   position: absolute;
   left: 19.6875rem;
   z-index: 9;
@@ -1824,7 +1844,6 @@ footer ul li a:hover {
   color: #696969;
 }
 .google-adds-text {
-  font-weight: 300;
   font-size: 2.25rem;
   line-height: 2.625rem;
   text-align: center;
@@ -1853,7 +1872,7 @@ footer ul li a:hover {
 }
 
 .home-finder-details {
-  padding-top: 2.5rem;
+  padding-top: 3rem;
   padding-bottom: 2.8125rem;
 }
 .property-information h1 {
@@ -1865,6 +1884,7 @@ footer ul li a:hover {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.1875rem;
+  color: black;
 }
 .property-information ul li:nth-child(1) {
   color: #696969;
@@ -1888,7 +1908,7 @@ footer ul li a:hover {
 .property-listing-description p {
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.75rem;
+  line-height: 1.6rem;
   color: #696969;
 }
 .details-amenesties-heading {
@@ -2043,7 +2063,7 @@ footer ul li a:hover {
     padding-top: 1.125rem;
     padding-bottom: 1.125rem;
     font-size: 0.875rem;
-    height: 6.5625rem;
+    height: auto;
     color: #e5e5e5;
   }
   /* section 2 why use uk media */
@@ -2885,6 +2905,13 @@ footer ul li a:hover {
     height: 40.625rem;
     margin-top: -1.25rem;
   }
+  .gallery-flexsliders .flex-direction-nav .flex-next {
+    left: 24.5rem;
+    text-align: right;
+  }
+  .gallery-flexsliders .flex-direction-nav .flex-prev {
+    left: 1.625rem;
+  }
   .property-information-listing {
     border-top: none;
   }
@@ -3550,8 +3577,9 @@ footer ul li a:hover {
 
   /* trusted by */
   .trusted-by {
-    padding-top: 6.875rem;
-    padding-left: 3.75rem;
+    padding-top: 3.875rem;
+    padding-left: 6.75rem;
+    padding-bottom: 3rem;
   }
   .display-lg-none {
     display: none !important;
@@ -3570,7 +3598,7 @@ footer ul li a:hover {
   }
   .footer_privacy_cookies_text {
     font-size: 0.875rem;
-    height: 6.25rem;
+    height: auto;
     margin-top: 0.9375rem;
   }
   .footer_privacy_cookies {
@@ -3773,6 +3801,10 @@ footer ul li a:hover {
     padding-top: 0.3125rem;
   }
   /*home finder property details */
+  .gallery-flexsliders .flex-direction-nav .flex-next {
+    left: 28rem;
+    text-align: right;
+  }
   .li-space-1 {
     margin-right: 10.3125rem;
   }
@@ -3996,7 +4028,7 @@ footer ul li a:hover {
   /* footer */
   .footer_privacy_cookies_text {
     font-size: 0.875rem;
-    height: 5rem;
+    height: auto;
     margin-top: 0.9375rem;
   }
   .homefinder_logo_white {
@@ -4075,7 +4107,7 @@ footer ul li a:hover {
     background-color: #a4195c;
     bottom: 23.125rem;
   }
-  /* property details */
+  /* property finder details */
   .border-end-mb {
     border-right: 0.0625rem solid #a9a9a9;
     margin-left: 0.625rem;
@@ -4091,6 +4123,10 @@ footer ul li a:hover {
     position: relative;
     left: 38.125rem;
     top: 3.125rem;
+  }
+  .gallery-flexsliders .flex-direction-nav .flex-next {
+    left: 40rem;
+    text-align: right;
   }
   .li-space-1 {
     margin-right: 15.9375rem;
@@ -4413,7 +4449,7 @@ footer ul li a:hover {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 300;
-    line-height: 3.125rem;
+    line-height: 2.7rem;
   }
   /* footer */
   .footer_download_text {
@@ -4472,7 +4508,7 @@ footer ul li a:hover {
     padding-top: 1.125rem;
     padding-bottom: 1.125rem;
     font-size: 0.875rem;
-    height: 5rem;
+    height: auto;
   }
   .footer_poweredby_text {
     text-align: center;
@@ -4629,6 +4665,11 @@ footer ul li a:hover {
     padding-top: 0.3125rem;
   }
   /* home finder property details */
+  .gallery-flexsliders .flex-direction-nav .flex-next {
+    left: 40rem;
+    text-align: right;
+  }
+
   .li-space-1 {
     margin-right: 15.9375rem;
   }
@@ -4812,6 +4853,11 @@ footer ul li a:hover {
     line-height: 1.9044rem;
     padding-left: 11.25rem;
     padding-right: 0.625rem;
+  }
+  /* property search details */
+  .gallery-flexsliders .flex-direction-nav .flex-next {
+    left: 35rem;
+    text-align: right;
   }
 }
 /* media 992px-1200px */
@@ -5035,7 +5081,7 @@ footer ul li a:hover {
     padding-top: 1.125rem;
     padding-bottom: 1.125rem;
     font-size: 0.875rem;
-    height: 3.75rem;
+    height: auto;
   }
   /* property search grid and list page css start */
   .form-width-desktop-only {
@@ -5179,6 +5225,10 @@ footer ul li a:hover {
     border-right: none;
     margin-left: 0rem;
     padding-left: 0rem;
+  }
+  .gallery-flexsliders .flex-direction-nav .flex-next {
+    left: 35.5rem;
+    text-align: right;
   }
   /* account details */
   .account-details-heading .nav-tabs .nav-link {
@@ -5531,16 +5581,21 @@ footer ul li a:hover {
     font-size: 1.125rem;
     border-bottom: 0.0625rem solid #d0d0d0;
   }
+  /* property finder deatils */
+  .gallery-flexsliders .flex-direction-nav .flex-next {
+    left: 42.5rem;
+    text-align: right;
+  }
 }
 /* media above 1350px */
 @media (min-width: 1350px) {
   /* hero banner */
   .section1_heading__text_input {
-    font-size: 2.75rem;
+    font-size: 3.125rem;
     font-weight: 700;
     color: black;
     padding-top: 8.75rem;
-    line-height: 3.125rem;
+    line-height: 3.688rem;
     padding-bottom: 0.625rem;
   }
   /* section 3 */

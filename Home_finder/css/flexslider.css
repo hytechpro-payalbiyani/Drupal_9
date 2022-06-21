@@ -128,7 +128,7 @@ html[xmlns] .flexslider .slides {
   top: 50%;
   z-index: 10;
   overflow: hidden;
-  opacity: 0;
+  opacity: 1;
   cursor: pointer;
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
@@ -275,9 +275,11 @@ html[xmlns] .flexslider .slides {
   .flex-direction-nav .flex-prev {
     opacity: 1;
     left: 10px;
+    z-index: 0;
   }
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
+    z-index: 0;
   }
 }

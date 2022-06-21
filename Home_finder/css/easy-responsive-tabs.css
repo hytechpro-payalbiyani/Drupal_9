@@ -55,6 +55,7 @@ h2.resp-accordion {
   font-size: 13px;
   margin: 0px;
   padding: 0px 25px;
+  color: #404040;
 }
 
 h2.resp-tab-active {
@@ -81,6 +82,7 @@ h2.resp-tab-title:last-child {
   margin: 0;
   cursor: pointer;
   float: none;
+  color: #404040;
 }
 
 .resp-vtabs .resp-tabs-container {
