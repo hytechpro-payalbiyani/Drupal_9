@@ -3,6 +3,7 @@ body {
   font-family: "Roboto";
 }
 
+/*overlay nav css start*/
 .overlay {
   height: 41rem;
   width: 0%;
@@ -69,6 +70,8 @@ body {
   right: 2.5rem;
   margin-top: 0.4375rem;
 }
+/*overlay nav css end*/
+
 /* nav bar css start */
 .hfTopNav .col-lg-6:nth-child(2) {
   text-align: right;
@@ -133,104 +136,9 @@ nav ul li {
 .logintoBid_cta_mobile {
   display: none;
 }
-
 /* nav bar css end */
 
-/* footer css start */
-footer {
-  background-color: #a4195c;
-  color: white;
-  padding: 2.1875rem 0rem 0rem 0rem;
-}
-.homefinder_logo_white {
-  margin-bottom: 2.4375rem;
-  width: 100%;
-}
-.footer_quick_links {
-  font-size: 1.5rem;
-  line-height: 1.7581rem;
-  font-weight: 700;
-}
-
-footer ul li {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  font-weight: 400;
-  font-size: 1.125rem;
-  line-height: 1.3125rem;
-}
-footer ul li a {
-  text-decoration: none;
-  color: white;
-}
-footer ul li a:hover {
-  text-decoration: none;
-  color: black;
-}
-.footer_mobile_img_googleplay {
-  margin-right: 1.25rem;
-}
-.footer_download_text {
-  font-size: 2.25rem;
-  line-height: 2.625rem;
-  letter-spacing: 0.0625rem;
-  padding-bottom: 1.25rem;
-}
-.mt-2 {
-  margin-top: 0.5rem !important;
-}
-.border-bottom-mobile-img {
-  width: 95%;
-  border-bottom: 0.0625rem solid #fff;
-  margin-top: 3.125rem;
-  margin-left: 0.625rem;
-}
-
-.footer_enqueries_links li:first-child {
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  font-weight: 700;
-}
-
-.footer_enqueries_links li:nth-child(2) {
-  font-weight: 400;
-  margin-top: 0.625rem;
-}
-.footer_enqueries_links li:nth-child(3) {
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-top: 0.625rem;
-}
-.footer_enqueries_links li:nth-child(4) {
-  font-size: 1.125rem;
-  font-weight: 400;
-  margin-top: 0.625rem;
-}
-.footer_awosomefont_input {
-  display: flex;
-  align-items: center;
-}
-.footer_privacy_cookies_text {
-  background-color: #962059;
-  padding-top: 1.125rem;
-  padding-bottom: 1.125rem;
-  font-size: 0.875rem;
-  height: auto;
-}
-.footer_poweredby_text {
-  text-align: right;
-}
-.footer_poweredby_homeconnection_text {
-  color: #ffb938;
-}
-
-.footer_privacy_cookies {
-  font-size: 0.875rem;
-}
-/* footer css end */
-
 /* common css start*/
-
 .align_item_center {
   display: flex;
   justify-content: center;
@@ -242,19 +150,17 @@ footer ul li a:hover {
   font-size: 1.125rem;
   color: #626262;
 }
-
 .section2_inner_text {
   font-size: 1.125rem;
   color: #626262;
 }
-
 .icon_custom_size {
   font-size: 0.75rem;
 }
-
 /* common css end */
 
-/* section 1 hero_banner css end */
+/* index page css start */
+/* section 1 hero_banner css start */
 .hero_banner p {
   margin-bottom: 1.4375rem;
 }
@@ -274,25 +180,21 @@ footer ul li a:hover {
   position: relative;
   overflow: hidden;
 }
-
 .homeSlider img {
   width: 100%;
 }
-
 .hero-text {
   padding-left: 3.125rem;
   position: absolute;
   top: 0;
   width: 31.25rem;
 }
-
 .section1_heading__text_input {
   font-size: 3.125rem;
   font-weight: 700;
   color: black;
   padding-top: 10.3125rem;
 }
-
 .section1_button1_ctn {
   border: 0.0625rem solid #ea5012;
   display: inline-block;
@@ -324,7 +226,7 @@ footer ul li a:hover {
 }
 /* section 1 hero_banner css end */
 
-/* section 2 Why use Homefinder UK? css start */
+/* section 2 Why use Homefinder UK css start */
 .section2_whyUK-heading {
   font-size: 2.75rem;
   font-weight: 700;
@@ -357,7 +259,7 @@ footer ul li a:hover {
   border: 0.0625rem solid #a4195c;
   cursor: pointer;
 }
-/* section 2 Why use Homefinder UK? css end */
+/* section 2 Why use Homefinder UK css end */
 
 /* section 3 Social housing outside your area css start */
 .section3_input {
@@ -373,7 +275,6 @@ footer ul li a:hover {
   line-height: 1.9044rem;
   color: rgba(64, 64, 64, 1);
 }
-
 .see_all_img_border {
   border-radius: 3.75rem 0rem 1.25rem 0rem;
 }
@@ -414,11 +315,9 @@ footer ul li a:hover {
   border-top-left-radius: 0.625rem;
   padding-left: 4.0625rem;
 }
-
 .resp-tab-active div {
   border: none !important;
 }
-
 .section3-card-style h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -507,10 +406,9 @@ footer ul li a:hover {
   height: 1.875rem;
   clear: both;
 }
-/* section3 Social housing outside your area css end */
+/* section 3 Social housing outside your area css end */
 
-/* section 4 Benefits of Joining Homefinder UKcss start */
-
+/* section 4 Benefits of Joining Homefinder UK css start */
 .section4_benefits_of_joining .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff !important;
@@ -519,7 +417,6 @@ footer ul li a:hover {
   height: 2.6875rem;
   font-size: 1.125rem;
 }
-
 .section4_benefits_of_joining h1 {
   font-size: 2.5rem;
   font-weight: 500;
@@ -537,7 +434,6 @@ footer ul li a:hover {
   margin-right: 0.625rem;
   border: 0.0625rem solid #f29200;
 }
-
 .housing-Assoiciations-cta {
   width: 21%;
   height: 2.8125rem;
@@ -546,7 +442,6 @@ footer ul li a:hover {
   margin-right: 0.625rem;
   color: #484848;
 }
-
 .member-Orgranisations-cta {
   width: 21%;
   height: 2.8125rem;
@@ -554,7 +449,6 @@ footer ul li a:hover {
   border: 0.0625rem solid #a4195c;
   color: #484848;
 }
-
 .section4_benefits_of_joining h2 {
   font-size: 1.5rem;
   line-height: 1.7581rem;
@@ -595,7 +489,6 @@ footer ul li a:hover {
 .section4_footer_image {
   margin-top: 3.625rem;
 }
-
 .section4_button1_ctn {
   border: none;
   color: white;
@@ -658,7 +551,7 @@ footer ul li a:hover {
   font-size: 1.125rem;
   top: 20.25rem;
   right: 11.9375rem;
-  color: #828282;
+  color: #686868;
 }
 .countertab11::first-letter {
   color: black;
@@ -669,7 +562,7 @@ footer ul li a:hover {
   font-size: 1.125rem;
   top: 20.25rem;
   right: 11.9375rem;
-  color: #828282;
+  color: #686868;
 }
 .countertab12::first-letter {
   color: black;
@@ -680,7 +573,7 @@ footer ul li a:hover {
   font-size: 1.125rem;
   top: 20.2rem;
   right: 11.9375rem;
-  color: #828282;
+  color: #686868;
 }
 .countertab13::first-letter {
   color: black;
@@ -702,7 +595,7 @@ footer ul li a:hover {
   font-size: 1.125rem;
   top: 20.2rem;
   right: 11.9375rem;
-  color: #828282;
+  color: #686868;
 }
 .countertab22::first-letter {
   color: black;
@@ -713,7 +606,7 @@ footer ul li a:hover {
   font-size: 1.125rem;
   top: 23.625rem;
   right: 14.4375rem;
-  color: #828282;
+  color: #686868;
 }
 .countertab23::first-letter {
   color: black;
@@ -763,14 +656,12 @@ footer ul li a:hover {
   border: none;
   margin-top: 1.25rem;
 }
-
 .section4_benefits_of_joining .border-right-mb-lg {
   border-right: 0.0625rem solid rgba(0, 0, 0, 0.2);
 }
 /* section 4 Benefits of Joining Homefinder UK css end */
 
-/* section 5 success stories start*/
-
+/* section 5 success stories css start*/
 .success_stories {
   background: #f5f5f5;
   padding-top: 7.8125rem;
@@ -815,7 +706,6 @@ footer ul li a:hover {
   position: absolute;
   top: -4.375rem;
 }
-
 .success_stories-inner .owl-next span {
   font-size: 1.625rem;
   color: #9e5f00;
@@ -836,12 +726,13 @@ footer ul li a:hover {
   top: -3.625rem;
   left: -4.8rem;
   font-size: 1.125rem;
-  color: #828282;
+  color: #686868;
 }
 .countersucessstudy11::first-letter {
   color: #9e5f00;
 }
-/* case studies start*/
+
+/* case studies css start*/
 .background-image_section5 {
   height: 45.25rem;
   background-image: linear-gradient(
@@ -854,7 +745,6 @@ footer ul li a:hover {
   background-position: bottom;
   border-radius: 0.5rem;
 }
-
 .success_stories_inner_section {
   position: absolute;
   width: 59.625rem;
@@ -878,7 +768,6 @@ footer ul li a:hover {
   text-align: left;
   padding-right: 1.875rem;
 }
-
 .case-studies-para {
   font-size: 1.125rem;
   color: #757575;
@@ -887,7 +776,6 @@ footer ul li a:hover {
   text-align: left;
   padding-right: 3rem;
 }
-
 .pt-6 {
   padding-top: 2rem !important;
 }
@@ -919,7 +807,6 @@ footer ul li a:hover {
   position: absolute;
   top: -4.375rem;
 }
-
 .case-studies-inner .owl-next span {
   font-size: 1.5625rem;
   color: #757575;
@@ -940,15 +827,16 @@ footer ul li a:hover {
   top: -3.625rem;
   left: -2.3rem;
   font-size: 1.125rem;
-  color: #828282;
+  color: #686868;
 }
 .counterstudy11::first-letter {
   color: black;
 }
-/* case studies end */
-/* section 5 success stories end*/
+/* case studies css end*/
 
-/* section 6 Truth in numvers start*/
+/* section 5 success stories css end*/
+
+/* section 6 Truth in numbers css start*/
 .truth-in-numbers {
   padding-top: 3.4375rem;
 }
@@ -976,10 +864,10 @@ footer ul li a:hover {
   padding: 0.9375rem 0.3125rem 0rem 0.3125rem;
 }
 .circle_first_border_color {
-  border: 0.125rem solid #f29200;
+  border: 0.125rem solid #812e0c;
 }
 .circle_first_border_color h2 {
-  color: #f29200;
+  color: #812e0c;
 }
 .circle_second_border_color {
   border: 0.125rem solid #ea5012;
@@ -1033,7 +921,6 @@ footer ul li a:hover {
   position: absolute;
   top: -3.375rem;
 }
-
 .truth-in-numbers .owl-next span {
   font-size: 1.5625rem;
   color: #757575;
@@ -1048,9 +935,9 @@ footer ul li a:hover {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
-/* section 6 Truth in numvers end */
+/* section 6 Truth in numbers css end*/
 
-/* section7 latest news start*/
+/* section 7 latest news css start*/
 .latest-news {
   background-color: #f8f8f8;
   padding-bottom: 3.125rem;
@@ -1065,7 +952,7 @@ footer ul li a:hover {
 }
 .arrow-ribbon-latest-news {
   color: #fff;
-  padding: 0.4rem 0.5rem 0.4rem 1.5rem;
+  padding: 0.4rem 0.5rem 0.4rem 1.9rem;
   position: absolute;
   right: 0rem;
   z-index: 9;
@@ -1128,7 +1015,6 @@ footer ul li a:hover {
   position: absolute;
   top: -4.375rem;
 }
-
 .latest-news .owl-next span {
   font-size: 1.5625rem;
   color: #757575;
@@ -1149,9 +1035,9 @@ footer ul li a:hover {
 .latest_news_card a:hover {
   color: #c54a18 !important;
 }
-/* section7 latest news end */
-/*  section 8 Trusted by start */
+/* section 7 latest news css end*/
 
+/*  section 8 Trusted by css start */
 .section8-left-body {
   background-color: #404040;
 }
@@ -1184,7 +1070,6 @@ footer ul li a:hover {
   position: absolute;
   top: -4.375rem;
 }
-
 .section8-right-body .owl-next span {
   font-size: 1.5625rem;
   color: #b6b6b6;
@@ -1199,9 +1084,103 @@ footer ul li a:hover {
   padding-left: 0.625rem;
   padding-right: 0.625rem;
 }
-/*  section 8 Trusted by end*/
+/*  section 8 Trusted by css end */
 
-/* property search page css start */
+/* footer css start */
+footer {
+  background-color: #a4195c;
+  color: white;
+  padding: 2.1875rem 0rem 0rem 0rem;
+}
+.homefinder_logo_white {
+  margin-bottom: 2.4375rem;
+  width: 100%;
+}
+.footer_quick_links {
+  font-size: 1.5rem;
+  line-height: 1.7581rem;
+  font-weight: 700;
+}
+footer ul li {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+}
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer ul li a:hover {
+  text-decoration: none;
+  color: black;
+}
+.footer_mobile_img_googleplay {
+  margin-right: 1.25rem;
+}
+.footer_download_text {
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  letter-spacing: 0.0625rem;
+  padding-bottom: 1.25rem;
+}
+.mt-2 {
+  margin-top: 0.5rem !important;
+}
+.border-bottom-mobile-img {
+  width: 95%;
+  border-bottom: 0.0625rem solid #fff;
+  margin-top: 3.125rem;
+  margin-left: 0.625rem;
+}
+.footer_enqueries_links li:first-child {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+.footer_enqueries_links li:nth-child(2) {
+  font-weight: 400;
+  margin-top: 0.625rem;
+}
+.footer_enqueries_links li:nth-child(3) {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0.625rem;
+}
+.footer_enqueries_links li:nth-child(4) {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 0.625rem;
+}
+.footer_awosomefont_input {
+  display: flex;
+  align-items: center;
+}
+.footer_privacy_cookies_text {
+  background-color: #962059;
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  font-size: 0.875rem;
+  height: auto;
+}
+.footer_poweredby_text {
+  text-align: right;
+}
+.footer_poweredby_homeconnection_text {
+  color: #ffb938;
+}
+.footer_poweredby_homeconnection_text:hover {
+  color: black !important;
+  cursor: pointer;
+}
+.footer_privacy_cookies {
+  font-size: 0.875rem;
+}
+/* footer css end */
+/* index page css end */
+
+/* property search page common for grid and list css start */
 .search_for_property {
   background-color: #f8f8f8;
   padding-bottom: 3.125rem;
@@ -1218,7 +1197,6 @@ footer ul li a:hover {
   line-height: 1.1875rem;
   color: #565656;
 }
-
 .border-end-searchfor-property {
   border-right: 0.0625rem solid #dee2e6 !important;
   margin-top: 0.625rem;
@@ -1349,23 +1327,19 @@ footer ul li a:hover {
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.3125rem;
-  color: #797979;
+  color: #686868;
 }
 .search-property-right-heading span {
   color: #a4195c;
 }
-/* listview for property search css */
 * {
   box-sizing: border-box;
 }
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-/* Style the buttons */
 .btn1 {
   border: none;
   outline: none;
@@ -1374,16 +1348,13 @@ footer ul li a:hover {
   color: #aaaaaa;
   cursor: pointer;
 }
-
 .btn1:hover {
   background-color: #aaaaaa;
 }
-
 .btn1.active {
   background-color: white;
   color: #aaaaaa;
 }
-/* grid list view for property search css end*/
 .property-listing-card-text h1 {
   font-weight: 500;
   font-size: 1.375rem;
@@ -1394,7 +1365,7 @@ footer ul li a:hover {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.1875rem;
-  color: #797979;
+  color: #686868;
 }
 .property-listing-card-text h3 {
   font-weight: 500;
@@ -1441,7 +1412,6 @@ footer ul li a:hover {
   border: 0.0625rem solid #a4195c;
   cursor: pointer;
 }
-
 .arrow-ribbon1 {
   color: #fff;
   padding: 0.5rem 1rem 0.5rem 0.5rem;
@@ -1478,9 +1448,6 @@ footer ul li a:hover {
 .arrow-position {
   position: relative;
 }
-/*propery search list css end */
-
-/*propery search grid css start */
 .arrow-ribbon11 {
   color: #fff;
   padding: 0.5rem 1rem 0.5rem 0.5rem;
@@ -1540,254 +1507,9 @@ footer ul li a:hover {
   outline: 0;
   box-shadow: none;
 }
-/*propery search grid css end */
+/* property search page common for grid and list css end*/
 
-/* login to bid  */
-.login-to-bid-heading h1 {
-  font-size: 2.25rem;
-  line-height: 2.625rem;
-  font-weight: 500;
-  color: #a4195c;
-  text-align: center;
-}
-.login-to-bid-heading h2 {
-  font-size: 1.1875rem;
-  line-height: 1.375rem;
-  font-weight: 400;
-  color: #a86500;
-  text-align: center;
-}
-.login-to-bid-heading p {
-  font-size: 1.1875rem;
-  line-height: 1.375rem;
-  font-weight: 400;
-  text-align: center;
-}
-
-.login-to-bid-heading h3 {
-  font-size: 0.875rem;
-  line-height: 1rem;
-  font-weight: 400;
-  padding-top: 0.3125rem;
-}
-.form-check-input {
-  cursor: pointer;
-}
-.logintobid-login-cta {
-  color: white;
-  width: 100%;
-  background-color: #ea5012;
-  border: none;
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  font-weight: 400;
-  padding: 0.3125rem;
-}
-.logintobid-login-cta:hover {
-  color: #ea5012;
-  background: white;
-  border: 0.0625rem solid #ea5012;
-}
-
-.login-to-bid-heading p a {
-  color: #a86500;
-  font-size: 1.1875rem;
-  line-height: 1.375rem;
-  font-weight: 400;
-  text-align: center;
-}
-.login-to-bid-heading .form-control {
-  border-radius: 0rem;
-}
-.border-loginto-bid {
-  border: 0.0625rem solid #dee2e6 !important;
-}
-/* go to my account */
-.go-to-my-account h1 {
-  font-size: 3rem;
-  line-height: 3.875rem;
-  font-weight: 400;
-  font-family: rochester;
-}
-.go-to-my-account-cta {
-  color: white;
-  background-color: #d14610;
-  border: none;
-  font-size: 1.125rem;
-  line-height: 1.3125rem;
-  font-weight: 500;
-  padding: 0.75rem 9.375rem 0.75rem 9.375rem;
-}
-.go-to-my-account-cta:hover {
-  color: #d14610;
-  background: white;
-  border: 0.0625rem solid #d14610;
-}
-/* account details */
-
-.account-details h1 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 1.75rem;
-}
-.account-details h2 {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.1875rem;
-  color: #a4195c;
-}
-.account-details span {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.1875rem;
-  color: black;
-}
-
-.account-details table th {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.1875rem;
-  color: #333333;
-  padding-top: 1.875rem;
-  padding-bottom: 0.9375rem;
-}
-.account-details table tr {
-  color: #757575;
-  padding-top: 2.5rem;
-}
-.my-current-bids table th {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.1875rem;
-  color: #333333;
-  padding-top: 0.9375rem;
-  padding-bottom: 0.9375rem;
-}
-.my-current-bids table tr {
-  color: #757575;
-  padding-top: 2.5rem;
-}
-.my-current-bids-inner1 table tr td {
-  color: #757575;
-  padding-top: 1.0625rem;
-  padding-bottom: 0.9375rem;
-}
-.my-current-bids table tr:last-child {
-  border-bottom: hidden;
-}
-.account-details-heading .nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: #a86500;
-  background-color: #fff;
-  border-bottom: 0.25rem solid #ea5012;
-  padding: 1rem 3.1875rem 1.25rem 5.1875rem;
-}
-.account-details-heading .nav-tabs .nav-link {
-  margin-bottom: -0.0625rem;
-  background: none;
-  border: 0.0625rem solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
-}
-
-.account-details-heading .nav-tabs {
-  border: 0.0625rem solid #e5e5e5;
-}
-.my-current-bids .nav-tabs {
-  border: none;
-}
-.account-details-heading ul li {
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  font-weight: 400;
-}
-.account-details {
-  border-radius: 0rem 1.25rem;
-  border: 0.0625rem solid #d0d0d0;
-  margin-bottom: 1.25rem;
-  padding: 0.625rem 1.5625rem 0rem 1.5625rem;
-}
-.my-current-bids h3 {
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  font-weight: 500;
-  background-color: #a4195c;
-  color: white;
-  padding: 1.25rem 0rem 1.25rem 1.25rem;
-  border-bottom: 0.0625rem solid black;
-  margin-bottom: 0rem;
-  border-radius: 0rem 1.25rem 0rem 0rem;
-}
-.my-current-bids {
-  border: 0.0625rem solid #d0d0d0;
-  border-radius: 0rem 1.25rem;
-}
-
-.my-current-bids .nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: white;
-  background-color: #a4195c;
-  border-color: #ffffff #fff #f29200;
-  padding: 1.25rem 4.0625rem 1.25rem 3.679rem;
-  border-bottom: 0.3125rem solid #f29200;
-  font-size: 1.125rem;
-}
-
-.my-current-bids .nav-tabs .nav-link {
-  margin-bottom: -0.0625rem;
-  background: none;
-  border: none;
-  border-top-left-radius: 0rem;
-  border-top-right-radius: 0rem;
-  padding: 1.375rem 5.5625rem 1.375rem 5.5625rem;
-  background-color: #a4195c;
-  color: white;
-  font-size: 1.125rem;
-}
-.my-current-bid .nav-tabs .nav-link {
-  margin-bottom: -0.0625rem;
-  background: none;
-  border: none;
-  border-top-left-radius: 0rem;
-  border-top-right-radius: 0rem;
-}
-.myprivious-bids-heading {
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1.75rem;
-  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.3);
-  padding-bottom: 1.25rem;
-}
-.myprivious-bids {
-  border: 0.0625rem solid #d0d0d0;
-  border-radius: 0rem 1.25rem;
-}
-.myprivious-bids-table-color {
-  color: #f29200;
-}
-.myprivious-bids table th {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.1875rem;
-  color: #333333;
-  padding-top: 1.0625rem;
-  padding-bottom: 1.0625rem;
-}
-.myprivious-bids table td {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.1875rem;
-  padding-top: 1.3125rem;
-  padding-bottom: 1.3125rem;
-  color: #757575;
-}
-.myprivious-bids table tr:last-child {
-  border-bottom: hidden;
-}
-
-/* home finder property details */
-
+/* home finder property details css start */
 .gallery-flexsliders .flex-direction-nav .flex-disabled {
   opacity: 1 !important;
   filter: alpha(opacity=0);
@@ -1925,10 +1647,255 @@ footer ul li a:hover {
 .border-end-mb {
   border-right: none;
 }
-/* media query for mobile view */
+/* home finder property details css end */
 
+/* login to bid css start */
+.login-to-bid-heading h1 {
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  font-weight: 500;
+  color: #a4195c;
+  text-align: center;
+}
+.login-to-bid-heading h2 {
+  font-size: 1.1875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  color: #a86500;
+  text-align: center;
+}
+.login-to-bid-heading p {
+  font-size: 1.1875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  text-align: center;
+}
+.login-to-bid-heading h3 {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: 400;
+  padding-top: 0.3125rem;
+}
+.form-check-input {
+  cursor: pointer;
+}
+.logintobid-login-cta {
+  color: white;
+  width: 100%;
+  background-color: #ea5012;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+  padding: 0.3125rem;
+}
+.logintobid-login-cta:hover {
+  color: #ea5012;
+  background: white;
+  border: 0.0625rem solid #ea5012;
+}
+.login-to-bid-heading p a {
+  color: #a86500;
+  font-size: 1.1875rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  text-align: center;
+}
+.login-to-bid-heading .form-control {
+  border-radius: 0rem;
+}
+.border-loginto-bid {
+  border: 0.0625rem solid #dee2e6 !important;
+}
+/* login to bid css end */
+
+/* go to my account css start*/
+.go-to-my-account h1 {
+  font-size: 3rem;
+  line-height: 3.875rem;
+  font-weight: 400;
+  font-family: rochester;
+}
+.go-to-my-account-cta {
+  color: white;
+  background-color: #d14610;
+  border: none;
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+  font-weight: 500;
+  padding: 0.75rem 9.375rem 0.75rem 9.375rem;
+}
+.go-to-my-account-cta:hover {
+  color: #d14610;
+  background: white;
+  border: 0.0625rem solid #d14610;
+}
+/* go to my account css end*/
+
+/* account details css start*/
+.account-details h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+}
+.account-details h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  color: #a4195c;
+}
+.account-details span {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  color: black;
+}
+.account-details table th {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  color: #333333;
+  padding-top: 1.875rem;
+  padding-bottom: 0.9375rem;
+}
+.account-details table tr {
+  color: #757575;
+  padding-top: 2.5rem;
+}
+.my-current-bids table th {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  color: #333333;
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+.my-current-bids table tr {
+  color: #757575;
+  padding-top: 2.5rem;
+}
+.my-current-bids-inner1 table tr td {
+  color: #757575;
+  padding-top: 1.0625rem;
+  padding-bottom: 0.9375rem;
+}
+.my-current-bids table tr:last-child {
+  border-bottom: hidden;
+}
+.account-details-heading .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #a86500;
+  background-color: #fff;
+  border-bottom: 0.25rem solid #ea5012;
+  padding: 1rem 3.1875rem 1.25rem 5.1875rem;
+}
+.account-details-heading .nav-tabs .nav-link {
+  margin-bottom: -0.0625rem;
+  background: none;
+  border: 0.0625rem solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
+}
+.account-details-heading .nav-tabs {
+  border: 0.0625rem solid #e5e5e5;
+}
+.my-current-bids .nav-tabs {
+  border: none;
+}
+.account-details-heading ul li {
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  font-weight: 400;
+}
+.account-details {
+  border-radius: 0rem 1.25rem;
+  border: 0.0625rem solid #d0d0d0;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem 1.5625rem 0rem 1.5625rem;
+}
+.my-current-bids h3 {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+  background-color: #a4195c;
+  color: white;
+  padding: 1.25rem 0rem 1.25rem 1.25rem;
+  border-bottom: 0.0625rem solid black;
+  margin-bottom: 0rem;
+  border-radius: 0rem 1.25rem 0rem 0rem;
+}
+.my-current-bids {
+  border: 0.0625rem solid #d0d0d0;
+  border-radius: 0rem 1.25rem;
+}
+.my-current-bids .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: white;
+  background-color: #a4195c;
+  border-color: #ffffff #fff #f29200;
+  padding: 1.25rem 4.0625rem 1.25rem 3.679rem;
+  border-bottom: 0.3125rem solid #f29200;
+  font-size: 1.125rem;
+}
+.my-current-bids .nav-tabs .nav-link {
+  margin-bottom: -0.0625rem;
+  background: none;
+  border: none;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  padding: 1.375rem 5.5625rem 1.375rem 5.5625rem;
+  background-color: #a4195c;
+  color: white;
+  font-size: 1.125rem;
+}
+.my-current-bid .nav-tabs .nav-link {
+  margin-bottom: -0.0625rem;
+  background: none;
+  border: none;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+.myprivious-bids-heading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 1.25rem;
+}
+.myprivious-bids {
+  border: 0.0625rem solid #d0d0d0;
+  border-radius: 0rem 1.25rem;
+}
+.myprivious-bids-table-color {
+  color: #f29200;
+}
+.myprivious-bids table th {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  color: #333333;
+  padding-top: 1.0625rem;
+  padding-bottom: 1.0625rem;
+}
+.myprivious-bids table td {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+  padding-top: 1.3125rem;
+  padding-bottom: 1.3125rem;
+  color: #757575;
+}
+.myprivious-bids table tr:last-child {
+  border-bottom: hidden;
+}
+/* account details css end*/
+
+/* media query start for all device*/
+/* media <520px */
 @media (max-width: 520px) {
-  /* hero banner */
+  /* index page css start */
+  /* section 1 hero_banner css start */
   .herobanner-smimg {
     display: block;
   }
@@ -1997,7 +1964,6 @@ footer ul li a:hover {
   .vector_nav_input {
     display: none;
   }
-
   .section1_heading__text_input {
     font-size: 1.625rem;
     font-weight: 600;
@@ -2014,59 +1980,9 @@ footer ul li a:hover {
     font-size: 1rem;
     color: #626262;
   }
-  /* footer */
-  footer {
-    background-color: #a4195c;
-    color: white;
-    padding: 1.1875rem 0rem 0rem 0rem;
-    text-align: center;
-  }
-  .homefinder_logo_white {
-    margin-bottom: 0rem;
-    width: 32%;
-    padding-top: 0.9375rem;
-  }
-  .footer_awosomefont_input {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.25rem;
-    border-bottom: 0.0625rem solid white;
-    margin-bottom: 1.25rem;
-  }
-  .fa-fw {
-    width: 2.5rem;
-    text-align: center;
-  }
-  .footer_mobile_img_googleplay {
-    margin-right: 0rem;
-    height: 3.125rem;
-  }
-  .footer_mobile_img_playstore {
-    height: 3.125rem;
-  }
-  .footer_enqueries_links {
-    margin-top: 2.1875rem;
-  }
-  .footer_poweredby_text {
-    text-align: center;
-  }
-  .nav_textsize_graphics {
-    display: none;
-  }
-  .nav_contactus_mobile {
-    margin-left: 0.3125rem;
-  }
+  /* section 1 hero_banner css end */
 
-  .footer_privacy_cookies_text {
-    background-color: #962059;
-    padding-top: 1.125rem;
-    padding-bottom: 1.125rem;
-    font-size: 0.875rem;
-    height: auto;
-    color: #e5e5e5;
-  }
-  /* section 2 why use uk media */
+  /* section 2 why use uk media css start*/
   .section2_whyUK-heading {
     font-size: 1.5rem;
     font-weight: 700;
@@ -2085,8 +2001,9 @@ footer ul li a:hover {
     color: #868585;
     font-weight: 400;
   }
+  /* section 2 why use uk media css end*/
 
-  /* section 3 social housing outside */
+  /* section 3 Social housing outside your area css start */
   .section3-card-style {
     width: 100%;
   }
@@ -2107,7 +2024,6 @@ footer ul li a:hover {
     background-repeat: no-repeat;
     margin-top: 0.125rem;
   }
-
   .section3-card-right-style:before {
     content: "";
     position: absolute;
@@ -2197,7 +2113,6 @@ footer ul li a:hover {
     font-weight: 400;
     padding: 0.3125rem 0.3125rem 3.4375rem 0.3125rem;
   }
-
   .findout-more-cta3 {
     width: 100%;
     background-color: #e5e5e5;
@@ -2217,7 +2132,9 @@ footer ul li a:hover {
     height: 0.625rem;
     clear: both;
   }
-  /* section 4 benifits of joining UK */
+  /* section 3 Social housing outside your area css end */
+
+  /* section 4 Benefits of Joining Homefinder UK css start */
   .section4_benefits_of_joining h1 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -2305,7 +2222,6 @@ footer ul li a:hover {
     height: 2.6875rem;
     font-size: 1.125rem;
   }
-
   .local-authorities-cta {
     width: 80%;
     height: 2.8125rem;
@@ -2314,7 +2230,6 @@ footer ul li a:hover {
     margin-bottom: 0.625rem;
     margin-right: 0rem;
   }
-
   .housing-Assoiciations-cta {
     width: 80%;
     height: 2.8125rem;
@@ -2324,7 +2239,6 @@ footer ul li a:hover {
     margin-bottom: 0.625rem;
     margin-right: 0rem;
   }
-
   .member-Orgranisations-cta {
     width: 80%;
     height: 2.8125rem;
@@ -2332,7 +2246,6 @@ footer ul li a:hover {
     border: 0.0625rem solid #a4195c;
     color: #484848;
   }
-
   .section4_benefits_of_joining h2.resp-accordion.resp-tab-active:before {
     content: "";
     position: absolute;
@@ -2343,7 +2256,6 @@ footer ul li a:hover {
     background-repeat: no-repeat;
     margin-top: 0.125rem;
   }
-
   .section4_benefits_of_joining h2.resp-accordion::before {
     content: "";
     position: absolute;
@@ -2354,8 +2266,9 @@ footer ul li a:hover {
     right: 3.5rem;
     margin-top: 0.4375rem;
   }
+  /* section 4 Benefits of Joining Homefinder UK css end */
 
-  /* success stories */
+  /* section 5 success stories start*/
   .success_stories {
     background: #f5f5f5;
     padding-top: 0rem;
@@ -2417,7 +2330,8 @@ footer ul li a:hover {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
   }
-  /* case studies css */
+
+  /* case studies css css start*/
   .background-image_section5 {
     height: 18.0625rem;
     background-image: linear-gradient(
@@ -2443,7 +2357,6 @@ footer ul li a:hover {
     background: white;
     height: 12.1875rem;
   }
-
   .case-studies-heading-nav {
     font-size: 1.5rem;
     font-weight: 500;
@@ -2490,7 +2403,6 @@ footer ul li a:hover {
     position: absolute;
     top: -4.375rem;
   }
-
   .counterstudy11 {
     position: relative;
     float: right;
@@ -2503,7 +2415,10 @@ footer ul li a:hover {
     position: absolute;
     top: -4.375rem;
   }
-  /* truth in numbers */
+  /* case studies css css start*/
+  /* section 5 success stories css end*/
+
+  /* section 6 Truth in numbers css start*/
   .truth-in-numbers {
     padding-top: 13.125rem;
   }
@@ -2544,7 +2459,9 @@ footer ul li a:hover {
   .display-flex-lg-screen {
     display: none;
   }
-  /* latest news */
+  /* section 6 Truth in numbers css end*/
+
+  /* section 7 latest news css start */
   .latest-news-heading {
     font-size: 1.5rem;
     color: #000000;
@@ -2588,7 +2505,9 @@ footer ul li a:hover {
     position: absolute;
     top: -4.375rem;
   }
-  /* truested by */
+  /*section 7 latest news css css end*/
+
+  /*section 8 trusted by css start*/
   .section8-left-body h1 {
     color: #ffffff;
     font-size: 1.25rem;
@@ -2601,12 +2520,10 @@ footer ul li a:hover {
     font-weight: 500;
     line-height: 3.5rem;
   }
-
   .trusted-by {
     padding-top: 1.5625rem;
     padding-left: 1.5625rem;
   }
-
   .section8-left-body {
     background-color: #404040;
     padding-bottom: 5.625rem;
@@ -2641,9 +2558,63 @@ footer ul li a:hover {
     position: absolute;
     top: -4.375rem;
   }
-  /* trusted by */
+  /*section 8 trusted by css end*/
 
-  /*property search css */
+  /* footer css start*/
+  footer {
+    background-color: #a4195c;
+    color: white;
+    padding: 1.1875rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+  .homefinder_logo_white {
+    margin-bottom: 0rem;
+    width: 32%;
+    padding-top: 0.9375rem;
+  }
+  .footer_awosomefont_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.25rem;
+    border-bottom: 0.0625rem solid white;
+    margin-bottom: 1.25rem;
+  }
+  .fa-fw {
+    width: 2.5rem;
+    text-align: center;
+  }
+  .footer_mobile_img_googleplay {
+    margin-right: 0rem;
+    height: 3.125rem;
+  }
+  .footer_mobile_img_playstore {
+    height: 3.125rem;
+  }
+  .footer_enqueries_links {
+    margin-top: 2.1875rem;
+  }
+  .footer_poweredby_text {
+    text-align: center;
+  }
+  .nav_textsize_graphics {
+    display: none;
+  }
+  .nav_contactus_mobile {
+    margin-left: 0.3125rem;
+  }
+  .footer_privacy_cookies_text {
+    background-color: #962059;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
+    font-size: 0.875rem;
+    height: auto;
+    color: #e5e5e5;
+  }
+  /* footer css end*/
+  /* index css end */
+
+  /*property search grid and list common css start*/
   .search_for_property_heading {
     font-size: 1.5rem;
     font-weight: 500;
@@ -2787,111 +2758,9 @@ footer ul li a:hover {
     background-color: #a4195c;
     bottom: 15.3125rem;
   }
+  /*property search grid and list common css end*/
 
-  /* login to bid  */
-  .login-to-bid-heading h1 {
-    font-size: 1.75rem;
-    line-height: 2.625rem;
-    font-weight: 500;
-    color: #a4195c;
-    text-align: center;
-  }
-  .logintobid-login-cta {
-    color: white;
-    width: 100%;
-    background-color: #ea5012;
-    border: none;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    font-weight: 400;
-    padding: 0.125rem;
-  }
-  .login-to-bid-heading h2 {
-    font-size: 1.0625rem;
-    line-height: 1.375rem;
-    font-weight: 400;
-    color: #f29200;
-    text-align: center;
-  }
-  .login-to-bid-heading p {
-    font-size: 1.0625rem;
-    line-height: 1.375rem;
-    font-weight: 400;
-    text-align: center;
-  }
-  .login-to-bid-heading h3 {
-    font-size: 0.8125rem;
-    line-height: 1rem;
-    font-weight: 400;
-    padding-top: 0.3125rem;
-  }
-  /* account details */
-  .account-details h1 {
-    font-size: 1.25rem;
-    font-weight: 500;
-    line-height: 1.75rem;
-  }
-  .account-details h2 {
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 1.1875rem;
-    color: #a4195c;
-  }
-
-  .account-details ul li {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.1875rem;
-    padding-bottom: 0.625rem;
-  }
-  .account-details ul li:nth-child(1) {
-    color: #333333;
-    padding-top: 0.625rem;
-  }
-  .account-details-heading .nav-tabs .nav-link.active,
-  .nav-tabs .nav-item.show .nav-link {
-    color: #f29200;
-    background-color: #fff;
-    border-bottom: none;
-    padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
-    margin-left: 0;
-  }
-  .border-bottom-sm {
-    border-bottom: 0.0625rem solid #dee2e6 !important;
-  }
-  .myprivious-bids-heading {
-    font-weight: 500;
-    font-size: 1.375rem;
-    line-height: 1.625rem;
-    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.3);
-    padding-bottom: 0.625rem;
-    padding-top: 0.625rem;
-    text-align: center;
-  }
-  .my-current-bids .nav-tabs .nav-link {
-    margin-bottom: -0.0625rem;
-    background: none;
-    border: none;
-    border-top-left-radius: 0rem;
-    border-top-right-radius: 0rem;
-    padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
-    background-color: white;
-    color: black;
-    font-size: 1.125rem;
-  }
-  .my-current-bids h3 {
-    font-size: 1.375rem;
-    line-height: 1.5rem;
-    font-weight: 500;
-    background-color: #a4195c;
-    color: white;
-    padding: 1.25rem 0rem 1.25rem 1.25rem;
-    border-bottom: 0.0625rem solid black;
-    margin-bottom: 0rem;
-    border-radius: 0rem 1.25rem 0rem 0rem;
-  }
-
-  /* home finder property details */
+  /* home finder property details css start*/
   .property-information h1 {
     font-weight: 500;
     font-size: 1.5rem;
@@ -3028,8 +2897,118 @@ footer ul li a:hover {
   .li-space-19 {
     margin-right: 9.75rem;
   }
+  /* home finder property details css end*/
+
+  /* login to bid css start */
+  .login-to-bid-heading h1 {
+    font-size: 1.75rem;
+    line-height: 2.625rem;
+    font-weight: 500;
+    color: #a4195c;
+    text-align: center;
+  }
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    padding: 0.125rem;
+  }
+  .login-to-bid-heading h2 {
+    font-size: 1.0625rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    color: #f29200;
+    text-align: center;
+  }
+  .login-to-bid-heading p {
+    font-size: 1.0625rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .login-to-bid-heading h3 {
+    font-size: 0.8125rem;
+    line-height: 1rem;
+    font-weight: 400;
+    padding-top: 0.3125rem;
+  }
+  /* login to bid css end */
+
+  /* account details css start */
+  .account-details h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+  }
+  .account-details h2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    color: #a4195c;
+  }
+  .account-details ul li {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1875rem;
+    padding-bottom: 0.625rem;
+  }
+  .account-details ul li:nth-child(1) {
+    color: #333333;
+    padding-top: 0.625rem;
+  }
+  .account-details-heading .nav-tabs .nav-link.active,
+  .nav-tabs .nav-item.show .nav-link {
+    color: #f29200;
+    background-color: #fff;
+    border-bottom: none;
+    padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
+    margin-left: 0;
+  }
+  .border-bottom-sm {
+    border-bottom: 0.0625rem solid #dee2e6 !important;
+  }
+  .myprivious-bids-heading {
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 0.625rem;
+    padding-top: 0.625rem;
+    text-align: center;
+  }
+  .my-current-bids .nav-tabs .nav-link {
+    margin-bottom: -0.0625rem;
+    background: none;
+    border: none;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    padding: 1.25rem 4.1875rem 1.25rem 4.1875rem;
+    background-color: white;
+    color: black;
+    font-size: 1.125rem;
+  }
+  .my-current-bids h3 {
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    background-color: #a4195c;
+    color: white;
+    padding: 1.25rem 0rem 1.25rem 1.25rem;
+    border-bottom: 0.0625rem solid black;
+    margin-bottom: 0rem;
+    border-radius: 0rem 1.25rem 0rem 0rem;
+  }
+  /* account details css start */
 }
+
+/* media 521px-630px */
 @media (min-width: 521px) and (max-width: 630px) {
+  /* index page css start */
+  /* section 3 Social housing outside your area css start */
   .section3-card-right-style {
     font-size: 1.125rem !important;
     font-weight: 400 !important;
@@ -3037,11 +3016,13 @@ footer ul li a:hover {
     padding-left: 5rem !important;
     padding-top: 0.75rem !important;
   }
+  /* index page css end */
 }
-/* media query for mobile view */
 
-/* media for tablet */
+/* media 521px-768px */
 @media (min-width: 521px) and (max-width: 768px) {
+  /* index page css start */
+  /* section 1 hero_banner css start */
   .herobanner-smimg {
     display: block;
   }
@@ -3069,7 +3050,9 @@ footer ul li a:hover {
   .hfTopNav .col-lg-6:nth-child(2) {
     text-align: center;
   }
-  /* section 2 why uk */
+  /* section 1 hero_banner css end */
+
+  /* section 2 Why use Homefinder UK css start */
   .section1_heading__text_input {
     font-size: 1.5rem;
     font-weight: 700;
@@ -3089,8 +3072,9 @@ footer ul li a:hover {
     text-align: center;
     margin-bottom: 2.9375rem;
   }
-  /* section 3  */
+  /* section 2 Why use Homefinder UK css end */
 
+  /* section 3 Social housing outside your area css start */
   .section3-card-style {
     width: 100%;
   }
@@ -3206,7 +3190,6 @@ footer ul li a:hover {
     font-weight: 400;
     padding: 0.3125rem 0.3125rem 3.4375rem 0.3125rem;
   }
-
   .findout-more-cta3 {
     width: 100%;
     background-color: #e5e5e5;
@@ -3238,7 +3221,9 @@ footer ul li a:hover {
     padding-bottom: 1.875rem;
     padding-right: 2.5rem;
   }
-  /* section 4 benifts of joining uk */
+  /* section 3 Social housing outside your area css end */
+
+  /* section 4 Benefits of Joining Homefinder UK css start */
   .section4_benefits_of_joining h1 {
     font-size: 1.5rem;
     font-weight: 500;
@@ -3312,7 +3297,6 @@ footer ul li a:hover {
     height: 2.6875rem;
     font-size: 1.125rem;
   }
-
   .local-authorities-cta {
     width: 80%;
     height: 2.8125rem;
@@ -3321,7 +3305,6 @@ footer ul li a:hover {
     margin-bottom: 0.625rem;
     margin-right: 0rem;
   }
-
   .housing-Assoiciations-cta {
     width: 80%;
     height: 2.8125rem;
@@ -3331,7 +3314,6 @@ footer ul li a:hover {
     margin-bottom: 0.625rem;
     margin-right: 0rem;
   }
-
   .member-Orgranisations-cta {
     width: 80%;
     height: 2.8125rem;
@@ -3359,7 +3341,6 @@ footer ul li a:hover {
     background-repeat: no-repeat;
     margin-top: 0.125rem;
   }
-
   .section4_benefits_of_joining h2.resp-accordion::before {
     content: "";
     position: absolute;
@@ -3422,7 +3403,9 @@ footer ul li a:hover {
     margin-top: 1.25rem;
     margin-bottom: 3.4375rem;
   }
-  /* success stories */
+  /* section 4 Benefits of Joining Homefinder UK css end */
+
+  /* section 5 success stories css start*/
   .success_stories_p {
     display: none;
   }
@@ -3485,8 +3468,7 @@ footer ul li a:hover {
     font-size: 1.125rem;
   }
 
-  /* case studies */
-
+  /* case studies css start*/
   .background-image_section5 {
     height: 45.25rem;
     background-image: linear-gradient(
@@ -3527,7 +3509,6 @@ footer ul li a:hover {
     position: absolute;
     top: -4.375rem;
   }
-
   .case-studies-inner .owl-next span {
     font-size: 1.5625rem;
     color: #b6b6b6;
@@ -3549,7 +3530,10 @@ footer ul li a:hover {
     left: -4.75rem;
     font-size: 1.125rem;
   }
-  /* truth in numbers */
+  /* case studies css end */
+  /* section 5 success stories css start*/
+
+  /* section 6 Truth in numbers css start*/
   .truth-in-numbers {
     padding-top: 2.5rem;
   }
@@ -3574,8 +3558,9 @@ footer ul li a:hover {
     color: #ffffff;
     font-weight: 400;
   }
+  /* section 6 Truth in numbers css start*/
 
-  /* trusted by */
+  /*  section 8 Trusted by css start */
   .trusted-by {
     padding-top: 3.875rem;
     padding-left: 6.75rem;
@@ -3584,12 +3569,13 @@ footer ul li a:hover {
   .display-lg-none {
     display: none !important;
   }
-  /* footer */
+  /*  section 8 Trusted by css end */
+
+  /* footer css start */
   .footer_awosomefont_input {
     display: inline-block;
     align-items: center;
   }
-
   footer {
     background-color: #a4195c;
     color: white;
@@ -3635,7 +3621,10 @@ footer ul li a:hover {
     border-bottom: 0.0625rem solid white;
     margin-bottom: 1.25rem;
   }
-  /* property search grid and list*/
+  /* footer css end */
+  /* index page css end */
+
+  /* property search page common for grid and list css start */
   .search_for_property_heading {
     font-weight: 500;
     font-size: 1.5rem;
@@ -3775,32 +3764,9 @@ footer ul li a:hover {
     background-color: rgba(249, 249, 249, 0.9);
     bottom: 15.9375rem;
   }
+  /* property search page common for grid and list css end */
 
-  /* search for bid page */
-  .login-to-bid-heading h1 {
-    font-size: 1.875rem;
-    line-height: 2.625rem;
-    font-weight: 500;
-    color: #a4195c;
-    text-align: center;
-  }
-  .logintobid-login-cta {
-    color: white;
-    width: 100%;
-    background-color: #ea5012;
-    border: none;
-    font-size: 1.375rem;
-    line-height: 1.75rem;
-    font-weight: 400;
-    padding: 0.1875rem;
-  }
-  .login-to-bid-heading h3 {
-    font-size: 1rem;
-    line-height: 1rem;
-    font-weight: 400;
-    padding-top: 0.3125rem;
-  }
-  /*home finder property details */
+  /* home finder property details css start*/
   .gallery-flexsliders .flex-direction-nav .flex-next {
     left: 28rem;
     text-align: right;
@@ -3897,7 +3863,35 @@ footer ul li a:hover {
     left: 26rem;
     top: 2.8125rem;
   }
-  /* account details */
+  /* home finder property details css end*/
+
+  /* login to bid css start */
+  .login-to-bid-heading h1 {
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+    font-weight: 500;
+    color: #a4195c;
+    text-align: center;
+  }
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 1.375rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    padding: 0.1875rem;
+  }
+  .login-to-bid-heading h3 {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+    padding-top: 0.3125rem;
+  }
+  /* login to bid css end */
+
+  /* account details css start*/
   .account-details-heading .nav-tabs .nav-link {
     margin-bottom: -0.0625rem;
     background: none;
@@ -3946,14 +3940,16 @@ footer ul li a:hover {
     margin-bottom: 0rem;
     border-radius: 0rem 1.25rem 0rem 0rem;
   }
-
   .border-bottom-sm {
     border-bottom: 0.0625rem solid #dee2e6 !important;
   }
+  /* account details css end*/
 }
 
-/* media for tablet end */
+/* media 768px*/
 @media (min-width: 767.5px) and (max-width: 768.5px) {
+  /* index page css start */
+  /* section 4 Benefits of Joining Homefinder UK css start */
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
     position: relative;
@@ -3993,7 +3989,6 @@ footer ul li a:hover {
   .section4_benefits_of_joining {
     display: block;
   }
-
   .section4_benefits_of_joining .owl-prev {
     position: absolute;
     top: 18.7rem;
@@ -4025,7 +4020,9 @@ footer ul li a:hover {
     top: 19.5rem;
     right: 6.0625rem;
   }
-  /* footer */
+  /* section 4 Benefits of Joining Homefinder UK css end */
+
+  /* footer css start */
   .footer_privacy_cookies_text {
     font-size: 0.875rem;
     height: auto;
@@ -4051,7 +4048,10 @@ footer ul li a:hover {
     width: 44%;
     float: right;
   }
-  /* property search */
+  /* footer css start */
+  /* index page css end */
+
+  /* property search page common for grid and list css start */
   .arrow-ribbon1 {
     color: #fff;
     padding: 0.625rem;
@@ -4107,7 +4107,9 @@ footer ul li a:hover {
     background-color: #a4195c;
     bottom: 23.125rem;
   }
-  /* property finder details */
+  /* property search page common for grid and list css start */
+
+  /* home finder property details css start*/
   .border-end-mb {
     border-right: 0.0625rem solid #a9a9a9;
     margin-left: 0.625rem;
@@ -4185,14 +4187,18 @@ footer ul li a:hover {
   .li-space-19 {
     margin-right: 16rem;
   }
+  /* home finder property details css end*/
 }
 
 /* media 768.5px-992px */
 @media (min-width: 768.5px) and (max-width: 992px) {
+  /* navbar */
   .hfTopNav .col-lg-6:nth-child(2) {
     text-align: center;
   }
-  /* section 1 hero banner */
+
+  /* index page css start */
+  /* section 1 hero_banner css start */
   .section1_heading__text_input {
     font-size: 1.625rem;
     padding-top: 2.5rem;
@@ -4234,8 +4240,9 @@ footer ul li a:hover {
     margin-bottom: 2.9375rem;
     font-weight: 700;
   }
+  /* section 1 hero_banner css end */
 
-  /* section 3  */
+  /* section 3 Social housing outside your area css start */
   .section3-card-style {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -4286,7 +4293,9 @@ footer ul li a:hover {
     padding-bottom: 1.875rem;
     padding-top: 1.5625rem;
   }
-  /* section 4 benefits for joining UK */
+  /* section 3 Social housing outside your area css end */
+
+  /* section 4 Benefits of Joining Homefinder UK css start */
   .section4_button2_ctn {
     border: none;
     color: white;
@@ -4377,7 +4386,9 @@ footer ul li a:hover {
     top: 20rem;
     right: 5.6rem;
   }
-  /* success storis */
+  /* section 4 Benefits of Joining Homefinder UK css end */
+
+  /* section 5 success stories css start*/
   .success_stories {
     background: #f5f5f5;
     padding-top: 0.3125rem;
@@ -4404,7 +4415,8 @@ footer ul li a:hover {
   .success_stories_p {
     display: none;
   }
-  /* case studies */
+
+  /* case studies css start*/
   .success_stories_inner_section {
     position: absolute;
     width: 40.6875rem;
@@ -4416,8 +4428,10 @@ footer ul li a:hover {
     padding-bottom: 0rem;
     height: 0rem;
   }
+  /* case studies css end*/
+  /* section 5 success stories css end*/
 
-  /* truth in numbers */
+  /* section 6 Truth in numbers css start*/
   .truth-in-numbers {
     padding-top: 33.25rem;
   }
@@ -4431,7 +4445,9 @@ footer ul li a:hover {
     position: absolute;
     top: -3.375rem;
   }
-  /* trusted by */
+  /* section 6 Truth in numbers css end*/
+
+  /*  section 8 Trusted by css start */
   .trusted-by {
     padding-top: 6.875rem;
     padding-left: 3.75rem;
@@ -4451,7 +4467,9 @@ footer ul li a:hover {
     font-weight: 300;
     line-height: 2.7rem;
   }
-  /* footer */
+  /*  section 8 Trusted by css end */
+
+  /* footer css start */
   .footer_download_text {
     font-size: 1.75rem;
     line-height: 2.5rem;
@@ -4513,8 +4531,10 @@ footer ul li a:hover {
   .footer_poweredby_text {
     text-align: center;
   }
+  /* footer css end */
+  /* index page css end */
 
-  /* property search grid and list page css start*/
+  /* property search page common for grid and list css start */
   .search_for_property_Cta {
     display: inline-block;
     font-weight: 500;
@@ -4630,46 +4650,13 @@ footer ul li a:hover {
     padding: 0.625rem 0.9375rem 0.625rem 0.9375rem;
     border-radius: 0;
   }
-  /* property search grid and list page css end*/
+  /* property search page common for grid and list css end */
 
-  /* login to bid page */
-  .login-to-bid-heading h1 {
-    font-size: 1.875rem;
-    line-height: 2.625rem;
-    font-weight: 500;
-    color: #a4195c;
-    text-align: center;
-  }
-  .logintobid-login-cta {
-    color: white;
-    width: 100%;
-    background-color: #ea5012;
-    border: none;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    font-weight: 400;
-  }
-  .login-to-bid-heading p {
-    font-size: 1rem;
-    line-height: 1.375rem;
-    font-weight: 400;
-    text-align: center;
-  }
-  .female-hand-logintobid-img {
-    padding-right: 1.25rem;
-  }
-  .login-to-bid-heading h3 {
-    font-size: 1rem;
-    line-height: 1rem;
-    font-weight: 400;
-    padding-top: 0.3125rem;
-  }
-  /* home finder property details */
+  /* home finder property details css start*/
   .gallery-flexsliders .flex-direction-nav .flex-next {
     left: 40rem;
     text-align: right;
   }
-
   .li-space-1 {
     margin-right: 15.9375rem;
   }
@@ -4745,7 +4732,6 @@ footer ul li a:hover {
     margin-left: 0rem;
     padding-left: 0.625rem;
   }
-
   .share_print_link21 {
     position: relative;
     left: 38.4375rem;
@@ -4757,7 +4743,43 @@ footer ul li a:hover {
     left: 38.125rem;
     top: 3.125rem;
   }
-  /* account details */
+  /* home finder property details css end*/
+
+  /* login to bid css start */
+  .login-to-bid-heading h1 {
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+    font-weight: 500;
+    color: #a4195c;
+    text-align: center;
+  }
+  .logintobid-login-cta {
+    color: white;
+    width: 100%;
+    background-color: #ea5012;
+    border: none;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+  }
+  .login-to-bid-heading p {
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .female-hand-logintobid-img {
+    padding-right: 1.25rem;
+  }
+  .login-to-bid-heading h3 {
+    font-size: 1rem;
+    line-height: 1rem;
+    font-weight: 400;
+    padding-top: 0.3125rem;
+  }
+  /* login to bid css end */
+
+  /* account details css start*/
   .account-details-heading .nav-tabs .nav-link {
     margin-bottom: -0.0625rem;
     background: none;
@@ -4774,7 +4796,6 @@ footer ul li a:hover {
     padding: 1.375rem 0.625rem 1.375rem 0.3125rem;
     margin-left: 0;
   }
-
   .myprivious-bids-heading {
     font-weight: 500;
     font-size: 1.375rem;
@@ -4806,10 +4827,13 @@ footer ul li a:hover {
     margin-bottom: 0rem;
     border-radius: 0rem 1.25rem 0rem 0rem;
   }
+  /* account details css end*/
 }
 
 /* media 992px */
 @media (min-width: 991.5px) and (max-width: 992.5px) {
+  /* index page css start */
+  /* section 4 Benefits of Joining Homefinder UK css start */
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
     position: absolute;
@@ -4854,15 +4878,21 @@ footer ul li a:hover {
     padding-left: 11.25rem;
     padding-right: 0.625rem;
   }
-  /* property search details */
+  /* section 4 Benefits of Joining Homefinder UK css end */
+  /* index page css end */
+
+  /* home finder property details css start*/
   .gallery-flexsliders .flex-direction-nav .flex-next {
     left: 35rem;
     text-align: right;
   }
+  /* home finder property details css end*/
 }
+
 /* media 992px-1200px */
 @media (min-width: 992px) and (max-width: 1200px) {
-  /* hero banner */
+  /* index page css start */
+  /* section 1 hero_banner css start */
   .section1_heading__text_input {
     font-size: 2.1875rem;
     font-weight: 600;
@@ -4879,14 +4909,18 @@ footer ul li a:hover {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
   }
-  /* section 2 why uk */
+  /* section 1 hero_banner css end */
+
+  /* section 2 Why use Homefinder UK css start */
   .section2_whyUK-heading {
     font-size: 2.5rem;
     font-weight: 700;
     text-align: center;
     margin-bottom: 2.9375rem;
   }
-  /*section3 social housing */
+  /* section 2 Why use Homefinder UK css end */
+
+  /* section 3 Social housing outside your area css start */
   .section3-card-right-style {
     font-size: 1.25rem;
     font-weight: 400;
@@ -4917,7 +4951,9 @@ footer ul li a:hover {
     color: #404040;
     padding-bottom: 0.625rem;
   }
-  /* section 4 benefits of joining UK */
+  /* section 3 Social housing outside your area css end */
+
+  /* section 4 Benefits of Joining Homefinder UK css start */
   .section4_benefits_of_joining h2 {
     font-size: 1.0625rem;
     line-height: 1.25rem;
@@ -5001,7 +5037,9 @@ footer ul li a:hover {
     top: 19.75rem;
     right: 5.6rem;
   }
-  /* success stories */
+  /* section 4 Benefits of Joining Homefinder UK css end */
+
+  /* section 5 success stories css start*/
   .mt-7 {
     margin-top: 4rem !important;
   }
@@ -5024,11 +5062,15 @@ footer ul li a:hover {
     background: #f5f5f5;
     padding-top: 5.625rem;
   }
-  /* truth in numbers */
+  /* section 5 success stories css end*/
+
+  /* section 6 Truth in numbers css start*/
   .truth-in-numbers {
     padding-top: 1.875rem;
   }
-  /* trusted by */
+  /* section 6 Truth in numbers css end*/
+
+  /*  section 8 Trusted by css start */
   .section8-left-body h2 {
     color: #ffffff;
     font-size: 5.3125rem;
@@ -5048,7 +5090,9 @@ footer ul li a:hover {
   .display-lg-none {
     display: none !important;
   }
-  /* footer */
+  /*  section 8 Trusted by css end */
+
+  /* footer css start */
   .footer_download_text {
     font-size: 2.25rem;
     line-height: 2.625rem;
@@ -5083,7 +5127,10 @@ footer ul li a:hover {
     font-size: 0.875rem;
     height: auto;
   }
-  /* property search grid and list page css start */
+  /* footer css end */
+  /* index page css end */
+
+  /* property search page common for grid and list css start */
   .form-width-desktop-only {
     width: 14.6875rem !important;
   }
@@ -5199,20 +5246,9 @@ footer ul li a:hover {
     background-color: rgba(249, 249, 249, 0.9);
     bottom: 19.6875rem;
   }
-  /* property search grid and list page css end */
+  /* property search page common for grid and list css end */
 
-  /* login to bid page */
-  logintobid-img {
-    padding-right: 0rem;
-  }
-  /* go to my account */
-  .go-to-my-account h1 {
-    font-size: 2.5rem;
-    line-height: 3.875rem;
-    font-weight: 400;
-    font-family: rochester;
-  }
-  /* home finder property details */
+  /* home finder property details css start*/
   .property-information-listing {
     border-top: 0.0625rem solid rgba(0, 0, 0, 0.1);
   }
@@ -5230,7 +5266,24 @@ footer ul li a:hover {
     left: 35.5rem;
     text-align: right;
   }
-  /* account details */
+  /* home finder property details css end*/
+
+  /* login to bid css start */
+  logintobid-img {
+    padding-right: 0rem;
+  }
+  /* login to bid css end */
+
+  /* go to my account css start*/
+  .go-to-my-account h1 {
+    font-size: 2.5rem;
+    line-height: 3.875rem;
+    font-weight: 400;
+    font-family: rochester;
+  }
+  /* go to my account css end*/
+
+  /* account details css start*/
   .account-details-heading .nav-tabs .nav-link {
     margin-bottom: -0.0625rem;
     background: none;
@@ -5290,9 +5343,13 @@ footer ul li a:hover {
     margin-bottom: 0rem;
     border-radius: 0rem 1.25rem 0rem 0rem;
   }
+  /* account details css end*/
 }
+
+/* media 1200px */
 @media (min-width: 1199.5px) and (max-width: 1200.5px) {
-  /* section 4 benefits of joining UK */
+  /* index page css start */
+  /* section 4 Benefits of Joining Homefinder UK css start */
   .section4_benefits_of_joining .owl-next {
     position: absolute;
     top: 17rem;
@@ -5324,7 +5381,10 @@ footer ul li a:hover {
     top: 18rem !important;
     right: 9.0625rem;
   }
-  /* property search */
+  /* section 4 Benefits of Joining Homefinder UK css end */
+  /* index page css end */
+
+  /* property search page common for grid and list css start */
   .arrow-ribbon1 {
     color: #fff;
     padding: 0.625rem;
@@ -5358,7 +5418,6 @@ footer ul li a:hover {
     background-color: rgba(249, 249, 249, 0.9);
     bottom: 14.375rem;
   }
-
   .arrow-ribbon33 {
     color: #5b5e60;
     padding: 0.625rem 0.625rem 0.625rem 0.625rem;
@@ -5384,10 +5443,13 @@ footer ul li a:hover {
   .form-width-desktop-only {
     width: 18.75rem !important;
   }
+  /* property search page common for grid and list css end */
 }
+
 /* media 1200px-1350px */
 @media (min-width: 1200px) and (max-width: 1350px) {
-  /* section 1  */
+  /* index page css start */
+  /* section 1 hero_banner css start */
   .section1_heading__text_input {
     font-size: 2.5rem;
     font-weight: 600;
@@ -5403,19 +5465,9 @@ footer ul li a:hover {
     padding-top: 0.625rem;
     padding-bottom: 0.625rem;
   }
-  /* success stories */
-  .success_stories_inner_section {
-    position: absolute;
-    width: 55.5625rem;
-    left: -17.5rem;
-    top: 7.3125rem;
-    padding-top: 3.125rem;
-    padding-right: 9.6875rem;
-    padding-left: 6.25rem;
-    padding-bottom: 2.8125rem;
-    height: 32.1875rem;
-  }
-  /* section 3 */
+  /* section 1 hero_banner css end */
+
+  /* section 3 Social housing outside your area css start */
   .resp-tab-active .bg-card-section-3 {
     background: #a4195c;
     position: absolute;
@@ -5449,7 +5501,9 @@ footer ul li a:hover {
     padding-top: 1.5625rem;
     padding-bottom: 5.3125rem;
   }
-  /* section 4 benefits of joining UK */
+  /* section 3 Social housing outside your area css end */
+
+  /* section 4 Benefits of Joining Homefinder UK css start */
   .section4_benefits_of_joining h2 {
     font-size: 1.0625rem;
     line-height: 1.25rem;
@@ -5493,7 +5547,6 @@ footer ul li a:hover {
     bottom: -4.375rem;
     right: 7.9rem;
   }
-
   .section4_benefits_of_joining .owl-next {
     position: absolute;
     bottom: -4.375rem;
@@ -5520,18 +5573,38 @@ footer ul li a:hover {
     top: 18.75rem;
     right: 5.6rem;
   }
-  /* truth in numbers */
+  /* section 4 Benefits of Joining Homefinder UK css end */
+
+  /* section 5 success stories css start*/
+  .success_stories_inner_section {
+    position: absolute;
+    width: 55.5625rem;
+    left: -17.5rem;
+    top: 7.3125rem;
+    padding-top: 3.125rem;
+    padding-right: 9.6875rem;
+    padding-left: 6.25rem;
+    padding-bottom: 2.8125rem;
+    height: 32.1875rem;
+  }
+  /* section 5 success stories css end*/
+
+  /* section 6 Truth in numbers css start*/
   .truth-in-numbers .owl-prev {
     display: none !important;
   }
   .truth-in-numbers .owl-next {
     display: none !important;
   }
-  /* trusted by */
+  /* section 6 Truth in numbers css end*/
+
+  /*  section 8 Trusted by css start */
   .display-lg-none {
     display: none !important;
   }
-  /* footer */
+  /*  section 8 Trusted by css end */
+
+  /* footer css start */
   .footer_mobile_img_googleplay {
     margin-right: 0.625rem;
   }
@@ -5553,7 +5626,17 @@ footer ul li a:hover {
     margin-bottom: 1.875rem;
     width: 75%;
   }
-  /* account deatils */
+  /* footer css start */
+  /* index page css end */
+
+  /* home finder property details css start*/
+  .gallery-flexsliders .flex-direction-nav .flex-next {
+    left: 42.5rem;
+    text-align: right;
+  }
+  /* home finder property details css end*/
+
+  /* account details css start*/
   .account-details-heading .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: #f29200;
@@ -5581,15 +5664,13 @@ footer ul li a:hover {
     font-size: 1.125rem;
     border-bottom: 0.0625rem solid #d0d0d0;
   }
-  /* property finder deatils */
-  .gallery-flexsliders .flex-direction-nav .flex-next {
-    left: 42.5rem;
-    text-align: right;
-  }
+  /* account details css end*/
 }
+
 /* media above 1350px */
 @media (min-width: 1350px) {
-  /* hero banner */
+  /* index page css start */
+  /* section 1 hero_banner css start */
   .section1_heading__text_input {
     font-size: 3.125rem;
     font-weight: 700;
@@ -5598,7 +5679,8 @@ footer ul li a:hover {
     line-height: 3.688rem;
     padding-bottom: 0.625rem;
   }
-  /* section 3 */
+
+  /* section 3 Social housing outside your area css start */
   .section3-card-style p {
     font-size: 1.125rem;
     line-height: 1.5rem;
@@ -5614,23 +5696,32 @@ footer ul li a:hover {
     padding-left: 3.75rem;
     padding-right: 3.125rem;
   }
-  /* truth in numbers */
+  /* section 3 Social housing outside your area css end */
+
+  /* section 6 Truth in numbers css start*/
   .truth-in-numbers .owl-prev {
     display: none !important;
   }
   .truth-in-numbers .owl-next {
     display: none !important;
   }
-  /* trusted by */
+  /* section 6 Truth in numbers css end*/
+
+  /*  section 8 Trusted by css start */
   .display-lg-none {
     display: none !important;
   }
-  /* footer */
+  /*  section 8 Trusted by css end */
+
+  /* footer css start */
   .homefinder_logo_white {
     margin-bottom: 1.875rem;
     width: 80%;
   }
-  /* account details */
+  /* footer css end */
+  /* index page css end */
+
+  /* account details css start*/
   .my-current-bids .nav-tabs .nav-link.active,
   .nav-tabs .nav-item.show .nav-link {
     color: white;
@@ -5666,4 +5757,5 @@ footer ul li a:hover {
   .my-current-bids .nav-tabs {
     border: none;
   }
+  /* account details css end*/
 }

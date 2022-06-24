@@ -811,6 +811,7 @@
       </div>
     </section>
 
+    <!-- footer -->
     <footer>
       <div class="container">
         <div class="row">
@@ -893,8 +894,11 @@
             </div>
             <div class="col-lg-3 footer_poweredby_text">
               <p class="footer_privacy_cookies">
-                Powered by<span class="footer_poweredby_homeconnection_text">
-                  Home Connections</span
+                Powered by<a
+                  href="#"
+                  class="footer_poweredby_homeconnection_text text-decoration-none"
+                >
+                  Home Connections</a
                 >
               </p>
             </div>
@@ -914,5 +918,36 @@
     <script src="./js/common.js"></script>
 
     <script src="./js/jquery.flexslider.js"></script>
+
+    <!-- gallery slider -->
+    <script>
+      $(document).ready(function () {
+        $("#carousel").flexslider({
+          animation: "slide",
+          controlNav: false,
+          animationLoop: true,
+          slideshow: true,
+          slideshowSpeed: 2000,
+          itemWidth: 210,
+          itemMargin: 5,
+          asNavFor: "#slider",
+          prevText: "Previous",
+          nextText: "Next",
+        });
+        $("#slider").flexslider({
+          animation: "slide",
+          controlNav: false,
+          slideshow: true,
+          animationLoop: true,
+          slideshowSpeed: 2000,
+          prevText: "Previous",
+          nextText: "Next",
+          sync: "#carousel",
+          start: function (slider) {
+            $("body").removeClass("loading");
+          },
+        });
+      });
+    </script>
   </body>
 </html>

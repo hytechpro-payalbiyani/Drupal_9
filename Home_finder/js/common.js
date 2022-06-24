@@ -278,7 +278,7 @@ $(function () {
 $(function () {
   var success = $("#success-stories");
   success.owlCarousel({
-    autoplay: 2000,
+    autoplay: false,
     items: 1,
     loop: true,
     dots: false,
@@ -409,34 +409,3 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
-
-// home finder details
-// gallery slider
-
-$(document).ready(function () {
-  $("#carousel").flexslider({
-    animation: "slide",
-    controlNav: false,
-    animationLoop: true,
-    slideshow: true,
-    slideshowSpeed: 2000,
-    itemWidth: 210,
-    itemMargin: 5,
-    asNavFor: "#slider",
-    prevText: "Previous",
-    nextText: "Next",
-  });
-  $("#slider").flexslider({
-    animation: "slide",
-    controlNav: false,
-    slideshow: true,
-    animationLoop: true,
-    slideshowSpeed: 2000,
-    prevText: "Previous",
-    nextText: "Next",
-    sync: "#carousel",
-    start: function (slider) {
-      $("body").removeClass("loading");
-    },
-  });
-});
