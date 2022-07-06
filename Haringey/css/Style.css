@@ -285,14 +285,15 @@ body {
   flex-direction: row-reverse;
 }
 /* footer css start */
-.footer-devon {
+footer {
   color: #ffffff;
   background-color: #373737;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  padding:20px 0;
 }
-.footer-devon a:hover{
+footer a:hover{
   color: #0473AF !important;
 }
 
@@ -300,40 +301,14 @@ body {
 
 /* page 2 search and bid for homes */
 
-ul.breadcrumb {
-  
-  list-style: none;
-  background-color: #0474B0;
-}
-ul.breadcrumb li {
-  display: inline;   
-}
-.left-breadcrum-text{
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 42px;
-}
-.right-breadcrum-text{
-  font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-}
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  
-}
-ul.breadcrumb li {
-  color: white;
-  text-decoration: none;
-}
-.breadcrumb {
-  display: block;  
-  padding: 0 0;
-  margin-bottom: 5px;
-  list-style: none;
-  
-}
+.breadCrumb {background-color: #0474B0;padding:40px 0;}
+.breadCrumb ul{list-style: none;margin: 0;padding: 0 10px;}
+.breadCrumb ul li{color: #FFF;}
+.breadCrumb h1{font-size: 28px; font-weight: bold;margin: 0;}
+.breadCrumbLink a{padding-right: 20px;position:relative;color: #FFF;}
+.breadCrumbLink a:before{content:"\f105";position:absolute;right: 5px;font-family: FontAwesome;}
+
+
 
 .social_housing_to_rent_Cta{
   font-weight: 400;
@@ -547,6 +522,8 @@ border-radius: 4px;
     top: 15px;
     right: 35px;
   }
+  /* Breadcumb */
+  .breadCrumbLink{display: none;}
   /* section 1 hero banner owl */
   .section1-owl-hero-banner .owl-next {
     left: 19rem;
@@ -982,4 +959,8 @@ border-radius: 8px 8px 0px 0px;
     border: none;
     background-color: white;
   }
+}
+
+@media (max-width: 1400px){
+  .container{width: 1280px; max-width: 100%;}
 }
