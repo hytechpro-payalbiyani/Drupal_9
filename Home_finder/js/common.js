@@ -46,6 +46,7 @@ $(document).ready(function () {
       },
     },
   });
+
   fourthh.owlCarousel({
     autoplay: true,
     autoplayhoverpause: true,
@@ -63,7 +64,9 @@ $(document).ready(function () {
       768: {
         items: 2,
       },
-
+      1000: {
+        items: 3,
+      },
       1200: {
         items: 4,
       },
@@ -275,7 +278,7 @@ $(function () {
 $(function () {
   var success = $("#success-stories");
   success.owlCarousel({
-    autoplay: 2000,
+    autoplay: false,
     items: 1,
     loop: true,
     dots: false,
@@ -397,7 +400,7 @@ $(document).ready(function () {
   });
 });
 
-// nav menu
+// nav menu common
 
 function openNav() {
   document.getElementById("myNav").style.width = "90%";
