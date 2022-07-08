@@ -251,10 +251,22 @@
      box-shadow: 50px -50px rgb(4 116 176 / 30%);
      border-radius: 10px;
 }
+.section-3-text h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #4a4a4a;
+}
 /* section 5 */
  .bg-img-3 {
      box-shadow: -50px -50px rgba(4, 116, 176, 0.3);
      border-radius: 10px;
+}
+.section-3-text h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #4a4a4a;
 }
  .section-4-flex-desktop {
      display: flex;
@@ -275,7 +287,7 @@
 /* page 2 search and bid for homes */
 
 
-.breadCrumb {background-color: #0474B0;padding:40px 0;}
+.breadCrumb {background-color: #0474B0;padding:55px 0;}
 .breadCrumb ul{list-style: none;margin: 0;padding: 0 10px;}
 .breadCrumb ul li{color: #FFF;}
 .breadCrumb h1{font-size: 28px; font-weight: bold;margin: 0;}
@@ -399,12 +411,12 @@
     width: 100%;
     height: 100%;
 }
- .list-inner-inputs h1{
+ .list-inner-inputs h2{
      font-size: 24px;
      line-height: 36px;
      color: #0474B0;
 }
- .list-inner-inputs h2{
+ .list-inner-inputs address{
      font-size: 14px;
      line-height: 21px;
      color: #585858;
@@ -446,10 +458,9 @@
      padding: 12px 25px 12px 25px;
 }
 /* page 3 property details */
-
 .breadcrumb-property-details {
     background-color: #0474B0;
-    padding:40px 0;
+    padding:55px 0;
     margin-bottom: 40px;
 }
 .breadcrumb-property-details ul{list-style: none;margin: 0;padding: 0 10px;}
@@ -486,6 +497,8 @@
      color: #484848;
      background: rgba(170, 170, 170, 0.2);
      border-radius: 4px;
+     padding: 100px 0px 100px 0px;
+     margin: 100px 0px 115px 0px
 }
  .gallery-flexsliders .flex-direction-nav .flex-disabled {
      opacity: 1 !important;
@@ -615,11 +628,121 @@
    
     border: 0.0625rem solid #E4E4E4;
   }
-  h2.resp-tab-active {
-    border-bottom: 0px solid #c1c1c1 !important;
+  .sec-3-resp-tab h2.resp-tab-active {
+    border-bottom: 1px solid #c1c1c1 !important;
     margin-bottom: 0px !important;
     padding: 10px 15px !important;
 }
+
+/* page 4 welcome to haringey */
+
+.welcome-to h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;    
+    color: #4A4A4A;
+    padding: 40px 0px 15px 0px;
+}
+
+.welcome-to p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: rgba(72, 72, 72, 0.75);
+padding-bottom: 12px;
+}
+.go-to-my-account-cta{
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #FFFFFF;
+background-color:#0474B0;
+border: none;
+border-radius:4px;
+padding: 15px 92px 15px 92px;
+margin: 5px 0px 55px 0px;
+}
+
+/* page 5 login */
+.login-bg{
+    background-position: center; 
+    background-size: cover;    
+    min-height: 154vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 100%), url("../assets/login-background.png"); 
+}
+.login-bg h2{
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+}
+  
+.login-bg a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+}
+.login-bg a:hover{
+    color: #0474B0;
+}
+.sign-in-cta{
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: white;
+background-color: #0473AF;
+border: none;
+border-radius: 4px;
+padding: 10px 30px 10px 30px;
+}
+.sign-in-cta:hover{
+color: #0473AF;
+background-color: white;
+border: 1px solid #0473AF;
+
+}
+.login-bg .col-form-label {
+    padding-top: calc(0.375rem + 1px);
+    padding-bottom: calc(0.375rem + 1px);
+    margin-bottom: 0;
+    font-size: inherit;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.login-bg .form-control {
+    display: block;
+    width: 100%;
+    padding: 1rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    background-color: #F7F7F7;
+    background-clip: padding-box;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.login-bg form{
+    width: 43%;
+    padding: 20px 30px 20px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-bg {
+    position: relative;
+    text-align: left;
+}
+
 
 
 
@@ -739,51 +862,96 @@
         font-size: 48px;
         line-height: 72px;
    }
-   .google-adds-text {
-    font-weight: 300;
-    font-size: 28px;
-    line-height: 84px;
-    color: #484848;
-    background: rgba(170, 170, 170, 0.2);
-    border-radius: 4px;
-}
+
    .gallery-flexsliders .flex-direction-nav .flex-next {
     left: 22rem;
     text-align: right;
+}
+.gallery-flexsliders .flexslider {
+    margin: 0rem 0.9375rem 0.9375rem 0.8rem;
+    background: #fff;
+    border: none;
+    position: relative;
+    zoom: 1;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    -webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+    -o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+    box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
 }
      .sec-3-resp-tab h2.resp-accordion {
          font-size: 16px;         
          padding: 15px 10px;
          color: #888888;
+         margin-bottom: 20px;
     }
      .sec-3-resp-tab h2.resp-tab-active {
          background: white !important;
          color: #888888!important;
          font-size: 16px;
          line-height: 24px;
+         border-bottom: none!important;
     }
      .sec-3-resp-tab .resp-tab-active {
          margin-bottom: -1px !important;
          padding: 10px 10px 10px 10px !important;
     }
      .overview-heading {
-         font-size: 20px;
+         font-size: 18px;
          line-height: 30px;
          color: #484848;
     }
-     .sec-3-resp-tab h2.resp-accordion:nth-child(1) {
-         font-size: 1.0625rem;
-         line-height: 1.3125rem;
-         font-weight: 400;
-         color: #888888;
+    .sec-3-resp-tab .resp-tabs-container {
+        padding: 0px;
+        background-color: #fff;
+        clear: left;
+        border-top: none !important; 
     }
      .resp-tabs-container {
          padding: 0px;
          background-color: #fff;
          clear: left;
-         border: 1px solid #C4C4C4 !important;
+        
     }
-   
+    .resp-tab-content {
+        border: 1px solid #c1c1c1;
+    }
+    .sec-3-resp-tab .resp-tab-content {
+        border: 1px solid #E4E4E4;
+        margin-bottom: 20px;
+    }
+    .google-adds-text{
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 84px;
+        color: #484848;
+        background: rgba(170, 170, 170, 0.2);
+        border-radius: 4px;
+        padding: 60px 0px 60px 0px;
+        margin: 40px 0px 40px 0px;
+   }
+   /* page 4 welcome to haringey */
+   .welcome-to h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 46px;
+    color: #4A4A4A;
+    padding: 40px 0px 15px 0px;
+}
+.welcome-to p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(72, 72, 72, 0.75);
+    padding-bottom: 12px;
+}
+    /* page 5 login */
+    .login-bg form {
+        width: 100%;
+        padding: 20px 30px 20px 30px;
+    }
 }
 /* media 521px-768px */
  @media (min-width: 521px) and (max-width: 768px) {
@@ -864,6 +1032,20 @@
         display: none;
     }
     /* page 3 property details */
+    .gallery-flexsliders .flexslider {
+        margin: 0rem 0rem 0.9375rem 0rem;
+        background: #fff;
+        border: none;
+        position: relative;
+        zoom: 1;
+        -webkit-border-radius: 0.25rem;
+        -moz-border-radius: 0.25rem;
+        border-radius: 0.25rem;
+        -webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+        -o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+        box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+    }
     .share-with-your-friend-cta {
         font-weight: 400;
         font-size: 18px;
@@ -889,14 +1071,72 @@
     .border-left-breadcrum {
         border-left: none!important;
     }
-    .google-adds-text {
+    .google-adds-text{
         font-weight: 300;
         font-size: 30px;
         line-height: 84px;
         color: #484848;
         background: rgba(170, 170, 170, 0.2);
         border-radius: 4px;
-    }
+        padding: 60px 0px 60px 0px;
+        margin: 40px 0px 40px 0px;
+   }
+    .sec-3-resp-tab h2.resp-accordion {
+        font-size: 16px;         
+        padding: 15px 10px;
+        color: #888888;
+        margin-bottom: 20px;
+   }
+    .sec-3-resp-tab h2.resp-tab-active {
+        background: white !important;
+        color: #888888!important;
+        font-size: 16px;
+        line-height: 24px;
+        border-bottom: none!important;
+   }
+    .sec-3-resp-tab .resp-tab-active {
+        margin-bottom: -1px !important;
+        padding: 10px 10px 10px 10px !important;
+   }
+    .overview-heading {
+        font-size: 20px;
+        line-height: 30px;
+        color: #484848;
+   }
+   .sec-3-resp-tab .resp-tabs-container {
+       padding: 0px;
+       background-color: #fff;
+       clear: left;
+       border-top: none !important; 
+   }
+    .resp-tabs-container {
+        padding: 0px;
+        background-color: #fff;
+        clear: left;
+       
+   }
+   .resp-tab-content {
+       border: 1px solid #c1c1c1;
+   }
+   .sec-3-resp-tab .resp-tab-content {
+       border: 1px solid #E4E4E4;
+       margin-bottom: 20px;
+   }
+   /* page 4 welcome to haringey */
+   .welcome-to h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #4A4A4A;
+    padding: 40px 0px 15px 0px;
+}
+   .welcome-to p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(72, 72, 72, 0.75);
+    padding-bottom: 12px;
+}
 }
 /* media 768px-992px */
  @media (min-width: 768.5px) and (max-width: 992px) {
@@ -975,9 +1215,45 @@
         right: 2rem;
         text-align: right;
     }
+    .gallery-flexsliders .flexslider {
+        margin: 0rem 0rem 0.9375rem 0rem;
+        background: #fff;
+        border: none;
+        position: relative;
+        zoom: 1;
+        -webkit-border-radius: 0.25rem;
+        -moz-border-radius: 0.25rem;
+        border-radius: 0.25rem;
+        -webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+        -o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+        box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+    }
+    .share-with-your-friend-cta {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+        background: #65B251;
+        border-radius: 4px;
+        border: none;
+        width: 100%;
+        padding: 15px 0px 15px 0px;
+    }
+    .login-to-express-interest {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        background: #0474B0;
+        border: none;
+        width: 100%;
+        padding: 15px 0px 15px 0px;
+    }
     .sec-3-resp-tab .resp-tabs-list li {
         display: inline-block;
-        padding: 13px 40px;
+        padding: 13px 25px!important;
         margin: 0;
         list-style: none;
         cursor: pointer;
@@ -986,13 +1262,30 @@
         line-height: 24px;
         color: #484848;
     }
-    .google-adds-text {
+    .google-adds-text{
         font-weight: 300;
         font-size: 32px;
         line-height: 84px;
         color: #484848;
         background: rgba(170, 170, 170, 0.2);
         border-radius: 4px;
+        padding: 60px 0px 60px 0px;
+        margin: 40px 0px 40px 0px;
+   }
+    /* page 4 welcome to haringey */
+    .welcome-to h2 {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 46px;
+        color: #4A4A4A;
+        padding: 40px 0px 15px 0px;
+    }
+       .welcome-to p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: rgba(72, 72, 72, 0.75);
+        padding-bottom: 12px;
     }
 }
 /* media 992px-1200px */
@@ -1073,6 +1366,16 @@
         width: 100%;
         height: 24rem;
     }
+    .google-adds-text{
+        font-weight: 300;
+        font-size: 34px;
+        line-height: 84px;
+        color: #484848;
+        background: rgba(170, 170, 170, 0.2);
+        border-radius: 4px;
+        padding: 60px 0px 60px 0px;
+        margin: 40px 0px 40px 0px;
+   }
 }
 /* media 1200px-1350px */
  @media (min-width: 1200px) and (max-width: 1350px) {
@@ -1159,6 +1462,16 @@
          border: none;
          padding: 12px 25px 12px 25px;
     }
+    .google-adds-text{
+        font-weight: 300;
+        font-size: 34px;
+        line-height: 84px;
+        color: #484848;
+        background: rgba(170, 170, 170, 0.2);
+        border-radius: 4px;
+        padding: 60px 0px 60px 0px;
+        margin: 40px 0px 40px 0px;
+   }
 }
 /* media above 1350px */
 @media (min-width: 1350px) and (max-width: 1400px){
