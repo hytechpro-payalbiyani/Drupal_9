@@ -1,1789 +1,2190 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
- body {
-     font-family: "poppins";
+
+body {
+	font-family: "poppins";
 }
+
 /*overlay nav css start*/
- .overlay {
-     height: 100%;
-     width: 0;
-     position: absolute;
-     z-index: 99;
-     top: 0;
-     right: 0;
-     background-color: #e5e5e5;
-     overflow-x: hidden;
-     transition: 0.5s;
+.overlay {
+	height: 100%;
+	width: 0;
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	right: 0;
+	background-color: #e5e5e5;
+	overflow-x: hidden;
+	transition: 0.5s;
 }
- .overlay-content {
-     position: relative;
-     width: 100%;
-     text-align: left;
-     margin-top: 30px;
-     top: 10%;
+
+.overlay-content {
+	position: relative;
+	width: 100%;
+	text-align: left;
+	margin-top: 30px;
+	top: 11%;
 }
- .overlay a {
-     padding: 8px;
-     text-decoration: none;
-     font-size: 36px;
-     color: #585858;
-     display: block;
-     transition: 0.3s;
+
+.overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 36px;
+	color: #585858;
+	display: block;
+	transition: 0.3s;
 }
- .overlay a:hover, .overlay a:focus {
-     color: black;
+
+.overlay a:hover,
+.overlay a:focus {
+	color: black;
 }
- .overlay .closebtn {
-     position: absolute;
-     top: 20px;
-     right: 45px;
-     font-size: 60px;
+
+.overlay .closebtn {
+	position: absolute;
+	top: 20px;
+	right: 45px;
+	font-size: 60px;
 }
+
 /*overlay nav css end*/
 /* hfTopNav css start */
- .navbar-hfbottom .navbar {
-     position: relative;
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-     justify-content: space-between;
-     padding-top: 0.2rem;
-     padding-bottom: 0.3rem;
+.navbar-hfbottom .navbar {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 0.2rem;
+	padding-bottom: 0.3rem;
 }
- .hfTopNav ul li {
-     position: relative;
-     color: #484848;
+
+.hfTopNav ul li {
+	position: relative;
+	color: #484848;
 }
- .hfTopNav ul li a {
-     color: #484848;
+
+.hfTopNav ul li a {
+	color: #484848;
 }
- .topnav_border_right {
-     padding-right: 0.625rem;
+
+.topnav_border_right {
+	padding-right: 0.625rem;
 }
- .topnav_border_right:before {
-     content: "";
-     position: absolute;
-     right: -0.0625rem;
-     top: 0;
-     height: 0.625rem;
-     width: 0.0625rem;
-     background: #ddd;
-     bottom: 0;
-     margin: auto;
+
+.topnav_border_right:before {
+	content: "";
+	position: absolute;
+	right: -0.0625rem;
+	top: 0;
+	height: 0.625rem;
+	width: 0.0625rem;
+	background: #ddd;
+	bottom: 0;
+	margin: auto;
 }
- .language-cta {
-     background-color: white !important;
-     color: #585858 !important;
-     border: 1px solid #aaaaaa;
-     border-radius: 4px;
-     font-weight: 400;
-     font-size: 12px;
-     line-height: 18px;
-     padding: 3px 6px 3px 6px;
+
+.language-cta {
+	background-color: white !important;
+	color: #585858 !important;
+	border: 1px solid #aaaaaa;
+	border-radius: 4px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 3px 6px 3px 6px;
 }
+
 /* hfTopNav css end */
 /* navbar css */
- .nav-item .nav-link {
-     color: #585858;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-     width: 100%;
+.nav-item .nav-link {
+	color: #585858;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	width: 100%;
 }
- .landingPage .navbar {
-     position: absolute;
-     width: 100%;
-     z-index: 99;
+
+.landingPage .navbar {
+	position: absolute;
+	width: 100%;
+	z-index: 99;
 }
- .navbar {
-     background-color: rgba(255, 255, 255, 0.9);
+
+.navbar {
+	background-color: rgba(255, 255, 255, 0.9);
 }
- .hfTopNav{
-     background-color: #F6F6F6;
+
+.hfTopNav {
+	background-color: #F6F6F6;
 }
- .nav-link:hover, .nav-link:focus {
-     color: #0473AF !important;
+
+.nav-link:hover,
+.nav-link:focus {
+	color: #0473AF !important;
 }
+
 /* nav bar css end */
+/* page 1 index css start */
 /* section 1 hero banner */
- .section1-owl-hero-banner .owl-prev {
-     left: 35.5rem;
-     position: absolute;
-     bottom: -3.375rem;
+.section1-owl-hero-banner .owl-prev {
+	left: 35.5rem;
+	position: absolute;
+	bottom: -3.375rem;
 }
- .section1-owl-hero-banner .owl-next {
-     left: 45.5rem;
-     position: absolute;
-     bottom: -3.375rem;
+
+.section1-owl-hero-banner .owl-next {
+	left: 45.5rem;
+	position: absolute;
+	bottom: -3.375rem;
 }
- .section1-owl-hero-banner .owl-next span {
-     font-size: 3.5625rem;
-     color: white;
-     border: none;
-     padding-left: 0.625rem;
-     padding-right: 0.625rem;
+
+.section1-owl-hero-banner .owl-next span {
+	font-size: 3.5625rem;
+	color: white;
+	border: none;
+	padding-left: 0.625rem;
+	padding-right: 0.625rem;
 }
- .section1-owl-hero-banner .owl-prev span {
-     font-size: 3.5625rem;
-     color: white;
-     border: none;
-     padding-left: 0.625rem;
-     padding-right: 0.625rem;
+
+.section1-owl-hero-banner .owl-prev span {
+	font-size: 3.5625rem;
+	color: white;
+	border: none;
+	padding-left: 0.625rem;
+	padding-right: 0.625rem;
 }
- .section1-owl-hero-banner .owl-theme .owl-nav [class*="owl-"]:hover {
-     background: none !important;
-     color: #fff;
-     text-decoration: none;
+
+.section1-owl-hero-banner .owl-theme .owl-nav [class*="owl-"]:hover {
+	background: none !important;
+	color: #fff;
+	text-decoration: none;
 }
- .section1-owl-hero-banner .owl-theme .owl-dots, .owl-theme .owl-nav {
-     text-align: center;
-     -webkit-tap-highlight-color: transparent;
-     position: relative;
-     bottom: 50px;
+
+.section1-owl-hero-banner .owl-theme .owl-dots,
+.owl-theme .owl-nav {
+	text-align: center;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	bottom: 50px;
 }
- .homeSlider {
-     position: relative;
-     overflow: hidden;
+
+.homeSlider {
+	position: relative;
+	overflow: hidden;
 }
+
 .hero-text {
-    position: absolute;
-    top: 235px;
-    left:0;
-    right: 0;
-    max-width: 100%;
-    margin: 0 auto;
-    width: 450px;
-  }
- .section1_heading_text_input {
-     font-weight: 700;
-     font-size: 36px;
-     line-height: 54px;
-     color: white;
-     padding-top: 8.75rem;
-     line-height: 3.688rem;
-     padding-bottom: 0.625rem;
+	position: absolute;
+	top: 235px;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	margin: 0 auto;
+	width: 450px;
 }
- .section1_button1_ctn {
-     border: none;
-     display: inline-block;
-     padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
-     color: white;
-     margin-left: 6.875rem;
-     text-decoration: none;
-     background: #65b251;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 21px;
-     border-radius: 4px;
+
+.section1_heading_text_input {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 54px;
+	color: white;
+	padding-top: 8.75rem;
+	line-height: 3.688rem;
+	padding-bottom: 0.625rem;
 }
- .section1_button1_ctn:hover {
-     color: black !important;
+
+.section1_button1_ctn {
+	border: none;
+	display: inline-block;
+	padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
+	color: white;
+	margin-left: 6.875rem;
+	text-decoration: none;
+	background: #468038;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	border-radius: 4px;
 }
+
+.section1_button1_ctn:hover {
+	color: #468038 !important;
+	background-color: white;
+	border: 1px solid #468038;
+}
+
 /* section 2 cards */
- .section-2-card-style {
-     width: 100%;
-     box-shadow: 0px 0px 71px rgb(0 0 0 / 10%);
-     border-radius: 10px;
-     height: 100%;
+.section-2-card-style {
+	width: 100%;
+	box-shadow: 0px 0px 71px rgb(0 0 0 / 10%);
+	border-radius: 10px;
+	height: 100%;
 }
- .card-title {
-     font-weight: 600;
-     font-size: 20px;
-     line-height: 30px;
-     color: #4a4a4a;
+
+.card-title {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: #4a4a4a;
 }
- .card-text {
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 26px;
-     color: rgba(72, 72, 72, 0.75);
+
+.card-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgba(72, 72, 72, 0.75);
 }
- .card a {
-     color: rgba(72, 72, 72, 0.75);
+
+.card a {
+	color: rgba(72, 72, 72, 0.75);
 }
- .card:hover {
-     color: white;
-     background-color: #0474b0;
+
+.card:hover {
+	color: white;
+	background-color: #0474b0;
 }
- .card:hover p {
-     color: white;
-     background-color: #0474b0;
+
+.card:hover p {
+	color: white;
+	background-color: #0474b0;
 }
- .card:hover h5 {
-     color: white;
-     background-color: #0474b0;
+
+.card:hover h5 {
+	color: white;
+	background-color: #0474b0;
 }
- .card:hover a {
-     color: white;
-     background-color: #0474b0;
+
+.card:hover a {
+	color: white;
+	background-color: #0474b0;
 }
- .card:hover .top-img {
-     display: none;
+
+.card:hover .top-img {
+	display: none;
 }
+
 /* section 3 home available now */
- .bg-img-1 {
-     box-shadow: -50px -50px rgba(111, 193, 85, 0.3);
-     border-radius: 10px;
+.bg-img-1 {
+	box-shadow: -50px -50px rgba(111, 193, 85, 0.3);
+	border-radius: 10px;
 }
- .section-3-text h1 {
-     font-weight: 600;
-     font-size: 36px;
-     line-height: 54px;
-     color: #4a4a4a;
+
+.section-3-text h1 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #4a4a4a;
 }
- .section-3-text p {
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 34px;
-     color: rgba(72, 72, 72, 0.75);
-    
+
+.section-3-text p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 34px;
+	color: rgba(72, 72, 72, 0.75);
+
 }
- .section-3-text a {
-     font-weight: 600;
-     font-size: 18px;
-     line-height: 27px;
-     color: rgba(72, 72, 72, 0.75);
+
+.section-3-text a {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: rgba(72, 72, 72, 0.75);
 }
- .section-3-text a:hover {
-     color: #0473AF !important;
+
+.section-3-text a:hover {
+	color: #0473AF !important;
 }
+
 /* section 4 */
- .bg-img-2 {
-     box-shadow: 50px -50px rgb(4 116 176 / 30%);
-     border-radius: 10px;
+.bg-img-2 {
+	box-shadow: 50px -50px rgb(4 116 176 / 30%);
+	border-radius: 10px;
 }
+
 .section-3-text h2 {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 54px;
-    color: #4a4a4a;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #4a4a4a;
 }
+
 /* section 5 */
- .bg-img-3 {
-     box-shadow: -50px -50px rgba(4, 116, 176, 0.3);
-     border-radius: 10px;
+.bg-img-3 {
+	box-shadow: -50px -50px rgba(4, 116, 176, 0.3);
+	border-radius: 10px;
 }
+
 .section-3-text h2 {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 54px;
-    color: #4a4a4a;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #4a4a4a;
 }
- .section-4-flex-desktop {
-     display: flex;
-     flex-direction: row-reverse;
+
+.section-4-flex-desktop {
+	display: flex;
+	flex-direction: row-reverse;
 }
+
 /* footer css start */
- .footer {
-     color: #ffffff;
-     background-color: #373737;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-     padding: 30px 0px 30px 0px;
+.footer {
+	color: #ffffff;
+	background-color: #373737;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 30px 0px 30px 0px;
 }
- .footer a:hover{
-     color: #0473AF !important;
-}
-/* page 2 search and bid for homes */
 
+.footer a:hover {
+	color: #0473AF !important;
+}
+/* page 1 index css end */
 
-.breadCrumb {background-color: #0474B0;padding:55px 0;}
-.breadCrumb ul{list-style: none;margin: 0;padding: 0 10px;}
-.breadCrumb ul li{color: #FFF;}
-.breadCrumb h1{font-size: 28px; font-weight: bold;margin: 0;}
-.breadCrumbLink a{padding-right: 15px;position:relative;color: #FFF;}
-.breadCrumbLink a:before{    
-    content: "\f04b";
-    position: absolute;
-    right: 0px;
-    font-family: FontAwesome;
-    font-size: 10px;
-    bottom: 3px;}
+/* page 2 search and bid for homes css start*/
+.breadCrumb {
+	background-color: #0474B0;
+	padding: 55px 0;
+}
 
- .social_housing_to_rent_Cta{
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-     color: #585858;
-     background-color: white;
-     border: 2px solid #BBBBBB;
-     border-radius: 210px;
-     padding: 8px 28px 8px 28px;
+.breadCrumb ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px;
 }
- .social_housing_to_rent_Cta:hover{
-     border: none;
-     color: white;
-     background-color: #0473AF;
+
+.breadCrumb ul li {
+	color: #FFF;
 }
- .available_now_Cta{
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-     color: #585858;
-     background-color: white;
-     border: 2px solid #BBBBBB;
-     border-radius: 210px;
-     padding: 8px 28px 8px 28px;
+
+.breadCrumb h1 {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0;
 }
- .available_now_Cta:hover{
-     border: none;
-     color: white;
-     background-color: #0473AF;
+
+.breadCrumbLink a {
+	padding-right: 15px;
+	position: relative;
+	color: #FFF;
 }
- .search__and_bid_for_property .accordion-item{
-     background-color: #EEEEEE;
+
+.breadCrumbLink a:before {
+	content: "\f04b";
+	position: absolute;
+	right: 0px;
+	font-family: FontAwesome;
+	font-size: 10px;
+	bottom: 3px;
 }
- .search__and_bid_for_property .accordion-button:not(.collapsed) {
-     color: #585858;
-     background-color: #EEEEEE;
-     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 27px;
+
+.social_housing_to_rent_Cta {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585858;
+	background-color: white;
+	border: 2px solid #BBBBBB;
+	border-radius: 210px;
+	padding: 8px 28px 8px 28px;
+	margin-right: 10px;
 }
- .search__and_bid_for_property .accordion-item:last-of-type .accordion-button.collapsed {
-     border-bottom-right-radius: calc(0.25rem - 1px);
-     border-bottom-left-radius: calc(0.25rem - 1px);
-     background-color: #EEEEEE;
-     color: #585858;
+
+.social_housing_to_rent_Cta:hover {
+	border: none;
+	color: white;
+	background-color: #0473AF;
 }
- .form-inner-text{
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-     color: #585858;
+
+.available_now_Cta {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585858;
+	background-color: white;
+	border: 2px solid #BBBBBB;
+	border-radius: 210px;
+	padding: 8px 28px 8px 28px;
 }
- .form-inner-text .form-select {
-     display: block;
-     width: 100%;
-     padding: 0.375rem 2.25rem 0.375rem 0.75rem;
-     -moz-padding-start: calc(0.75rem - 3px);
-     font-size: 1rem;
-     font-weight: 400;
-     line-height: 1.5;
-     color: #585858;
-     background-color: #fff;
+
+.available_now_Cta:hover {
+	border: none;
+	color: white;
+	background-color: #0473AF;
 }
- .search_for_property_advanced_link{
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-     color: #035987;
+
+.search__and_bid_for_property .accordion-item {
+	background-color: #EEEEEE;
 }
- .search_for_property_Cta{
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 27px;
-     color: #585858;
-     background-color: white;
-     border: 2px solid #E1E1E0;
-     border-radius: 4px;
-     padding: 8px 28px 8px 28px;
+
+.search__and_bid_for_property .accordion-button:not(.collapsed) {
+	color: #585858;
+	background-color: #EEEEEE;
+	box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
 }
- .search_for_property_Cta:hover{
-     color: white;
-     background-color: #0473AF;
+
+.search__and_bid_for_property .accordion-item:last-of-type .accordion-button.collapsed {
+	border-bottom-right-radius: calc(0.25rem - 1px);
+	border-bottom-left-radius: calc(0.25rem - 1px);
+	background-color: #EEEEEE;
+	color: #585858;
 }
- .Reset_property_Cta{
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 27px;
-     color: #585858;
-     background-color: white;
-     border: 2px solid #E1E1E0;
-     border-radius: 4px;
-     padding: 8px 28px 8px 28px;
+
+.form-inner-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585858;
 }
- .Reset_property_Cta:hover{
-     color: white;
-     background-color: #0473AF;
+
+.form-inner-text .form-select {
+	display: block;
+	width: 100%;
+	padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+	-moz-padding-start: calc(0.75rem - 3px);
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #585858;
+	background-color: #fff;
 }
- .list-heading-text{
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-     color: #585858;
+
+.search_for_property_advanced_link {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #035987;
 }
- .border-list{
-     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
-     border-radius: 10px;
-     margin: 20px 0;
-     position: relative;
+
+.search_for_property_Cta {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #585858;
+	background-color: white;
+	border: 2px solid #E1E1E0;
+	border-radius: 4px;
+	padding: 8px 28px 8px 28px;
 }
+
+.search_for_property_Cta:hover {
+	color: white;
+	background-color: #0473AF;
+	border: none;
+}
+
+.Reset_property_Cta {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #585858;
+	background-color: white;
+	border: 2px solid #E1E1E0;
+	border-radius: 4px;
+	padding: 8px 28px 8px 28px;
+}
+
+.Reset_property_Cta:hover {
+	color: white;
+	background-color: #0473AF;
+	border: none;
+}
+
+.list-heading-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #585858;
+}
+
+.border-list {
+	box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin: 20px 0;
+	position: relative;
+}
+
 .propertyFigure img {
-    border: 1px solid #F5F5F5;
-    border-radius: 8px 0px 0px 8px;
-    width: 100%;
-    height: 100%;
+	border: 1px solid #F5F5F5;
+	border-radius: 8px 0px 0px 8px;
+	width: 100%;
+	height: 100%;
 }
- .list-inner-inputs h2{
-     font-size: 24px;
-     line-height: 36px;
-     color: #0474B0;
+
+.list-inner-inputs h2 {
+	font-size: 24px;
+	line-height: 36px;
+	color: #0474B0;
 }
- .list-inner-inputs address{
-     font-size: 14px;
-     line-height: 21px;
-     color: #585858;
+
+.list-inner-inputs address {
+	font-size: 14px;
+	line-height: 21px;
+	color: #585858;
 }
- .list-inner-inputs ul li{
-     font-size: 14px;
-     line-height: 21px;
-     color: #585858;
+
+.list-inner-inputs ul li {
+	font-size: 14px;
+	line-height: 21px;
+	color: #585858;
 }
- .list-inner-inputs p{
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 21px;
-     color: #484848;
-     display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+
+.list-inner-inputs p {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	color: #484848;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
- .border-advertise-by{
-     border: 0.5px solid #F5F5F5;
-     border-radius: 4px;
+
+.border-advertise-by {
+	border: 0.5px solid #F5F5F5;
+	border-radius: 4px;
 }
- .list-inner-inputs h4{
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 21px;
-     color: #585858;
+
+.list-inner-inputs h3 {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 21px;
+	color: #585858;
 }
- .full-property-details-cta{
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 24px;
-     color: #FFFFFF;
-     background-color: #0474B0;
-     border-radius: 4px;
-     border: none;
-     padding: 12px 25px 12px 25px;
+
+.full-property-details-cta {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	background-color: #0474B0;
+	border-radius: 4px;
+	border: none;
+	padding: 12px 25px 12px 25px;
 }
-/* page 3 property details */
+
+.full-property-details-cta:hover {
+	color: #0474B0;
+	background-color: white;
+	border: 1px solid #0474B0;
+}
+/* page 2 search and bid for homes css end*/
+
+/* page 3 property details css start*/
 .breadcrumb-property-details {
-    background-color: #0474B0;
-    padding:55px 0;
-    margin-bottom: 40px;
+	background-color: #0474B0;
+	padding: 55px 0;
+	margin-bottom: 40px;
 }
-.breadcrumb-property-details ul{list-style: none;margin: 0;padding: 0 10px;}
-.breadcrumb-property-details ul li{color: #FFF;}
-.breadcrumb-property-details h1{font-size: 28px; font-weight: bold;margin: 0;}
 
- .gha-style{
-     font-size: 28px;
-     line-height: 42px;
+.breadcrumb-property-details ul {
+	list-style: none;
+	margin: 0;
+	padding: 0 10px;
 }
- .address-carillon{
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 24px;
+
+.breadcrumb-property-details ul li {
+	color: #FFF;
 }
- .money-text{
-     font-weight: 600;
-     font-size: 48px;
-     line-height: 72px;
-    
+
+.breadcrumb-property-details h1 {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 0;
 }
-.border-left-breadcrum{
-    border-left: 1px solid #dee2e6 !important;
+
+.gha-style {
+	font-size: 28px;
+	line-height: 42px;
 }
- .breadcrum-right-ul-input-style{
-     font-weight: 400;
-     font-size: 14px;
-     line-height: 21px;
+
+.address-carillon {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
 }
- .google-adds-text{
-     font-weight: 300;
-     font-size: 56px;
-     line-height: 84px;
-     color: #484848;
-     background: rgba(170, 170, 170, 0.2);
-     border-radius: 4px;
-     padding: 100px 0px 100px 0px;
-     margin: 100px 0px 115px 0px
+
+.money-text {
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 72px;
+
 }
- .gallery-flexsliders .flex-direction-nav .flex-disabled {
-     opacity: 1 !important;
-     filter: alpha(opacity=0);
-     cursor: default;
-     z-index: 1;
+
+.border-left-breadcrum {
+	border-left: 1px solid #dee2e6 !important;
 }
- .gallery-flexsliders .flexslider .slides img {
-     width: auto;
-     display: block;
+
+.breadcrum-right-ul-input-style {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
 }
+
+.google-adds-text {
+	font-weight: 300;
+	font-size: 56px;
+	line-height: 84px;
+	color: #484848;
+	background: rgba(170, 170, 170, 0.2);
+	border-radius: 4px;
+	padding: 100px 0px 100px 0px;
+	margin: 100px 0px 115px 0px
+}
+
+.gallery-flexsliders .flex-direction-nav .flex-disabled {
+	opacity: 1 !important;
+	filter: alpha(opacity=0);
+	cursor: default;
+	z-index: 1;
+}
+
+.gallery-flexsliders .flexslider .slides img {
+	width: auto;
+	display: block;
+}
+
 .gallery-flexsliders .flex-direction-nav .flex-next {
-    right: 0rem;
-    text-align: right;
+	right: 0rem;
+	text-align: right;
 }
+
 .gallery-flexsliders .flex-direction-nav .flex-prev {
-    left: 0rem;
+	left: 0rem;
 }
- .gallery-flexsliders .flexslider {
-     margin: 0rem 0.9375rem 0.9375rem -0.625rem;
-     background: #fff;
-     border: none;
-     position: relative;
-     zoom: 1;
-     -webkit-border-radius: 0.25rem;
-     -moz-border-radius: 0.25rem;
-     border-radius: 0.25rem;
-     -webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-     -moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-     -o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-     box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+
+.gallery-flexsliders .flexslider {
+	margin: 0rem 0.9375rem 0.9375rem -0.625rem;
+	background: #fff;
+	border: none;
+	position: relative;
+	zoom: 1;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	border-radius: 0.25rem;
+	-webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+	-o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+	box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
 }
- .gallery-flexsliders .flex-direction-nav a:before {
-     font-family: "flexslider-icon";
-     font-size: 2.1875rem;
-     display: inline-block;
-     content: "\f001";
-     color: rgba(0, 0, 0, 0.8);
-     text-shadow: 0.0625rem 0.0625rem 0 rgb(255 255 255 / 30%);
+
+.gallery-flexsliders .flex-direction-nav a:before {
+	font-family: "flexslider-icon";
+	font-size: 2.1875rem;
+	display: inline-block;
+	content: "\f001";
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 0.0625rem 0.0625rem 0 rgb(255 255 255 / 30%);
 }
- .map-property-details {
-     width: 100%;
-     height: 29rem;
+
+.map-property-details {
+	width: 100%;
+	height: 29rem;
 }
- .share-with-your-friend-cta{
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 27px;
-     color: #FFFFFF;
-     background: #65B251;
-     border-radius: 4px;
-     border: none;
-     width: 100%;
-     padding: 20px 0px 20px 0px;
+
+.share-with-your-friend-cta {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #FFFFFF;
+	background: #468038;
+	border-radius: 4px;
+	border: none;
+	width: 100%;
+	padding: 20px 0px 20px 0px;
 }
- .login-to-express-interest{
-     font-weight: 400;
-     font-size: 18px;
-     line-height: 27px;
-     color: #FFFFFF;
-     border-radius: 4px;
-     background: #0474B0;
-     border: none;
-     width: 100%;
-     padding: 20px 0px 20px 0px;
+
+.share-with-your-friend-cta:hover {
+	color: #468038;
+	background-color: white;
+	border: 1px solid #468038;
 }
- .sec-3-resp-tab .resp-tab-content{
-     border: none;
+
+.login-to-express-interest {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #FFFFFF;
+	border-radius: 4px;
+	background: #0474B0;
+	border: none;
+	width: 100%;
+	padding: 20px 0px 20px 0px;
 }
- .sec-3-resp-tab .resp-tabs-list li {
-     display: inline-block;
-     padding: 13px 40px;
-     margin: 0;
-     list-style: none;
-     cursor: pointer;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
-     color: #484848;
+
+.login-to-express-interest:hover {
+	color: #0474B0;
+	background-color: white;
+	border: 1px solid #0474B0;
 }
- .sec-3-resp-tab .resp-tabs-list li:hover {
-     color: #0474B0;
+
+.sec-3-resp-tab .resp-tab-content {
+	border: none;
 }
- .sec-3-resp-tab .resp-tab-active {
-     border-bottom: 4px solid #0474B0;
-     background-color: #fff;
-     border-radius: 3px 3px 0px 0px;
+
+.sec-3-resp-tab .resp-tabs-list li {
+	display: inline-block;
+	padding: 13px 40px;
+	margin: 0;
+	list-style: none;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #484848;
 }
- .overview-heading{
-     font-size: 26px;
-     line-height: 39px;
-     color: #484848;
+
+.sec-3-resp-tab .resp-tabs-list li:hover {
+	color: #0474B0;
 }
- .sec-3-resp-tab .resp-tab-active {
-     margin-bottom: -1px !important;
-     padding: 12px 30px 12px 30px !important;
+
+.sec-3-resp-tab .resp-tab-active {
+	border-bottom: 4px solid #0474B0;
+	background-color: #fff;
+	border-radius: 3px 3px 0px 0px;
 }
+
+.overview-heading {
+	font-size: 26px;
+	line-height: 39px;
+	color: #484848;
+}
+
+.sec-3-resp-tab .resp-tab-active {
+	margin-bottom: -1px !important;
+	padding: 12px 30px 12px 30px !important;
+}
+
 .sec-3-resp-tab .resp-tabs-container {
-     padding: 0px;
-     background-color: #fff;
-     clear: left;
-     border-top: 1px solid #C4C4C4 !important;
+	padding: 0px;
+	background-color: #fff;
+	clear: left;
+	border-top: 1px solid #C4C4C4 !important;
 }
+
 .sec-3-resp-tab .resp-arrow {
-     width: 0;
-     height: 0;
-     float: right;
-     margin-top: 3px;
-     border-left: 6px solid transparent;
-     border-right: 6px solid transparent;
-     border-top: 12px solid #c1c1c1;
+	width: 0;
+	height: 0;
+	float: right;
+	margin-top: 3px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 12px solid #c1c1c1;
 }
+
 .sec-3-resp-tab h2.resp-tab-active span.resp-arrow {
-     border: none;
-     border-left: 6px solid transparent;
-     border-right: 6px solid transparent;
-     border-bottom: 12px solid #9B9797;
-}
-.sec-3-resp-tab h2.resp-accordion {   
-    border: 0.0625rem solid #E4E4E4;
-  }
-  .sec-3-resp-tab h2.resp-tab-active {
-    border-bottom: 1px solid #c1c1c1 !important;
-    margin-bottom: 0px !important;
-    padding: 10px 15px !important;
-}
-.colon-link span{padding-right: 20px;position:relative;width: 50%;}
-.colon-link span:before{content:":";position:absolute;right: 5px;}
-
-.colon-link-1 span{padding-right: 20px;position:relative;width: 50%;}
-.colon-link-1 span:before{content:":";position:absolute;right: 5px;top: 10px;}
-
-
-
-/* page 4 welcome to haringey */
-
-.welcome-to h2{
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 54px;    
-    color: #4A4A4A;
-    padding: 40px 0px 15px 0px;
+	border: none;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 12px solid #9B9797;
 }
 
-.welcome-to p{
-    font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: rgba(72, 72, 72, 0.75);
-padding-bottom: 12px;
-}
-.go-to-my-account-cta{
-    font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: #FFFFFF;
-background-color:#0474B0;
-border: none;
-border-radius:4px;
-padding: 15px 92px 15px 92px;
-margin: 5px 0px 55px 0px;
+.sec-3-resp-tab h2.resp-accordion {
+	border: 0.0625rem solid #E4E4E4;
 }
 
-/* page 5 login */
+.sec-3-resp-tab h2.resp-tab-active {
+	border-bottom: 1px solid #c1c1c1 !important;
+	margin-bottom: 0px !important;
+	padding: 10px 15px !important;
+}
 
+.colon-link span {
+	padding-right: 20px;
+	position: relative;
+	width: 50%;
+}
+
+.colon-link span:before {
+	content: ":";
+	position: absolute;
+	right: 5px;
+}
+
+.colon-link-1 span {
+	padding-right: 20px;
+	position: relative;
+	width: 50%;
+}
+
+.colon-link-1 span:before {
+	content: ":";
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+/* page 3 property details css end*/
+
+/* page 4 welcome to haringey css start*/
+.welcome-to h2 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #4A4A4A;
+	padding: 40px 0px 15px 0px;
+}
+
+.welcome-to p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: rgba(72, 72, 72, 0.75);
+	padding-bottom: 12px;
+}
+
+.go-to-my-account-cta {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #FFFFFF;
+	background-color: #0474B0;
+	border: none;
+	border-radius: 4px;
+	padding: 15px 92px 15px 92px;
+}
+
+.go-to-my-account-cta:hover {
+	background-color: white;
+	color: #0474B0;
+	border: 1px solid #0474B0;
+}
+/* page 4 welcome to haringey css end*/
+
+/* page 5 login css start*/
 .background-radial-gradient {
-        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 100%), url("../assets/login-background.png"); 
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+	background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 100%), url("../assets/login-background.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-  .bg-glass {
-    background-color: #FFFFFF;
-    backdrop-filter: saturate(200%) blur(25px);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 13%);
-    border-radius: 4px;
-  }
- .login-form .card:hover {
-    color: black;
-    background-color: white;
+.bg-glass {
+	background-color: #FFFFFF;
+	backdrop-filter: saturate(200%) blur(25px);
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 13%);
+	border-radius: 4px;
 }
-.sign-in-cta{
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: white;
-background-color: #0473AF;
-border: none;
-border-radius: 4px;
-padding: 10px 30px 10px 30px;
+
+.login-form .card:hover {
+	color: black;
+	background-color: white;
 }
-.sign-in-cta:hover{
-color: #0473AF;
-background-color: white;
-border: 1px solid #0473AF;
+
+.sign-in-cta {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: white;
+	background-color: #0473AF;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 30px 10px 30px;
 }
-.login-form form h2{
-    font-weight: 500;
-font-size: 18px;
-line-height: 27px;
+
+.sign-in-cta:hover {
+	color: #0473AF;
+	background-color: white;
+	border: 1px solid #0473AF;
 }
-.login-form form a{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration: none;
-    color: black;
+
+.login-form form h2 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
 }
-.login-form .card a:hover{
-    color: #0474B0!important;
-    background-color:white!important;
+
+.login-form form a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-decoration: none;
+	color: black;
 }
+
+.login-form .card a:hover {
+	color: #0474B0 !important;
+	background-color: white !important;
+}
+
 .login-form .form-control {
-    display: block;
-    width: 100%;
-    padding: 1rem 0.75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: black;
-    background-color: #F6F6F6;
-    background-clip: padding-box;
-    border: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: 0.25rem;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	display: block;
+	width: 100%;
+	padding: 1rem 0.75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: black;
+	background-color: #F6F6F6;
+	background-clip: padding-box;
+	border: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.login-form .form-label {
-    margin-bottom: 0.5rem;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 45px;
-}
-.login-form .form-control::placeholder{
-    opacity: 0.15;
-} 
 
+.login-form .form-label {
+	margin-bottom: 0.5rem;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 45px;
+	float: left;
+}
+
+.login-form .form-control::placeholder {
+	opacity: 0.15;
+}
+/* page 5 login css end*/
 
 /* page 6 account information css start*/
-
-.account-heading-tabs .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
-    background-color: #fff;
-    border-color: #E5E5E5;
-    border-radius: 50px;
-    padding: 10px 30px;
+.account-heading-tabs .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	color: #495057;
+	background-color: #fff;
+	border-color: #E5E5E5;
+	border-radius: 50px;
+	padding: 10px 30px;
 }
 
-.account-heading-tabs .nav-link:hover, .nav-link:focus, .nav-link:active {
-    color: white!important;
-    background-color: #0474B0!important;
-    border-bottom: none!important;
+.account-heading-tabs .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	color: white !important;
+	background-color: #0474B0 !important;
+	border-bottom: none !important;
+
 }
-.account-heading-tabs .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: white!important;
-    background-color: #0474B0!important;
-    border-bottom: none!important;
-    
-}
+
 .account-heading-tabs .nav-tabs {
-    border-bottom: none;
+	border-bottom: none;
 }
+
 .account-heading-tabs .nav-tabs .nav-link {
-    margin-bottom: -1px;
-    background: none;
-    border: 1px solid #E5E5E5;
-    border-radius: 50px;
+	margin-bottom: -1px;
+	background: none;
+	border: 1px solid #E5E5E5;
+	border-radius: 50px;
 }
+
 .account-heading-tabs .nav-link {
-    display: block;
-    padding: 10px 30px;
-    color: #585858;
-    text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+	display: block;
+	padding: 10px 30px;
+	color: #585858;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
-.account-heading-tabs .nav-item{
-    margin: 20px 20px 20px 0px;
+
+.account-heading-tabs .nav-item {
+	margin: 20px 20px 20px 0px;
 }
 
 /*1 account details */
 .background-radial-gradient-account-details {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 100%), url("../assets/account-infor-background.png"); 
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.15) 100%), url("../assets/account-infor-background.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 .bg-glass-account-info {
-background-color: #FFFFFF;
-border-radius: 4px;
+	background-color: #FFFFFF;
+	border-radius: 4px;
 }
-.account-details h2{
-    font-weight: 600;
-    font-size: 70.1053px;
-    line-height: 105px;
+
+.account-details h2 {
+	font-weight: 600;
+	font-size: 70.1053px;
+	line-height: 105px;
 }
-.Contact-info-cta{
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-color: white;
-background-color: #0473AF;
-border: none;
-border-radius: 4px;
-padding: 10px 30px 10px 30px;
+
+.Contact-info-cta {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: white;
+	background-color: #0473AF;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 30px 10px 30px;
 }
-.Contact-info-cta:hover{
-    color: #0473AF;
-    background-color: white;
-    border: 1px solid #0473AF;
+
+.Contact-info-cta:hover {
+	color: #0473AF;
+	background-color: white;
+	border: 1px solid #0473AF;
 }
-.account-details .card:hover{
-    color: #0474B0!important;
-    background-color:white!important;
+
+.account-details .card:hover {
+	color: #0474B0 !important;
+	background-color: white !important;
 }
+
 .account-details .card-body {
-    flex: 1 1 auto;
-    padding: 0.4rem 0rem;
+	flex: 1 1 auto;
+	padding: 0.4rem 0rem;
 }
-.account-details table td:nth-child(1){
-padding-left: 15px;
+
+.account-details table td:nth-child(1) {
+	padding-left: 15px;
 }
+
 .modal-header {
-    display: flex;
-    flex-shrink: 0;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 1rem;
-    border-bottom: 1px solid #dee2e6;
-    background-color: #65B251;
-    color: white;
-    margin: 15px 15px 0px 15px;
-    border-radius: 4px;
+	display: flex;
+	flex-shrink: 0;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 1rem;
+	border-bottom: 1px solid #dee2e6;
+	background-color: #65B251;
+	color: white;
+	margin: 15px 15px 0px 15px;
+	border-radius: 4px;
 }
-.modal-header .btn-close{    
-    position: relative;
-    top: -38px;
-    left: 35px;
+
+.modal-header .btn-close {
+	position: relative;
+	top: -38px;
+	left: 35px;
 }
 
 .btn-close {
-    box-sizing: content-box;
-    width: 1em;
-    height: 1em;
-    padding: 0.25em 0.25em;
-    color: #000;
-    background: url("../assets/model-close-vector.png");
-    background-repeat: no-repeat;
-    border: 0;
-    border-radius: 0.25rem;
-    opacity: 0.5;
+	box-sizing: content-box;
+	width: 1em;
+	height: 1em;
+	padding: 0.25em 0.25em;
+	color: #000;
+	background: url("../assets/model-close-vector.png");
+	background-repeat: no-repeat;
+	border: 0;
+	border-radius: 0.25rem;
+	opacity: 0.5;
 }
 
 /* 2 my current bids */
-.my-current-bids h2{
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 54px;
-    color: #4A4A4A;
-    padding-bottom: 30px;
-}
-.my-current-bids .table tr:nth-child(1){
-    background: rgba(4, 116, 176, 0.1);
-    border-top: 1px solid #B8B8B8;
-  }
-
-  .my-current-bids .table tr {
-    border-bottom: 1px solid #B8B8B8;
-    font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-  }
-
-  .my-current-bids .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #0474B0!important;
-    border-color: white white #C4C4C4 white!important;
-    border-bottom: 4px solid #0474B0!important;
-    background-color: white!important;
-    padding-bottom: 20px;
-}
-.my-current-bids .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-    isolation: isolate;
-    border-color: white white #C4C4C4 white;
-    color: #0474B0!important;
-    background-color: white!important;
+.my-current-bids h2 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #4A4A4A;
+	padding-bottom: 30px;
 }
 
-.my-current-bids .nav-link:hover, .nav-link:focus {
-    color: #0473AF !important;
-    border-bottom: 4px solid #0474B0!important;
+.my-current-bids .table tr:nth-child(1) {
+	background: rgba(4, 116, 176, 0.1);
+	border-top: 1px solid #B8B8B8;
 }
+
+.my-current-bids .table tr {
+	border-bottom: 1px solid #B8B8B8;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.my-current-bids .nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	color: #0474B0 !important;
+	border-color: white white #C4C4C4 white !important;
+	border-bottom: 4px solid #0474B0 !important;
+	background-color: white !important;
+	padding-bottom: 20px;
+}
+
+.my-current-bids .nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+	isolation: isolate;
+	border-color: white white #C4C4C4 white;
+	color: #0474B0 !important;
+	background-color: white !important;
+}
+
+.my-current-bids .nav-link:hover {
+	color: #0473AF !important;
+	border-bottom: 4px solid #0474B0 !important;
+}
+
+.my-current-bids .nav-link:focus {
+	color: #0473AF !important;
+	border-bottom: 4px solid #0474B0 !important;
+}
+
 .my-current-bids .nav-tabs .nav-link {
-    margin-bottom: -1px;
-    background: none;
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-    padding-bottom: 20px;
-}
-.my-current-bids .resp-tabs-list li {
-    font-weight: 400;
-    font-size: 16px;
-    display: inline-block;
-    padding: 10px 30px;
-    margin: 0;
-    list-style: none;
-    cursor: pointer;
-    text-align: center;
-    border: none;
-    border-radius: 50px;
-    margin: 15px 20px 15px 10px;
-    border: 1px solid #E5E5E5;
-    color: #585858;
-}
-.my-current-bids .resp-tabs-list li {
-   float: none;
-}
-.my-current-bids .resp-tab-active {
-    border-bottom: none;
-    background-color: #0474B0;
-    color: white!important;
-    padding: 10px 30px!important;
-}
-.my-current-bids .resp-tab-content {
-    border: none;
+	margin-bottom: -1px;
+	background: none;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+	padding-bottom: 20px;
 }
 
-.my-current-bids .nav-item{
-    margin-right: 60px;
-    margin-left: 10px;
+.my-current-bids .resp-tabs-list li {
+	font-weight: 400;
+	font-size: 16px;
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+	list-style: none;
+	cursor: pointer;
+	text-align: center;
+	border: none;
+	border-radius: 50px;
+	margin: 15px 20px 15px 10px;
+	border: 1px solid #E5E5E5;
+	color: #585858;
+}
+
+.my-current-bids .resp-tabs-list li {
+	float: none;
+}
+
+.my-current-bids .resp-tab-active {
+	border-bottom: none;
+	background-color: #0474B0;
+	color: white !important;
+	padding: 10px 30px !important;
+}
+
+.my-current-bids .resp-tab-content {
+	border: none;
+}
+
+.my-current-bids .nav-item {
+	margin-right: 60px;
+	margin-left: 10px;
 }
 
 /*3 my privious bids */
-.my-previous-bids h2{
-    font-weight: 600;
-font-size: 36px;
-line-height: 54px;
-color: #4A4A4A;
-padding-bottom: 40px;
-  }
+.my-previous-bids h2 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #4A4A4A;
+	padding-bottom: 40px;
+}
 
-  .my-previous-bids .table tr:nth-child(1){
-    background: rgba(4, 116, 176, 0.1);
-    border-top: 1px solid #B8B8B8;
-  }
-  .my-previous-bids .table tr {
-    border-bottom: 1px solid #B8B8B8;
-    font-weight: 400;
-font-size: 18px;
-line-height: 27px;
-  }
+.my-previous-bids .table tr:nth-child(1) {
+	background: rgba(4, 116, 176, 0.1);
+	border-top: 1px solid #B8B8B8;
+}
+
+.my-previous-bids .table tr {
+	border-bottom: 1px solid #B8B8B8;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+}
+/* page 6 account information css start*/
 
 /* media query start for all device*/
 /* media <520px */
- @media (max-width: 520px) {
-    /* overlay nav */
-     .overlay a {
-         font-size: 20px;
-    }
-     .overlay .closebtn {
-         font-size: 40px;
-         top: 15px;
-         right: 35px;
-    }
-    
-    /* section 1 hero banner owl */
-     .section1-owl-hero-banner .owl-next {
-         left: 19rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-     .section1-owl-hero-banner .owl-prev {
-         left: 10.5rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-    .hero-text {
-        position: absolute;
-        top: 100px;
-        left: 90px;
-        right: 0;
-        max-width: 100%;
-        margin: 0 auto;
-        width: 450px;
-    }
-     .section1_heading_text_input {
-         font-weight: 700;
-         font-size: 24px;
-         line-height: 54px;
-         color: white;
-         padding-top: 0rem;
-         line-height: 3.688rem;
-         padding-bottom: 0rem;
-    }
-     .section1_button1_ctn {
-         border: none;
-         display: inline-block;
-         padding: 0.3rem 1.8312rem 0.3rem 1.8125rem;
-         color: white;
-         margin-left: 4.875rem;
-         text-decoration: none;
-         background: #65b251;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 21px;
-         border-radius: 4px;
-    }
-     .section1_button1_ctn:hover {
-         color: black !important;
-    }
-    /* section 3 home available now */
-     .bg-img-1 {
-         box-shadow: -30px -30px rgba(111, 193, 85, 0.3);
-         border-radius: 10px;
-    }
-     .section-3-text h1 {
-         font-weight: 600;
-         font-size: 26px;
-         line-height: 39px;
-         color: #4a4a4a;
-    }
-     .section-3-text p {
-         font-weight: 400;
-         font-size: 15px;
-         line-height: 28px;
-         color: rgba(72, 72, 72, 0.75);
-         padding-right: 0px;
-    }
-     .section-3-text a {
-         font-weight: 600;
-         font-size: 18px;
-         line-height: 27px;
-         color: rgba(72, 72, 72, 0.75);
-    }
-    /* section 4 */
-     .bg-img-2 {
-         box-shadow: 30px -30px rgb(4 116 176 / 30%);
-         border-radius: 10px;
-    }
-    /* section 5 */
-     .bg-img-3 {
-         box-shadow: -30px -30px rgba(4, 116, 176, 0.3);
-         border-radius: 10px;
-    }
-    /* page 2 search and bid for homes */
-     .available_now_Cta{
-         width: 50%;
-         overflow: hidden;
-         white-space: nowrap;
-         text-overflow: ellipsis;
-    }
-     .border-list-img{
-         border: 1px solid #F5F5F5;
-         border-radius: 8px 8px 0px 0px;
-    }
-    .display-none{
-        display: none;
-    }
-    /* page 3 property details */
-    .border-left-breadcrum{
-          border-left: none!important;
-    }
-    .money-text{
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 72px;
-   }
+@media (max-width: 520px) {
 
-   .gallery-flexsliders .flex-direction-nav .flex-next {
-    left: 22rem;
-    text-align: right;
+	/* overlay nav */
+	.overlay a {
+		font-size: 20px;
+	}
+
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+	/* page 1 index css start */
+	/* section 1 hero banner owl */
+	.section1-owl-hero-banner .owl-next {
+		left: 19rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.section1-owl-hero-banner .owl-prev {
+		left: 10.5rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.hero-text {
+		position: absolute;
+		top: 100px;
+		left: 90px;
+		right: 0;
+		max-width: 100%;
+		margin: 0 auto;
+		width: 450px;
+	}
+
+	.section1_heading_text_input {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 54px;
+		color: white;
+		padding-top: 0rem;
+		line-height: 3.688rem;
+		padding-bottom: 0rem;
+	}
+
+	.section1_button1_ctn {
+		border: none;
+		display: inline-block;
+		padding: 0.3rem 1.8312rem 0.3rem 1.8125rem;
+		color: white;
+		margin-left: 4.875rem;
+		text-decoration: none;
+		background: #468038;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		border-radius: 4px;
+	}
+
+	.section1_button1_ctn:hover {
+		color: black !important;
+	}
+
+	/* section 3 home available now */
+	.bg-img-1 {
+		box-shadow: -30px -30px rgba(111, 193, 85, 0.3);
+		border-radius: 10px;
+	}
+
+	.section-3-text h1 {
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 39px;
+		color: #4a4a4a;
+	}
+
+	.section-3-text p {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 28px;
+		color: rgba(72, 72, 72, 0.75);
+		padding-right: 0px;
+	}
+
+	.section-3-text a {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 27px;
+		color: rgba(72, 72, 72, 0.75);
+	}
+
+	/* section 4 */
+	.bg-img-2 {
+		box-shadow: 30px -30px rgb(4 116 176 / 30%);
+		border-radius: 10px;
+	}
+
+	/* section 5 */
+	.bg-img-3 {
+		box-shadow: -30px -30px rgba(4, 116, 176, 0.3);
+		border-radius: 10px;
+	}
+	/* page 1 index css end */
+
+	/* page 2 search and bid for homes css start*/
+	.available_now_Cta {
+		width: 50%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.border-list-img {
+		border: 1px solid #F5F5F5;
+		border-radius: 8px 8px 0px 0px;
+	}
+
+	.display-none {
+		display: none;
+	}
+	/* page 2 search and bid for homes css end*/
+
+	/* page 3 property details css start*/
+	.border-left-breadcrum {
+		border-left: none !important;
+	}
+
+	.money-text {
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 72px;
+	}
+
+	.gallery-flexsliders .flex-direction-nav .flex-next {
+		left: 22rem;
+		text-align: right;
+	}
+
+	.gallery-flexsliders .flexslider {
+		margin: 0rem 0.9375rem 0.9375rem 0.8rem;
+		background: #fff;
+		border: none;
+		position: relative;
+		zoom: 1;
+		-webkit-border-radius: 0.25rem;
+		-moz-border-radius: 0.25rem;
+		border-radius: 0.25rem;
+		-webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		-o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+	}
+
+	.sec-3-resp-tab h2.resp-accordion {
+		font-size: 16px;
+		padding: 15px 10px;
+		color: #888888;
+		margin-bottom: 20px;
+	}
+
+	.sec-3-resp-tab h2.resp-tab-active {
+		background: white !important;
+		color: #888888 !important;
+		font-size: 16px;
+		line-height: 24px;
+		border-bottom: none !important;
+	}
+
+	.sec-3-resp-tab .resp-tab-active {
+		margin-bottom: -1px !important;
+		padding: 10px 10px 10px 10px !important;
+	}
+
+	.overview-heading {
+		font-size: 18px;
+		line-height: 30px;
+		color: #484848;
+	}
+
+	.sec-3-resp-tab .resp-tabs-container {
+		padding: 0px;
+		background-color: #fff;
+		clear: left;
+		border-top: none !important;
+	}
+
+	.resp-tabs-container {
+		padding: 0px;
+		background-color: #fff;
+		clear: left;
+
+	}
+
+	.resp-tab-content {
+		border: 1px solid #c1c1c1;
+	}
+
+	.sec-3-resp-tab .resp-tab-content {
+		border: 1px solid #E4E4E4;
+		margin-bottom: 20px;
+	}
+
+	.google-adds-text {
+		font-weight: 300;
+		font-size: 28px;
+		line-height: 84px;
+		color: #484848;
+		background: rgba(170, 170, 170, 0.2);
+		border-radius: 4px;
+		padding: 60px 0px 60px 0px;
+		margin: 40px 0px 40px 0px;
+	}
+	/* page 3 property details css end*/
+
+	/* page 4 welcome to haringey css start*/
+	.welcome-to h2 {
+		font-weight: 600;
+		font-size: 22px;
+		line-height: 42px;
+		color: #4A4A4A;
+		padding: 40px 0px 15px 0px;
+	}
+
+	.welcome-to p {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 25px;
+		color: rgba(72, 72, 72, 0.75);
+		padding-bottom: 12px;
+	}
+	/* page 4 welcome to haringey css end*/
+
+	/* page 5 login css start*/
+	.login-bg form {
+		width: 100%;
+		padding: 20px 30px 20px 30px;
+	}
+	/* page 5 login css end*/
 }
-.gallery-flexsliders .flexslider {
-    margin: 0rem 0.9375rem 0.9375rem 0.8rem;
-    background: #fff;
-    border: none;
-    position: relative;
-    zoom: 1;
-    -webkit-border-radius: 0.25rem;
-    -moz-border-radius: 0.25rem;
-    border-radius: 0.25rem;
-    -webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-    -o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-    box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-}
-     .sec-3-resp-tab h2.resp-accordion {
-         font-size: 16px;         
-         padding: 15px 10px;
-         color: #888888;
-         margin-bottom: 20px;
-    }
-     .sec-3-resp-tab h2.resp-tab-active {
-         background: white !important;
-         color: #888888!important;
-         font-size: 16px;
-         line-height: 24px;
-         border-bottom: none!important;
-    }
-     .sec-3-resp-tab .resp-tab-active {
-         margin-bottom: -1px !important;
-         padding: 10px 10px 10px 10px !important;
-    }
-     .overview-heading {
-         font-size: 18px;
-         line-height: 30px;
-         color: #484848;
-    }
-    .sec-3-resp-tab .resp-tabs-container {
-        padding: 0px;
-        background-color: #fff;
-        clear: left;
-        border-top: none !important; 
-    }
-     .resp-tabs-container {
-         padding: 0px;
-         background-color: #fff;
-         clear: left;
-        
-    }
-    .resp-tab-content {
-        border: 1px solid #c1c1c1;
-    }
-    .sec-3-resp-tab .resp-tab-content {
-        border: 1px solid #E4E4E4;
-        margin-bottom: 20px;
-    }
-    .google-adds-text{
-        font-weight: 300;
-        font-size: 28px;
-        line-height: 84px;
-        color: #484848;
-        background: rgba(170, 170, 170, 0.2);
-        border-radius: 4px;
-        padding: 60px 0px 60px 0px;
-        margin: 40px 0px 40px 0px;
-   }
-   /* page 4 welcome to haringey */
-   .welcome-to h2 {
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 42px;
-    color: #4A4A4A;
-    padding: 40px 0px 15px 0px;
-}
-.welcome-to p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    color: rgba(72, 72, 72, 0.75);
-    padding-bottom: 12px;
-}
-    /* page 5 login */
-    .login-bg form {
-        width: 100%;
-        padding: 20px 30px 20px 30px;
-    }
-}
+
 /* media 521px-768px */
- @media (min-width: 521px) and (max-width: 768px) {
-    /* section 1 hero banner owl */
-     .section1-owl-hero-banner .owl-next {
-         left: 28rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-     .section1-owl-hero-banner .owl-prev {
-         left: 14.5rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-    .hero-text {
-        position: absolute;
-        top: 120px;
-        left: 0;
-        right: 0;
-        max-width: 100%;
-        margin: 0 auto;
-        width: 450px;
-    }
-    .section1_heading_text_input {
-        font-weight: 700;
-        font-size: 34px;
-        line-height: 54px;
-        color: white;
-        padding-top: 0;
-        line-height: 3.688rem;
-        padding-bottom: 0;
-    }
-     .section1_button1_ctn {
-         border: none;
-         display: inline-block;
-         padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
-         color: white;
-         margin-left: 5.875rem;
-         text-decoration: none;
-         background: #65b251;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 21px;
-         border-radius: 4px;
-    }
-    /* section 3 */
-     .section-3-text h1 {
-         font-weight: 600;
-         font-size: 30px;
-         line-height: 54px;
-         color: #4a4a4a;
-    }
-     .section-3-text p {
-         font-weight: 400;
-         font-size: 15px;
-         line-height: 28px;
-         color: rgba(72, 72, 72, 0.75);
-         padding-right: 0px;
-    }
-    /* page 2 search and bid for homes */
-     .available_now_Cta{
-         width: 50%;
-         overflow: hidden;
-         white-space: nowrap;
-         text-overflow: ellipsis;
-    }
-     .border-list-img{
-         border: 1px solid #F5F5F5;
-         border-radius: 8px 8px 0px 0px;
-    }
-    .available_now_Cta {
-        width: 50%;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-    }
-    .display-none{
-        display: none;
-    }
-    /* page 3 property details */
-    .gallery-flexsliders .flexslider {
-        margin: 0rem 0rem 0.9375rem 0rem;
-        background: #fff;
-        border: none;
-        position: relative;
-        zoom: 1;
-        -webkit-border-radius: 0.25rem;
-        -moz-border-radius: 0.25rem;
-        border-radius: 0.25rem;
-        -webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-        -o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-        box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-    }
-    .share-with-your-friend-cta {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #FFFFFF;
-        background: #65B251;
-        border-radius: 4px;
-        border: none;
-        width: 100%;
-        padding: 15px 0px 15px 0px;
-    }
-    .login-to-express-interest {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #FFFFFF;
-        border-radius: 4px;
-        background: #0474B0;
-        border: none;
-        width: 100%;
-        padding: 15px 0px 15px 0px;
-    }
-    .border-left-breadcrum {
-        border-left: none!important;
-    }
-    .google-adds-text{
-        font-weight: 300;
-        font-size: 30px;
-        line-height: 84px;
-        color: #484848;
-        background: rgba(170, 170, 170, 0.2);
-        border-radius: 4px;
-        padding: 60px 0px 60px 0px;
-        margin: 40px 0px 40px 0px;
-   }
-    .sec-3-resp-tab h2.resp-accordion {
-        font-size: 16px;         
-        padding: 15px 10px;
-        color: #888888;
-        margin-bottom: 20px;
-   }
-    .sec-3-resp-tab h2.resp-tab-active {
-        background: white !important;
-        color: #888888!important;
-        font-size: 16px;
-        line-height: 24px;
-        border-bottom: none!important;
-   }
-    .sec-3-resp-tab .resp-tab-active {
-        margin-bottom: -1px !important;
-        padding: 10px 10px 10px 10px !important;
-   }
-    .overview-heading {
-        font-size: 20px;
-        line-height: 30px;
-        color: #484848;
-   }
-   .sec-3-resp-tab .resp-tabs-container {
-       padding: 0px;
-       background-color: #fff;
-       clear: left;
-       border-top: none !important; 
-   }
-    .resp-tabs-container {
-        padding: 0px;
-        background-color: #fff;
-        clear: left;
-       
-   }
-   .resp-tab-content {
-       border: 1px solid #c1c1c1;
-   }
-   .sec-3-resp-tab .resp-tab-content {
-       border: 1px solid #E4E4E4;
-       margin-bottom: 20px;
-   }
-   /* page 4 welcome to haringey */
-   .welcome-to h2 {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 44px;
-    color: #4A4A4A;
-    padding: 40px 0px 15px 0px;
+@media (min-width: 521px) and (max-width: 768px) {
+
+	/* overlay nav */
+	.overlay a {
+		font-size: 20px;
+	}
+
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+	/* page 1 index css start */
+	/* section 1 hero banner owl */
+	.section1-owl-hero-banner .owl-next {
+		left: 28rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.section1-owl-hero-banner .owl-prev {
+		left: 14.5rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.hero-text {
+		position: absolute;
+		top: 120px;
+		left: 0;
+		right: 0;
+		max-width: 100%;
+		margin: 0 auto;
+		width: 450px;
+	}
+
+	.section1_heading_text_input {
+		font-weight: 700;
+		font-size: 34px;
+		line-height: 54px;
+		color: white;
+		padding-top: 0;
+		line-height: 3.688rem;
+		padding-bottom: 0;
+	}
+
+	.section1_button1_ctn {
+		border: none;
+		display: inline-block;
+		padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
+		color: white;
+		margin-left: 5.875rem;
+		text-decoration: none;
+		background: #468038;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		border-radius: 4px;
+	}
+
+	/* section 3 */
+	.section-3-text h1 {
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 54px;
+		color: #4a4a4a;
+	}
+
+	.section-3-text p {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 28px;
+		color: rgba(72, 72, 72, 0.75);
+		padding-right: 0px;
+	}
+	/* page 1 index css end */
+
+	/* page 2 search and bid for homes css start*/
+	.available_now_Cta {
+		width: 50%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.border-list-img {
+		border: 1px solid #F5F5F5;
+		border-radius: 8px 8px 0px 0px;
+	}
+
+	.available_now_Cta {
+		width: 50%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.display-none {
+		display: none;
+	}
+	/* page 2 search and bid for homes css end*/
+
+	/* page 3 property details css start*/
+	.gallery-flexsliders .flexslider {
+		margin: 0rem 0rem 0.9375rem 0rem;
+		background: #fff;
+		border: none;
+		position: relative;
+		zoom: 1;
+		-webkit-border-radius: 0.25rem;
+		-moz-border-radius: 0.25rem;
+		border-radius: 0.25rem;
+		-webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		-o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+	}
+
+	.share-with-your-friend-cta {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		color: #FFFFFF;
+		background: #468038;
+		border-radius: 4px;
+		border: none;
+		width: 100%;
+		padding: 15px 0px 15px 0px;
+	}
+
+	.login-to-express-interest {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		color: #FFFFFF;
+		border-radius: 4px;
+		background: #0474B0;
+		border: none;
+		width: 100%;
+		padding: 15px 0px 15px 0px;
+	}
+
+	.border-left-breadcrum {
+		border-left: none !important;
+	}
+
+	.google-adds-text {
+		font-weight: 300;
+		font-size: 30px;
+		line-height: 84px;
+		color: #484848;
+		background: rgba(170, 170, 170, 0.2);
+		border-radius: 4px;
+		padding: 60px 0px 60px 0px;
+		margin: 40px 0px 40px 0px;
+	}
+
+	.sec-3-resp-tab h2.resp-accordion {
+		font-size: 16px;
+		padding: 15px 10px;
+		color: #888888;
+		margin-bottom: 20px;
+	}
+
+	.sec-3-resp-tab h2.resp-tab-active {
+		background: white !important;
+		color: #888888 !important;
+		font-size: 16px;
+		line-height: 24px;
+		border-bottom: none !important;
+	}
+
+	.sec-3-resp-tab .resp-tab-active {
+		margin-bottom: -1px !important;
+		padding: 10px 10px 10px 10px !important;
+	}
+
+	.overview-heading {
+		font-size: 20px;
+		line-height: 30px;
+		color: #484848;
+	}
+
+	.sec-3-resp-tab .resp-tabs-container {
+		padding: 0px;
+		background-color: #fff;
+		clear: left;
+		border-top: none !important;
+	}
+
+	.resp-tabs-container {
+		padding: 0px;
+		background-color: #fff;
+		clear: left;
+
+	}
+
+	.resp-tab-content {
+		border: 1px solid #c1c1c1;
+	}
+
+	.sec-3-resp-tab .resp-tab-content {
+		border: 1px solid #E4E4E4;
+		margin-bottom: 20px;
+	}
+	/* page 3 property details css end*/
+
+	/* page 4 welcome to haringey css start*/
+	.welcome-to h2 {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 44px;
+		color: #4A4A4A;
+		padding: 40px 0px 15px 0px;
+	}
+
+	.welcome-to p {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 25px;
+		color: rgba(72, 72, 72, 0.75);
+		padding-bottom: 12px;
+	}
+	/* page 4 welcome to haringey css end*/
+
+	/* page 6 my account css start*/
+	.my-current-bids .nav-item {
+		margin-right: 30px;
+		margin-left: 10px;
+	}
+	/* page 6 my account css end*/
 }
-   .welcome-to p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    color: rgba(72, 72, 72, 0.75);
-    padding-bottom: 12px;
-}
-/* page 6 my account */
-.my-current-bids .nav-item {
-    margin-right: 30px;
-    margin-left: 10px;
-}
-}
+
 /* media 768px-992px */
- @media (min-width: 768.5px) and (max-width: 992px) {
-    /* navbar */
-     .hfTopNav .col-lg-6:nth-child(2) {
-         text-align: center;
-    }
-    /* section 1 */
-     .section1-owl-hero-banner .owl-next {
-         left: 33rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-     .section1-owl-hero-banner .owl-prev {
-         left: 20.5rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-    .hero-text {
-        position: absolute;
-        top: 50px;
-        left: 0;
-        right: 0;
-        max-width: 100%;
-        margin: 0 auto;
-        width: 450px;
-    }
-     .section1_heading_text_input {
-         font-weight: 700;
-         font-size: 36px;
-         line-height: 54px;
-         color: white;
-         padding-top: 8.75rem;
-         line-height: 3.688rem;
-         padding-bottom: 0.625rem;
-    }
-     .section1_button1_ctn {
-         border: none;
-         display: inline-block;
-         padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
-         color: white;
-         margin-left: 5.875rem;
-         text-decoration: none;
-         background: #65b251;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 21px;
-         border-radius: 4px;
-    }
-    /* section 3 */
-     .section-3-text p {
-         font-weight: 400;
-         font-size: 15px;
-         line-height: 28px;
-         color: rgba(72, 72, 72, 0.75);
-         padding-right: 0px;
-    }
-    /* page 2 search and bid */
-    .available_now_Cta {
-        width: 50%;
-        overflow: hidden;
-        white-space: nowrap;
-        text-overflow: ellipsis;
-    }
-    .display-none{
-        display: none;
-    }
-    /* page 3 property details */
-    .border-left-breadcrum {
-        border-left: none!important;
-    }
-    .gallery-flexsliders .flex-direction-nav .flex-prev {
-        left: 2rem;
-    }
-    .gallery-flexsliders .flex-direction-nav .flex-next {
-        right: 2rem;
-        text-align: right;
-    }
-    .gallery-flexsliders .flexslider {
-        margin: 0rem 0rem 0.9375rem 0rem;
-        background: #fff;
-        border: none;
-        position: relative;
-        zoom: 1;
-        -webkit-border-radius: 0.25rem;
-        -moz-border-radius: 0.25rem;
-        border-radius: 0.25rem;
-        -webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-        -o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-        box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
-    }
-    .share-with-your-friend-cta {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #FFFFFF;
-        background: #65B251;
-        border-radius: 4px;
-        border: none;
-        width: 100%;
-        padding: 15px 0px 15px 0px;
-    }
-    .login-to-express-interest {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 27px;
-        color: #FFFFFF;
-        border-radius: 4px;
-        background: #0474B0;
-        border: none;
-        width: 100%;
-        padding: 15px 0px 15px 0px;
-    }
-    .sec-3-resp-tab .resp-tabs-list li {
-        display: inline-block;
-        padding: 13px 25px!important;
-        margin: 0;
-        list-style: none;
-        cursor: pointer;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 24px;
-        color: #484848;
-    }
-    .google-adds-text{
-        font-weight: 300;
-        font-size: 32px;
-        line-height: 84px;
-        color: #484848;
-        background: rgba(170, 170, 170, 0.2);
-        border-radius: 4px;
-        padding: 60px 0px 60px 0px;
-        margin: 40px 0px 40px 0px;
-   }
-    /* page 4 welcome to haringey */
-    .welcome-to h2 {
-        font-weight: 600;
-        font-size: 26px;
-        line-height: 46px;
-        color: #4A4A4A;
-        padding: 40px 0px 15px 0px;
-    }
-       .welcome-to p {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 25px;
-        color: rgba(72, 72, 72, 0.75);
-        padding-bottom: 12px;
-    }
-    /* page 6 my account */
-.account-heading-tabs .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #495057;
-    background-color: #fff;
-    border-color: #E5E5E5;
-    border-radius: 50px;
-    padding: 10px 10px;
+@media (min-width: 768.5px) and (max-width: 992px) {
+
+	/* overlay nav */
+	.overlay a {
+		font-size: 20px;
+	}
+
+	.overlay .closebtn {
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+
+	/* page 1 index css start */
+	/* section 1 */
+	.section1-owl-hero-banner .owl-next {
+		left: 33rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.section1-owl-hero-banner .owl-prev {
+		left: 20.5rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.hero-text {
+		position: absolute;
+		top: 50px;
+		left: 0;
+		right: 0;
+		max-width: 100%;
+		margin: 0 auto;
+		width: 450px;
+	}
+
+	.section1_heading_text_input {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 54px;
+		color: white;
+		padding-top: 8.75rem;
+		line-height: 3.688rem;
+		padding-bottom: 0.625rem;
+	}
+
+	.section1_button1_ctn {
+		border: none;
+		display: inline-block;
+		padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
+		color: white;
+		margin-left: 5.875rem;
+		text-decoration: none;
+		background: #468038;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		border-radius: 4px;
+	}
+
+	/* section 3 */
+	.section-3-text p {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 28px;
+		color: rgba(72, 72, 72, 0.75);
+		padding-right: 0px;
+	}
+	/* page 1 index css end */
+
+	/* page 2 search and bid css start*/
+	.available_now_Cta {
+		width: 50%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	/* page 2 search and bid css end*/
+
+	/* page 3 property details css start*/
+	.border-left-breadcrum {
+		border-left: none !important;
+	}
+
+	.gallery-flexsliders .flex-direction-nav .flex-prev {
+		left: 2rem;
+	}
+
+	.gallery-flexsliders .flex-direction-nav .flex-next {
+		right: 2rem;
+		text-align: right;
+	}
+
+	.gallery-flexsliders .flexslider {
+		margin: 0rem 0rem 0.9375rem 0rem;
+		background: #fff;
+		border: none;
+		position: relative;
+		zoom: 1;
+		-webkit-border-radius: 0.25rem;
+		-moz-border-radius: 0.25rem;
+		border-radius: 0.25rem;
+		-webkit-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		-o-box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+		box-shadow: "" 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.2);
+	}
+
+	.share-with-your-friend-cta {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		color: #FFFFFF;
+		background: #468038;
+		border-radius: 4px;
+		border: none;
+		width: 100%;
+		padding: 15px 0px 15px 0px;
+	}
+
+	.login-to-express-interest {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 27px;
+		color: #FFFFFF;
+		border-radius: 4px;
+		background: #0474B0;
+		border: none;
+		width: 100%;
+		padding: 15px 0px 15px 0px;
+	}
+
+	.sec-3-resp-tab .resp-tabs-list li {
+		display: inline-block;
+		padding: 13px 25px !important;
+		margin: 0;
+		list-style: none;
+		cursor: pointer;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 24px;
+		color: #484848;
+	}
+
+	.google-adds-text {
+		font-weight: 300;
+		font-size: 32px;
+		line-height: 84px;
+		color: #484848;
+		background: rgba(170, 170, 170, 0.2);
+		border-radius: 4px;
+		padding: 60px 0px 60px 0px;
+		margin: 40px 0px 40px 0px;
+	}
+	/* page 3 property details css end*/
+
+	/* page 4 welcome to haringey css start*/
+	.welcome-to h2 {
+		font-weight: 600;
+		font-size: 26px;
+		line-height: 46px;
+		color: #4A4A4A;
+		padding: 40px 0px 15px 0px;
+	}
+
+	.welcome-to p {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 25px;
+		color: rgba(72, 72, 72, 0.75);
+		padding-bottom: 12px;
+	}
+	/* page 4 welcome to haringey css end*/
+
+	/* page 6 my account css start*/
+	.account-heading-tabs .nav-tabs .nav-link.active,
+	.nav-tabs .nav-item.show .nav-link {
+		color: #495057;
+		background-color: #fff;
+		border-color: #E5E5E5;
+		border-radius: 50px;
+		padding: 10px 10px;
+	}
+
+	.account-heading-tabs .nav-link {
+		display: block;
+		padding: 10px 10px;
+		color: #585858;
+		text-decoration: none;
+		transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+	}
+
+	.account-heading-tabs .nav-item {
+		margin: 15px 14px 15px 0px;
+	}
+
+	.my-current-bids .nav-item {
+		margin-right: 30px;
+		margin-left: 10px;
+	}
+	/* page 6 my account css end*/
 }
-.account-heading-tabs .nav-link {
-    display: block;
-    padding: 10px 10px;
-    color: #585858;
-    text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-}
-.account-heading-tabs .nav-item {
-    margin: 15px 14px 15px 0px;
-}
-.my-current-bids .nav-item {
-    margin-right: 30px;
-    margin-left: 10px;
-}
-}
+
 /* media 992px-1200px */
- @media (min-width: 992px) and (max-width: 1200px) {
-    /* nav */
-    .nav-item .nav-link {
-        color: #585858;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 24px;
-        width: 100%;
-   }
-    /* section 1 */
-     .section1-owl-hero-banner .owl-next {
-         left: 40rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-     .section1-owl-hero-banner .owl-prev {
-         left: 24.5rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-    .hero-text {
-        position: absolute;
-        top: 150px;
-        left: 0;
-        right: 0;
-        max-width: 100%;
-        margin: 0 auto;
-        width: 450px;
-    }
-     .section1_heading_text_input {
-         font-weight: 700;
-         font-size: 36px;
-         line-height: 54px;
-         color: white;
-         padding-top: 8.75rem;
-         line-height: 3.688rem;
-         padding-bottom: 0.625rem;
-    }
-     .section1_button1_ctn {
-         border: none;
-         display: inline-block;
-         padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
-         color: white;
-         margin-left: 5.875rem;
-         text-decoration: none;
-         background: #65b251;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 21px;
-         border-radius: 4px;
-    }
-    /* section 2 card */
-     .card-title {
-         font-weight: 600;
-         font-size: 18px;
-         line-height: 30px;
-         color: #4a4a4a;
-    }
-    /* section 3 */
-     .section-3-text p {
-         font-weight: 400;
-         font-size: 15px;
-         line-height: 28px;
-         color: rgba(72, 72, 72, 0.75);
-         padding-right: 0px;
-    }
-    /* page 2 search and bid for homes */
-    .left-breadcrum-text {
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 42px;
-    }
-    /* page 3 property detail */
-    .map-property-details {
-        width: 100%;
-        height: 24rem;
-    }
-    .google-adds-text{
-        font-weight: 300;
-        font-size: 34px;
-        line-height: 84px;
-        color: #484848;
-        background: rgba(170, 170, 170, 0.2);
-        border-radius: 4px;
-        padding: 60px 0px 60px 0px;
-        margin: 40px 0px 40px 0px;
-   }
-   /* page 4 welcome to haringey */
-   .welcome-to h2 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 54px;
-    color: #4A4A4A;
-    padding: 40px 0px 15px 0px;
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	/* nav */
+	.nav-item .nav-link {
+		color: #585858;
+		font-weight: 400;
+		font-size: 11px;
+		line-height: 24px;
+		width: 100%;
+	}
+
+	/* page 1 index css start */
+	/* section 1 */
+	.section1-owl-hero-banner .owl-next {
+		left: 40rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.section1-owl-hero-banner .owl-prev {
+		left: 24.5rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.hero-text {
+		position: absolute;
+		top: 150px;
+		left: 0;
+		right: 0;
+		max-width: 100%;
+		margin: 0 auto;
+		width: 450px;
+	}
+
+	.section1_heading_text_input {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 54px;
+		color: white;
+		padding-top: 8.75rem;
+		line-height: 3.688rem;
+		padding-bottom: 0.625rem;
+	}
+
+	.section1_button1_ctn {
+		border: none;
+		display: inline-block;
+		padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
+		color: white;
+		margin-left: 5.875rem;
+		text-decoration: none;
+		background: #468038;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		border-radius: 4px;
+	}
+
+	/* section 2 card */
+	.card-title {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 30px;
+		color: #4a4a4a;
+	}
+
+	/* section 3 */
+	.section-3-text p {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 28px;
+		color: rgba(72, 72, 72, 0.75);
+		padding-right: 0px;
+	}
+	/* page 1 index css end*/
+
+	/* page 2 search and bid for homes css start*/
+	.left-breadcrum-text {
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 42px;
+	}
+	/* page 2 search and bid for homes css end*/
+
+	/* page 3 property detail css start*/
+	.map-property-details {
+		width: 100%;
+		height: 24rem;
+	}
+
+	.google-adds-text {
+		font-weight: 300;
+		font-size: 34px;
+		line-height: 84px;
+		color: #484848;
+		background: rgba(170, 170, 170, 0.2);
+		border-radius: 4px;
+		padding: 60px 0px 60px 0px;
+		margin: 40px 0px 40px 0px;
+	}
+	/* page 3 property detail css end*/
+
+	/* page 4 welcome to haringey css start*/
+	.welcome-to h2 {
+		font-weight: 600;
+		font-size: 28px;
+		line-height: 54px;
+		color: #4A4A4A;
+		padding: 40px 0px 15px 0px;
+	}
+	/* page 4 welcome to haringey css start*/
 }
 
-}
 /* media 1200px-1350px */
- @media (min-width: 1200px) and (max-width: 1350px) {
-    /* section 1 */
-     .section1-owl-hero-banner .owl-next {
-         left: 44rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-     .section1-owl-hero-banner .owl-prev {
-         left: 26.5rem;
-         position: absolute;
-         bottom: -3.375rem;
-    }
-    .hero-text {
-        position: absolute;
-        top: 150px;
-        left: 0;
-        right: 0;
-        max-width: 100%;
-        margin: 0 auto;
-        width: 450px;
-    }
-     .section1_heading_text_input {
-         font-weight: 700;
-         font-size: 36px;
-         line-height: 54px;
-         color: white;
-         padding-top: 8.75rem;
-         line-height: 3.688rem;
-         padding-bottom: 0.625rem;
-    }
-     .section1_button1_ctn {
-         border: none;
-         display: inline-block;
-         padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
-         color: white;
-         margin-left: 5.875rem;
-         text-decoration: none;
-         background: #65b251;
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 21px;
-         border-radius: 4px;
-    }
-    /* section 3 */
-     .section-3-text p {
-         font-weight: 400;
-         font-size: 15px;
-         line-height: 28px;
-         color: rgba(72, 72, 72, 0.75);
-         padding-right: 0px;
-    }
-    /* page 2 search and bid for homes */
-     .list-inner-inputs-1 {        
-         border-radius: 10px;
-         border: none;
-         background-color: white;
-    }
-   
-     .list-inner-inputs h1 {
-         font-size: 18px;
-         line-height: 20px;
-         color: #0474B0;
-         padding-top: 10px;
-    }
-     .list-inner-inputs h2 {
-         font-size: 12px;
-         line-height: 20px;
-         color: #585858;
-    }
-     .list-inner-inputs h3 {
-         font-size: 12px;
-         line-height: 20px;
-         color: #484848;
-    }
-     .full-property-details-cta {
-         font-weight: 500;
-         font-size: 14px;
-         line-height: 20px;
-         color: #FFFFFF;
-         background-color: #0474B0;
-         border-radius: 4px;
-         border: none;
-         padding: 12px 25px 12px 25px;
-    }
-    .google-adds-text{
-        font-weight: 300;
-        font-size: 34px;
-        line-height: 84px;
-        color: #484848;
-        background: rgba(170, 170, 170, 0.2);
-        border-radius: 4px;
-        padding: 60px 0px 60px 0px;
-        margin: 40px 0px 40px 0px;
-   }
-   /* page 4 welcome to haringey*/
-   .welcome-to h2 {
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 54px;
-    color: #4A4A4A;
-    padding: 40px 0px 15px 0px;
+@media (min-width: 1200px) and (max-width: 1350px) {
+
+	/* nav */
+	.nav-item .nav-link {
+		color: #585858;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 24px;
+		width: 100%;
+	}
+
+	/* page 1 index css start */
+	/* section 1 */
+	.section1-owl-hero-banner .owl-next {
+		left: 44rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.section1-owl-hero-banner .owl-prev {
+		left: 26.5rem;
+		position: absolute;
+		bottom: -3.375rem;
+	}
+
+	.hero-text {
+		position: absolute;
+		top: 150px;
+		left: 0;
+		right: 0;
+		max-width: 100%;
+		margin: 0 auto;
+		width: 450px;
+	}
+
+	.section1_heading_text_input {
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 54px;
+		color: white;
+		padding-top: 8.75rem;
+		line-height: 3.688rem;
+		padding-bottom: 0.625rem;
+	}
+
+	.section1_button1_ctn {
+		border: none;
+		display: inline-block;
+		padding: 0.5938rem 2.8312rem 0.5938rem 2.8125rem;
+		color: white;
+		margin-left: 5.875rem;
+		text-decoration: none;
+		background: #468038;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+		border-radius: 4px;
+	}
+
+	/* section 3 */
+	.section-3-text p {
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 28px;
+		color: rgba(72, 72, 72, 0.75);
+		padding-right: 0px;
+	}
+	/* page 1 index css end */
+
+	/* page 2 search and bid for homes css start*/
+	.list-inner-inputs-1 {
+		border-radius: 10px;
+		border: none;
+		background-color: white;
+	}
+
+	.list-inner-inputs h1 {
+		font-size: 18px;
+		line-height: 20px;
+		color: #0474B0;
+		padding-top: 10px;
+	}
+
+	.list-inner-inputs h2 {
+		font-size: 12px;
+		line-height: 20px;
+		color: #585858;
+	}
+
+	.list-inner-inputs h3 {
+		font-size: 12px;
+		line-height: 20px;
+		color: #484848;
+	}
+
+	.full-property-details-cta {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		color: #FFFFFF;
+		background-color: #0474B0;
+		border-radius: 4px;
+		border: none;
+		padding: 12px 25px 12px 25px;
+	}
+
+	.google-adds-text {
+		font-weight: 300;
+		font-size: 34px;
+		line-height: 84px;
+		color: #484848;
+		background: rgba(170, 170, 170, 0.2);
+		border-radius: 4px;
+		padding: 60px 0px 60px 0px;
+		margin: 40px 0px 40px 0px;
+	}
+	/* page 2 search and bid for homes css end*/
+
+	/* page 4 welcome to haringey css start*/
+	.welcome-to h2 {
+		font-weight: 600;
+		font-size: 30px;
+		line-height: 54px;
+		color: #4A4A4A;
+		padding: 40px 0px 15px 0px;
+	}
+	/* page 4 welcome to haringey css end*/
 }
-}
+
 /* media above 1350px */
-@media (min-width: 1350px) and (max-width: 1400px){
-    /* page 2 property listing  */
-    .list-inner-inputs-1 {        
-        border-radius: 10px;
-        border: none;
-        background-color: white;
-   }
-   /* page 4 welcome to haringey */
-   .welcome-to h2 {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 54px;
-    color: #4A4A4A;
-    padding: 40px 0px 15px 0px;
-}
-}
- @media (min-width: 1400px) {
-    /* page 2 search and bid */
-     .list-inner-inputs-1{
-         border-radius: 10px;
-         border: none;
-         background-color: hsl(0deg 0% 100%);
-         position: absolute;
-         right: 0;
-         height: 90%;
-         margin-top: 1.5%;
-         width: 72%;
-    }
-    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
-        width: 1280px;
-        padding-right: var(--bs-gutter-x, 0.75rem);
-        padding-left: var(--bs-gutter-x, 0.75rem);
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .list-inner-inputs h1 {
-        font-size: 24px;
-        line-height: 36px;
-        color: #0474B0;
-        padding-top: 15px;
-    }
-    .propertyFigure img {
-        border: 1px solid #F5F5F5;
-        border-radius: 8px 0px 0px 8px;
-        width: auto;
-        height: auto;
-    }
-    /* page 3 property search */
-    .map-property-details {
-        width: 100%;
-        height: 33rem;
-    }
-}
- 
+@media (min-width: 1350px) and (max-width: 1400px) {
 
+	/* nav */
+	.nav-item .nav-link {
+		color: #585858;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		width: 100%;
+	}
 
+	/* page 2 property listing css start*/
+	.list-inner-inputs-1 {
+		border-radius: 10px;
+		border: none;
+		background-color: white;
+	}
+	/* page 2 property listing css end*/
 
+	/* page 4 welcome to haringey css start*/
+	.welcome-to h2 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 54px;
+		color: #4A4A4A;
+		padding: 40px 0px 15px 0px;
+	}
+	/* page 4 welcome to haringey css end*/
+}
+
+@media (min-width: 1400px) {
+
+	.container,
+	.container-fluid,
+	.container-xxl,
+	.container-xl,
+	.container-lg,
+	.container-md,
+	.container-sm {
+		width: 1280px;
+		padding-right: var(--bs-gutter-x, 0.75rem);
+		padding-left: var(--bs-gutter-x, 0.75rem);
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	/* page 2 search and bid css start*/
+	.list-inner-inputs-1 {
+		border-radius: 10px;
+		border: none;
+		background-color: hsl(0deg 0% 100%);
+		position: absolute;
+		right: 0;
+		height: 90%;
+		margin-top: 1.5%;
+		width: 72%;
+	}
+
+	.list-inner-inputs h1 {
+		font-size: 24px;
+		line-height: 36px;
+		color: #0474B0;
+		padding-top: 15px;
+	}
+
+	.propertyFigure img {
+		border: 1px solid #F5F5F5;
+		border-radius: 8px 0px 0px 8px;
+		width: auto;
+		height: auto;
+	}
+	/* page 2 search and bid css end*/
+
+	/* page 3 property search css start*/
+	.map-property-details {
+		width: 100%;
+		height: 33rem;
+	}
+	/* page 3 property search css end*/
+}
