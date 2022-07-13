@@ -1462,7 +1462,7 @@ body {
 
 	.section1_heading_text_input {
 		font-weight: 700;
-		font-size: 34px;
+		font-size: 32px;
 		line-height: 54px;
 		color: white;
 		padding-top: 0;
@@ -1697,7 +1697,7 @@ body {
 
 	.section1_heading_text_input {
 		font-weight: 700;
-		font-size: 36px;
+		font-size: 34px;
 		line-height: 54px;
 		color: white;
 		padding-top: 8.75rem;
@@ -1726,6 +1726,18 @@ body {
 		line-height: 28px;
 		color: rgba(72, 72, 72, 0.75);
 		padding-right: 0px;
+	}
+	.section-3-text h1 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 54px;
+		color: #4a4a4a;
+	}
+	.section-3-text h2 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 54px;
+		color: #4a4a4a;
 	}
 	/* page 1 index css end */
 
@@ -1938,6 +1950,18 @@ body {
 		color: rgba(72, 72, 72, 0.75);
 		padding-right: 0px;
 	}
+	.section-3-text h1 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 54px;
+		color: #4a4a4a;
+	}
+	.section-3-text h2 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 54px;
+		color: #4a4a4a;
+	}
 	/* page 1 index css end*/
 
 	/* page 2 search and bid for homes css start*/
@@ -2036,6 +2060,13 @@ body {
 		line-height: 21px;
 		border-radius: 4px;
 	}
+	/* section 2 cards */
+	.card-title {
+		font-weight: 600;
+		font-size: 19px;
+		line-height: 30px;
+		color: #4a4a4a;
+	}
 
 	/* section 3 */
 	.section-3-text p {
@@ -2107,7 +2138,7 @@ body {
 	/* page 4 welcome to haringey css end*/
 }
 
-/* media above 1350px */
+/* media 1350px-1400px */
 @media (min-width: 1350px) and (max-width: 1400px) {
 
 	/* nav */
@@ -2117,6 +2148,13 @@ body {
 		font-size: 14px;
 		line-height: 24px;
 		width: 100%;
+	}
+	/* page 1 index */
+	.card-title {
+		font-weight: 600;
+		font-size: 19px;
+		line-height: 30px;
+		color: #4a4a4a;
 	}
 
 	/* page 2 property listing css start*/
@@ -2138,6 +2176,7 @@ body {
 	/* page 4 welcome to haringey css end*/
 }
 
+/* media above 1400px */
 @media (min-width: 1400px) {
 
 	.container,
